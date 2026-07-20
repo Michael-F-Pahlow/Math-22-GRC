@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-s01e01" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Episode 1: Addition and Subtraction</title>
+<objectives>
+  <title>Episode 1</title>
+  <p>
+    <ul>
+      <li>
+        <p>
+          Describe the physical action represented by addition and subtraction. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Interpret the words used to indicate addition and subtraction. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Interpret the symbols used to indicate addition and subtraction.  
+        </p>
+      </li>
+      <li>
+        <p>
+          Perform addition and subtraction in real-world contexts. 
+        </p>
+      </li>
+    </ul>
+  </p>
+  </objectives>
+
+  <assemblage>
+    <title>Episode 1 Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Sum
+          </p>
+        </li>
+      
+      <li>
+          <p>
+            Difference
+          </p>
+        </li>
+        </ul>
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>Episode 1 Key Symbols</title>
+    <p>
+     <md>
+      + \text{as in} 3 + 2
+     </md>
+      </p>
+      <p>
+        <md>
+          - \text{as in} 4 - 1
+        </md>
+        </p>
+  </assemblage>
+
+  <p>
+    <alert>Episode 1 Lecture Notes</alert>
+    </p>
+
+    <definition xml:id="def-addition">
+      <statement>
+        <p>
+        <alert>Addition</alert> is the operation that corresponds to combining piles of similar objects.
+        Addition is represented using the symbol <m>+</m> (“plus”). 
+        </p>
+      </statement>
+    </definition>
+
+    <example>
+      <p>
+        What is <m>4+2</m>?
+      </p>
+      <p>
+      Solution: Create a pile containing 4 objects. Create a second pile containing 2 objects. Put those piles together and count the number of objects you have in total.
+      </p>
+      <p>
+    🟢🟢🟢🟢  +  🟢🟢  =  🟢🟢🟢🟢🟢🟢
+    </p>
+    <p>
+      In total, we have 6 objects, so: <m>4+2=6</m>
+    </p>
+    </example>
+    <example>
+    <p>
+      If you have 3 slices of leftover pepperoni pizza and 2 slices of leftover cheese pizza, how many slices of pizza do you have in total?
+    </p>
+    <p>
+      Solution: Since we’re putting together two piles of pizza slices, this is an addition problem. Specifically, this is the problem
+      <md>
+        3+2
+      </md>
+      We can answer the problem by counting: 🍕🍕🍕 + 🍕🍕=🍕🍕🍕🍕🍕
+    </p>
+    <p>
+      In other words, we have a total of <m>3+2 = 5</m> slices of pizza.
+    </p>
+    </example>
+
+  <observation>
+    <p>
+      You can change the order of the numbers in an addition problem and still get the same answer!
+    </p>
+    <p>
+      <m>4+1=5 </m> because 🟢🟢🟢🟢 + 🟢 = 🟢🟢🟢🟢🟢
+    </p>
+    <p>
+      <m>1+4=5 </m> because 🟢 + 🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢
+    </p>
+  </observation>
+
+    <p>
+      For problems involving larger numbers, you can use the <tag>+</tag> button on your calculator to perform addition.
+    </p>
+
+  
+  <example>
+    <p>
+    You have $214 in your bank account, and then you deposit another $1371. Now how much money do you have in your account?
+    </p>
+    <p>
+      Solution: Since you’re combining two piles of money, this is an addition problem, specifically the problem
+      <md>
+        214+1371
+      </md>
+      We can use the <m>+</m> button on our calculator to find the answer to this problem:
+      <md>
+        214+1371=1585
+      </md>
+      So that means we have $1585 in the bank account now.
+    </p>
+  </example>
+
+<p>
+  There are a couple of common key words that indicate that we need to perform addition. These include:
+  <ul>
+    <li>
+      <p>
+        Total
+      </p>
+    </li>
+    <li>
+      <p>
+        Combine
+      </p>
+    </li>
+    <li>
+      <p>
+        Sum
+      </p>
+    </li>
+  </ul>
+</p>
+
+<example>
+<p>
+  What is the sum of 8 and 3?
+</p>
+<p>
+  Solution: This is asking us to add 8 and 3.
+  <md>
+    8+3 = 11
+  </md>
+</p>
+</example>
+
+<definition xml:id="def-subtraction">
+  <statement>
+    <p>
+      <alert>Subtraction</alert> is the operation that corresponds to removing objects from a pile.
+  Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+    </p>
+  </statement>
+</definition>
+
+<example>
+  <p>
+    What is <m>5-2</m>?
+  </p>
+  <p>
+    Solution: Create a pile containing 5 objects. Remove 2 objects from that pile. Then count the number of objects you have left. 
+  </p>
+  <p>
+    🟢🟢🟢🟢🟢  -  🟢🟢  =  🟢🟢🟢
+  </p>
+  <p>
+    3 objects remain in the pile, so: <m>5-2=3</m>.
+  </p>
+</example>
+
+<example>
+  <p>
+    If you have 8 eggs and use 3 of them in a recipe, how many eggs do you have left? 
+  </p>
+  <p>
+    Solution: Since we’re removing eggs from a pile, this is a subtraction problem. <m>8-3</m> We can answer the problem by counting:
+  </p>
+  <p>
+    🥚🥚🥚🥚🥚🥚🥚🥚 - 🥚🥚🥚 = 🥚🥚🥚🥚🥚
+  </p>
+  <p>
+    In other words, we have <m>8-3=5</m> remaining eggs.
+  </p>
+</example>
+
+<p>
+  For problems involving larger numbers, you can use the <tag>-</tag> button on your calculator to perform addition.
+  </p>
+  
+  <example>
+  <p>
+    You have $523 in your bank account, and then you spend $138 on groceries. Now how much money do you have in your account?
+  </p>
+  <p>
+    Solution: Since you’re taking away money for a pile of money, this is a subtraction problem, specifically the problem
+    <md>
+      523 - 138
+    </md>
+    We can use the + button on our calculator to find the answer to this problem:
+    <md>
+      523 - 138 = 385
+    </md>
+    So that means we have $385 in the bank account now.
+  </p>
+  </example>
+
+  <p>
+    There are a couple of common key words that indicate that we need to perform subtraction. These include:
+    <ul>
+      <li>
+        <p>
+          Remove
+        </p>
+      </li>
+      <li>
+        <p>
+          Take Away
+        </p>
+      </li>
+      <li>
+        <p>
+          Decrease
+        </p>
+      </li>
+      <li>
+        <p>
+          Difference
+        </p>
+      </li>
+    </ul>
+  </p>
+
+  <example>
+  <p>
+   What is the difference between 10 and 4? 
+  </p>
+  <p>
+    Solution: This is asking us to subtract 10 and 4.
+    <md>
+      10-4=6.
+    </md>
+    </p>
+    </example>
+
+
+<worksheet xml:id="ws-s01e1">
+  <title>Episode 1 Practice Problems</title>
+  <exercise>
+    <p>
+      Calculate the following values by hand.
+    </p>
+
+    <sidebyside>
+      <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>9-5=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>1+7=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>2+5=</m>
+        </p>
+      </statement>
+    </task>
+    </sidebyside>
+
+    <sidebyside>
+      <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>6+2=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>5+4=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>9-1=</m>
+        </p>
+      </statement>
+    </task>
+    </sidebyside>
+
+    <sidebyside>
+      
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>8-3=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>7-6=</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>4+3=</m>
+        </p>
+      </statement>
+    </task>
+    </sidebyside>
+  </exercise>
+  
+  <exercise>
+    <p>
+     Calculate the following values using a calculator. 
+    </p>
+    <sidebyside>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+             <m>702-458 =</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+             <m>900-374 =</m>
+          </p>
+        </statement>
+      </task>
+    </sidebyside>
+    <sidebyside>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+             <m>1236+789 =</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+             <m>4508+2967 =</m>
+          </p>
+        </statement>
+      </task>
+    </sidebyside>
+  </exercise>
+
+  <exercise>
+    <p>
+      Answer these word problems
+    </p>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          Mia has 3 apples. Her friend gives her 4 more apples. How many apples does Mia have now?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          There are 8 pencils on a desk. 5 pencils are taken away. How many pencils are left on the desk?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          2 birds are sitting on a fence. 5 more birds fly over and land on the fence. How many birds are on the fence in total?
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          Leo has 9 cookies. He eats 3 of them. How many cookies does Leo have left?
+        </p>
+      </statement>
+    </task>
+  </exercise>
+
+  <exercise>
+    <p>
+      Interpret the key words to answer the following questions. 
+    </p>
+  
+  <task workspace="1.0in">
+    <statement>
+      <p>
+        What is the <u>sum</u> of 3 and 5?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1.0in">
+    <statement>
+      <p>
+        What is the <u>difference</u> between 9 and 4?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1.0in">
+    <statement>
+      <p>
+        Find the <u>sum</u> of 6 and 2?
+      </p>
+    </statement>
+  </task>
+  <task workspace="1.0in">
+    <statement>
+      <p>
+        Find the <u>difference</u> between 8 and 3?
+      </p>
+    </statement>
+  </task>
+  </exercise>
+</worksheet>
+</section>

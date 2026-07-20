@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frontmatter xml:id="frontmatter" label="frontmatter">
+    <image source="grc-logo-green-2602.png" height="50%" width="50%">
+        <shortdescription>Green River College Logo</shortdescription>
+      </image>
+      <bibinfo>
+    <author>
+      <personname>Sam Smith</personname>
+      <affiliation>
+        <department>Math Division</department>
+      <institution>Green River College</institution>
+      <location>Auburn, Washington</location>
+      </affiliation>
+      <email>ssmith@greenriver.edu</email>
+    </author>
+
+    <editor>
+    <personname>Michael Pahlow</personname>
+      <affiliation>
+        <department>Math Division</department>
+      <institution>Green River College</institution>
+      <location>Auburn, Washington</location>
+      </affiliation>
+      <email>mpahlow@greenriver.edu</email>
+    </editor>
+    
+    <date><today/></date>
+     </bibinfo>
+        <titlepage>
+          <titlepage-items/>
+                  </titlepage>
+</frontmatter>
+

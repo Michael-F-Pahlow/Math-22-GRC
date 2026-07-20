@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season1" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 1: Mathematical Operations</title>
+
+  <introduction>
+    <p> When we are working with numbers, there are five types of calculations ("operations") we perform 
+      <ul>
+        <li>
+          <p>
+            Addition
+          </p>
+        </li>
+        <li>
+          <p>
+            Subtraction
+          </p>
+        </li>
+        <li>
+          <p>
+          Multiplication
+          </p>
+        </li>
+        <li>
+          <p>
+            Division
+          </p>
+        </li>
+        <li>
+          <p>
+            Exponentiation
+          </p>
+        </li>
+      </ul>
+      </p>
+      <p>
+      In this season, we will talk about the real-world situations where each of these operations is used, the symbols that are used to represent each operation,
+      and the words that are used to indicate each operation.</p>
+      <p>
+      In problems where we need to perform multiple operations, we will learn the rules for the order of those operations (PEMDAS).
+      </p>
+  </introduction>
+  <xi:include href="sec-s01e01.ptx" />
+  <xi:include href="sec-s01e02.ptx" />
+  <xi:include href="sec-s01e03.ptx" />
+  <xi:include href="sec-s01e04.ptx" />
+  <xi:include href="sec-s01e05.ptx" />
+</chapter>
