@@ -2,8 +2,8 @@
 
 <section xml:id="sec-s01e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: Addition and Subtraction</title>
-<objectives>
-  <title>Episode 1</title>
+<assemblage>
+  <title>Episode 1 Learning Goals</title>
   <p>
     <ul>
       <li>
@@ -28,7 +28,7 @@
       </li>
     </ul>
   </p>
-  </objectives>
+  </assemblage>
 
   <assemblage>
     <title>Episode 1 Terminology</title>
@@ -53,21 +53,17 @@
     <title>Episode 1 Key Symbols</title>
     <p>
      <md>
-      + \text{as in} 3 + 2
+      + \hspace{1.0in}\text{as in}\,\, 3 + 2
      </md>
       </p>
       <p>
         <md>
-          - \text{as in} 4 - 1
+          - \hspace{1.0in}\text{as in}\,\, 4 - 1
         </md>
         </p>
   </assemblage>
 
-  <p>
-    <alert>Episode 1 Lecture Notes</alert>
-    </p>
-
-    <definition xml:id="def-addition">
+      <definition xml:id="def-addition">
       <statement>
         <p>
         <alert>Addition</alert> is the operation that corresponds to combining piles of similar objects.
@@ -106,7 +102,10 @@
     </p>
     </example>
 
-  <observation>
+  <assemblage>
+  <title>Notice Something Neat</title>
+  
+  
     <p>
       You can change the order of the numbers in an addition problem and still get the same answer!
     </p>
@@ -116,7 +115,7 @@
     <p>
       <m>1+4=5 </m> because 🟢 + 🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢
     </p>
-  </observation>
+  </assemblage>
 
     <p>
       For problems involving larger numbers, you can use the <tag>+</tag> button on your calculator to perform addition.
@@ -275,126 +274,64 @@
 <worksheet xml:id="ws-s01e1">
   <title>Episode 1 Practice Problems</title>
   <exercise>
+  <introduction>
     <p>
-      Calculate the following values by hand.
+       Calculate the following values by hand.
     </p>
-
-    <sidebyside>
+  </introduction>
+       
       <task workspace="0.5in">
       <statement>
         <p>
-          <m>9-5=</m>
+          <md> 9-5 = \hspace{1.5in} 1+7= \hspace{1.5in} 2+5=\hspace{1.5in}</md>
         </p>
       </statement>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>
-          <m>1+7=</m>
+          <md> 6+2 = \hspace{1.5in} 5+4= \hspace{1.5in} 9-1=\hspace{1.5in}</md>
         </p>
       </statement>
     </task>
     <task workspace="0.5in">
       <statement>
         <p>
-          <m>2+5=</m>
+          <md> 8-3 = \hspace{1.5in} 7-6= \hspace{1.5in} 4+3=\hspace{1.5in}</md>
         </p>
       </statement>
     </task>
-    </sidebyside>
-
-    <sidebyside>
-      <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>6+2=</m>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>5+4=</m>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>9-1=</m>
-        </p>
-      </statement>
-    </task>
-    </sidebyside>
-
-    <sidebyside>
-      
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>8-3=</m>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>7-6=</m>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <m>4+3=</m>
-        </p>
-      </statement>
-    </task>
-    </sidebyside>
   </exercise>
   
   <exercise>
+  <introduction>
     <p>
-     Calculate the following values using a calculator. 
+      Calculate the following values using a calculator. 
     </p>
-    <sidebyside>
-      <task workspace="0.75in">
+  </introduction>
+       <task workspace="0.75in">
         <statement>
           <p>
-             <m>702-458 =</m>
+             <md>702-458 = \hspace{2.2in} 900-374=\hspace{2.2in}</md>
           </p>
         </statement>
       </task>
       <task workspace="0.75in">
         <statement>
           <p>
-             <m>900-374 =</m>
+             <md>1236+789 = \hspace{2.1in} 4508+2967=\hspace{2.2in}</md>
           </p>
         </statement>
       </task>
-    </sidebyside>
-    <sidebyside>
-      <task workspace="0.75in">
-        <statement>
-          <p>
-             <m>1236+789 =</m>
-          </p>
-        </statement>
-      </task>
-      <task workspace="0.75in">
-        <statement>
-          <p>
-             <m>4508+2967 =</m>
-          </p>
-        </statement>
-      </task>
-    </sidebyside>
+   
   </exercise>
 
   <exercise>
+  <introduction>
     <p>
       Answer these word problems
     </p>
+  </introduction>
     <task workspace="1.0in">
       <statement>
         <p>
@@ -426,35 +363,37 @@
   </exercise>
 
   <exercise>
+  <introduction>
     <p>
       Interpret the key words to answer the following questions. 
     </p>
-  
+  </introduction>
+    
   <task workspace="1.0in">
     <statement>
       <p>
-        What is the <u>sum</u> of 3 and 5?
+        What is the <alert>sum</alert> of 3 and 5?
       </p>
     </statement>
   </task>
   <task workspace="1.0in">
     <statement>
       <p>
-        What is the <u>difference</u> between 9 and 4?
+        What is the <alert>difference</alert> between 9 and 4?
       </p>
     </statement>
   </task>
   <task workspace="1.0in">
     <statement>
       <p>
-        Find the <u>sum</u> of 6 and 2?
+        Find the <alert>sum</alert> of 6 and 2?
       </p>
     </statement>
   </task>
   <task workspace="1.0in">
     <statement>
       <p>
-        Find the <u>difference</u> between 8 and 3?
+        Find the <alert>difference</alert> between 8 and 3?
       </p>
     </statement>
   </task>

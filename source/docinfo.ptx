@@ -2,6 +2,4 @@
 <docinfo xmlns:xi="http://www.w3.org/2001/XInclude">
    <document-id>math22guide</document-id>
    <blurb shelf="Math Support Courses"> Guide for Math 22, a support course for Math 72. </blurb>
-   <rename> @element = "objectives" Learning Goals</rename>
-   <rename> @element = "observation" Notice Something Neat</rename>
-</docinfo>
+   </docinfo>
