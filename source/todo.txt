@@ -8,6 +8,6 @@ season 7
 season 8
 season 9
 season 10
-index
+resources
 glossary
 workbook

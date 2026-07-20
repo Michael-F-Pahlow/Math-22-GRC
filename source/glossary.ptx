@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glossary xml:id="glossary">
+<idx>glossary</idx>
+<gi>
+<title>addition</title>
+<p>
+    The operation that corresponds to combining piles of similar objects.
+        Addition is represented using the symbol <m>+</m> (“plus”).
+</p>
+</gi>
+<gi>
+<title>subtraction</title>
+<p>
+    The operation that corresponds to removing objects from a pile.
+  Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+</p>
+</gi>
+<gi>
+<title>multiplication</title>
+<p>
+    The operation that corresponds to adding a number to itself repeatedly.
+</p>
+    </gi>
+<gi>
+<title>division</title>
+<p>
+    The operation that corresponds to splitting a pile into smaller piles. 
+</p>
+</gi>
+
+</glossary>

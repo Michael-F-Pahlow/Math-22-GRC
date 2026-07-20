@@ -66,7 +66,7 @@
       <definition xml:id="def-addition">
       <statement>
         <p>
-        <alert>Addition</alert> is the operation that corresponds to combining piles of similar objects.
+        <term>Addition</term> is the operation that corresponds to combining piles of similar objects.
         Addition is represented using the symbol <m>+</m> (“plus”). 
         </p>
       </statement>
@@ -175,7 +175,7 @@
 <definition xml:id="def-subtraction">
   <statement>
     <p>
-      <alert>Subtraction</alert> is the operation that corresponds to removing objects from a pile.
+      <term>Subtraction</term> is the operation that corresponds to removing objects from a pile.
   Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
     </p>
   </statement>
@@ -270,133 +270,6 @@
     </p>
     </example>
 
+<xi:include href="ws-s01e01.ptx" />
 
-<worksheet xml:id="ws-s01e1">
-  <title>Episode 1 Practice Problems</title>
-  <exercise>
-  <introduction>
-    <p>
-       Calculate the following values by hand.
-    </p>
-  </introduction>
-       
-      <task workspace="0.5in">
-      <statement>
-        <p>
-          <md> 9-5 = \hspace{1.5in} 1+7= \hspace{1.5in} 2+5=\hspace{1.5in}</md>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <md> 6+2 = \hspace{1.5in} 5+4= \hspace{1.5in} 9-1=\hspace{1.5in}</md>
-        </p>
-      </statement>
-    </task>
-    <task workspace="0.5in">
-      <statement>
-        <p>
-          <md> 8-3 = \hspace{1.5in} 7-6= \hspace{1.5in} 4+3=\hspace{1.5in}</md>
-        </p>
-      </statement>
-    </task>
-  </exercise>
-  
-  <exercise>
-  <introduction>
-    <p>
-      Calculate the following values using a calculator. 
-    </p>
-  </introduction>
-       <task workspace="0.75in">
-        <statement>
-          <p>
-             <md>702-458 = \hspace{2.2in} 900-374=\hspace{2.2in}</md>
-          </p>
-        </statement>
-      </task>
-      <task workspace="0.75in">
-        <statement>
-          <p>
-             <md>1236+789 = \hspace{2.1in} 4508+2967=\hspace{2.2in}</md>
-          </p>
-        </statement>
-      </task>
-   
-  </exercise>
-
-  <exercise>
-  <introduction>
-    <p>
-      Answer these word problems
-    </p>
-  </introduction>
-    <task workspace="1.0in">
-      <statement>
-        <p>
-          Mia has 3 apples. Her friend gives her 4 more apples. How many apples does Mia have now?
-        </p>
-      </statement>
-    </task>
-    <task workspace="1.0in">
-      <statement>
-        <p>
-          There are 8 pencils on a desk. 5 pencils are taken away. How many pencils are left on the desk?
-        </p>
-      </statement>
-    </task>
-    <task workspace="1.0in">
-      <statement>
-        <p>
-          2 birds are sitting on a fence. 5 more birds fly over and land on the fence. How many birds are on the fence in total?
-        </p>
-      </statement>
-    </task>
-    <task workspace="1.0in">
-      <statement>
-        <p>
-          Leo has 9 cookies. He eats 3 of them. How many cookies does Leo have left?
-        </p>
-      </statement>
-    </task>
-  </exercise>
-
-  <exercise>
-  <introduction>
-    <p>
-      Interpret the key words to answer the following questions. 
-    </p>
-  </introduction>
-    
-  <task workspace="1.0in">
-    <statement>
-      <p>
-        What is the <alert>sum</alert> of 3 and 5?
-      </p>
-    </statement>
-  </task>
-  <task workspace="1.0in">
-    <statement>
-      <p>
-        What is the <alert>difference</alert> between 9 and 4?
-      </p>
-    </statement>
-  </task>
-  <task workspace="1.0in">
-    <statement>
-      <p>
-        Find the <alert>sum</alert> of 6 and 2?
-      </p>
-    </statement>
-  </task>
-  <task workspace="1.0in">
-    <statement>
-      <p>
-        Find the <alert>difference</alert> between 8 and 3?
-      </p>
-    </statement>
-  </task>
-  </exercise>
-</worksheet>
 </section>

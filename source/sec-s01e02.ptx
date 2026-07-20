@@ -2,7 +2,261 @@
 
 <section xml:id="sec-s01e02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 2: Multiplication and Division</title>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+    <ul>
+        <li>
+            <p>
+              Describe the physical action represented by multiplication and division.   
+            </p>
+        </li>
+        <li>
+            <p>
+              Interpret the words used to indicate multiplication and division.    
+            </p>
+        </li>
+        <li>
+            <p>
+              Interpret the symbols used to indicate multiplication and division.  
+            </p>
+        </li>
+        <li>
+            <p>
+              Perform multiplication and division in real-world contexts.   
+            </p>
+        </li>
+    </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Key Terminology</title>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Product
+                </p>
+            </li>
+            <li>
+                <p>
+                    Quotient
+                </p>
+            </li>
+        </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Key Symbols</title>
+    <p>
+        Multiplication
+        <md>
+            * \hspace{1.0in} \text{as in}\,\, 5*2
+        </md>
+        <md>
+            \times \hspace{1.0in} \text{as in}\,\, 5\times 2
+        </md>
+        <md>
+            \cdot \hspace{1.0in} \text{as in}\,\, 5\cdot 2
+        </md>
+    </p>
+    <p>
+        Division
+        <md>
+            / \hspace{1.0in} \text{as in} \,\, 16/8
+        </md>
+        <md>
+            \div \hspace{1.0in} \text{as in} \,\, 12\div 4
+        </md>
+        
+    </p>
+  </assemblage>
+  <definition xml:id="def-multiplication">
+    <statement>
+        <p>
+          <term>Multiplication</term> is the operation that corresponds to adding a number to itself repeatedly.
+        </p>
+    </statement>
+  </definition>
   <p>
+   Multiplication can be represented symbolically in many ways:
+   <md>
+    3\times 2
+   </md>
+   <md>
+    3\cdot 2
+   </md>
+   <md>
+    3*2
+   </md>
+   <md>
+    3(2)
+   </md>
+   <md>
+   (3)(2)
+   </md>
+    All of these are read aloud as “3 times 2,” and all of them mean, “add 3 copies of 2 together.”
+    <md>
+        3\times 2 = 2+ 2+ 2 = 6
+    </md>
     
+  </p>
+  <example>
+    <p>
+        Calculate <m>2\times 5</m>
+    </p>
+    <p>
+        Solution: This is asking us to add together 2 copies of 5. 
+        <md>
+            2\times 5 = 5 + 5 = 10
+        </md>
+        
+    </p>
+  </example>
+  <example>
+    <p>
+        If you have 4 bags of apples, and each bag contains 3 apples, how many apples do you have in total? 
+    </p>
+    <p>
+        Solution: Since we have several piles, each containing the same number of apples, this is a multiplication problem, specifically the problem
+        <md>
+            4\times 3
+        </md>
+        So, in total we have
+        <md>
+            4\times 3 = 3+ 3+3+3 = 12 \,\,\text{apples}
+        </md>
+        
+    </p>
+  </example>
+  <assemblage>
+    <title>Notice Something Neat</title>
+    <p>
+        You can change the order of the numbers in a multiplication problem and still get the same answer!
+        </p>
+        <p>
+             <m>4\times 2 = 8</m> because 🟢🟢 + 🟢🟢 + 🟢🟢 + 🟢🟢 = 🟢🟢🟢🟢🟢🟢🟢🟢
+        </p>
+        <p>
+            <m>2\times 4 = 8</m> because 🟢🟢🟢🟢 + 🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢🟢🟢🟢
+        </p>
+  </assemblage>
+  <p>
+    For problems involving larger numbers, you can use the <m>\times</m> button on your calculator to perform multiplication.
+  </p>
+  <example>
+    <p>
+        You get paid $2562 every month. How much are you paid in total in 6 months? 
+    </p>
+    <p>
+        Solution: Since you’re adding up multiple copies of 2562, this is a multiplication problem, specifically the problem
+        <md>
+            6\times 2562
+        </md>
+        We can use the <m>\times</m> button on our calculator to find the answer to this problem:
+        <md>
+            6\times 2562 = 15372
+        </md>
+        So that means we are paid $15,372 in total.
+    </p>
+  </example>
+  <p>
+    There are a couple of common key words that indicate that we need to perform multiplication. These include:
+    <ul>
+        <li>
+            <p>
+                Double (multiply by specifically 2)
+            </p>
+        </li>
+        <li>
+            <p>
+                Triple (multiply by specifically 3)
+            </p>
+        </li>
+        <li>
+            <p>
+                Product
+            </p>
+        </li>
+        <li>
+            <p>
+                Of
+            </p>
+        </li>
+    </ul>
+  </p>
+  <example>
+    <p>
+        What is the product of 5 and 9?
+    </p>
+    <p>
+        Solution: This is asking us to multiply 5 and 9.
+        <md>
+            5\times 9 = 45
+        </md>
+        
+        </p>
+  </example>
+
+  <example>
+    <p>
+        What results when we double the number 8?
+    </p>
+    <p>
+      This is asking us to multiply 8 by 2.
+      <md>
+        2\times 8 = 16
+      </md>
+        
+    </p>
+  </example>
+
+  <definition xml:id="def-division">
+    <statement>
+        <p>
+          <term>Division</term> is the operation that corresponds to splitting a pile into smaller piles. 
+        </p>
+    </statement>
+  </definition>
+  <p>
+    Division can be represented symbolically in many ways:
+    <md>
+        8 \div 2
+    </md>
+    <md>
+        8/2
+    </md>
+    <md>
+    \frac{8}{2}
+    </md>
+    All of these are read aloud as “8 divided by 2.”
+  </p>
+  <p>
+    There are two ways to think about 8 divided by 2:
+    <ol marker="A)">
+        <li>
+            <p>
+                Take a pile containing 8 items and split that into 2 smaller piles. Then count the number of objects in each pile you made.
+            </p>
+            <p>
+              🟢🟢🟢🟢🟢🟢🟢🟢  →  🟢🟢🟢🟢 and 🟢🟢🟢🟢  
+            </p>
+            <p>
+             There are 4 items in each pile, so <m>8\div 2 = 4</m>
+   
+            </p>
+        </li>
+        <li>
+            <p>
+               Take a pile containing 8 items and split that into piles so that each pile contains 2 items. Then count the number of piles you made. 
+            </p>
+            <p>
+               🟢🟢🟢🟢🟢🟢🟢🟢  →  🟢🟢 and 🟢🟢 and 🟢🟢 and 🟢🟢 
+            </p>
+            <p>
+                We made 4 piles, so <m>8\div 2 =4</m>
+            </p>
+        </li>
+        </ol>
   </p>
   </section>
