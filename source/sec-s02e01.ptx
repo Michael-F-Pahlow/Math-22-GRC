@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-s02e01" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>What Negative Numbers Represent</title>
+    <assemblage>
+        <title>Episode 1 Learning Goals</title>
+        <p>
+          <ul>
+            <li>
+                <p>
+                Give examples of real-world quantities represented by negative numbers. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Plot integers on a number line.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Compare integers using <m>\lt</m> and <m>\gt</m>
+                </p>
+            </li>
+          </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 1 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Integer
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Number line
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 1 Key Symbols</title>
+        <p>
+           <md>
+            \gt \hspace{1.0in} \text{as in}\,\, 5 \gt 3
+           </md>
+           <md>
+            \lt \hspace{1.0in} \text {as in}\,\, 1 \lt 4
+           </md>
+        </p>
+    </assemblage>
+
+    <definition xml:id="def-negative-numbers">
+        <statement>
+            <p>
+                <term>Negative Numbers</term> are used to represent quantities below 0. 
+            </p>
+        </statement>
+    </definition>
+    <p>
+        Symbolically, negative numbers are written using a <m>-</m> sign, as in <m>-5</m> (read aloud as “negative 5” or “minus 5.”)
+    </p>
+    <p>
+      For example, when measuring temperatures, 0 degrees Celsius is the temperature at which water freezes. 
+      Temperatures colder than 0 would be represented by a negative number, such as -10.  
+    </p>
+    <p>
+       Negative numbers can also be used to represent overdrawn bank accounts, or to represent debts.  
+    </p>
+    <p>
+       The word <term>integer</term> means a whole number that might be positive or negative or zero. 
+    </p>
+
+    <assemblage>
+        <title>Be Careful</title>
+        <p>
+        Notice that the symbol <m>-</m> is used to represent subtraction:    
+        <md>
+            8-3
+        </md>
+        And it is also used to represent negative numbers:
+        <md>
+            -5
+        </md>
+        The <m>-</m> means “negative” if there is nothing or if there is a ( on the left side of the <m>-</m> sign.
+        </p>
+        <p>
+          The <m>-</m> means “subtract” otherwise.  
+        </p>
+    </assemblage>
+    <definition xml:id="def-number-line">
+        <statement>
+            <p>
+                A <term>number line</term>is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and 
+                negative numbers (it displays integers).
+            </p>
+        </statement>
+    </definition>
+    <figure>
+        <caption>A horizontal number line</caption>
+        <diagram dimensions="(300,50)" margins="5">
+        <coordinates bbox="(-11,-1,11,1)">
+        <axes="horizontal" arrow="2" hticks=(-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10) hlabels="(-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10)"
+    </figure>
+</section>

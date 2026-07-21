@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season2" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 2: Negative Numbers</title>
+
+  <introduction>
+    <p> 
+       Negative numbers are used to represent things like temperatures below 0, overdrawn bank accounts, and debts. In this season,
+        we'll learn how to perform the five basic math operations (addition, subtraction, multiplication, division, and exponents) on negative numbers.  
+      </p>
+  </introduction>
+  <xi:include href="sec-s02e01.ptx" />
+  <xi:include href="sec-s02e02.ptx" />
+  <xi:include href="sec-s02e03.ptx" />
+  <xi:include href="sec-s02e04.ptx" />
+  <xi:include href="sec-s02e05.ptx" />
+</chapter>
