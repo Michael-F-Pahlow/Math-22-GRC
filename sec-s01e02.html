@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: greens                       *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Episode 2: Multiplication and Division</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Math 22 Guide">
+<meta property="og:title" content="Math 22 Guide">
+<meta property="book:title" content="Math 22 Guide">
+<meta name="twitter:description" content="Guide for Math 22, a support course for Math 72.">
+<meta property="og:description" content="Guide for Math 22, a support course for Math 72.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.42"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.1.14';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.cb5af2e851de3574.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.f51cd4153b45055d.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.66fa8a682a32c0ac.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="math22guide" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-22-guide.html"><span class="title">Math 22 Guide</span></a></h1>
+<p class="byline">Sam Smith, Michael Pahlow (Editor)</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search book" commandfor="ptx-search-dialog" command="show-modal"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog" closedby="closerequest"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close search" id="ptx-search-close" class="ptx-search-close" commandfor="ptx-search-dialog" command="close"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-s01e01.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-season1.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-s01e03.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-season1.html" class="internal"><span class="codenumber">1</span> <span class="title">Season 1: Mathematical Operations</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e01.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1: Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e01.html#ws-s01e01" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-s01e02.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2: Multiplication and Division</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e02.html#ws-s01e02" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e03.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Episode 3: Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e03.html#ws-s01e03" class="internal"><span class="codenumber">1.3</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e04.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Episode 4: Order of Operations (PEMDAS)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e04.html#ws-s01e04" class="internal"><span class="codenumber">1.4</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e05.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Episode 1: Median and Mean</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e05.html#ws-s01e05" class="internal"><span class="codenumber">1.5</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="resources.html" class="internal"><span class="codenumber">1</span> <span class="title">Additional Resources</span></a></div></li></ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="sec-s01e02">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Episode 2: Multiplication and Division</span>
+</h2>
+<article class="assemblage assemblage-like" id="sec-s01e02-2"><h3 class="heading"><span class="title">Episode 2 Learning Goals.</span></h3>
+<div class="para logical" id="sec-s01e02-2-2">
+<ul class="disc" id="sec-s01e02-2-2-1">
+<li id="sec-s01e02-2-2-1-1">
+<div class="para" id="sec-s01e02-2-2-1-1-1">Describe the physical action represented by multiplication and division.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-2-2-1-2">
+<div class="para" id="sec-s01e02-2-2-1-2-1">Interpret the words used to indicate multiplication and division.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-2-2-1-3">
+<div class="para" id="sec-s01e02-2-2-1-3-1">Interpret the symbols used to indicate multiplication and division.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-2-2-1-4">
+<div class="para" id="sec-s01e02-2-2-1-4-1">Perform multiplication and division in real-world contexts.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-2-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-2-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 2 Learning Goals"><a href="#sec-s01e02-2" title="Copy heading and permalink for Assemblage: Episode 2 Learning Goals" aria-label="Copy heading and permalink for Assemblage: Episode 2 Learning Goals">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s01e02-3"><h3 class="heading"><span class="title">Episode 2 Key Terminology.</span></h3>
+<div class="para logical" id="sec-s01e02-3-2">
+<ul class="disc" id="sec-s01e02-3-2-1">
+<li id="sec-s01e02-3-2-1-1">
+<div class="para" id="sec-s01e02-3-2-1-1-1">Product<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-3-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-3-2-1-2">
+<div class="para" id="sec-s01e02-3-2-1-2-1">Quotient<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-3-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 2 Key Terminology"><a href="#sec-s01e02-3" title="Copy heading and permalink for Assemblage: Episode 2 Key Terminology" aria-label="Copy heading and permalink for Assemblage: Episode 2 Key Terminology">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s01e02-4"><h3 class="heading"><span class="title">Key Symbols.</span></h3>
+<div class="para logical" id="sec-s01e02-4-2">
+<div class="para">Multiplication</div>
+<div class="displaymath process-math" id="sec-s01e02-4-2-1">
+\begin{equation*}
+* \hspace{1.0in} \text{as in}\,\, 5*2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-4-2-2">
+\begin{equation*}
+\times \hspace{1.0in} \text{as in}\,\, 5\times 2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-4-2-3">
+\begin{equation*}
+\cdot \hspace{1.0in} \text{as in}\,\, 5\cdot 2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-4-3">
+<div class="para">Division</div>
+<div class="displaymath process-math" id="sec-s01e02-4-3-1">
+\begin{equation*}
+/ \hspace{1.0in} \text{as in} \,\, 16/8
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-4-3-2">
+\begin{equation*}
+\div \hspace{1.0in} \text{as in} \,\, 12\div 4
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Key Symbols"><a href="#sec-s01e02-4" title="Copy heading and permalink for Assemblage: Key Symbols" aria-label="Copy heading and permalink for Assemblage: Key Symbols">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-multiplication"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-multiplication-1-1">
+<dfn class="terminology">Multiplication</dfn> is the operation that corresponds to adding a number to itself repeatedly.<div class="autopermalink" data-description="Paragraph"><a href="#def-multiplication-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.1"><a href="#def-multiplication" title="Copy heading and permalink for Definition 1.2.1" aria-label="Copy heading and permalink for Definition 1.2.1">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s01e02-6">
+<div class="para">Multiplication can be represented symbolically in many ways:</div>
+<div class="displaymath process-math" id="sec-s01e02-6-1">
+\begin{equation*}
+3\times 2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-6-2">
+\begin{equation*}
+3\cdot 2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-6-3">
+\begin{equation*}
+3*2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-6-4">
+\begin{equation*}
+3(2)
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-6-5">
+\begin{equation*}
+(3)(2)
+\end{equation*}
+</div>
+<div class="para">All of these are read aloud as “3 times 2,” and all of them mean, “add 3 copies of 2 together.”</div>
+<div class="displaymath process-math" id="sec-s01e02-6-6">
+\begin{equation*}
+3\times 2 = 2+ 2+ 2 = 6
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-7"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-7-1">Calculate <span class="process-math">\(2\times 5\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-7-2">
+<div class="para">Solution: This is asking us to add together 2 copies of 5.</div>
+<div class="displaymath process-math" id="sec-s01e02-7-2-1">
+\begin{equation*}
+2\times 5 = 5 + 5 = 10
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.2"><a href="#sec-s01e02-7" title="Copy heading and permalink for Example 1.2.2" aria-label="Copy heading and permalink for Example 1.2.2">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s01e02-8"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-8-1">If you have 4 bags of apples, and each bag contains 3 apples, how many apples do you have in total?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-8-2">
+<div class="para">Solution: Since we have several piles, each containing the same number of apples, this is a multiplication problem, specifically the problem</div>
+<div class="displaymath process-math" id="sec-s01e02-8-2-1">
+\begin{equation*}
+4\times 3
+\end{equation*}
+</div>
+<div class="para">So, in total we have</div>
+<div class="displaymath process-math" id="sec-s01e02-8-2-2">
+\begin{equation*}
+4\times 3 = 3+ 3+3+3 = 12 \,\,\text{apples}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.3"><a href="#sec-s01e02-8" title="Copy heading and permalink for Example 1.2.3" aria-label="Copy heading and permalink for Example 1.2.3">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s01e02-9"><h3 class="heading"><span class="title">Notice Something Neat.</span></h3>
+<div class="para" id="sec-s01e02-9-2">You can change the order of the numbers in a multiplication problem and still get the same answer!<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-9-3">
+<span class="process-math">\(4\times 2 = 8\)</span> because 🟢🟢 + 🟢🟢 + 🟢🟢 + 🟢🟢 = 🟢🟢🟢🟢🟢🟢🟢🟢<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-9-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-9-4">
+<span class="process-math">\(2\times 4 = 8\)</span> because 🟢🟢🟢🟢 + 🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢🟢🟢🟢<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-9-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Notice Something Neat"><a href="#sec-s01e02-9" title="Copy heading and permalink for Assemblage: Notice Something Neat" aria-label="Copy heading and permalink for Assemblage: Notice Something Neat">🔗</a></div>
+</article>
+<div class="para" id="sec-s01e02-10">For problems involving larger numbers, you can use the <span class="process-math">\(\times\)</span> button on your calculator to perform multiplication.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-11"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-11-1">You get paid $2562 every month. How much are you paid in total in 6 months?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-11-2">
+<div class="para">Solution: Since you’re adding up multiple copies of 2562, this is a multiplication problem, specifically the problem</div>
+<div class="displaymath process-math" id="sec-s01e02-11-2-1">
+\begin{equation*}
+6\times 2562
+\end{equation*}
+</div>
+<div class="para">We can use the <span class="process-math">\(\times\)</span> button on our calculator to find the answer to this problem:</div>
+<div class="displaymath process-math" id="sec-s01e02-11-2-3">
+\begin{equation*}
+6\times 2562 = 15,372
+\end{equation*}
+</div>
+<div class="para">So that means we are paid $15,372 in total.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.4"><a href="#sec-s01e02-11" title="Copy heading and permalink for Example 1.2.4" aria-label="Copy heading and permalink for Example 1.2.4">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s01e02-12">
+<div class="para">There are a couple of common key words that indicate that we need to perform multiplication. These include:</div>
+<ul class="disc" id="sec-s01e02-12-1">
+<li id="sec-s01e02-12-1-1">
+<div class="para" id="sec-s01e02-12-1-1-1">Double (multiply by specifically 2)<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-12-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-12-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-12-1-2">
+<div class="para" id="sec-s01e02-12-1-2-1">Triple (multiply by specifically 3)<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-12-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-12-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-12-1-3">
+<div class="para" id="sec-s01e02-12-1-3-1">Product<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-12-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-12-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-12-1-4">
+<div class="para" id="sec-s01e02-12-1-4-1">Of<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-12-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-12-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-12" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-13"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-13-1">What is the product of 5 and 9?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-13-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-13-2">
+<div class="para">Solution: This is asking us to multiply 5 and 9.</div>
+<div class="displaymath process-math" id="sec-s01e02-13-2-1">
+\begin{equation*}
+5\times 9 = 45
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-13-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.5"><a href="#sec-s01e02-13" title="Copy heading and permalink for Example 1.2.5" aria-label="Copy heading and permalink for Example 1.2.5">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s01e02-14"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-14-1">What results when we double the number 8?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-14-2">
+<div class="para">This is asking us to multiply 8 by 2.</div>
+<div class="displaymath process-math" id="sec-s01e02-14-2-1">
+\begin{equation*}
+2\times 8 = 16
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.6"><a href="#sec-s01e02-14" title="Copy heading and permalink for Example 1.2.6" aria-label="Copy heading and permalink for Example 1.2.6">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-division"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-division-1-1">
+<dfn class="terminology">Division</dfn> is the operation that corresponds to splitting a pile into smaller piles.<div class="autopermalink" data-description="Paragraph"><a href="#def-division-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 1.2.7"><a href="#def-division" title="Copy heading and permalink for Definition 1.2.7" aria-label="Copy heading and permalink for Definition 1.2.7">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s01e02-16">
+<div class="para">Division can be represented symbolically in many ways:</div>
+<div class="displaymath process-math" id="sec-s01e02-16-1">
+\begin{equation*}
+8 \div 2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-16-2">
+\begin{equation*}
+8/2
+\end{equation*}
+</div>
+<div class="displaymath process-math" id="sec-s01e02-16-3">
+\begin{equation*}
+\frac{8}{2}
+\end{equation*}
+</div>
+<div class="para">All of these are read aloud as “8 divided by 2.”</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-16" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-17">
+<div class="para">There are two ways to think about 8 divided by 2:</div>
+<ol class="upper-alpha ol-marker-1" id="sec-s01e02-17-1">
+<li id="sec-s01e02-17-1-1">
+<div class="para" id="sec-s01e02-17-1-1-1">Take a pile containing 8 items and split that into 2 smaller piles. Then count the number of objects in each pile you made.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-17-1-1-2">🟢🟢🟢🟢🟢🟢🟢🟢  →  🟢🟢🟢🟢 and 🟢🟢🟢🟢<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-17-1-1-3">There are 4 items in each pile, so <span class="process-math">\(8\div 2 = 4\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item A"><a href="#sec-s01e02-17-1-1" title="Copy heading and permalink for Item A" aria-label="Copy heading and permalink for Item A">🔗</a></div>
+</li>
+<li id="sec-s01e02-17-1-2">
+<div class="para" id="sec-s01e02-17-1-2-1">Take a pile containing 8 items and split that into piles so that each pile contains 2 items. Then count the number of piles you made.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-17-1-2-2">🟢🟢🟢🟢🟢🟢🟢🟢  →  🟢🟢 and 🟢🟢 and 🟢🟢 and 🟢🟢<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s01e02-17-1-2-3">We made 4 piles, so <span class="process-math">\(8\div 2 =4\)</span><div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17-1-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item B"><a href="#sec-s01e02-17-1-2" title="Copy heading and permalink for Item B" aria-label="Copy heading and permalink for Item B">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-18"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-18-1">If you have 6 cookies, and those cookies need to be shared fairly between 3 people, how many cookies can each person eat?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-18-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-18-2">
+<div class="para">Solution: Since we are splitting a pile of 6 cookies into 3 smaller piles, this is a division problem. Specifically, this is the problem:</div>
+<div class="displaymath process-math" id="sec-s01e02-18-2-1">
+\begin{equation*}
+\frac{6}{3}
+\end{equation*}
+</div>
+<div class="para">Because 🍪🍪🍪🍪🍪🍪 → 🍪🍪 and 🍪🍪 and 🍪🍪 we see that each person gets 2 cookies. In other words,</div>
+<div class="displaymath process-math" id="sec-s01e02-18-2-2">
+\begin{equation*}
+\frac{6}{3}=2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-18-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.8"><a href="#sec-s01e02-18" title="Copy heading and permalink for Example 1.2.8" aria-label="Copy heading and permalink for Example 1.2.8">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s01e02-19"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-19-1">You are throwing an all-day party and you have 12 sodas. Each party guest is expected to drink 3 sodas. How many guests can you invite to the party?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-19-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-19-2">
+<div class="para">Solution: Since we are splitting a pile of 12 sodas into portions, each containing 3 sodas, this is a division problem. Specifically, this is the problem:</div>
+<div class="displaymath process-math" id="sec-s01e02-19-2-1">
+\begin{equation*}
+\frac{12}{3}
+\end{equation*}
+</div>
+<div class="para">Because 🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤 → 🥤🥤🥤and 🥤🥤🥤 and 🥤🥤🥤 and 🥤🥤🥤 we see that we can give sodas to 4 guests. In other words,</div>
+<div class="displaymath process-math" id="sec-s01e02-19-2-2">
+\begin{equation*}
+\frac{12}{3}=4
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-19-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.9"><a href="#sec-s01e02-19" title="Copy heading and permalink for Example 1.2.9" aria-label="Copy heading and permalink for Example 1.2.9">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s01e02-20"><h3 class="heading"><span class="title">Notice Something Neat.</span></h3>
+<div class="para logical" id="sec-s01e02-20-2">
+<div class="para">When you divide 0 by any other number, the result is always 0.</div>
+<div class="displaymath process-math" id="sec-s01e02-20-2-1">
+\begin{equation*}
+\frac{0}{3}=0 
+\end{equation*}
+</div>
+<div class="para">Because if you have 0 items split into 3 piles, each pile will also contain 0 items!</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-20-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Notice Something Neat"><a href="#sec-s01e02-20" title="Copy heading and permalink for Assemblage: Notice Something Neat" aria-label="Copy heading and permalink for Assemblage: Notice Something Neat">🔗</a></div>
+</article>
+<div class="para" id="sec-s01e02-21">For problems involving larger numbers, you can use the / button or the <span class="process-math">\(\div\)</span> button on your calculator to perform multiplication.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-22"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.10</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-22-1">A school is organizing a field trip. There are 168 students going on the trip. Each bus can carry 24 students. How many buses are needed to transport all the students?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-22-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-22-2">
+<div class="para">Solution: Since splitting 168 students into piles each containing 24 students, this is a division problem, specifically the problem</div>
+<div class="displaymath process-math" id="sec-s01e02-22-2-1">
+\begin{equation*}
+168\div 24
+\end{equation*}
+</div>
+<div class="para">We can use the <span class="process-math">\(\div \)</span> button on our calculator to find the answer to this problem:</div>
+<div class="displaymath process-math" id="sec-s01e02-22-2-3">
+\begin{equation*}
+168\div 24=7
+\end{equation*}
+</div>
+<div class="para">So that means we would need 7 buses in total.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-22-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.10"><a href="#sec-s01e02-22" title="Copy heading and permalink for Example 1.2.10" aria-label="Copy heading and permalink for Example 1.2.10">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s01e02-23">
+<div class="para">There are a couple of common key words that indicate that we need to perform multiplication. These include:</div>
+<ul class="disc" id="sec-s01e02-23-1">
+<li id="sec-s01e02-23-1-1">
+<div class="para" id="sec-s01e02-23-1-1-1">Per<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-23-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-23-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-23-1-2">
+<div class="para" id="sec-s01e02-23-1-2-1">Half (divide specifically by 2)<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-23-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-23-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s01e02-23-1-3">
+<div class="para" id="sec-s01e02-23-1-3-1">Quotient<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-23-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s01e02-23-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-23" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s01e02-24"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-24-1">What is half of 18?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-24-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-24-2">
+<div class="para">This is asking us to divide 18 by 2:</div>
+<div class="displaymath process-math" id="sec-s01e02-24-2-1">
+\begin{equation*}
+\frac{18}{2}=9
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-24-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.11"><a href="#sec-s01e02-24" title="Copy heading and permalink for Example 1.2.11" aria-label="Copy heading and permalink for Example 1.2.11">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s01e02-25"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.2.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s01e02-25-1">A car can drive 120 miles on 6 gallons of gas. What’s the car’s mileage in miles per gallon?<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-25-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s01e02-25-2">
+<div class="para">Solution: This is asking us to divide 120 by 6:</div>
+<div class="displaymath process-math" id="sec-s01e02-25-2-1">
+\begin{equation*}
+\frac{120}{6}=20 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s01e02-25-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 1.2.12"><a href="#sec-s01e02-25" title="Copy heading and permalink for Example 1.2.12" aria-label="Copy heading and permalink for Example 1.2.12">🔗</a></div>
+</article>
+<section class="worksheet" id="ws-s01e02" data-margins="0.75in 0.75in 0.75in 0.75in" data-header-first-left="Name:" data-header-first-right="Math 22" data-header-running-right="Math 22">
+<h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Episode 2 Practice Problems</span><div class="print-links"><a href="?printpreview=ws-s01e02" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<article class="exercise exercise-like" id="ws-s01e02-2"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="ws-s01e02-2-1">
+<div class="para" id="ws-s01e02-2-1-1">Calculate the following by hand:<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ws-s01e02-2-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ws-s01e02-2-2-1-1">
+<div class="displaymath process-math" id="ws-s01e02-2-2-1-1-1">
+\begin{equation*}
+7\times 3= \hspace{2.0in} 6(10)= \hspace{2.0in} \frac{40}{5} = \hspace{2.0in} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.1.a"><a href="#ws-s01e02-2-2" title="Copy heading and permalink for Task 1.2.1.a" aria-label="Copy heading and permalink for Task 1.2.1.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-2-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ws-s01e02-2-3-1-1">
+<div class="displaymath process-math" id="ws-s01e02-2-3-1-1-1">
+\begin{equation*}
+9 \cdot 5= \hspace{2.0in} 24\div 6= \hspace{2.0in} 8 \div 3 = \hspace{2.0in} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.1.b"><a href="#ws-s01e02-2-3" title="Copy heading and permalink for Task 1.2.1.b" aria-label="Copy heading and permalink for Task 1.2.1.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-2-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para logical" id="ws-s01e02-2-4-1-1">
+<div class="displaymath process-math" id="ws-s01e02-2-4-1-1-1">
+\begin{equation*}
+8*2 = \hspace{2.0in} 21/7= \hspace{2.0in} (12)(4) = \hspace{2.0in} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.1.c"><a href="#ws-s01e02-2-4" title="Copy heading and permalink for Task 1.2.1.c" aria-label="Copy heading and permalink for Task 1.2.1.c">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 1.2.1"><a href="#ws-s01e02-2" title="Copy heading and permalink for Worksheet Exercise 1.2.1" aria-label="Copy heading and permalink for Worksheet Exercise 1.2.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s01e02-3"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="ws-s01e02-3-1">
+<div class="para" id="ws-s01e02-3-1-1">Calculate the following using a calculator:<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ws-s01e02-3-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para logical" id="ws-s01e02-3-2-1-1">
+<div class="displaymath process-math" id="ws-s01e02-3-2-1-1-1">
+\begin{equation*}
+47\times 18 = \hspace{3.0in} 93\times 24 = \hspace{3.0in} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" data-description="Task 1.2.2.a"><a href="#ws-s01e02-3-2" title="Copy heading and permalink for Task 1.2.2.a" aria-label="Copy heading and permalink for Task 1.2.2.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-3-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para logical" id="ws-s01e02-3-3-1-1">
+<div class="displaymath process-math" id="ws-s01e02-3-3-1-1-1">
+\begin{equation*}
+256\div 8 = \hspace{3.0in} 1008\times 12 = \hspace{3.0in} 
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.5in"></div>
+<div class="autopermalink" data-description="Task 1.2.2.b"><a href="#ws-s01e02-3-3" title="Copy heading and permalink for Task 1.2.2.b" aria-label="Copy heading and permalink for Task 1.2.2.b">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 1.2.2"><a href="#ws-s01e02-3" title="Copy heading and permalink for Worksheet Exercise 1.2.2" aria-label="Copy heading and permalink for Worksheet Exercise 1.2.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s01e02-4"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="introduction" id="ws-s01e02-4-1">
+<div class="para" id="ws-s01e02-4-1-1">Answer the following word problems:<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+</div>
+<article class="task exercise-like" id="ws-s01e02-4-2"><h5 class="heading"><span class="codenumber">(a)</span></h5>
+<div class="para" id="ws-s01e02-4-2-1-1">A bookstore packs 24 boxes, and each box holds 18 books. How many books are packed in total?<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-4-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.3.a"><a href="#ws-s01e02-4-2" title="Copy heading and permalink for Task 1.2.3.a" aria-label="Copy heading and permalink for Task 1.2.3.a">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-4-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
+<div class="para" id="ws-s01e02-4-3-1-1">A teacher has 144 pencils and wants to give them equally to 12 students. How many pencils does each student get?<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-4-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.3.b"><a href="#ws-s01e02-4-3" title="Copy heading and permalink for Task 1.2.3.b" aria-label="Copy heading and permalink for Task 1.2.3.b">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-4-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
+<div class="para" id="ws-s01e02-4-4-1-1">A delivery truck carries 960 bottles of water. The bottles are packed equally into crates, each crate containing 24 bottles. How many crates can be filled?<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-4-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.3.c"><a href="#ws-s01e02-4-4" title="Copy heading and permalink for Task 1.2.3.c" aria-label="Copy heading and permalink for Task 1.2.3.c">🔗</a></div>
+</article>
+<article class="task exercise-like" id="ws-s01e02-4-5"><h5 class="heading"><span class="codenumber">(d)</span></h5>
+<div class="para" id="ws-s01e02-4-5-1-1">A bookstore packs 24 boxes, and each box holds 18 books. How many books are packed in total?<div class="autopermalink" data-description="Paragraph"><a href="#ws-s01e02-4-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="1.25in"></div>
+<div class="autopermalink" data-description="Task 1.2.3.d"><a href="#ws-s01e02-4-5" title="Copy heading and permalink for Task 1.2.3.d" aria-label="Copy heading and permalink for Task 1.2.3.d">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet Exercise 1.2.3"><a href="#ws-s01e02-4" title="Copy heading and permalink for Worksheet Exercise 1.2.3" aria-label="Copy heading and permalink for Worksheet Exercise 1.2.3">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet 1.2: Episode 2 Practice Problems"><a href="#ws-s01e02" title="Copy heading and permalink for Worksheet 1.2: Episode 2 Practice Problems" aria-label="Copy heading and permalink for Worksheet 1.2: Episode 2 Practice Problems">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 1.2: Episode 2: Multiplication and Division"><a href="#sec-s01e02" title="Copy heading and permalink for Section 1.2: Episode 2: Multiplication and Division" aria-label="Copy heading and permalink for Section 1.2: Episode 2: Multiplication and Division">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-s01e01.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-s01e03.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
