@@ -2,8 +2,6 @@
 
 <backmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="backmatter">
   <title>Backmatter</title>
-  <xi:include href="glossary.ptx" />
-  <xi:include href="resources.ptx" />
-  <xi:include href="workbook.ptx" />
+    <xi:include href="resources.ptx" />
   </backmatter>
 

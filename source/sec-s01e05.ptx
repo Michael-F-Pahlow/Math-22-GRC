@@ -2,7 +2,349 @@
 
 <section xml:id="sec-s01e05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: Median and Mean</title>
+  <assemblage>
+    <title>Episode 5 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Informally describe the meaning of mean / average. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Compare / contrast the median and the average.  
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the mean / average of a list of numbers. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the median of a list of numbers.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>Episode 5 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Mean (a.k.a. "average")
+          </p>
+        </li>
+        <li>
+          <p>
+            Median
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-mean">
+    <statement>
+      <p>
+        The <term>Mean</term>, also called the average, is a number that we can calculate that will tell us the cost of a “typical” or “normal” house on this street. 
+      </p>
+      <p>
+        To calculate the average of a list of numbers:
+        <ol>
+          <li>
+            <p>
+              Count how many numbers you have in the list.
+            </p>
+          </li>
+          <li>
+            <p>
+              Add all the numbers in the list together.
+            </p>
+          </li>
+          <li>
+            <p>
+              Divide the sum from Step 2 by the count from Step 1.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+      Suppose you're looking at the prices of all houses on a certain street:
+      <ul>
+        <li>
+          <p>
+            $650,000
+          </p>
+          </li>
+          <li>
+          <p>
+            $625,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $415,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $600,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $680,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $790,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $750,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $670,000
+          </p>
+        </li>
+      </ul>
+      Find the average of the house prices listed above.
+    </p>
+    <p>
+      Solution: First, we count the number of house prices in the list. We have 8 house prices in total. 
+    </p>
+    <p>
+    Then, we add all the house prices together. Using a calculator, we get:
+    <md>
+      650,000 + 625,000 + 415,000 + 600,000 + 680,000 + 790,000 + 750,000 + 670,000 = 5,180,000
+    </md>
+    Then, we divide:
+    <md>
+      \frac{5,180,00}{8} = 647,500
+    </md>
+    So, the average price of a house on that street is $647,500. 
+    </p>
+    <p>
+      Although some houses may be cheaper and some may be more expensive, a typical, normal house on that street should cost around $647,500.
+    </p>
+  </example>
+
   <p>
-    
+    If one of the numbers in your list is an <term>outlier</term> (much larger or smaller than the other number), that can throw off the average, making it useless.
   </p>
+
+  <example>
+    <p>
+      The annual salaries of 6 employees were recorded:
+      <ul>
+        <li>
+          <p>
+            $81,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $89,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $97,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $81,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $92,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $1,00,000,000 (CEO)
+          </p>
+        </li>
+      </ul>
+      What's the average salary?
+    </p>
+    <p>
+      Solution: The number of salaries we've recorded is 6. 
+    </p>
+    <p>
+      The sum of the salaries is:
+      <md>
+        81,000 + 89,000 + 97,000 + 81,000 + 92,000 + 1,000,000,000 =1,000,440,000
+      </md>
+      Now we divide:
+      <md>
+        \frac{1,000,440,000}{6} = 166,740,000
+      </md>
+      So the average salary is $166,740,500. 
+    </p>
+    <p>
+      This average is useless for telling us anything about the “typical” salary at this company -- it's much too small to 
+      reflect the CEO's salary, and it's much too big to reflect everyone else's salary. The average is useless here because the CEO's salary is an outlier.
+    </p>
+  </example>
+  <definition xml:id="def-median">
+    <statement>
+      <p>
+        The <term>median</term> is another number that tells us what's “normal” or “typical.” 
+      </p>
+      <p>
+        To calculate the median of a list of numbers:
+        <ol>
+          <li>
+            <p>
+              Sort the number, smallest to largest
+            </p>
+          </li>
+          <li>
+            <p>
+              The number in the middle of the list is the median.
+            </p>
+          </li>
+        </ol>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    The median is better than the average when there are outliers, because the median is not thrown off by outliers. The outliers are always the highest or lowest 
+    values but the median is always the middle number.
+  </p>
+  <example>
+    <p>
+      Seven students took a quiz and got the following scores:
+      <ul>
+        <li>
+          <p>
+            90
+          </p>
+        </li>
+        <li>
+          <p>
+            98
+          </p>
+        </li>
+        <li>
+          <p>
+            95
+          </p>
+        </li>
+        <li>
+          <p>
+            92
+          </p>
+        </li>
+        <li>
+          <p>
+            93
+          </p>
+        </li>
+        <li>
+          <p>
+            0
+          </p>
+        </li>
+        <li>
+          <p>
+            87
+          </p>
+        </li>
+      </ul>
+      Calculate the median score.
+    </p>
+    <p>
+      Solution: First, we put the numbers in order, smallest to largest:
+      <md>
+        0, 87, 90, 92, 93, 95, 98
+      </md>
+      The number in the middle of the list, 92, is the median.
+    </p>
+    <p>
+      Notice that, even though there’s an outlier in the list (the 0, which is much less than the other scores), 
+      the median of 92 is still a good representation of how the typical student did on the quiz.
+    </p>
+  </example>
+
+  <p>
+    If your list has an even count (e.g. if there are eight numbers in your list, or if there are ten numbers in your list), 
+    there won't be a single number in the middle of the list. 
+  </p>
+
+  <p>
+    In this situation, find the median by averaging the two numbers in the middle of the list.
+  </p>
+
+  <example>
+    <p>
+      The annual salaries of 6 employees were recorded:
+      <ul>
+        <li>
+          <p>
+            $81,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $89,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $97,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $81,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $92,000
+          </p>
+        </li>
+        <li>
+          <p>
+            $1,00,000,000 (CEO)
+          </p>
+        </li>
+      </ul>
+      What's the median salary?
+    </p>
+    <p>
+      Solution: First, we put the salaries in order, smallest to largest:
+      <md>
+        81000,		81000,		89000,		92000,		97000,		1000000000
+      </md>
+    Because we have an even count of salaries (six), there are two numbers in the middle of the list, 89000 and 92000. 
+    So, to find the median, we average these numbers.
+    </p>
+    <p>
+      To average two numbers, we add them and divide the result by 2:
+      <md>
+        \frac{89000+90500}{2} = 90,500
+      </md>
+      So, the median salary is $90,500. 
+    </p>
+    <p>
+      This median essentially ignores the CEO’s giant outlier salary, and it instead gives you a value that’s typical for the other employees.
+    </p>
+  </example>
+  <xi:include href="ws-s01e05.ptx" />
   </section>

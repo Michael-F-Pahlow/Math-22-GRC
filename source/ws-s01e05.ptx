@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s01e05">
+<exercise workspace="2.0in">
+    <p>
+        A student scored 80, 85, 90, 95, and 100 on five math tests. What is the average score?
+    </p>
+</exercise>
+<exercise workspace="2.0in">
+    <p>
+        The ages of five friends are 12, 14, 15, 17, and 19. What is the median age?
+    </p>
+</exercise>
+<exercise workspace="2.0in">
+    <p>
+       A small bakery sold 10, 12, 15, 13, and 10 cupcakes on Monday through Friday. What is the average number of cupcakes sold per day? 
+    </p>
+</exercise>
+<exercise workspace="2.0in">
+    <p>
+        The number of goals scored by 8 soccer players in a tournament are 2, 3, 5, 35, 6, 7, and 3. What is the median number of goals scored?
+    </p>
+</exercise>
+<exercise workspace="2.0in">
+    <p>
+        A family recorded the number of miles driven per day for 4 days: 20, 25, 30, and 25 miles. What is the average number of miles driven per day?
+    </p>
+</exercise>
+<exercise workspace="2.0in">
+    <p>
+        The temperatures (in <m>^\circ</m>C) for a week were 18, 20, 22, 19, 21, 23, and 20. What is the median temperature for the week?
+    </p>
+</exercise>
+</worksheet>

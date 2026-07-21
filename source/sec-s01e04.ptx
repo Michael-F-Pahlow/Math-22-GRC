@@ -2,7 +2,164 @@
 
 <section xml:id="sec-s01e04" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 4: Order of Operations (PEMDAS)</title>
+ <assemblage>
+  <title>Episode 4 Learning Goals</title>
   <p>
-    
+    <ul>
+      <li>
+        <p>
+          Perform multi-step calculations in order using PEMDAS 
+        </p>
+      </li>
+      <li>
+        <p>
+          Recognize “hidden” parentheses / grouping, for example, when division is represented using a horizontal bar 
+        </p>
+      </li>
+    </ul>
   </p>
+ </assemblage>
+
+ <p>
+  In problems where we have to do more than one operation (addition and multiplication, or maybe division and subtraction and exponents),
+   we have rules for the order of those operations.
+   <ol>
+    <li>
+      <p>
+        <alert>Parentheses</alert>: First, do operations inside parentheses.
+      </p>
+    </li>
+    <li>
+      <p>
+        <alert>Exponent</alert>: Then, calculate exponents.
+      </p>
+    </li>
+    <li>
+      <p>
+        <alert>Multiplication/Division</alert>: Then, do all the multiplication and division in the problem from <em>left to right</em>.
+      </p>
+    </li>
+    <li>
+      <p>
+        <alert>Addition/Subtraction</alert>: Then, do all the addition and subtraction in the problem from <em>left to right</em>.
+      </p>
+    </li>
+   </ol>
+ </p>
+ <p>
+  We remember the order of operations using the mnemonic PEMDAS (“please excuse my dear Aunt Sally”).
+ </p>
+
+ <example>
+  <p>
+    Calculate <m>2^6 + \frac{6}{3} -2(5+3)</m>
+  </p>
+  <p>
+    Solution:
+  </p>
+  <p>
+    <alert>P</alert>: First, we do the calculation in the parentheses, <m>5+3=8</m>.
+    <md>
+      2^6 + \frac{6}{3} - 2(8)
+    </md>
+  </p>
+  <p>
+    <alert>E</alert>: Then, we calculate the exponent, <m>2^6=64</m>.
+    <md>
+      64 + \frac{6}{3} - 2(8)
+    </md>
+  </p>
+  <p>
+    <alert>MD</alert>: Then, we do the division and multiplication, from left to right. As we read the calculation from left to right, 
+    we see the division <m>\frac{6}{3}=2</m>, so we calculate that next:
+    <md>
+      64 + 2 - 2(8)
+    </md>
+    As we continue to read the calculation from left to right, we see the multiplication <m>2(8)=16</m>, so we calculate that next:
+    <md>
+      64 + 2 - 16
+    </md>
+  </p>
+  <p>
+    <alert>AS</alert>: Then, we do the addition and subtraction, from left to right. 
+    As we read the calculation from left to right, we see the addition <m>64+2 = 66</m>, so we calculate that next:
+    <md>
+      66 - 16
+    </md>
+    Finally, this subtraction is all that's left:
+  <md>
+    66-16=50
+  </md>
+  </p>
+ </example>
+
+ <p>
+  There are a few things that should be considered the same as parentheses when doing PEMDAS calculations.
+  <ol marker="A)">
+    <li>
+      <p>
+        Brackets
+      </p>
+      <p>
+        Sometimes brackets [ ] are used instead of parentheses ( ) in multi-step calculations.
+        <md>
+          3[7-2]
+        </md>
+        So calculate the operations inside the brackets first:
+        <md>
+          3[7-2] = 3[5] = 15
+        </md>
+      </p>
+    </li>
+    <li>
+      <p>
+        Division
+      </p>
+      <p>
+        When division is represented using the horizontal bar, you should pretend that there are parentheses around what's above the bar and around what's below the bar:
+        <md>
+          \frac{3+7}{1+1} \hspace{0.5in} \text{should be treated like}\hspace{0.5in} \frac{(3+7)}{(1+1)}
+        </md>
+        So calculate the addition above and below the fraction bar first:
+        <md>
+          \frac{10}{2} = 5
+        </md>
+      </p>
+    </li>
+    <li>
+      <p>
+        Some problems contain nested parentheses / brackets. If this happens, work from the inside out, starting with the calculations in the innermost parentheses.
+      </p>
+    </li>
+  </ol>
+ </p>
+
+ <example>
+  <p>
+    Calculate
+    <md>
+      4+2[15-3(5-1)]
+    </md>
+    We start with the calculation <m>5-1</m> in the innermost set of parentheses:
+    <md>
+      4+2[15-3(4)]
+    </md>
+    Then, we work on the problem <m>8-3(4)</m> inside the brackets. Using PEMDAS here, we should do the multiplication <m>3(4)</m> before doing the subtraction.
+    <md>
+      4+2[15-12]
+    </md>
+    Now we complete the subtraction <m>15-12</m> to finish the calculation inside the brackets:
+    <md>
+      4+2[3]
+    </md>
+    Using PEMDAS again, we should do the multiplication before the addition:
+    <md>
+      4+2[3] = 4+ 6
+    </md>
+    <md>
+      4+ 6 = 10
+    </md>
+  </p>
+ </example>
+ <xi:include href="ws-s01e04.ptx" />
   </section>

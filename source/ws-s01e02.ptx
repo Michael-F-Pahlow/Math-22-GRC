@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s01e02">
+  <title>Episode 2 Practice Problems</title>
+<exercise>
+    <introduction>
+    <p>
+       Calculate the following by hand: 
+    </p>
+    </introduction>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                <md> 7\times 3= \hspace{2.0in} 6(10)= \hspace{2.0in} \frac{40}{5} = \hspace{2.0in} </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                <md> 9 \cdot 5= \hspace{2.0in} 24\div 6= \hspace{2.0in} 8 \div 3 = \hspace{2.0in} </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                <md> 8*2 = \hspace{2.0in} 21/7= \hspace{2.0in} (12)(4) = \hspace{2.0in} </md>
+            </p>
+        </statement>
+    </task>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+          Calculate the following using a calculator:  
+        </p>
+    </introduction>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <md> 47\times 18 = \hspace{3.0in} 93\times 24 = \hspace{3.0in} </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.5in">
+        <statement>
+            <p>
+                <md> 256\div 8 = \hspace{3.0in} 1008\times 12 = \hspace{3.0in} </md>
+            </p>
+        </statement>
+    </task>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            Answer the following word problems:
+        </p>
+    </introduction>
+    <task workspace="1.25in">
+        <statement>
+            <p>
+                A bookstore packs 24 boxes, and each box holds 18 books. How many books are packed in total?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.25in">
+        <statement>
+            <p>
+                A teacher has 144 pencils and wants to give them equally to 12 students. How many pencils does each student get?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.25in">
+        <statement>
+            <p>
+            A delivery truck carries 960 bottles of water. The bottles are packed equally into crates, each crate containing 24 bottles. How many crates can be filled?
+            </p>
+        </statement>
+    </task>
+    <task workspace="1.25in">
+        <statement>
+            <p>
+                A bookstore packs 24 boxes, and each box holds 18 books. How many books are packed in total?
+            </p>
+        </statement>
+    </task>
+</exercise>
+</worksheet>

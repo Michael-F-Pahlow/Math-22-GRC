@@ -8,23 +8,26 @@
         Addition is represented using the symbol <m>+</m> (“plus”).
 </p>
 </gi>
+
 <gi>
-<title>subtraction</title>
+<title>division</title>
 <p>
-    The operation that corresponds to removing objects from a pile.
-  Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+    The operation that corresponds to splitting a pile into smaller piles. 
 </p>
 </gi>
+
 <gi>
 <title>multiplication</title>
 <p>
     The operation that corresponds to adding a number to itself repeatedly.
 </p>
-    </gi>
+</gi>
+
 <gi>
-<title>division</title>
+<title>subtraction</title>
 <p>
-    The operation that corresponds to splitting a pile into smaller piles. 
+    The operation that corresponds to removing objects from a pile.
+  Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
 </p>
 </gi>
 

@@ -2,7 +2,165 @@
 
 <section xml:id="sec-s01e03" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 3: Exponents</title>
+  <assemblage>
+    <title>Episode 3 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Describe the physical action represented by exponents. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret the words used to indicate exponents. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret the symbols used to indicate exponents.
+          </p>
+        </li>
+        <li>
+          <p>
+            Perform exponent calculations in real-world context. 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>Episode 3 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Exponent
+          </p>
+        </li>
+        <li>
+          <p>
+            Base
+          </p>
+        </li>
+        <li>
+          <p>
+            Power
+          </p>
+        </li>
+        <li>
+          <p>
+            Square
+          </p>
+        </li>
+        <li>
+          <p>
+            Cube
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+
+  <assemblage>
+    <title>Episode 2 Key Symbols</title>
+    <p>
+     <m>\hspace{2.0in}\wedge\hspace{1.0in}</m> as in 6^2
+    </p>
+  </assemblage>
+
+  <definition xml:id="def-exponent">
+    <statement>
+      <p>
+        <term>Exponents</term> are used when we multiply a number by itself repeatedly.
+      </p>
+    </statement>
+  </definition>
   <p>
+    Exponents can be can be represented symbolically in many ways:
+    <md> 4\wedge 3 </md>
+    <md> 4^3 </md>
+    All of these are read aloud as “4 to the power 3,” and all of them mean “multiply 3 copies of 4.”
+    <md> 4^3=4\times 4\times 4 =64</md>
+  </p>
+
+  <example>
+    <p>
+      Calculate <m>2*5</m>
+    </p>
+    <p>
+      This is asking us to multiply together 5 copies of 2. 
+      <md>
+        2^5 = 2\times 2\times 2\times 2\times 2\times = 32
+      </md>
+      </p>
+  </example>
+
+  <p>
+    When dealing with something like <m>2^5</m>
+    <ul>
+      <li>
+        <p>
+          he number 2 is called the <term>base</term>. It is the number that is being copied and multiplied by itself. 
+        </p>
+      </li>
+      <li>
+        <p>
+         The number 5 is called the <term>exponent</term>. It tells you how many copies of the base you need to make. 
+        </p>
+      </li>
+    </ul>
+  </p>
+<assemblage>
+  <title>Notice Something Neat</title>
+  <p>
+    When you raise a number to the power 1, the result is always the same number you started with!
+    <md>5^1=5 </md>
+    because the exponent tells us we just have 1 copy of 5.
+  </p>
+</assemblage>
+
+<p>
+  When working with larger numbers, you can use the ^ button or the <m>x^y</m> button on your calculator to calculate exponents.
+</p>
+
+<example>
+  <p>
+    Calculate <m>5^6</m>
+  </p>
+  <p>
+    Solution: We can use the ^ button on the calculator to find this value:
+    <md>5^6=15,625</md>
+  </p>
+</example>
+
+<p>
+  There are a couple of common key words that indicate that we need to perform multiplication. These include:
+  <ul>
+    <li>
+      <p>
+        Square (raise to the power of 2, specifically)
+      </p>
+    </li>
+    <li>
+      <p>
+        Cube (raise to the power of 3, specifically)
+      </p>
+    </li>
+  </ul>
+</p>
+<example>
+  <p>
+    What is 4 squared?
+  </p>
+  <p>
+    This is asking us to raise 4 to the power of 2:
+    <md>
+      4^2 = 16
+    </md>
     
   </p>
+</example>
+<xi:include href="ws-s01e03.ptx" />
   </section>

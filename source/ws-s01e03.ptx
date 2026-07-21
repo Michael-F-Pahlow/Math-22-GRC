@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s01e03">
+    <exercise>
+        <introduction>
+            <p>
+              Calculate each of the following values by hand:  
+            </p>
+        </introduction>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                <md> 2^3 = \hspace{2.0in} 3^4 = \hspace{2.0in} 6^1 = \hspace{2.0in} </md>
+                </p>
+            </statement>
+        </task>
+        <task workspace="0.75in">
+            <statement>
+                <p>
+                <md> 5^2 = \hspace{2.0in} 4^2 = \hspace{2.0in} 7^2 = \hspace{2.0in} </md>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+    <exercise>
+        <introduction>
+            <p>
+                Calculate each of the following values using a calculator:
+            </p>
+        </introduction>
+        <task workspace="1.0in">
+            <statement>
+                <p>
+                    <md> 6^4 =\hspace{2.5in} 2^8 = \hspace{4.0in} </md>
+                </p>
+            </statement>
+        </task>
+        <task workspace="1.0in">
+            <statement>
+                <p>
+                    <md> 4^0 =\hspace{2.5in} 3^{-1} = \hspace{4.0in} </md>
+                </p>
+            </statement>
+        </task>
+    </exercise>
+</worksheet>

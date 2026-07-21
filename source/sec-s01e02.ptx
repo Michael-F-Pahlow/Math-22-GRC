@@ -155,7 +155,7 @@
         </md>
         We can use the <m>\times</m> button on our calculator to find the answer to this problem:
         <md>
-            6\times 2562 = 15372
+            6\times 2562 = 15,372
         </md>
         So that means we are paid $15,372 in total.
     </p>
@@ -259,4 +259,93 @@
         </li>
         </ol>
   </p>
+  <example>
+    <p>
+       If you have 6 cookies, and those cookies need to be shared fairly between 3 people, how many cookies can each person eat? 
+    </p>
+    <p>
+        Solution: Since we are splitting a pile of 6 cookies into 3 smaller piles, this is a division problem. Specifically, this is the problem:
+        <md>\frac{6}{3}</md>
+        Because 🍪🍪🍪🍪🍪🍪 → 🍪🍪 and 🍪🍪 and 🍪🍪 we see that each person gets 2 cookies. In other words,
+        <md>\frac{6}{3}=2</md>
+    </p>
+      </example>
+
+      <example>
+        <p>
+            You are throwing an all-day party and you have 12 sodas. Each party guest is expected to drink 3 sodas. How many guests can you invite to the party?
+        </p>
+        <p>
+            Solution: Since we are splitting a pile of 12 sodas into portions, each containing 3 sodas, this is a division problem. Specifically, this is the problem:
+            <md>\frac{12}{3}</md>
+            Because 🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤🥤 → 🥤🥤🥤and 🥤🥤🥤 and 🥤🥤🥤 and 🥤🥤🥤 we see that we can give sodas to 4 guests. In other words,
+            <md>\frac{12}{3}=4</md>
+        </p>
+      </example>
+
+      <assemblage>
+        <title>Notice Something Neat</title>
+        <p>
+            When you divide 0 by any other number, the result is always 0.
+            <md>\frac{0}{3}=0 </md>
+            Because if you have 0 items split into 3 piles, each pile will also contain 0 items!
+        </p>
+      </assemblage>
+
+      <p>
+        For problems involving larger numbers, you can use the / button or the <m>\div</m> button on your calculator to perform multiplication.
+      </p>
+
+      <example>
+        <p>
+           A school is organizing a field trip. There are 168 students going on the trip. Each bus can carry 24 students. How many buses are needed to transport all the students? 
+        </p>
+        <p>
+            Solution: Since splitting 168 students into piles each containing 24 students, this is a division problem, specifically the problem
+            <md>168\div 24</md>
+            We can use the <m>\div </m> button on our calculator to find the answer to this problem:
+            <md> 168\div 24=7</md>
+            So that means we would need 7 buses in total.
+        </p>
+      </example>
+
+      <p>
+      There are a couple of common key words that indicate that we need to perform multiplication. These include:
+      <ul>
+        <li>
+            <p>
+                Per
+            </p>
+        </li>
+        <li>
+            <p>
+                Half (divide specifically by 2)
+            </p>
+        </li>
+        <li>
+            <p>
+                Quotient
+            </p>
+        </li>
+      </ul>  
+      </p>
+      <example>
+        <p>
+            What is half of 18?
+        </p>
+        <p>
+            This is asking us to divide 18 by 2:
+            <md>\frac{18}{2}=9</md>
+        </p>
+      </example>
+      <example>
+        <p>
+            A car can drive 120 miles on 6 gallons of gas. What's the car's mileage in miles per gallon?
+        </p>
+        <p>
+            Solution: This is asking us to divide 120 by 6:
+            <md>\frac{120}{6}=20 </md>
+        </p>
+      </example>
+      <xi:include href="ws-s01e02.ptx" />
   </section>
