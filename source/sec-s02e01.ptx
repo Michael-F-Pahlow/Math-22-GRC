@@ -84,24 +84,115 @@
         <md>
             -5
         </md>
-        The <m>-</m> means “negative” if there is nothing or if there is a ( on the left side of the <m>-</m> sign.
+        The symbol <m>-</m> means “negative” if there is nothing or if there is a ( on the left side of the <m>-</m> sign.
         </p>
         <p>
-          The <m>-</m> means “subtract” otherwise.  
+          The symbol <m>-</m> means “subtract” otherwise.  
         </p>
     </assemblage>
     <definition xml:id="def-number-line">
         <statement>
             <p>
-                A <term>number line</term>is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and 
+                A <term>number line</term> is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and 
                 negative numbers (it displays integers).
             </p>
         </statement>
     </definition>
     <figure>
         <caption>A horizontal number line</caption>
-        <diagram dimensions="(300,50)" margins="5">
+        <image width="100%">
+        <prefigure label="pf-horizontal-nl1" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,50)" margins="5">
         <coordinates bbox="(-11,-1,11,1)">
-        <axes="horizontal" arrow="2" hticks=(-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10) hlabels="(-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10)"
+        <axes axes="horizontal" arrows="2" hticks="(-10,1,10)" 
+        hlabels="(-10,1,10)" thickness="1" tick-size="3"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
     </figure>
+    <p>
+       On a horizontal number line, negative numbers are positioned to the left of 0, and positive numbers are located to the right of 0. 
+    </p>
+
+    <sidebyside widths="50% 50%" margins="auto">
+        <p>
+            Number lines can also be vertical. In a vertical number line, negative numbers are below 0, and positive numbers are above 0.
+        </p>
+        <figure>
+        <caption>A verticalnumber line</caption>
+        <image width="100%">
+        <prefigure label="pf-vertical-nl" xmlns="https://prefigure.org">
+        <diagram dimensions="(250,25)" margins="5">
+        <coordinates bbox="(-1,-6,1,6)">
+        <axes axes="vertical" arrows="2" vticks="(-5,1,5)"
+        vlabels="(-5,1,5)" thickness="1" tick-size="3" />
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    </sidebyside>
+
+    <p>
+        We can use the symbol <m>\gt</m> (read aloud as “is greater than”) or the symbol <m>\lt</m> (read aloud as “is less than”) to compare two integers. 
+    </p>
+    <p>
+        When we use these symbols, we place the symbol between two numbers, with the “alligator mouth” pointing toward the number that is “hotter.”
+    </p>
+    <example>
+        <p>
+            Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
+            <md>
+                2 \hspace{1.0in} 7
+            </md>
+          Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7:
+          <md>2 \lt 7</md>
+          We would read this aloud as: “2 is less than 7.”
+        </p>
+    </example>
+
+    <example>
+        <p>
+            Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
+            <md>
+                2 \hspace{1.0in} -7
+            </md>
+          Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2:
+          <md>2 \gt -7</md>
+          We would read this aloud as: “2 is greater than  negative 7.”
+        </p>
+    </example>
+    <example>
+        <p>
+            Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
+            <md>
+                -2 \hspace{1.0in} -7
+            </md>
+          Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2:
+          <md>-2 \gt -7</md>
+          We would read this aloud as: “negative 2 is greater than negative 7.”
+        </p>
+    </example>
+    <assemblage>
+        <title>Mnemonic</title>
+        <p>
+            A mnemonic for how to use the symbols <m>\gt</m> and <m>\lt</m> is: 
+        </p>
+        <p>
+            “The alligator likes hot food!”
+        </p>
+        <p>
+         We think of the “mouth” of the <m>\gt</m> and <m>\lt</m> symbols as being like the mouth of an alligator who is eating the numbers. 🐊
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Notice Something Neat</title>
+        <p>
+           On a horizontal number line, the hotter number is always on the right. So, we can also say that <m>-2\gt-7 </m>
+           because when we mark -2 and -7 on a number line, the number -2 is on the right. 
+        </p>
+    </assemblage>
+
+    <xi:include href="ws-s02e01.ptx" />
 </section>

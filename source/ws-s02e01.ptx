@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s02e01">
+<exercise workspace="0.2in">
+<p>
+  Mark the following integers on a horizontal number line:  
+  <ul>
+    <li>
+        <p>
+            -3
+        </p>
+    </li>
+    <li>
+        <p>
+            -7
+        </p>
+    </li>
+    <li>
+        <p>
+            0
+        </p>
+    </li>
+    <li>
+        <p>
+            4
+        </p>
+    </li>
+  </ul>
+</p>
+<image width="100%">
+<prefigure label="pf-horizontal-nl2" xmlns="https://prefigure.org">
+<diagram dimensions="(500,50)" margins="5">
+            <coordinates bbox="(-11,-1,11,1)">
+        <axes axes="horizontal" arrows="2" hticks="(-10,1,10)" 
+        hlabels="(-10,1,10)" thickness="1" tick-size="3"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+</exercise>
+<exercise>
+    <introduction>
+        <p>
+            Put the correct symbol, <m>\gt</m> or <m>\lt</m>, between the pairs of integers:
+        </p>
+    </introduction>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    0 \hspace{1.0in} 3
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    -2 \hspace{1.0in} -6
+                </md>
+            </p>
+        </statement>
+    </task>
+<task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    -4 \hspace{1.0in} 0
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    -8 \hspace{1.0in} 9
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    1\hspace{1.0in} 0
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    -5 \hspace{1.0in} 0
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    -10 \hspace{1.0in} 6
+                </md>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <md>
+                    15 \hspace{1.0in} 5
+                </md>
+            </p>
+        </statement>
+    </task>
+</exercise>
+</worksheet>
