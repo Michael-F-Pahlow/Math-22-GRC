@@ -123,7 +123,7 @@
         <caption>A vertical number line</caption>
         <image width="100">
         <prefigure label="pf-vertical-nl" xmlns="https://prefigure.org">
-        <diagram dimensions="(50,500)" margins="5">
+        <diagram dimensions="(500,500)" margins="5">
         <coordinates bbox="(-1,-6,1,6)">
         <axes axes="vertical" arrows="2" vticks="(-5,1,5)"
         vlabels="(-5,1,5)" thickness="1" tick-size="3" />
