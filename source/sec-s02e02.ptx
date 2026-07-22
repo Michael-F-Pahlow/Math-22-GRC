@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s02e02" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Adding Integers</title>
+    <assemblage>
+        <title>Episode 2 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Add integers
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 2 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Sign
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
 
+    <p>
+     Suppose your bank account is overdrawn by $18. The balance in your account is represented by a negative number, -18.   
+    </p>
+    <p>
+       Then your deposit $50 into the account. You’re combining two piles of money, one “negative” pile representing your debt, and one “positive” pile representing your deposit.  
+    </p>
+    <p>
+      To find out how much money you have in your account in the end, we would add these two integers:
+      <md>
+        -18+50
+      </md>
+    </p>
+
+    <definition xml:id="def-sign">
+        <statement>
+            <p>
+               The <term>sign</term> of an integer is whether it’s positive, negative, or zero
+            </p>
+        </statement>
+    </definition>
+    <p>
+        The <term>sign </term> of -3 is negative.
+    </p>
+    <p>
+        The <term>sign </term> of 5 is positive.
+    </p>
+    <p>
+        The <term>sign </term> of 0 is zero (no sign).
+    </p>
+    <p>
+        <alert>How to Add Integers</alert>
+        <ul>
+            <li>
+                <p>
+                    If the integers are both negative:
+                </p>
+                <p>
+                  Add the integers together as if they were both positive, then apply a negative sign to the result.  
+                </p>
+            </li>
+            <li>
+                <p>
+                   If one of the integers is positive and the other one is negative: 
+                </p>
+                <p>
+                   Find the <em>difference</em> between the integers as if they were both positive. Then, take the sign of the bigger integer, and apply that sign to the result. 
+                </p>
+            </li>
+        </ul>
+    </p>
+    <example>
+        <p>
+            Calculate
+            <md>
+                -18+50
+            </md>
+        </p>
+        <p>
+            Solution: We are adding a negative number, -18, to a positive number, 50. So, we find the difference between 50 and 18 first:
+            <md>
+                50-18=32
+            </md>
+            Then, we notice that the positive 50 is bigger than the negative 18. So we make our final answer positive: 32
+        </p>
+    </example>
+    <assemblage>
+        <title>Makes Sense, Right?</title>
+        <p>
+            If we start with our bank account overdrawn by $18, and then deposit $50, some of that $50 will go to cover the debt, 
+            and then some will be leftover to fill up our account.
+        </p>
+    </assemblage>
+
+    <example>
+        <p>
+            Calculate:
+            <md>
+                -8+(-4)
+            </md>
+            </p>
+            <p>
+            Solution: We are adding a negative number, -8, to another negative number, -4. So, we add together the numbers as if they were both positive:
+            <md>
+                8+4=12
+            </md>
+            Then, we apply a negative sign to our final answer:
+            <md>
+                -8+(-4) = -12
+            </md>
+        </p>
+    </example>
+    <assemblage>
+        <title>Makes Sense, Right?</title>
+        <p>
+            If we start with our bank account overdrawn by $8, and then take on another debt of $4, we end up in even more debt than we started with.
+        </p>
+    </assemblage>
+    <example>
+        <p>
+            Calculate:
+            <md>
+                -40+5
+            </md>
+        </p>
+        <p>
+            Solution: We are adding a negative number, -40, to a positive number, 5. So, we find the difference between 40 and 5 first:
+            <md>
+                40-5 = 35
+            </md>
+            Then, we notice that the negative 40 is bigger than the positive 5. So we make our final answer negative:
+            <md>
+                -40+5 = -35
+            </md>
+            
+        </p>
+    </example>
+    <assemblage>
+        <title>Makes Sense, Right?</title>
+        <p>
+         If we start with our bank account overdrawn by $40, and then deposit $5, that will only be enough to pay off some of our debt.    
+        </p>
+    </assemblage>
+
+    <p>
+     When we write addition problems containing integers, we don't want to have a + symbol directly next to a - symbol.    
+    </p>
+    <p>
+      To separate the + and -, when we add a negative number, we put the negative number in parentheses:
+      <md>
+        <mrow>\text{NO!} \,\,\amp\,\,2 + -3 </mrow>
+        <mrow>\text{YES!} \,\,\amp\,\,2 + (-3) </mrow>
+      </md>  
+    </p>
+    <p>
+    Adding 0 (adding nothing) doesn't change an integer:
+    <md>
+        <mrow>0+(-12) =\amp -12 </mrow>
+        <mrow>5+0 =\amp \,5 </mrow>
+        <mrow>-8+0 =\amp -8 </mrow>
+    </md>
+    </p>
+    <xi:include href="ws-s02e02.ptx" />
 </section>

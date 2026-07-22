@@ -1,5 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s02e03" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Subtracting Integers</title>
+<assemblage>
+    <title>Episode 3 Learning Goals</title>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Subtract Integers
+                </p>
+            </li>
+        </ul>
+    </p>
+</assemblage>
+<assemblage>
+    <title>Episode 3 Learning Goals</title>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Opposite
+                </p>
+            </li>
+        </ul>
+    </p>
+</assemblage>
 
+<p>
+   A person owes $3000 of student loan debt, represented by the negative number -3000. Then, $2000 is cancelled. 
+   Because we are <em>removing</em> some debt, this is a subtraction problem: 
+   <md>
+    -3000 - (-2000)
+   </md>
+   (Read aloud as “negative 3000 minus negative 2000.”)
+</p>
+<definition xml:id="def-opposite">
+    <statement>
+        <p>
+          The <term>opposite</term> of a positive number is the negative version of that number. For example, the opposite of 7 is -7.
+        </p>
+        <p>
+           The <term>opposite</term> of a negative number is the positive version of that number. For example, the opposite of -4 is 4. 
+        </p>
+        <p>
+            The <term>opposite</term> of zero is zero.
+        </p>
+    </statement>
+</definition>
+<p>
+    Symbolically, the opposite is represented by putting an extra negative sign on the number. For example, if we want to say “find the opposite of -7” in symbols, we would write:
+    <md>
+        -(-7)
+    </md>
+    
+</p>
+<p>
+<alert>How to Subtract Integers</alert>
+</p>
+<p>
+    To subtract an integer, add the opposite.
+</p>
+
+<example>
+    <p>
+        Calculate
+        <md>
+            -3000-(-2000)
+        </md>
+    </p>
+    <p>
+        Solution: Instead of subtracting -2000, we will add the opposite, 2000.
+        <md>
+            -3000+2000
+        </md>
+        Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. 
+        The numbers -3000 and 2000 have opposite signs, so we find their difference:
+        <md>
+            3000-2000=1000
+        </md>
+        The negative number 3000 is bigger, so we make the final answer negative: -1000
+        </p>
+</example>
+
+<assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+        If we’re $3000 in debt, and someone cancels $2000 of our debt, we still have some debt left that we have to pay off.
+    </p>
+</assemblage>
+
+<example>
+    <p>
+        Calculate
+        <md>
+            -24-4
+        </md>
+    </p>
+    <p>
+       Instead of subtracting 4, we add the opposite, -4.
+       <md>
+        -24+(-4)
+       </md>
+        Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. 
+        The numbers -24 and -4 are both negative, so we add them together as if they were both positive:
+        <md>
+            24+4 = 28
+        </md>
+        Then we make the final answer negative: -28
+    </p>
+</example>
+<assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+     If we're $24 overdrawn already, and then we try to withdraw another $4, then we end up even more overdrawn than we were at the start.   
+    </p>
+</assemblage>
+<example>
+    <p>
+        The temperature was 30 degrees Fahrenheit in the day and then dropped to -20 degrees Fahrenheit at night. How much did the temperature decrease?
+    </p>
+    <p>
+        Solution: This question is asking us for the difference between the daytime and nighttime temperature, so this is a subtraction problem. 
+        <md>
+            30-(-20)
+        </md>
+        We add the opposite of -20:
+        <md>
+            30+20 = 50
+        </md>
+        The temperature decreased by 50 degrees.
+    </p>
+</example>
+<xi:include href="ws-s02e03.ptx" />
 </section>

@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s02e05" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>PEMDAS Integers</title>
+<assemblage>
+    <title>Episode Learning Goals</title>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Perform multi-step calculations involving integers.
+                </p>
+            </li>
+        </ul>
+    </p>
+</assemblage>
+<p>
+    The same rules of PEMDAS apply when working with integers
+</p>
+<example>
+    <p>
+        Calculate
+        <md>
+            -[3-4(6\div 2)^2]
+        </md>
+    </p>
+    <p>
+        Solution: First, we work on the calculation inside the innermost parentheses, <m>6\div 2</m>:
+        <md>
+            -[3-4(3)^2]
+        </md>
+        Then, we work on the calculation inside the brackets, <m>3-4(3)^2</m>. Applying PEMDAS here, we calculate the exponent <m>(3)^2</m> next:
+        <md>
+            -[3-4(9)]
+        </md>
+        We calculate the multiplication next:
+        <md>
+         -3[3-36]   
+        </md>
+        Then the subtraction:
+        <md>
+            -[-33]
+        </md>
+        Finally, we remember that the extra - is telling us to find the opposite of -33. So our answer is
+        <md>
+            -[-33] = 33
+        </md>
+    </p>
+</example>
+<assemblage>
+    <title>Be Careful</title>
+    <p>
+       There is a difference between
+       <md>
+        -3^2 \quad \text{and} \quad (-3)^2
+       </md>
+        By default, an exponent only applies to the single symbol directly underneath it. So in <m>-3^2</m> only the 3 is getting copied, not the <m>-</m>:
+        <md>
+            -3^2 = -3\times 3 = -9
+        </md>
+        If you want to copy the entire quantity -3, then you need to wrap -3 in parentheses before applying the exponent, like in <m>(-3)^2</m>:
+        <md>
+            (-3)^2 = -3 \times -3 = 9
+        </md>
+    </p>
+</assemblage>
 
+<xi:include href="ws-s02e05.ptx" />
 </section>

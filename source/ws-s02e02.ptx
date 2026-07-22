@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s02e02">
+<introduction>
+        <p>
+          Calculate the answer to the following addition problems:  
+        </p>
+        </introduction>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>14+(-6)</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>32+(-17)</m> </p>
+        </exercise>
+    </sidebyside>
+       <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>-9+4</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>-24+9</m> </p>
+        </exercise>
+    </sidebyside> 
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>-7+(-3)</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>13+(-13)</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>25+(-10)</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>-5+28</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>-15+20</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>0+(-12)</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>6+(-11)</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>-5+0</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <m>-18+(-7)</m> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <m>0+18</m> </p>
+        </exercise>
+    </sidebyside>
+        
+         <exercise workspace="2.0in">
+            <p>
+                A bank account has a balance of –$45 (money owed). A deposit of $30 is made. What is the new balance?
+            </p>
+         </exercise>
+         <exercise workspace="2.0in">
+            <p>
+                An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?
+
+            </p>
+         </exercise>
+</worksheet>

@@ -1,5 +1,212 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s02e04" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Multiplying and Dividing Integers</title>
+<assemblage>
+    <title>Episode 4 Learning Goals</title>
+    <p>
+     <ul>
+        <li>
+            <p>
+                Multiply Integers
+            </p>
+        </li>
+        <li>
+            <p>
+                Divide Integers
+            </p>
+        </li>
+        <li>
+            <p>
+                Raise an integer to a power.
+            </p>
+        </li>
+     </ul>   
+    </p>
+</assemblage>
+<assemblage>
+    <title>Episode 4 Key Terminology</title>
+    <p>
+        <ul>
+            <li>
+                <p>
+                    Even
+                </p>
+            </li>
+            <li>
+                <p>
+                    Odd
+                </p>
+            </li>
+        </ul>
+    </p>
+</assemblage>
+<definition xml:id="def-even-number">
+    <statement>
+        <p>
+            An <term>even number</term> is one that can be evenly divided by 2.
+        </p>
+    </statement>
+</definition>
+<p>
+    For example, the numbers 0, 2, 4, 6, and 8 are all even.
+</p>
+<definition xml:id="def-odd-number">
+    <statement>
+        <p>
+           An <term>odd number</term> is a whole number that cannot be evenly divided by 2.
+        </p>
+    </statement>
+</definition>
+<p>
+   For example, the numbers 1, 3, 5, 7, and 9 are all odd. 
+</p>
+<p>
+    <alert>How to Multiply and Divide Integers</alert>
+    <ol>
+        <li>
+            <p>
+                Count the negative signs in the problem.
+            </p>
+        </li>
+        <li>
+            <p>
+                Multiply/divide the integers as if they were all positive.
+            </p>
+        </li>
+        <li>
+            <p>
+                If the count of negative signs is odd, make the final answer negative. If the count is even, make the final answer positive.
+            </p>
+        </li>
+    </ol>
+</p>
+<example>
+    <p>
+        Calculate:
+        <md>
+            \frac{-20}{-4}
+        </md>
+    </p>
+    <p>
+        First, we count the number of negative signs in this division problem. We have 2 negative signs here, an even number of negative signs.
+    </p>
+    <p>
+        Then, we divide the numbers as if they were both positive:
+        <md>
+            \frac{20}{4} = 5
+        </md>
+        Because we had an even number of negative signs, the final answer is also positive.
+    </p>
+</example>
 
+<example>
+    <p>
+        Calculate:
+        <md>
+            -3\times 2
+        </md>
+    </p>
+    <p>
+        Solution: First, we count the number of negative signs in this multiplication problem. We have 1 negative sign here, an odd number of negative signs. 
+        <md>
+            3\times 2 = 6
+        </md>
+        Because we had an odd number of negative signs, the final answer is negative:
+        <md>
+            -3\times 2 = -6
+        </md>
+        
+    </p>
+</example>
+
+<example>
+<p>
+    Calculate:
+    <md>
+        (-5)(-4)
+    </md>
+</p>
+<p>
+    Solution: First, we count the number of negative signs in this multiplication problem. We have 2 negative signs here, an even number of negative signs.
+</p>
+<p>
+   Then, we multiply the numbers as if they were both positive:
+   <md>
+    (5)(4) = 20
+   </md>
+    Because we had an even number of negative signs, the final answer is positive.
+</p>
+</example>
+
+<assemblage>
+    <title>Be Careful</title>
+    <p>
+        The problem
+        <md>
+            (-5)(-4)
+        </md>
+        is a multiplication problem, “negative 5 times negative 4.” Both of these <m>-</m> signs mean “negative,” because both of them have ( on their left side.
+        The problem
+        <md>
+            -5-4
+        </md>
+        is a subtraction problem (“negative 5 minus 4”). The first - means negative because there is nothing on its left side. The second <m>-</m> means subtract 
+        because it has something that's not ( on its left side.
+
+    </p>
+</assemblage>
+
+<example>
+    <p>
+        Calculate
+        <md>
+            (-2)^5
+        </md>
+    </p>
+    <p>
+        Solution:Remember that when we raise a number to the fifth power, that means we need to multiply together 5 copies of that number:
+        <md>
+            (-2)\times (-2)\times (-2)\times (-2) \times (-2)
+        </md>
+        We count the number of negative signs in this multiplication problem. We have 5 negative signs here, an odd number of negative signs.
+    </p>
+    <p>
+        Then, we multiply the numbers as if they were all positive:
+        <md>
+           (2)\times (2)\times (2)\times (2) \times (2) = 32 
+        </md>
+        Because we had an odd number of negative signs, the final answer is negative: -8.
+        </p>
+</example>
+<p>
+    <alert>Multiplication and Division with Zero</alert>
+    <ul>
+        <li>
+            <p>
+                When you multiply a number by 0, as in <m>4\times 0</m>, the answer is always 0.
+            </p>
+            <p>
+                That's because you're adding 0 to itself multiple times: 0+0+0+0=0.
+            </p>
+        </li>
+        <li>
+            <p>
+                When you divide 0 by another number, as in <m>\frac{0}{3}</m>, the answer is always 0. 
+            </p>
+            <p>
+                That's because, if you start with 0 objects, and you split that into 3 smaller piles, every pile will also end up with 0 objects. 
+            </p>
+            </li>
+            <li>
+                <p>
+                    	When you divide by 0, as in <m>\frac{5}{0}</m>, the answer is always “does not exist,” or DNE for short.
+                </p>
+                <p>
+                    That's ultimately because dividing by 0 is not useful for anything in the real world or in mathematics. 
+                    If you try <m>5\div 0</m> in your calculator, you will just get an error message.
+                </p>
+            </li>
+    </ul>
+</p>
+<xi:include href="ws-s02e04.ptx" />
 </section>

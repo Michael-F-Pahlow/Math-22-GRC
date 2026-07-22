@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s02e04">
+    <introduction>
+        <p>
+            Perform the following integer calculations:
+        </p>
+    </introduction>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> -6\times 8 =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> \frac{-72}{-8} =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> 12\times (-5) =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> 90\div (-15) =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> -9\times -7=\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> -56\div 7 =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> 15\times (-4) =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> \frac{144}{-12} =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> -11\times 6 =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> 0\times (-12) =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> -14\times -3 =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> 14\times (-3) =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> \frac{-48}{6}=\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> \frac{0}{5} =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> (-3)^3 =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> (-2)^5 =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p> <md> (-5)^2 =\hspace{3.0in} </md> </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p> <md> (-1)^4 =\hspace{3.0in} </md> </p>
+        </exercise>
+    </sidebyside>
+</worksheet>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s02e03">
+    <introduction>
+        <p>
+            Perform the following integer subtractions:
+        </p>
+    </introduction>
+    <sidebyside>
+        <exercise workspace="1.0in">
+            <p> <m>9-14=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>25-30=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>-4-0=</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="1.0in">
+            <p> <m>-6-4=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>-8-(-12)=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>16-(-4)=</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="1.0in">
+            <p> <m>-10-(-3)=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>7-0=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>-20-5=</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="1.0in">
+            <p> <m>18-(-7)=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>0-9=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>3-(-11)=</m> </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="1.0in">
+            <p> <m>-15-6=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>0-(-5)=</m> </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p> <m>-9-(-9)=</m> </p>
+        </exercise>
+    </sidebyside>
+    <exercise workspace="2.0in">
+        <p>
+          The temperature is <m>5^{\circ}</m>C in the afternoon. Overnight, the temperature drops to <m>-4^{\circ}</m>C. How much did the temperature change?  
+        </p>
+    </exercise>
+    <exercise workspace="2.0in">
+       <p>
+        A bank account balance is $12. After a withdrawal, the balance becomes –$8.
+How much money was withdrawn?
+       </p>
+    </exercise>
+    <exercise workspace="2.0in">
+        <p>
+            A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?
+            </p>
+    </exercise>
+</worksheet>

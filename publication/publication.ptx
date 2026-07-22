@@ -17,8 +17,5 @@
         <calculator model = "geogebra-graphing"/>
         <css palette ="greens"/>
         </html>
-    <numbering>
-        <examples level="0"/>
-        <worksheets level="0"/>
-    </numbering>
+    
 </publication>

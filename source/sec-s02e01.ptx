@@ -120,10 +120,10 @@
             Number lines can also be vertical. In a vertical number line, negative numbers are below 0, and positive numbers are above 0.
         </p>
         <figure>
-        <caption>A verticalnumber line</caption>
-        <image width="100%">
+        <caption>A vertical number line</caption>
+        <image width="100">
         <prefigure label="pf-vertical-nl" xmlns="https://prefigure.org">
-        <diagram dimensions="(250,25)" margins="5">
+        <diagram dimensions="(50,500)" margins="5">
         <coordinates bbox="(-1,-6,1,6)">
         <axes axes="vertical" arrows="2" vticks="(-5,1,5)"
         vlabels="(-5,1,5)" thickness="1" tick-size="3" />
@@ -144,7 +144,7 @@
         <p>
             Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
             <md>
-                2 \hspace{1.0in} 7
+                2 \hspace{0.5in} 7
             </md>
           Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7:
           <md>2 \lt 7</md>
@@ -156,7 +156,7 @@
         <p>
             Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
             <md>
-                2 \hspace{1.0in} -7
+                2 \hspace{0.5in} -7
             </md>
           Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2:
           <md>2 \gt -7</md>
@@ -167,7 +167,7 @@
         <p>
             Put the correct symbol, <m>\gt</m> or <m>\lt</m> between the two integers
             <md>
-                -2 \hspace{1.0in} -7
+                -2 \hspace{0.5in} -7
             </md>
           Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2:
           <md>-2 \gt -7</md>

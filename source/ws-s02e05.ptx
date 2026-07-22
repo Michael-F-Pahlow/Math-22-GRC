@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<worksheet xml:id="ws-s02e05">
+    <introduction>
+        <p>
+            Use PEMDAS to calculate the following quantities:
+        </p>
+    </introduction>
+    <exercise workspace="0.25in">
+       <p>
+        <m>-3+5\times (-2) = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>2\times (-3+5)-(-4) = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>(-4)^2-3\times(-2) = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <md>\frac{(-5)^2-(-2)}{3} = \hspace{7.0in}</md>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>-6\div 2+(-7) = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>-8+3\times (-2)^2 = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>(-3+7)\times(-2) = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>(-2)^3 + 4\times (-3)= </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>12\div (-3) + (-5)^2 = </m>
+       </p>
+    </exercise>
+    <exercise workspace="0.25in">
+       <p>
+        <m>5\times [(-2)+(-3)^2]-(-6) = </m>
+       </p>
+    </exercise>
+</worksheet>
