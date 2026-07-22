@@ -514,6 +514,861 @@ var ptx_lunr_docs = [
   "body": " The temperatures (in C) for a week were 18, 20, 22, 19, 21, 23, and 20. What is the median temperature for the week?  "
 },
 {
+  "id": "sec-s02e01",
+  "level": "1",
+  "url": "sec-s02e01.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "What Negative Numbers Represent",
+  "body": " What Negative Numbers Represent   Episode 1 Learning Goals     Give examples of real-world quantities represented by negative numbers.    Plot integers on a number line.    Compare integers using and        Episode 1 Key Terminology     Integer    Number line       Episode 1 Key Symbols          Negative Numbers are used to represent quantities below 0.    Symbolically, negative numbers are written using a sign, as in (read aloud as “negative 5” or “minus 5.”)  For example, when measuring temperatures, 0 degrees Celsius is the temperature at which water freezes. Temperatures colder than 0 would be represented by a negative number, such as -10.  Negative numbers can also be used to represent overdrawn bank accounts, or to represent debts.  The word integer means a whole number that might be positive or negative or zero.   Be Careful  Notice that the symbol is used to represent subtraction: And it is also used to represent negative numbers: The symbol means “negative” if there is nothing or if there is a ( on the left side of the sign.  The symbol means “subtract” otherwise.     A number line is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and negative numbers (it displays integers).     A horizontal number line            On a horizontal number line, negative numbers are positioned to the left of 0, and positive numbers are located to the right of 0.   Number lines can also be vertical. In a vertical number line, negative numbers are below 0, and positive numbers are above 0.   A vertical number line             We can use the symbol (read aloud as “is greater than”) or the symbol (read aloud as “is less than”) to compare two integers.  When we use these symbols, we place the symbol between two numbers, with the “alligator mouth” pointing toward the number that is “hotter.”   Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7: We would read this aloud as: “2 is less than 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2: We would read this aloud as: “2 is greater than negative 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2: We would read this aloud as: “negative 2 is greater than negative 7.”    Mnemonic  A mnemonic for how to use the symbols and is:  “The alligator likes hot food!”  We think of the “mouth” of the and symbols as being like the mouth of an alligator who is eating the numbers. 🐊    Notice Something Neat  On a horizontal number line, the hotter number is always on the right. So, we can also say that because when we mark -2 and -7 on a number line, the number -2 is on the right.     Mark the following integers on a horizontal number line:   -3    -7    0    4                 Put the correct symbol, or , between the pairs of integers:                                                             "
+},
+{
+  "id": "def-negative-numbers",
+  "level": "2",
+  "url": "sec-s02e01.html#def-negative-numbers",
+  "type": "Definition",
+  "number": "2.1.1",
+  "title": "",
+  "body": "   Negative Numbers are used to represent quantities below 0.   "
+},
+{
+  "id": "sec-s02e01-9",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "integer "
+},
+{
+  "id": "def-number-line",
+  "level": "2",
+  "url": "sec-s02e01.html#def-number-line",
+  "type": "Definition",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  A number line is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and negative numbers (it displays integers).   "
+},
+{
+  "id": "sec-s02e01-12",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-12",
+  "type": "Figure",
+  "number": "2.1.3",
+  "title": "",
+  "body": " A horizontal number line           "
+},
+{
+  "id": "sec-s02e01-14-2",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-14-2",
+  "type": "Figure",
+  "number": "2.1.4",
+  "title": "",
+  "body": " A vertical number line           "
+},
+{
+  "id": "sec-s02e01-17",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-17",
+  "type": "Example",
+  "number": "2.1.5",
+  "title": "",
+  "body": " Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7: We would read this aloud as: “2 is less than 7.”  "
+},
+{
+  "id": "sec-s02e01-18",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-18",
+  "type": "Example",
+  "number": "2.1.6",
+  "title": "",
+  "body": " Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2: We would read this aloud as: “2 is greater than negative 7.”  "
+},
+{
+  "id": "sec-s02e01-19",
+  "level": "2",
+  "url": "sec-s02e01.html#sec-s02e01-19",
+  "type": "Example",
+  "number": "2.1.7",
+  "title": "",
+  "body": " Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2: We would read this aloud as: “negative 2 is greater than negative 7.”  "
+},
+{
+  "id": "ws-s02e01-1",
+  "level": "2",
+  "url": "sec-s02e01.html#ws-s02e01-1",
+  "type": "Worksheet Exercise",
+  "number": "2.1.1",
+  "title": "",
+  "body": " Mark the following integers on a horizontal number line:   -3    -7    0    4              "
+},
+{
+  "id": "ws-s02e01-2",
+  "level": "2",
+  "url": "sec-s02e01.html#ws-s02e01-2",
+  "type": "Worksheet Exercise",
+  "number": "2.1.2",
+  "title": "",
+  "body": "  Put the correct symbol, or , between the pairs of integers:                                                           "
+},
+{
+  "id": "sec-s02e02",
+  "level": "1",
+  "url": "sec-s02e02.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Adding Integers",
+  "body": " Adding Integers   Episode 2 Learning Goals     Add integers       Episode 2 Key Terminology     Sign      Suppose your bank account is overdrawn by $18. The balance in your account is represented by a negative number, -18.  Then your deposit $50 into the account. You’re combining two piles of money, one “negative” pile representing your debt, and one “positive” pile representing your deposit.  To find out how much money you have in your account in the end, we would add these two integers:     The sign of an integer is whether it’s positive, negative, or zero    The sign of -3 is negative.  The sign of 5 is positive.  The sign of 0 is zero (no sign).   How to Add Integers    If the integers are both negative:  Add the integers together as if they were both positive, then apply a negative sign to the result.    If one of the integers is positive and the other one is negative:  Find the difference between the integers as if they were both positive. Then, take the sign of the bigger integer, and apply that sign to the result.      Calculate   Solution: We are adding a negative number, -18, to a positive number, 50. So, we find the difference between 50 and 18 first: Then, we notice that the positive 50 is bigger than the negative 18. So we make our final answer positive: 32    Makes Sense, Right?  If we start with our bank account overdrawn by $18, and then deposit $50, some of that $50 will go to cover the debt, and then some will be leftover to fill up our account.    Calculate:   Solution: We are adding a negative number, -8, to another negative number, -4. So, we add together the numbers as if they were both positive: Then, we apply a negative sign to our final answer:     Makes Sense, Right?  If we start with our bank account overdrawn by $8, and then take on another debt of $4, we end up in even more debt than we started with.    Calculate:   Solution: We are adding a negative number, -40, to a positive number, 5. So, we find the difference between 40 and 5 first: Then, we notice that the negative 40 is bigger than the positive 5. So we make our final answer negative:     Makes Sense, Right?  If we start with our bank account overdrawn by $40, and then deposit $5, that will only be enough to pay off some of our debt.   When we write addition problems containing integers, we don't want to have a + symbol directly next to a - symbol.  To separate the + and -, when we add a negative number, we put the negative number in parentheses:   Adding 0 (adding nothing) doesn't change an integer:     Calculate the answer to the following addition problems:                                                                                        A bank account has a balance of –$45 (money owed). A deposit of $30 is made. What is the new balance?    An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?    "
+},
+{
+  "id": "def-sign",
+  "level": "2",
+  "url": "sec-s02e02.html#def-sign",
+  "type": "Definition",
+  "number": "2.2.1",
+  "title": "",
+  "body": "  The sign of an integer is whether it’s positive, negative, or zero   "
+},
+{
+  "id": "sec-s02e02-8",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-8",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign "
+},
+{
+  "id": "sec-s02e02-9",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign "
+},
+{
+  "id": "sec-s02e02-10",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-10",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "sign "
+},
+{
+  "id": "sec-s02e02-12",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-12",
+  "type": "Example",
+  "number": "2.2.2",
+  "title": "",
+  "body": " Calculate   Solution: We are adding a negative number, -18, to a positive number, 50. So, we find the difference between 50 and 18 first: Then, we notice that the positive 50 is bigger than the negative 18. So we make our final answer positive: 32  "
+},
+{
+  "id": "sec-s02e02-14",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-14",
+  "type": "Example",
+  "number": "2.2.3",
+  "title": "",
+  "body": " Calculate:   Solution: We are adding a negative number, -8, to another negative number, -4. So, we add together the numbers as if they were both positive: Then, we apply a negative sign to our final answer:   "
+},
+{
+  "id": "sec-s02e02-16",
+  "level": "2",
+  "url": "sec-s02e02.html#sec-s02e02-16",
+  "type": "Example",
+  "number": "2.2.4",
+  "title": "",
+  "body": " Calculate:   Solution: We are adding a negative number, -40, to a positive number, 5. So, we find the difference between 40 and 5 first: Then, we notice that the negative 40 is bigger than the positive 5. So we make our final answer negative:   "
+},
+{
+  "id": "ws-s02e02-2-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-2-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-2-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-3-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-3-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-4-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-4-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-5-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-5-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-5-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-5-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-6-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-6-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-6-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-7-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-7-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-7-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-7-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-8-1",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-8-1",
+  "type": "Worksheet Exercise",
+  "number": "2.2.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-8-2",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-8-2",
+  "type": "Worksheet Exercise",
+  "number": "2.2.14",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e02-9",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-9",
+  "type": "Worksheet Exercise",
+  "number": "2.2.15",
+  "title": "",
+  "body": " A bank account has a balance of –$45 (money owed). A deposit of $30 is made. What is the new balance?  "
+},
+{
+  "id": "ws-s02e02-10",
+  "level": "2",
+  "url": "sec-s02e02.html#ws-s02e02-10",
+  "type": "Worksheet Exercise",
+  "number": "2.2.16",
+  "title": "",
+  "body": " An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?  "
+},
+{
+  "id": "sec-s02e03",
+  "level": "1",
+  "url": "sec-s02e03.html",
+  "type": "Section",
+  "number": "2.3",
+  "title": "Subtracting Integers",
+  "body": " Subtracting Integers   Episode 3 Learning Goals     Subtract Integers       Episode 3 Learning Goals     Opposite      A person owes $3000 of student loan debt, represented by the negative number -3000. Then, $2000 is cancelled. Because we are removing some debt, this is a subtraction problem: (Read aloud as “negative 3000 minus negative 2000.”)    The opposite of a positive number is the negative version of that number. For example, the opposite of 7 is -7.  The opposite of a negative number is the positive version of that number. For example, the opposite of -4 is 4.  The opposite of zero is zero.    Symbolically, the opposite is represented by putting an extra negative sign on the number. For example, if we want to say “find the opposite of -7” in symbols, we would write:    How to Subtract Integers   To subtract an integer, add the opposite.   Calculate   Solution: Instead of subtracting -2000, we will add the opposite, 2000. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -3000 and 2000 have opposite signs, so we find their difference: The negative number 3000 is bigger, so we make the final answer negative: -1000    Makes Sense, Right?  If we’re $3000 in debt, and someone cancels $2000 of our debt, we still have some debt left that we have to pay off.    Calculate   Instead of subtracting 4, we add the opposite, -4. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -24 and -4 are both negative, so we add them together as if they were both positive: Then we make the final answer negative: -28    Makes Sense, Right?  If we're $24 overdrawn already, and then we try to withdraw another $4, then we end up even more overdrawn than we were at the start.    The temperature was 30 degrees Fahrenheit in the day and then dropped to -20 degrees Fahrenheit at night. How much did the temperature decrease?  Solution: This question is asking us for the difference between the daytime and nighttime temperature, so this is a subtraction problem. We add the opposite of -20: The temperature decreased by 50 degrees.     Perform the following integer subtractions:                                                                                         The temperature is C in the afternoon. Overnight, the temperature drops to C. How much did the temperature change?    A bank account balance is $12. After a withdrawal, the balance becomes –$8. How much money was withdrawn?    A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?    "
+},
+{
+  "id": "def-opposite",
+  "level": "2",
+  "url": "sec-s02e03.html#def-opposite",
+  "type": "Definition",
+  "number": "2.3.1",
+  "title": "",
+  "body": "  The opposite of a positive number is the negative version of that number. For example, the opposite of 7 is -7.  The opposite of a negative number is the positive version of that number. For example, the opposite of -4 is 4.  The opposite of zero is zero.   "
+},
+{
+  "id": "sec-s02e03-9",
+  "level": "2",
+  "url": "sec-s02e03.html#sec-s02e03-9",
+  "type": "Example",
+  "number": "2.3.2",
+  "title": "",
+  "body": " Calculate   Solution: Instead of subtracting -2000, we will add the opposite, 2000. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -3000 and 2000 have opposite signs, so we find their difference: The negative number 3000 is bigger, so we make the final answer negative: -1000  "
+},
+{
+  "id": "sec-s02e03-11",
+  "level": "2",
+  "url": "sec-s02e03.html#sec-s02e03-11",
+  "type": "Example",
+  "number": "2.3.3",
+  "title": "",
+  "body": " Calculate   Instead of subtracting 4, we add the opposite, -4. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -24 and -4 are both negative, so we add them together as if they were both positive: Then we make the final answer negative: -28  "
+},
+{
+  "id": "sec-s02e03-13",
+  "level": "2",
+  "url": "sec-s02e03.html#sec-s02e03-13",
+  "type": "Example",
+  "number": "2.3.4",
+  "title": "",
+  "body": " The temperature was 30 degrees Fahrenheit in the day and then dropped to -20 degrees Fahrenheit at night. How much did the temperature decrease?  Solution: This question is asking us for the difference between the daytime and nighttime temperature, so this is a subtraction problem. We add the opposite of -20: The temperature decreased by 50 degrees.  "
+},
+{
+  "id": "ws-s02e03-2-1",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-2-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-2-2",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-2-3",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-2-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-3-1",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-3-2",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-3-3",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-3-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-4-1",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-4-2",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-4-3",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-4-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-5-1",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-5-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-5-2",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-5-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-5-3",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-5-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-6-1",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2.3.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-6-2",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-6-2",
+  "type": "Worksheet Exercise",
+  "number": "2.3.14",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-6-3",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-6-3",
+  "type": "Worksheet Exercise",
+  "number": "2.3.15",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e03-7",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-7",
+  "type": "Worksheet Exercise",
+  "number": "2.3.16",
+  "title": "",
+  "body": " The temperature is C in the afternoon. Overnight, the temperature drops to C. How much did the temperature change?  "
+},
+{
+  "id": "ws-s02e03-8",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-8",
+  "type": "Worksheet Exercise",
+  "number": "2.3.17",
+  "title": "",
+  "body": " A bank account balance is $12. After a withdrawal, the balance becomes –$8. How much money was withdrawn?  "
+},
+{
+  "id": "ws-s02e03-9",
+  "level": "2",
+  "url": "sec-s02e03.html#ws-s02e03-9",
+  "type": "Worksheet Exercise",
+  "number": "2.3.18",
+  "title": "",
+  "body": " A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?  "
+},
+{
+  "id": "sec-s02e04",
+  "level": "1",
+  "url": "sec-s02e04.html",
+  "type": "Section",
+  "number": "2.4",
+  "title": "Multiplying and Dividing Integers",
+  "body": " Multiplying and Dividing Integers   Episode 4 Learning Goals     Multiply Integers    Divide Integers    Raise an integer to a power.       Episode 4 Key Terminology     Even    Odd        An even number is one that can be evenly divided by 2.    For example, the numbers 0, 2, 4, 6, and 8 are all even.    An odd number is a whole number that cannot be evenly divided by 2.    For example, the numbers 1, 3, 5, 7, and 9 are all odd.   How to Multiply and Divide Integers    Count the negative signs in the problem.    Multiply\/divide the integers as if they were all positive.    If the count of negative signs is odd, make the final answer negative. If the count is even, make the final answer positive.      Calculate:   First, we count the number of negative signs in this division problem. We have 2 negative signs here, an even number of negative signs.  Then, we divide the numbers as if they were both positive: Because we had an even number of negative signs, the final answer is also positive.    Calculate:   Solution: First, we count the number of negative signs in this multiplication problem. We have 1 negative sign here, an odd number of negative signs. Because we had an odd number of negative signs, the final answer is negative:     Calculate:   Solution: First, we count the number of negative signs in this multiplication problem. We have 2 negative signs here, an even number of negative signs.  Then, we multiply the numbers as if they were both positive: Because we had an even number of negative signs, the final answer is positive.    Be Careful  The problem is a multiplication problem, “negative 5 times negative 4.” Both of these signs mean “negative,” because both of them have ( on their left side. The problem is a subtraction problem (“negative 5 minus 4”). The first - means negative because there is nothing on its left side. The second means subtract because it has something that's not ( on its left side.    Calculate   Solution:Remember that when we raise a number to the fifth power, that means we need to multiply together 5 copies of that number: We count the number of negative signs in this multiplication problem. We have 5 negative signs here, an odd number of negative signs.  Then, we multiply the numbers as if they were all positive: Because we had an odd number of negative signs, the final answer is negative: -8.    Multiplication and Division with Zero    When you multiply a number by 0, as in , the answer is always 0.  That's because you're adding 0 to itself multiple times: 0+0+0+0=0.    When you divide 0 by another number, as in , the answer is always 0.  That's because, if you start with 0 objects, and you split that into 3 smaller piles, every pile will also end up with 0 objects.    When you divide by 0, as in , the answer is always “does not exist,” or DNE for short.  That's ultimately because dividing by 0 is not useful for anything in the real world or in mathematics. If you try in your calculator, you will just get an error message.       Perform the following integer calculations:                                                                                                                "
+},
+{
+  "id": "def-even-number",
+  "level": "2",
+  "url": "sec-s02e04.html#def-even-number",
+  "type": "Definition",
+  "number": "2.4.1",
+  "title": "",
+  "body": "  An even number is one that can be evenly divided by 2.   "
+},
+{
+  "id": "def-odd-number",
+  "level": "2",
+  "url": "sec-s02e04.html#def-odd-number",
+  "type": "Definition",
+  "number": "2.4.2",
+  "title": "",
+  "body": "  An odd number is a whole number that cannot be evenly divided by 2.   "
+},
+{
+  "id": "sec-s02e04-9",
+  "level": "2",
+  "url": "sec-s02e04.html#sec-s02e04-9",
+  "type": "Example",
+  "number": "2.4.3",
+  "title": "",
+  "body": " Calculate:   First, we count the number of negative signs in this division problem. We have 2 negative signs here, an even number of negative signs.  Then, we divide the numbers as if they were both positive: Because we had an even number of negative signs, the final answer is also positive.  "
+},
+{
+  "id": "sec-s02e04-10",
+  "level": "2",
+  "url": "sec-s02e04.html#sec-s02e04-10",
+  "type": "Example",
+  "number": "2.4.4",
+  "title": "",
+  "body": " Calculate:   Solution: First, we count the number of negative signs in this multiplication problem. We have 1 negative sign here, an odd number of negative signs. Because we had an odd number of negative signs, the final answer is negative:   "
+},
+{
+  "id": "sec-s02e04-11",
+  "level": "2",
+  "url": "sec-s02e04.html#sec-s02e04-11",
+  "type": "Example",
+  "number": "2.4.5",
+  "title": "",
+  "body": " Calculate:   Solution: First, we count the number of negative signs in this multiplication problem. We have 2 negative signs here, an even number of negative signs.  Then, we multiply the numbers as if they were both positive: Because we had an even number of negative signs, the final answer is positive.  "
+},
+{
+  "id": "sec-s02e04-13",
+  "level": "2",
+  "url": "sec-s02e04.html#sec-s02e04-13",
+  "type": "Example",
+  "number": "2.4.6",
+  "title": "",
+  "body": " Calculate   Solution:Remember that when we raise a number to the fifth power, that means we need to multiply together 5 copies of that number: We count the number of negative signs in this multiplication problem. We have 5 negative signs here, an odd number of negative signs.  Then, we multiply the numbers as if they were all positive: Because we had an odd number of negative signs, the final answer is negative: -8.  "
+},
+{
+  "id": "ws-s02e04-2-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-2-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-2-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-2-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-3-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-3-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-3-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-3-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-4-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-4-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-4-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-4-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-5-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-5-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-5-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-5-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-6-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-6-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-6-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-6-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-7-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-7-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-7-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-7-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-8-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-8-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-8-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-8-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.14",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-9-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-9-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.15",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-9-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-9-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.16",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-10-1",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-10-1",
+  "type": "Worksheet Exercise",
+  "number": "2.4.17",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e04-10-2",
+  "level": "2",
+  "url": "sec-s02e04.html#ws-s02e04-10-2",
+  "type": "Worksheet Exercise",
+  "number": "2.4.18",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-s02e05",
+  "level": "1",
+  "url": "sec-s02e05.html",
+  "type": "Section",
+  "number": "2.5",
+  "title": "PEMDAS Integers",
+  "body": " PEMDAS Integers   Episode Learning Goals     Perform multi-step calculations involving integers.      The same rules of PEMDAS apply when working with integers   Calculate   Solution: First, we work on the calculation inside the innermost parentheses, : Then, we work on the calculation inside the brackets, . Applying PEMDAS here, we calculate the exponent next: We calculate the multiplication next: Then the subtraction: Finally, we remember that the extra - is telling us to find the opposite of -33. So our answer is     Be Careful  There is a difference between By default, an exponent only applies to the single symbol directly underneath it. So in only the 3 is getting copied, not the : If you want to copy the entire quantity -3, then you need to wrap -3 in parentheses before applying the exponent, like in :      Use PEMDAS to calculate the following quantities:                                                      "
+},
+{
+  "id": "sec-s02e05-4",
+  "level": "2",
+  "url": "sec-s02e05.html#sec-s02e05-4",
+  "type": "Example",
+  "number": "2.5.1",
+  "title": "",
+  "body": " Calculate   Solution: First, we work on the calculation inside the innermost parentheses, : Then, we work on the calculation inside the brackets, . Applying PEMDAS here, we calculate the exponent next: We calculate the multiplication next: Then the subtraction: Finally, we remember that the extra - is telling us to find the opposite of -33. So our answer is   "
+},
+{
+  "id": "ws-s02e05-2",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-2",
+  "type": "Worksheet Exercise",
+  "number": "2.5.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-3",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-3",
+  "type": "Worksheet Exercise",
+  "number": "2.5.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-4",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-4",
+  "type": "Worksheet Exercise",
+  "number": "2.5.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-5",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-5",
+  "type": "Worksheet Exercise",
+  "number": "2.5.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-6",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-6",
+  "type": "Worksheet Exercise",
+  "number": "2.5.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-7",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-7",
+  "type": "Worksheet Exercise",
+  "number": "2.5.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-8",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-8",
+  "type": "Worksheet Exercise",
+  "number": "2.5.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-9",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-9",
+  "type": "Worksheet Exercise",
+  "number": "2.5.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-10",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-10",
+  "type": "Worksheet Exercise",
+  "number": "2.5.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s02e05-11",
+  "level": "2",
+  "url": "sec-s02e05.html#ws-s02e05-11",
+  "type": "Worksheet Exercise",
+  "number": "2.5.10",
+  "title": "",
+  "body": "    "
+},
+{
   "id": "resources",
   "level": "1",
   "url": "resources.html",
