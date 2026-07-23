@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-s03e01">
+    <title>Episode 1: What Fractions Represent</title>
+    <assemblage>
+        <title>Episode 1 Learning Goals</title>
+        <p>
+           <ul>
+            <li>
+                <p>
+                  Determine the physical quantity represented by a fraction.  
+                </p>
+            </li>
+            <li>
+                <p>
+                   Interpret fractions on physical objects such as measuring tapes and measuring cups.  
+                </p>
+            </li>
+           </ul> 
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 1 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Fraction
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Numerator
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Denominator
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+
+    <definition xml:id="def-fraction">
+        <statement>
+            <p>
+                A <term>fraction</term> A fraction represents a portion of a whole.
+            </p>
+        </statement>
+    </definition>
+    <p>
+      Fractions are related to division. The fraction <m>\frac{1}{4}</m> also written as 1/4, would correspond to dividing 1 object into 4 portions: 
+      <ol>
+        <li>
+            <p>
+                You would have to start by cutting the object into 4 equally sized pieces.
+            </p>
+        </li>
+        <li>
+            <p>
+                Then each portion would consist of 1 of those pieces. 
+            </p>
+        </li>
+      </ol>
+    </p>
+    <sidebyside>
+        <figure>
+            <caption>1/4 of a round pizza</caption>
+        <image>
+            <shortdescription>1/4 of a round pizza</shortdescription>
+            <prefigure>
+                <diagram dimensions="(300,300)" margins="5">
+                <coordiantes bbox= "(-5,-5,5,5)">
+                <axes decorations="no">
+                    <circle center="(0,0)" radius="4.5" stroke="grey" thickness="2"/>
+                    <arc center="(0,0)" radius="4.5" stroke="orange" thickness="5" range="(-3*pi/2,0)"/>
+                    <arc center="(0,0)" radius="4.25" stroke="red" thickness="5" range="(-3*pi/2,0)"/>
+                    <arc center="(0,0)" radius="4.0"  sector="yes" fill="yellow" range="(-3*pi/2,0)"/>
+                </axes>
+                </coordinates>
+                </diagram>
+             </prefigure>   
+        </image>
+        </figure>
+        <figure>
+            <caption>1/4 of a square</caption>
+        <image>
+            <shortdescription>1/4 of square</shortdescription>
+            <prefigure>
+                <diagram dimensions="(300,300)" margins="5">
+                <coordiantes bbox= "(-5,-5,5,5)">
+                <axes decorations="no" stroke="grey">
+                    <rectangle center="(0,0)" dimensions="(10,10)" stroke="grey" thickness="2"/>
+                    <rectangle center="(-2.5,2.5)" dimensions="(5,5)" fill="grey">
+                </axes>
+                </coordinates>
+                </diagram>
+             </prefigure>   
+        </image>
+        </figure>
+    </sidebyside>
+
+    
+</section>

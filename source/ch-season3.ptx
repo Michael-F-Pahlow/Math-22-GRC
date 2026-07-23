@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-season3">
+    <title>Season 3: Fractions </title>
+    <introduction>
+        <p>
+           So far, we've only worked with whole numbers, which represent whole objects, like 8 apples, 5 cups, or 9 inches. 
+           Fractions give us a way to work with portions of a whole, like half of an apple, one third of a cup, 
+           a quarter-pounder hamburger, or an eighth of an inch. If you've ever used a measuring cup or a measuring tape, you've 
+           used fractions. 
+        </p>
+    </introduction>
+
+    <xi:include href="sec-s03e01.ptx" />
+    <xi:include href="sec-s03e02.ptx" />
+    <xi:include href="sec-s03e03.ptx" />
+    <xi:include href="sec-s03e04.ptx" />
+    <xi:include href="sec-s03e05.ptx" />
+    <xi:include href="sec-s03e06.ptx" />
+    <xi:include href="sec-s03e07.ptx" />
+    <xi:include href="sec-s03e08.ptx" />
+    <xi:include href="sec-s03e09.ptx" />
+    <xi:include href="sec-s03e10.ptx" />
+    <xi:include href="sec-s03e11.ptx" />
+
+</chapter>
