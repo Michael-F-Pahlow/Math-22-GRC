@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="sec-s03e03">
+<section xml:id="sec-s03e03" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 3: Multiplying Fractions</title>
     <assemblage>
         <title>Episode 3 Learning Goals</title>
@@ -176,7 +176,7 @@
             </md>
             Notice that the number 3 divides the second numerator and the first denominator, so divide each of those by 3:
             <md>
-                \frac{1}{3/div 3}\times \frac{9\div 3}{5} = \frac{1}{1}\times\frac{3}{5}
+                \frac{1}{3\div 3}\times \frac{9\div 3}{5} = \frac{1}{1}\times\frac{3}{5}
             </md>
             Now we finish the multiplication:
             <md>
@@ -194,4 +194,31 @@
     <p>
         When working with negative fractions, use the same rules for multiplying negative numbers that we learned back in Season 2.
     </p>
+    <example>
+        <p>
+            Multiply:
+            <md>
+                \left(\frac{1}{2}\right)\times\left(-\frac{4}{5}\right)
+            </md>
+        </p>
+        <p>
+            Solution: We start by counting the number of minus signs in the problem. There is one minus sign. Then, we multiply the numbers as if they were both positive:
+            <md>
+                \frac{1}{2}\times\frac{4}{5}
+            </md>
+            Cross-cancel the 2s in the 2 and in the 4:
+            <md>
+                \frac{1}{1}\times\frac{2}{5}
+            </md>
+            Then multiply the numerators and multiply the denominators:
+            <md>
+                \frac{1\times 2}{1\times 5} = \frac{2}{5}
+            </md>
+            Remember that the original problem had one minus sign, an odd number. So, that means the final answer must be negative:
+            <md>
+                -\frac{2}{5}
+            </md>
+            
+        </p>
+    </example>
 </section>

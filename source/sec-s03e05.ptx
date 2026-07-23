@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-s03e05" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Episode 5: Unit Conversion</title>
+    <assemblage>
+        <title>Episode 5 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Convert from one unit of measurement to using simple unit analysis (e.g. cm to m, pounds to ounces, inches to feet)
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <p>
+        We can convert measurements in one unit (e.g. feet) to measurements in another unit (e.g. inches) using the following 3-step process:
+        <ol>
+            <li>
+                <p>
+                    Look up the relationship between the units you have and the units you desire.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Turn this relationship into a fraction, with the units you have on the bottom and the units you desire on the top:
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiply the given measurement by the fraction from Step 2.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+      <p>
+        A person weighs 72 kilograms. What is their weight in grams?
+      </p>  
+      <p>
+        Step 1: Look up the relationship between the units you have (kilograms) and the units you want / desire (grams).
+      </p>
+      <p>
+        1 kilogram = 1000 grams
+      </p>
+      <p>
+        Step 2: Turn this relationship into a fraction with the units you have on the bottom and the units you want on the top:
+        <md>
+            \frac{\text{desire}}{\text{have}} \leftrightarrow \frac{1000\text{grams}}{1\text{kilogram}}
+        </md>
+      </p>
+      <p>
+        Step 3: Multiply the given weight by this fraction: 
+
+        <md>
+            72\,\, \text{kilograms}\times \frac{1000\,\,\text{grams}}{1\,\, \text{kilogram}} = 72,000\,\,\text{grams}
+        </md>
+      </p>
+    </example>
+    <assemblage>
+        <title>Notice Something Neat</title>
+        <p>
+            Units in a fraction can be “cross-cancelled” just like numbers. That's why we put the units we have in the denominator: so they will get cancelled out.
+            <md>72 \cancel{\text{kilograms}}\times \frac{1000\,\,\text{grams}}{1 \cancel{\text{kilogram}}} = 72,000\,\,\text{grams} </md>
+        </p>
+    </assemblage>
+</section>

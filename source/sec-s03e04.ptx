@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-s03e04" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Episode 4: Units</title>
+    <assemblage>
+        <title>Episode 4 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Interpret common units for volume, length, area, weight, etc.
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        (Physical manipulatives) Measure volume, length, area, weight using physical tools 
+                        (measuring tape, measuring cups, scales, etc.) and report the measured volume using the appropriate units.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <table>
+  <title>Table of Common Length Units</title>
+  <tabular halign="center" top="minor" bottom="minor" left="minor">
+  <col right="major"/> <col right="minor"/><col right="minor"/>
+    <row header="yes">
+      <cell></cell>
+        <cell>Imperial (American)</cell>
+        <cell>Metric</cell>
+        </row>
+    <row>
+        <cell>Large Lengths</cell>
+        <cell>miles (mi)</cell>
+        <cell>kilometers (km)</cell>
+    </row>
+    <row>
+        <cell>Medium Lengths</cell>
+        <cell>feet (ft)</cell>
+        <cell>meters (m)</cell>
+    </row>
+    <row>
+        <cell>Small Lengths</cell>
+        <cell>inches (in)</cell>
+        <cell>centimeters (cm)</cell>
+    </row>
+    <row>
+        <cell>Very Small Lengths</cell>
+        <cell></cell>
+        <cell>millimeters (mm)</cell>
+    </row>
+  </tabular>
+</table>
+<p>
+    <alert>Examples of these units in real life:</alert>
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                1 foot is about the length of your forearm.
+            </p>
+        </li>
+        <li>
+            <p>
+                1 inch is about the length of the first joint on your index finger.
+            </p>
+        </li>
+        <li>
+            <p>
+                1 centimeter is about the width of your pinky fingernail
+            </p>
+        </li>
+        <li>
+            <p>
+                A tall person might be about 2 meters tall, or about 6 feet tall. 
+            </p>
+        </li>
+        <li>
+            <p>
+                The width of the head of a screw is usually between 1 and 7 millimeters depending on the screw size.
+            </p>
+        </li>
+    </ul>
+</p>
+<table>
+<title>Table of Common Weight Units</title>
+  <tabular halign="center" top="minor" bottom="minor" left="minor">
+  <col right="major"/> <col right="minor"/><col right="minor"/>
+    <row header="yes">
+      <cell></cell>
+        <cell>Imperial (American)</cell>
+        <cell>Metric</cell>
+        </row>
+    <row>
+        <cell>Large Weights</cell>
+        <cell>tons</cell>
+        <cell>metric tons</cell>
+    </row>
+    <row>
+        <cell>Medium Weights</cell>
+        <cell>pounds (lb)</cell>
+        <cell>kilograms (kg)</cell>
+    </row>
+    <row>
+        <cell>Small Weights</cell>
+        <cell>ounces (oz)</cell>
+        <cell>grams (g)</cell>
+    </row>
+    <row>
+        <cell>Very Small weights</cell>
+        <cell></cell>
+        <cell>milligrams (mg)</cell>
+    </row>
+  </tabular>
+</table>
+
+  
+<p>
+    <alert>Examples of these units in real life</alert>
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                A pallet of bricks, or a small car, weighs around 1 ton.
+            </p>
+        </li>
+        <li>
+            <p>
+                A newborn baby might weigh around 8 pounds or 4 kilograms.
+            </p>
+        </li>
+        <li>
+            <p>
+                A tablet of ibuprofen might weigh around 200 milligrams.
+            </p>
+        </li>
+        <li>
+            <p>
+                A medium apple might weigh around 6 ounces.
+            </p>
+        </li>
+    </ul>
+</p>
+<p>
+    <alert>Common Units for Area</alert>
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                A “square inch” is a unit for area, referring to the area of a square patch that is one inch wide and one inch tall. 
+            </p>
+        </li>
+        <li>
+            <p>
+                A square kilometer is a unit for area, referring to the area of a square patch that is one kilometer wide and one kilometer tall.
+            </p>
+        </li>
+    </ul>
+    An acre is a special unit for area. One acre contains 640 square miles.
+</p>
+<p>
+    <alert>Common Units for Volume</alert>
+</p>
+<p>
+    <ul>
+        <li>
+            <p>
+                A “cubic inch” is a unit for volume, referring to the volume of a box that is one inch wide and one inch tall and one inch deep.
+            </p>
+        </li>
+        <li>
+            <p>
+                A “cubic centimeter” is a unit for volume, referring to the volume of a box that is one centimeter wide and one centimeter tall and one centimeter deep.
+            </p>
+        </li>
+    </ul>
+    A liter is a special unit for volume. You can buy a 2-liter bottle of soda in the grocery store.
+</p>
+<p>
+    Practice measuring lengths, areas, volumes, and weights of real-world objects using physical tools, such as scales, measuring cups, rulers, and measuring tapes!
+</p>
+</section>

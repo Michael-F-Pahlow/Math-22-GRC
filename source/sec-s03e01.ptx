@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<section xml:id="sec-s03e01">
+<section xml:id="sec-s03e01" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 1: What Fractions Represent</title>
     <assemblage>
         <title>Episode 1 Learning Goals</title>
@@ -66,16 +66,15 @@
     <sidebyside>
         <figure>
             <caption>1/4 of a round pizza</caption>
-        <image>
-            <prefigure>
+        <image width="90%">
+            <prefigure label="pf-quarter-pizza" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
-                <coordiantes bbox= "(-5,-5,5,5)">
-                <axes decorations="no">
+                <coordinates bbox= "(-5,-5,5,5)">
+                <axes decorations="no"> </axes>
                     <circle center="(0,0)" radius="4.5" stroke="grey" thickness="2"/>
-                    <arc center="(0,0)" radius="4.5" stroke="orange" thickness="5" range="(-3*pi/2,0)"/>
-                    <arc center="(0,0)" radius="4.25" stroke="red" thickness="5" range="(-3*pi/2,0)"/>
-                    <arc center="(0,0)" radius="4.0"  sector="yes" fill="yellow" range="(-3*pi/2,0)"/>
-                </axes>
+                    <arc center="(0,0)" radius="4.5" stroke="orange" thickness="10" range="(270,360)"/>
+                    <arc center="(0,0)" radius="4.25" stroke="red" thickness="5" range="(270,360)"/>
+                    <arc center="(0,0)" radius="4.1"  sector="yes" fill="yellow" range="(270,360)"/>
                 </coordinates>
                 </diagram>
              </prefigure>   
@@ -83,14 +82,14 @@
         </figure>
         <figure>
             <caption>1/4 of a square</caption>
-        <image>
-            <prefigure>
+        <image width="90%">
+            <prefigure label="pf-quarter-square" xmlns="https://prefigure.org">
                 <diagram dimensions="(300,300)" margins="5">
-                <coordiantes bbox= "(-5,-5,5,5)">
-                <axes decorations="no" stroke="grey">
-                    <rectangle center="(0,0)" dimensions="(10,10)" stroke="grey" thickness="2"/>
-                    <rectangle center="(-2.5,2.5)" dimensions="(5,5)" fill="grey">
+                <coordinates bbox= "(-5,-5,5,5)">
+                <axes decorations="no" stroke="grey"> 
                 </axes>
+                    <rectangle center="(0,0)" dimensions="(10,10)" stroke="grey" thickness="2"/>
+                    <rectangle center="(-2.5,2.5)" dimensions="(5,5)" fill="grey"/>
                 </coordinates>
                 </diagram>
              </prefigure>   
@@ -125,16 +124,16 @@
         </p>
         <figure>
             <caption>The fraction 2/3 represented using a circle</caption>
-            <image source="twothirdspizza.png">
+            <image source="twothirdspizza.png" width="80%">
             <shortdescription>A pizza cut into three equal pieces with one piece removed</shortdescription>
         </image>
         </figure>
         <figure>
             <caption>The fraction 2/3 represented using a box</caption>
-            <image>
-                <prefigure>
-                <diagram dimensions="(500,300)" margins="5">
-                <coordiantes bbox= "(0,0,15,5)">
+            <image width="80%">
+                <prefigure label="pf-two-thirds-box" xmlns="https://prefigure.org">
+                <diagram dimensions="(300,100)" margins="5">
+                <coordinates bbox= "(0,0,15,5)">
                     <rectangle lower-left="(0,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="purple"/>
                     <rectangle lower-left="(5,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="purple"/>
                     <rectangle lower-left="(10,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="white"/>
@@ -156,18 +155,18 @@
         <figure>
             <caption>The fraction 9/4 represented using boxes</caption>
             <image>
-                <prefigure>
-                <diagram dimensions="(500,300)" margins="5">
-                <coordiantes bbox= "(0,0,8,2)">
+                <prefigure label="pf-nine-fourths-boxes" xmlns="https://prefigure.org">
+                <diagram dimensions="(400,100)" margins="5">
+                <coordinates bbox= "(0,0,8,2)">
                     <rectangle lower-left="(0,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(1,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(0,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(1,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
 
+                    <rectangle lower-left="(3,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(4,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
-                    <rectangle lower-left="(5,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(3,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(4,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
-                    <rectangle lower-left="(5,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
 
                     <rectangle lower-left="(6,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
                     <rectangle lower-left="(7,0)" dimensions="(1,1)" stroke="grey" thickness="1" dash = "9 9" fill="white"/>
@@ -199,7 +198,7 @@
     </p>
     <figure>
         <caption>Common fractions of inches on a tape measure.</caption>
-        <image source="measuringtape.jpg">
+        <image source="measuringtape.jpg" width="80%">>
         </image>
     </figure>
     <p>
@@ -207,7 +206,7 @@
     </p>
     <figure>
         <caption>A measuring cup showing fractions of a cup</caption>
-        <image source="measuringcup.jpg">
+        <image source="measuringcup.jpg" width="80%">>
         </image>
     </figure>
     <p>
