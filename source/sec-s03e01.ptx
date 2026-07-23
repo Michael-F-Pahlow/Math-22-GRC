@@ -67,7 +67,6 @@
         <figure>
             <caption>1/4 of a round pizza</caption>
         <image>
-            <shortdescription>1/4 of a round pizza</shortdescription>
             <prefigure>
                 <diagram dimensions="(300,300)" margins="5">
                 <coordiantes bbox= "(-5,-5,5,5)">
@@ -85,7 +84,6 @@
         <figure>
             <caption>1/4 of a square</caption>
         <image>
-            <shortdescription>1/4 of square</shortdescription>
             <prefigure>
                 <diagram dimensions="(300,300)" margins="5">
                 <coordiantes bbox= "(-5,-5,5,5)">
@@ -99,6 +97,124 @@
         </image>
         </figure>
     </sidebyside>
+<definition xml:id="def-denominator">
+    <statement>
+        <p>
+            The <term>denominator</term> of a fraction is the number on the bottom of the fraction. In 1/4, the denominator is 4. 
+            The denominator tells you how many pieces you need to cut the whole object into.
+        </p>
+    </statement>
+</definition>
 
+<definition xml:id="def-numerator">
+    <statement>
+        <p>
+            The <term>numerator</term> of a fraction is the number on the bottom of the fraction. In 1/4, the numerator is 4.
+            The numerator tells you how many pieces are in each portion.
+        </p>
+    </statement>
+</definition>
     
+    <example>
+        <p>
+           Draw a representation of the fraction 2/3.  
+        </p>
+        <p>
+            Start with a picture representing a whole object, for example, a circle or a box. 
+            The denominator of our fraction is 3, so cut the whole object into 3 equally sized pieces. The numerator is 2, so we have 2 of those 3 pieces.
+        </p>
+        <figure>
+            <caption>The fraction 2/3 represented using a circle</caption>
+            <image source="twothirdspizza.png">
+            <shortdescription>A pizza cut into three equal pieces with one piece removed</shortdescription>
+        </image>
+        </figure>
+        <figure>
+            <caption>The fraction 2/3 represented using a box</caption>
+            <image>
+                <prefigure>
+                <diagram dimensions="(500,300)" margins="5">
+                <coordiantes bbox= "(0,0,15,5)">
+                    <rectangle lower-left="(0,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="purple"/>
+                    <rectangle lower-left="(5,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="purple"/>
+                    <rectangle lower-left="(10,0)" dimensions="(5,5)" stroke="black" thickness="2" fill="white"/>
+                </coordinates>
+                </diagram>
+             </prefigure>   
+        </image>
+        </figure>
+    </example>
+
+    <example>
+        <p>
+           Draw a representation of the fraction 9/4. 
+        </p>
+        <p>
+            The denominator, 4, tells us each whole object needs to be cut into 4 pieces. 
+            The numerator, 9, tells us we need 9 pieces in total. So, we will need multiple whole objects to be able to get 9 pieces in total:
+        </p>
+        <figure>
+            <caption>The fraction 9/4 represented using boxes</caption>
+            <image>
+                <prefigure>
+                <diagram dimensions="(500,300)" margins="5">
+                <coordiantes bbox= "(0,0,8,2)">
+                    <rectangle lower-left="(0,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(1,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(0,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(1,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+
+                    <rectangle lower-left="(4,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(5,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(4,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(5,1)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+
+                    <rectangle lower-left="(6,0)" dimensions="(1,1)" stroke="black" thickness="1" fill="blue"/>
+                    <rectangle lower-left="(7,0)" dimensions="(1,1)" stroke="grey" thickness="1" dash = "9 9" fill="white"/>
+                    <rectangle lower-left="(6,1)" dimensions="(1,1)" stroke="grey" thickness="1" dash = "9 9" fill="white"/>
+                    <rectangle lower-left="(7,1)" dimensions="(1,1)" stroke="grey" thickness="1" dash = "9 9" fill="white"/>
+                </coordinates>
+                </diagram>
+             </prefigure>   
+        </image>
+        </figure>
+    </example>
+
+    <p>
+        If you have 2 whole objects and ¼ of another object, that amount can be represented as a mixed number. 
+        When writing <term>mixed</term> numbers, we write the whole number directly next to the fraction.
+        <md>
+            2\frac{1}{3}
+        </md>
+        Notice that the fraction 9/4 above is the same amount as the mixed number <m>2/frac{1}{4}</m>.
+    </p>
+    <p>
+      Fractions appear on tape measures so that you measure fractions of an inch.  
+    </p>
+    <p>
+        For example, you can measure 1/4 of an inch by taking a whole inch, dividing that inch into 4 equal portions, and then taking 1 of those portions.
+    </p>
+    <p>
+      You can measure 3/8 of an inch by taking a whole inch, dividing that inch into 8 equal portions, and then taking 3 of those portions.  
+    </p>
+    <figure>
+        <caption>Common fractions of inches on a tape measure.</caption>
+        <image source="measuringtape.jpg">
+        </image>
+    </figure>
+    <p>
+        Fractions appear on measuring cups, so that you can measure fractions of a cup. 
+    </p>
+    <figure>
+        <caption>A measuring cup showing fractions of a cup</caption>
+        <image source="measuringcup.jpg">
+        </image>
+    </figure>
+    <p>
+        From a measuring cup, we can see, for example, that 1/3 cup is more than 1/4 cup, in other words:
+        <md>
+            \frac{1}{3} \gt \frac{1}{4}
+        </md>
+        
+    </p>
 </section>

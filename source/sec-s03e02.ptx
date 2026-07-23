@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section xml:id="sec-s03e02">
+    <title>Episode 2: Simplifying Fractions</title>
+    <assemblage>
+        <title>Episode 2 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Simplify fractions
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 2 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Equivalent
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Simplify
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <p>
+        Notice that it's possible to have two fractions that look different, but they actually represent the same amount (they are equal).
+    </p>
+    <figure>
+        <caption>Common fractions of inches on a tape measure.</caption>
+        <image source="measuringtape.jpg">
+        </image>
+    </figure>
+    <p>
+      For example, on a tape measure, we can see that 2/8 of an inch is the same as 1/4 of an inch. These fractions are equal.
+      <md>
+        \frac{2}{8} = \frac{1}{4}
+      </md>  
+    </p>
+    <figure>
+        <caption>Common fractions of inches on a tape measure.</caption>
+        <image source="eqfractions.png">
+        </image>
+    </figure>
+    <p>
+      From a picture, we can see that 1/2 of a pizza is the same amount as 2/4 of that pizza. It's also the same as 3/6 of that pizza, and it's also the same as 4/8 of that pizza. 
+      All these fractions are equal.  
+      <md>
+        \frac{1}{2} = \frac{2}{4} = \frac{3}{6} = \frac{4}{8}
+      </md>
+    </p>
+    <definition xml:id="def-equivalent">
+        <statement>
+            <p>
+               Equal fractions are sometimes also called <term>equivalent</term>.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <alert>Making Equivalent Fractions</alert>
+    </p>
+    <p>
+        There are two actions that make a fraction look different but keep it equal to what it was originally:
+        <ol>
+            <li>
+                <p>
+                Multiply the numerator and denominator by the same number.  
+                </p>
+            </li>
+            <li>
+                <p>
+                Divide the numerator and denominator by the same number (called “simplifying” because it makes the fraction simpler)
+                </p>
+            </li>
+        </ol>
+        For example, if I start with the fraction 1/2, and I multiply the numerator and denominator by 4:
+        <md>
+            \frac{1\times 4}{1\times 4} = \frac{4}{8}
+        </md>
+        I get 4/8, which we saw earlier is equal to 1/2.
+    </p>
+    <p>
+        If I start with the fraction 3/6, and I divide the numerator and denominator by 3:
+        <md>
+            \frac{3\div 3}{6\div 3} = \frac{1}{2}
+        </md>
+        I get 1/2, which we saw earlier is equal to 3/6.
+    </p>
+    <definition xml:id="def-simplify-fraction">
+        <statement>
+            <p>
+                <term>Simplify</term> a fraction by dividing the numerator and denominator by the same number. If no whole numbers divide both the numerator and denominator,
+                then the fraction is said to be <term>simplified</term> to <term>lowest terms</term>.
+            </p>
+        </statement>
+    </definition>
+    <p>
+        <alert>How to Fully Simplify a Fraction</alert>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Find a number that divides both the numerator and denominator of the fraction.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide the numerator and denominator by this number. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Repeat steps 1-2 until there are no more numbers that divide both numerator and denominator.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <p>
+            Simplify the fraction
+            <md>
+                \frac{12}{18}
+            </md>
+        </p>
+        <p>
+            Solution 1: I notice that the number 2 divides both 12 and 18.
+            <md>
+                \frac{12\div 2}{18\div 2} = \frac{6}{9}
+            </md>
+            I notice that the number 3 divides both 6 and 9:
+            <md>
+                \frac{6 \div 3}{9\div 3} = \frac{2}{3}
+            </md>
+            There are no numbers that divide both 2 and 3, so the fully simplified fraction is: <m>\frac{2}{3}</m>
+        </p>
+        <p>
+            Solution 2: I notice that the number 3 divides both 12 and 18.
+            <md>
+                \frac{12\div 3}{18\div 3} = \frac{4}{6}
+            </md>
+            I notice that the number 2 divides both 4 and 6:
+            <md>
+                \frac{4\div 2}{6\div 2} = \frac{2}{3}
+            </md>
+            There are no numbers that divide both 2 and 3, so the fully simplified fraction is: <m>\frac{2}{3}</m>
+        </p>
+    </example>
+</section>
