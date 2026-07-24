@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-nine-fourths-boxes-figure" width="410" height="110" viewBox="0 0 410 110">
+  <defs>
+    <clipPath id="pf-nine-fourths-boxes-__clipPath-0">
+      <rect x="5.0" y="5.0" width="400.0" height="100.0"/>
+    </clipPath>
+    <clipPath id="pf-nine-fourths-boxes-__clipPath-1">
+      <rect x="5.0" y="5.0" width="400.0" height="100.0"/>
+    </clipPath>
+  </defs>
+  <path id="pf-nine-fourths-boxes-__path-0" d="M 5.0 105.0 L 55.0 105.0 L 55.0 55.0 L 5.0 55.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-1" d="M 55.0 105.0 L 105.0 105.0 L 105.0 55.0 L 55.0 55.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-2" d="M 5.0 55.0 L 55.0 55.0 L 55.0 5.0 L 5.0 5.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-3" d="M 55.0 55.0 L 105.0 55.0 L 105.0 5.0 L 55.0 5.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-4" d="M 155.0 105.0 L 205.0 105.0 L 205.0 55.0 L 155.0 55.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-5" d="M 205.0 105.0 L 255.0 105.0 L 255.0 55.0 L 205.0 55.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-6" d="M 155.0 55.0 L 205.0 55.0 L 205.0 5.0 L 155.0 5.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-7" d="M 205.0 55.0 L 255.0 55.0 L 255.0 5.0 L 205.0 5.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-8" d="M 305.0 105.0 L 355.0 105.0 L 355.0 55.0 L 305.0 55.0 Z" stroke="black" stroke-width="1" fill="blue"/>
+  <path id="pf-nine-fourths-boxes-__path-9" d="M 355.0 105.0 L 405.0 105.0 L 405.0 55.0 L 355.0 55.0 Z" stroke="grey" stroke-width="1" stroke-dasharray="9 9" fill="white"/>
+  <path id="pf-nine-fourths-boxes-__path-10" d="M 305.0 55.0 L 355.0 55.0 L 355.0 5.0 L 305.0 5.0 Z" stroke="grey" stroke-width="1" stroke-dasharray="9 9" fill="white"/>
+  <path id="pf-nine-fourths-boxes-__path-11" d="M 355.0 55.0 L 405.0 55.0 L 405.0 5.0 L 355.0 5.0 Z" stroke="grey" stroke-width="1" stroke-dasharray="9 9" fill="white"/>
+</svg>

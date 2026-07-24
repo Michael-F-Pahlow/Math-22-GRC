@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-two-thirds-box-figure" width="310" height="110" viewBox="0 0 310 110">
+  <defs>
+    <clipPath id="pf-two-thirds-box-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="100.0"/>
+    </clipPath>
+    <clipPath id="pf-two-thirds-box-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="100.0"/>
+    </clipPath>
+  </defs>
+  <path id="pf-two-thirds-box-__path-0" d="M 5.0 105.0 L 105.0 105.0 L 105.0 5.0 L 5.0 5.0 Z" stroke="black" stroke-width="2" fill="purple"/>
+  <path id="pf-two-thirds-box-__path-1" d="M 105.0 105.0 L 205.0 105.0 L 205.0 5.0 L 105.0 5.0 Z" stroke="black" stroke-width="2" fill="purple"/>
+  <path id="pf-two-thirds-box-__path-2" d="M 205.0 105.0 L 305.0 105.0 L 305.0 5.0 L 205.0 5.0 Z" stroke="black" stroke-width="2" fill="white"/>
+</svg>
