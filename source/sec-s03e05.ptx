@@ -64,4 +64,114 @@
             <md>72 \cancel{\text{kilograms}}\times \frac{1000\,\,\text{grams}}{1 \cancel{\text{kilogram}}} = 72,000\,\,\text{grams} </md>
         </p>
     </assemblage>
+
+    <example>
+        <p>
+            A person's height is 5 feet and 3 inches. What is their height in inches?
+        </p>
+        <p>
+            Solution: First, convert the feet to meters:
+            <md>
+                1\,\,\text{foot}\,\, = 12 \,\,\text{inches}
+            </md>
+            <md>
+                \frac{\text{have}}{\text{desire}}\leftrightarrow \frac{12\,\,\text{inches}}{1\,\,\text{foot}}
+            </md>
+            <md>
+                5\,\,\text{feet}\times \frac{12\,\,\text{inches}}{1\,\,\text{foot}} = 60 \,\,\text{inches}
+            </md>
+            Add 3 inches to get the total height in inches:
+            <md>
+                60\,\,\text{inches} + 3\,\,\text{inches} = 63\,\,\text{inches}
+            </md>
+            
+        </p>
+    </example>
+    <example>
+    <title>Multi-step Conversions</title>
+        <p>
+          A doctor writes an order for a medication. The order reads: “administer 0.5 mg by mouth daily.” 
+          You're dispensed a bottle of medication that says 100 mcg per tablet. How many tablets should be administered to the patient in their daily dose? 
+        </p>
+        <p>
+            There are several units in this problem. What we have at the start of the problem are instructions to administer 0.2 mg per day. 
+            The units we want are tablets to administer each day. But we don't have a direct relationship between mg of medication and tablets of medication. 
+            Here's what we do know:
+        </p>
+        <sidebyside>
+            <p>
+                1 mg = 1000 mcg
+            </p>
+            <p>
+                (look up this conversion)
+            </p>
+        </sidebyside>
+        <sidebyside>
+            <p>
+                100 mcg = 1 tablet
+            </p>
+            <p>
+                (from the medication description)
+            </p>
+        </sidebyside>
+        <p>
+           We can convert from mg to tablets by using these relationships to construct multiple fractions. Notice that the units in these fractions are positioned diagonally:
+           <md>
+             0.2\,\,\text{mg}\times \frac{1000\,\,\text{mcg}}{1\,\,\text{mg}}\times\frac{1\,\,\text{tablet}}{100\,\,\text{mcg}} = 2\,\,\text{tablets}
+           </md>
+        </p>
+     </example>
+     <worksheet xml:id="ws-s03e05">
+        <title>Episode 5 Practice Problems</title>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 3 kilometers to meters.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 45 liters to milliliters.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+               Convert 2 hours to minutes. 
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 12 feet to inches.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+               Convert 540 seconds to minutes. 
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 36 inches to feet.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+               Convert 62 kilograms to grams. 
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 5 miles to feet.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 9000 milligrams to grams.
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                Convert 2,640 feet to miles.
+            </p>
+        </exercise>
+     </worksheet>
 </section>

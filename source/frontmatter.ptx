@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <frontmatter xml:id="frontmatter" label="frontmatter">
-    <image source="grc-logo-green-2602.png" height="50%" width="50%">
+    <image source="grc-logo-green-2602.png" width="60%">
         <shortdescription>Green River College Logo</shortdescription>
       </image>
       <bibinfo>
+      
     <author>
       <personname>Sam Smith</personname>
       <affiliation>

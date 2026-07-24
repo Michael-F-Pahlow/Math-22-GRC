@@ -1,4 +1,269 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e06" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 6: Ratios</title>
+    <assemblage>
+        <title>Episode 6 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Calculate ratios in real-world contexts
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Interpret ratios in real-world contexts
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 6 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Ratio
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 6 Key Symbols</title>
+        <p>
+            <md>
+                : \hspace{1.5in} \text{as in}\,\, 2:1
+            </md>
+            
+        </p>
+    </assemblage>
+    <definition xml:id="def-ratio">
+        <statement>
+            <p>
+               <term>Ratios</term> are fractions used to compare two numbers.
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <p>
+            A car can drive 120 miles on 3 gallons of gas. Write down and simplify a ratio comparing the miles driven to the required gallons of gas (the car's gas mileage). 
+        </p>
+        <p>
+            Solution: The car's gas mileage is the fraction:
+            <md>
+                \frac{120\,\,\text{miles}}{3\,\,\text{gallons}}
+            </md>
+            This fraction can be simplified by separately considering the numbers and the units in the fraction.
+            <md>
+                \frac{120\,\,\text{miles}}{3\,\,\text{gallons}}
+            </md>
+            <md>
+                40 \frac{\text{miles}}{\text{gallons}}
+            </md>
+            The car's gas mileage is 40 miles / gallon, read aloud as “40 miles per gallon.” 
+        </p>
+    </example>
+    <example>
+       <p>
+        A recipe making 36 cookies requires 2 eggs. Write down and simplify a ratio comparing the number of cookies to the number of required eggs.
+       </p> 
+       <p>
+        Solution: The recipe's ratio is 
+        <md>
+            \frac{36\,\,\text{cookies}}{2\,\,\text{eggs}}
+        </md>
+        Separate the numbers and the units and simplify each part separately:
+         <md>
+            \frac{36\,\,\text{cookies}}{2\,\,\text{eggs}}
+        </md>
+         <md>
+            18 \frac{\text{cookies}}{\text{eggs}}
+        </md>
+        The ratio is 18 cookies / egg, read aloud as “18 cookies per egg.” 
+        </p>
+        </example>
+        <example>
+            <p>
+                A person hikes 8 miles in 3 hours. Find the rate at which they're walking.
+            </p>
+            <p>
+                Solution: The rate at which they're walking is the ratio of distance traveled to time required.
+                <md>
+                \frac{8\,\,\text{miles}}{3\,\,\text{hours}}
+                </md>
+                <md>
+                \frac{8}{3}\,\frac{text{\miles}}{\text{hours}}
+                </md>
+                The rate is 8/3 miles per hour.
+            </p>
+        </example>
+        <p>
+          Special ratios can be written when you're comparing two quantities that have the same units.   
+        </p>
+        <example>
+            <p>
+               Suppose a pizza dough recipe requires 110 grams of flour to be mixed with 200 grams of water. Write the ratio of flour to water for the recipe. 
+            </p>
+            <p>
+                Solution: As a fraction, this ratio is
+                <md>
+                \frac{200\,\,\text{grams flour}}{110\,\,\text{grams water}}
+                </md>
+                This can be simplified to 
+                <md>
+                \frac{200}{110} \,\frac{\text{grams flour}}{\text{grams water}}
+                </md>
+                <md>
+                \frac{200\div 10}{110\div 10} \,\frac{\text{grams flour}}{\text{grams water}}
+                </md>
+                <md>
+        \frac{20}{11}\,\,\frac{\text{grams flour}}{\text{grams water}}
+       </md>
+       But because both the flour and the water are being measured in the same units (grams), this ratio can be written using special notation:
+       <md>
+        20\,\,:\,\,11
+       </md>
+       Read aloud, we would say “the ratio of flour to water is 20 to 11.” 
+       </p>
+        </example>
+
+    <example>
+        <p>
+            Open Google Maps and look at the bottom right corner of the screen to find the “map scale.”  
+        </p>
+        <figure>
+            <caption>An image of a map scale from Google Maps</caption>
+            <image source="googlescale.png" width="50%">
+            </image>
+        </figure>
+        <p>
+            This map scale means the length of that white bar (about 2 inches) on your screen corresponds to 500 feet of distance in the real world. 
+        </p>
+        <p>
+            Using this map scale, write the ratio of map distance to real world distance.
+        </p>
+        <p>
+            Solution: According to the map scale, the map distance is 2 inches. The corresponding real-world distance is 500 feet. Right now, the distance units aren't the same. 
+            But we can convert all the distances to inches.
+        </p>
+        <p>
+            We look up:
+            <md>
+                12\,\,\text{inches} = 1\,\,\text{foot}
+            </md>
+            So we calculate:
+            <md>
+                500 \,\,\text{feet}\times \frac{12\,\,\text{inches}}{1\,\,\text{foot}} = 6000\,\,\text{inches}
+            </md>
+            Now, the map distance (2 inches) and the real-world distance (6000 inches) have the same units. 
+            So the ratio of map distance to real-world distance can be written:
+            <md>
+                2\,\,:\,\,6000
+            </md>
+            Or, after being simplified:
+            <md>
+                1\,\,:\,\,3000
+            </md>
+        </p>
+    </example>
+    <worksheet xml:id="ws-s03e06">
+        <title>Episode 6 Practice Problems</title>
+        <exercise>
+            <introduction>
+                <p>
+                    Write the following ratios: 
+                </p>
+            </introduction>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        There are 18 apples and 24 oranges in a basket. Write the ratio of apples to oranges and simplify it.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        A recipe uses 30 cups of flour and 18 cups of sugar. Write the ratio of flour to sugar and simplify.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        A parking lot has 45 cars and 60 motorcycles. Write the ratio of cars to motorcycles in simplest form.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        A cyclist rides 48 miles in 6 hours. Write the rate in miles per hour and simplify.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        A machine produces 210 parts in 14 hours. Write the rate in parts per hour and simplify.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        A runner runs 9 miles in 72 minutes. Write the rate in miles per minute and simplify.
+                    </p>
+                </statement>
+            </task>
+            <task workspace="1.0in">
+                <statement>
+                    <p>
+                        You earn $150 for 12 hours of work. Write the rate in dollars per hour and simplify.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        A printer uses 500 sheets of paper in 20 minutes. Write the rate in sheets per minute and simplify.
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
+           <introduction>
+            <p>
+              Use unit conversion and write the following ratios:  
+            </p>
+           </introduction>
+           <task workspace="1.5in">
+            <statement>
+                <p>
+                    A ribbon is 120 centimeters long and another ribbon is 3 meters long. Convert all the lengths to the same units, 
+                    then write the ratio of the first ribbon to the second ribbon.
+                </p>
+            </statement>
+           </task>
+           <task workspace="1.5in">
+            <statement>
+                <p>
+                    A trail is 5 kilometers long and another trail is 750 meters long. Convert all the lengths to the same units, 
+                    then write the ratio of the first trail's length to the second trail's length.
+                </p>
+            </statement>
+           </task>
+           <task workspace="1.5in">
+            <statement>
+                <p>
+                    A package weighs 900 grams, and another package weighs 2 kilograms.
+                    Convert all the weights to the same units, then write the ratio of the first trail's length to the second trail's length.
+
+                </p>
+            </statement>
+           </task>
+        </exercise>
+    </worksheet>
 </section>

@@ -46,7 +46,7 @@
     </p>
     <figure>
         <caption>Common fractions of inches on a tape measure.</caption>
-        <image source="eqfractions.png" width="90%">>
+        <image source="eqfractions.png" width="75%">>
         </image>
     </figure>
     <p>
@@ -153,4 +153,67 @@
             There are no numbers that divide both 2 and 3, so the fully simplified fraction is: <m>\frac{2}{3}</m>
         </p>
     </example>
+    <worksheet xml:id="ws-s03e02">
+        <title>Episode 2 Practice Problems</title>
+        <introduction>
+            <p>
+                 Simplify the following fractions as much as possible.  (Some fractions may already be as simple as they can be.)
+            </p>
+        </introduction>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md> \frac{12}{16}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{45}{60}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{28}{42}\hspace{2.25in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md> \frac{18}{24}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{50}{75}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{36}{48}\hspace{2.25in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md> \frac{63}{81}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{14}{33}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md> \frac{27}{36}\hspace{2.25in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.25in">
+                <p><md> \frac{100}{250}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.25in">
+                <p><md> \frac{90}{144}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.25in">
+                <p><md> \frac{56}{98}\hspace{2.25in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.25in">
+                <p><md> \frac{35}{49}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.25in">
+                <p><md> \frac{80}{120}\hspace{2.25in}</md></p>
+            </exercise>
+            <exercise workspace="1.25in">
+                <p><md> \frac{150}{225}\hspace{2.25in}</md></p>
+            </exercise>
+        </sidebyside>
+    </worksheet>
 </section>
