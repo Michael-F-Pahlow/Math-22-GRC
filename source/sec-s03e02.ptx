@@ -216,4 +216,14 @@
             </exercise>
         </sidebyside>
     </worksheet>
+    <subsection>
+        <title>Interlude: Equal Fractions</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-fractions-equal">
+            <caption>Equality of Fractions</caption>
+            <interactive xml:id="interactive-phet-fractions-equal" iframe="https://phet.colorado.edu/sims/html/fractions-equality/latest/fractions-equality_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </subsection>
 </section>

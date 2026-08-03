@@ -8,4 +8,10 @@ season 9
 season 10
 resources
 glossary
-indexes
+
+<gi>
+<title>term</title>
+<p>
+definition
+</p>
+</gi>

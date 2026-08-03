@@ -1,4 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e07" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 7: Dividing Fractions</title>
+    <assemblage>
+        <title>Episode 7 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Divide fractions.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 7 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Reciprocal
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <definition xml:id="def-reciprocal">
+        <statement>
+            <p>
+                The <term>reciprocal</term> of a fraction can be found by swapping the numerator and denominator (flipping the fraction “upside-down”).
+            </p>
+        </statement>
+    </definition>
+    <example>
+        <p>
+            Find the reciprocal of 3/5.
+        </p>
+        <p>
+            Solution: Swapping the numerator and denominator, the reciprocal is 5/3.
+        </p>
+    </example>
+    <example>
+        <p>
+            Find the reciprocal of 4.
+        </p>
+        <p>
+        The number 4 can be thought of as 4/1. Swap the numerator and denominator to get 1/4.
+        </p> 
+    </example>
+    <p>
+        <alert>How to Divide Fractions.</alert>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Keep the first fraction the same.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Change the <m>\div</m> to a <m>\times</m>.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Flip the second fraction.
+                </p>
+            </li>
+        </ol>
+        The mnemonic is KCF, “Kentucky Chicken Fried.”
+    </p>
+    <example>
+        <p>
+            Divide
+            <md>
+                \frac{2}{3}\div\frac{1}{3}
+            </md>
+            Solution: We keep the first fraction, change the <m>\div</m> to a <m>\times</m>, and flip the second fraction (find its reciprocal)
+            <md>
+                \frac{2}{3}\times\frac{3}{1}
+            </md>
+            Now this is a multiplication problem. We can cross-cancel the 3's:
+            <md>
+                \frac{2}{1}\times \frac{1}{1}
+            </md>
+            Then we can multiply the numerators and multiply the denominators:
+            <md>
+                \frac{2\times 1}{1\times 1} = \frac{2}{1} = 2
+            </md>
+        </p>
+    </example>
+  <p>
+        <alert>Makes Sense, Right?</alert>
+        </p>
+        <p>
+         Imagine that we have 2/3 of a pizza, and we're dividing that into portions, where each portion consists of 1/3 of a pizza.   
+        </p>
+        <figure>
+        <caption>2/3 of a pizza splits into 2 portions of size 1/3.</caption>
+        <image width="90%">
+            <prefigure label="pf-two-thirds-pizza-1" xmlns="https://prefigure.org">
+            <diagram dimensions="(400,100)" margins="5">
+            <coordinates bbox="(0,0,16,4)">
+            <circle center="(2.5,2)" radius="2" stroke="black" thickness="4"/>
+            <circle center="(9,2)" radius="2" stroke="black" thickness="4"/>
+            <circle center="(13.5,2)" radius="2" stroke="black" thickness="4"/>
+
+            <line endpoints="((5,2), (6.5,2))" stroke="pink" thickness="6" arrows="1"/>
+
+            <line endpoints="((9,2), (9,4))" stroke="black" thickness="4"/>
+            <line endpoints="((9,2), (10.732,1))" stroke="black" thickness="4"/>
+            <line endpoints="((9,2), (7.268,1))" stroke="black" thickness="4"/>
+            <arc center="(9,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
+
+            <line endpoints="((2.5,2), (2.5,4))" stroke="black" thickness="4"/>
+            <line endpoints="((2.5,2), (4.232,1))" stroke="black" thickness="4"/>
+            <line endpoints="((2.5,2), (0.768,1))" stroke="black" thickness="4"/>
+            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
+            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
+
+            <line endpoints="((13.5,2), (13.5,4))" stroke="black" thickness="4"/>
+            <line endpoints="((13.5,2), (15.232,1))" stroke="black" thickness="4"/>
+            <line endpoints="((13.5,2), (11.768,1))" stroke="black" thickness="4"/>
+            <arc center="(13.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
+
+            </coordinates>
+            </diagram>
+            </prefigure>   
+        </image>
+        </figure>
+        <p>
+          Here, we see that we can make 2 portions. That's why
+          <md>
+            \frac{2}{3}\div\frac{1}{4} = 2
+          </md>
+        </p>
+  
+    <example>
+        <p>
+            Divide
+            <md>
+                4\div\frac{3}{10}
+            </md>
+        </p>
+        <p>
+            Solution: We keep the first fraction, change the <m>\div</m> to a <m>\times</m>, and flip the second fraction.
+            <md>
+                4\times\frac{3}{10}
+            </md>
+            We remember that 4 is the same as 4/1, so:
+            <md>
+                \frac{4}{1}\times\frac{10}{3} = \frac{4\times 10}{1\times 3} = \frac{40}{3}
+            </md>
+            
+        </p>
+    </example>
+    <example>
+        <p>
+            Divide
+            <md>
+                \frac{1}{5}\div 3
+            </md>
+        </p>
+        <p>
+          Solution: We keep the first fraction, change the <m>\div</m> to a <m>\times</m>, and flip the second fraction.
+          <md>
+            \frac{1}{5}\times\frac{1}{3}
+          </md>
+          There is nothing to cross-cancel, so we multiply:
+          <md>
+            \frac{1\times 1}{5\times 3} = \frac{1}{15}
+          </md>
+        </p>
+        <assemblage>
+            <title>Be Careful!</title>
+            <p>
+                When we write <m>\frac{1}{5}\div 3</m> That means dividing the entire fraction 1/5 by 3. 
+                It represents, for example, taking 1/5 of a pound of candy and sharing it between 3 people.
+            </p>
+            <p>
+                By contrast, when we write something like:
+                <md>
+                    \frac{4\div 2}{6\div 2}
+                </md>
+                That means dividing the numerator by 2 and separately dividing the denominator by 2. This is what we write when we're simplifying the fraction 4/6.
+            </p>
+        </assemblage>
+    </example>
+    <p>
+        Division involving negative fractions follows the same rules as division involving negative whole numbers.
+    </p>
+    <example>
+        <p>
+            Divide
+            <md>
+                -4\div\left(-\frac{1}{2}\right)
+            </md>
+        </p>
+        <p>
+            We start by counting the number of negative signs in the problem. There are two minus signs in the problem.
+        </p>
+        <p>
+            Then, we divide the numbers as if they were both positive:
+            <md>
+                4\div\frac{1}{2}
+            </md>
+            <md>
+                4\times\frac{2}{1}
+            </md>
+            <md>
+                4\times 2 = 8
+            </md>
+            Because there were an even number of minus signs in the original problem, our final answer is positive: 8.
+        </p>
+    </example>
+    <worksheet xml:id="ws-s03e07">
+    <p>
+        Divide and fully simplify your answer.
+    </p>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{3}{4}\div\frac{2}{5}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{5}{6}\div\frac{3}{10}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{4}{9}\div\frac{2}{3}\hspace{2.0in}</md></p>
+            </exercise>
+        </sidebyside>
+         <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{7}{8}\div\frac{1}{4}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{9}{11}\div\frac{6}{7}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{10}{13}\div\frac{5}{6}\hspace{2.0in}</md></p>
+            </exercise>
+        </sidebyside>
+         <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{8}{15}\div\frac{4}{5}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{9}{4}\div\frac{3}{2}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{18}{5}\div\frac{6}{25}\hspace{2.0in}</md></p>
+            </exercise>
+        </sidebyside>
+         <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{11}{12}\div\frac{3}{8}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{25}{6}\div\frac{5}{12}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{7}{10}\div\frac{14}{15}\hspace{2.0in}</md></p>
+                    </exercise>
+        </sidebyside>
+         <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{14}{9}\div\frac{7}{3}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{6}{7}\div\frac{9}{14}\hspace{2.0in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{16}{5}\div\frac{8}{15}\hspace{2.0in}</md></p>
+                    </exercise>
+        </sidebyside>
+        <exercise workspace="1.5in">
+        <p>  A recipe uses <m>\frac{3}{4}</m> cup of sugar for one batch of cookies. How many batches can be made with <m>\frac{5}{2}</m> cups of sugar? </p>
+        </exercise>
+        <exercise workspace="1.5in">
+            <p>
+            A garden plot is <m>\frac{7}{8}</m> of a mile long. Each section of the garden is <m>\frac{1}{4}</m> mile long. How many sections can be made from the plot?
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            <p>
+                A piece of ribbon is <m>\frac{9}{10}</m> yard long. Each gift needs <m>\frac{3}{20}</m> yard of ribbon. How many gifts can be wrapped with the ribbon?
+            </p>
+        </exercise>
+    </worksheet>
 </section>

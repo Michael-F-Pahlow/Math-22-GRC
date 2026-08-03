@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glossary xml:id="glossary">
 <idx>glossary</idx>
+
 <gi>
 <title>addition</title>
 <p>
-    The operation that corresponds to combining piles of similar objects.
-        Addition is represented using the symbol <m>+</m> (“plus”).
+The operation that corresponds to combining piles of similar objects. Addition is represented using the symbol <m>+</m> (“plus”).
+</p>
+</gi>
+
+<gi>
+<title> cross-cancel</title>
+<p>
+When multiplying fractions, you can simplify your answer before multiplying the numerator and denominator by canceling out common factors.
+</p>
+</gi>
+
+<gi>
+<title>denominator</title>
+<p>
+The number on the bottom of the fraction. In 1/4, the denominator is 4. The denominator tells you how many pieces you need to cut the whole object into.
 </p>
 </gi>
 
@@ -17,6 +31,49 @@
 </gi>
 
 <gi>
+<title>equivalent</title>
+<p>
+Equal fractions are sometimes also called equivalent fractions
+</p>
+</gi>
+
+<gi>
+<title>even number</title>
+<p>
+A whole number that can be evenly divided by 2.
+</p>
+</gi>
+
+<gi>
+<title>fraction</title>
+<p>
+A fraction represents a portion of a whole.
+</p>
+</gi>
+
+<gi>
+<title>integer</title>
+<p>
+    A whole number that might be positive or negative or zero. 
+</p>
+</gi>
+
+<gi>
+<title> mean </title>
+<p>
+
+</p>
+</gi>
+
+<gi>
+<title> median </title>
+<p>
+
+</p>
+</gi>
+
+
+<gi>
 <title>multiplication</title>
 <p>
     The operation that corresponds to adding a number to itself repeatedly.
@@ -24,10 +81,60 @@
 </gi>
 
 <gi>
+<title>negative number</title>
+<p>
+  numbers used to represent quantities below 0.  
+</p>
+</gi>
+
+<gi>
+<title>number line</title>
+<p>
+   Like a measuring tape or ruler. But unlike a measuring tape, a number line displays both positive and negative numbers (it displays integers).
+</p>
+</gi>
+
+<gi>
+<title>numerator</title>
+<p>
+The number on the bottom of the fraction. In 1/4, the numerator is 1. The numerator tells you how many pieces are in each portion.
+</p>
+</gi>
+
+<gi>
+<title>odd number</title>
+<p>
+A whole number that cannot be evenly divided by 2.
+</p>
+</gi>
+
+<gi>
+<title>opposite</title>
+<p>
+The opposite of a positive number is the negative version of that number. The opposite of a negative number is the positive version of that number. The opposite
+of zero is zero.
+</p>
+</gi>
+
+<gi>
+<title>sign</title>
+<p>
+The sign of an integer tells us whether it's positive, negative, or zero.
+</p>
+</gi>
+
+<gi>
+<title>simplify (fractions)</title>
+<p>
+Simplify a fraction by dividing the numerator and denominator by the same number. If no whole numbers divide both the numerator and denominator,
+then the fraction is said to be <term>simplified</term> to <term>lowest terms</term>.
+</p>
+</gi>
+
+<gi>
 <title>subtraction</title>
 <p>
-    The operation that corresponds to removing objects from a pile.
-  Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+The operation that corresponds to removing objects from a pile. Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
 </p>
 </gi>
 

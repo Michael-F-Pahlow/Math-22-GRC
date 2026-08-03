@@ -108,7 +108,7 @@
 <definition xml:id="def-numerator">
     <statement>
         <p>
-            The <term>numerator</term> of a fraction is the number on the bottom of the fraction. In 1/4, the numerator is 4.
+            The <term>numerator</term> of a fraction is the number on the bottom of the fraction. In 1/4, the numerator is 1.
             The numerator tells you how many pieces are in each portion.
         </p>
     </statement>
@@ -300,4 +300,14 @@
            </task>
         </exercise>
     </worksheet>
+    <subsection>
+        <title>Interlude: Fractions in the Physical World</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-fractions-intro">
+            <caption>Introduction to Fractions</caption>
+            <interactive xml:id="interactive-phet-fractions-intro" iframe="https://phet.colorado.edu/sims/html/fractions-intro/latest/fractions-intro_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </subsection>
 </section>
