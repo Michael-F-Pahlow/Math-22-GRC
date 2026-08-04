@@ -1,4 +1,234 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e09" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 9: Adding/Subtracting Fractions, Part 2</title>
+    <assemblage>
+        <title>Episode 9 Learning Goals</title>
+        <p>
+          <ul>
+            <li>
+                <p>
+                    Add and subtract fractions with different denominators.
+                </p>
+            </li>
+          </ul>  
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 9 Key Terminology</title>
+        <p>
+          <ul>
+            <li>
+                <p>
+                    Least common denominator.
+                </p>
+            </li>
+          </ul>  
+        </p>
+    </assemblage>
+    <p>
+        Remember that there are two actions that can change a fraction’s appearance without changing its value:
+        <ol>
+            <li>
+                <p>
+                    Multiply the numerator and denominator by the same number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Divide the numerator and denominator by the same number.
+                </p>
+            </li>
+        </ol>
+        We have used technique #2 to simplify fractions. 
+    </p>
+    <p>
+      In this episode, we will use technique #1 to make fractions have the same denominator.  
+    </p>
+    <p>
+        How to Add / Subtract Fractions with Different Denominators
+        <ol>
+            <li>
+                <p>
+                    Take the denominator of Fraction #2 and use it to multiply the numerator and denominator of Fraction #1.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Take the denominator of Fraction #1 and use it to multiply the numerator and denominator of Fraction #2. 
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now the fractions have the same denominator, so add / subtract as in Episode 8.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Simplify your answer, if possible.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <p>
+            Add:
+            <md>
+                \frac{1}{2}+\frac{1}{3}
+            </md>
+        </p>
+        <p>
+            Solution: We start by rewriting the fractions so they have the same denominator. 
+            <md>
+                \frac{1\times 3}{2\times 3} + \frac{1\times 2}{3\times 2}
+            </md>
+            <md>
+                \frac{3}{6}+\frac{2}{6}
+            </md>
+            Now that the fractions have the same denominator, we can add the numerators:
+            <md>
+                \frac{3+2}{6} = \frac{5}{6}
+            </md>
+            This cannot be simplified any more, so 5/6 is our final answer.
+        </p>
+    </example>
+    <example>
+        <p>
+            Subtract:
+            <md>
+                \frac{3}{4} - \frac{1}{8}
+            </md>
+        </p>
+        <p>
+            Solution: Make both fractions have the same denominator:
+            <md>
+                \frac{3\times 8}{4\times 8} - \frac{1\times 4}{8\times 4}
+            </md>
+            <md>
+                \frac{24}{32} - \frac{4}{32} = \frac{20}{32}
+            </md>
+            Finally, we see that 20/32 can be simplified, because both 20 and 32 can be divided by 4:
+            <md>
+                \frac{20\div 4}{32\div 4} = \frac{5}{8}
+            </md>
+        </p>
+    </example>
+    <p>
+      Sometimes there is a more efficient way to make two fractions have the same denominator.  
+    </p>
+    <example>
+        <p>
+            Add:
+            <md>
+                \frac{1}{2}+\frac{1}{6}
+            </md>
+        </p>
+        <p>
+            Solution 1: Make the two fractions have the denominator:
+            <md>
+                \frac{1\times 6}{2\times 6} + \frac{1\times 2}{6\times 2}
+            </md>
+            <md>
+                \frac{6}{12}+\frac{2}{12} = \frac{8}{12}
+            </md>
+        We notice that 8/12 can be simplified, because both 8 and 12 can be divided by 4:
+        <md>
+            \frac{8\div 4}{12\div 4} = \frac{2}{3}
+        </md>
+        </p>
+        <p>
+            Solution 2: Looking at
+            <md>
+                \frac{1}{2}+\frac{1}{6}
+            </md>
+            We see that the denominator 2 can be turned into the denominator 6 by multiplying by 3:
+            <md>
+                \frac{1\times 3}{2\times 3} +\frac{1}{6}
+            </md>
+            <md>
+                \frac{3}{6}+\frac{1}{6} = \frac{4}{6}
+            </md>
+            We notice that 4/6 can be simplified, because both 4 and 6 can be divided by 2:
+            <md>
+                \frac{4\div 2}{6\div 2} = \frac{2}{3}
+            </md>
+            We get the same answer, but the simplification was a little easier because the common denominator was smaller.
+        </p>
+    </example>
+    <definition xml:id="def-LCD">
+        <statement>
+            <p>
+              The smallest possible common denominator in an addition / subtraction problem is called the <term>least common denominator</term> (LCD).  
+            </p>
+        </statement>
+    </definition>
+    <worksheet xml:id="ws-s03e09">
+        <p>
+            Calculate and fully simplify your answer.
+        </p>
+        <sidebyside>
+            <exercise workspace="1.5in">
+                <p><md>\frac{3}{4}+\frac{5}{6}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>-\frac{6}{5}-\frac{7}{4}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>-\frac{13}{6}+\frac{7}{8}\hspace{1.0in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.5in">
+                <p><md>\frac{7}{8}-\frac{2}{3}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>\frac{9}{14}-\left(-\frac{5}{21}\right)\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>\frac{5}{16}+\left(-\frac{9}{20}\right)\hspace{1.0in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.5in">
+                <p><md>-\frac{5}{9}+\frac{5}{6}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>-\frac{8}{11}+\frac{3}{5}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>\frac{12}{7}-\frac{5}{14}\hspace{1.0in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.5in">
+                <p><md>\frac{11}{12}+\left(-\frac{3}{10}\right)\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>\frac{10}{9}-\frac{4}{15}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.5in">
+                <p><md>-\frac{3}{10}-\frac{11}{12}\hspace{1.0in}</md></p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{17}{18}+\frac{4}{9}\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.0in">
+                <p><md>\frac{6}{13}-\left(-\frac{5}{26}\right)\hspace{1.0in}</md></p>
+            </exercise>
+             <exercise workspace="1.0in">
+                <p><md>-\frac{2}{3}+\frac{11}{5}\hspace{1.0in}</md></p>
+            </exercise>
+        </sidebyside>
+    </worksheet>
+    <subsection>
+        <title>Interlude: Fraction Matcher</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-fractions-matcher">
+            <caption>Introduction to Fractions</caption>
+            <interactive xml:id="interactive-phet-fractions-matcher" iframe="https://phet.colorado.edu/sims/html/fraction-matcher/latest/fraction-matcher_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </subsection>
 </section>

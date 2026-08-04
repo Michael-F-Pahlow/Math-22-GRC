@@ -62,7 +62,7 @@
             <md>
                 40 \frac{\text{miles}}{\text{gallons}}
             </md>
-            The car's gas mileage is 40 miles / gallon, read aloud as “40 miles per gallon.” 
+            The car's gas mileage is 40 miles/gallon, read aloud as “40 miles per gallon.” 
         </p>
     </example>
     <example>
@@ -81,7 +81,7 @@
          <md>
             18 \frac{\text{cookies}}{\text{eggs}}
         </md>
-        The ratio is 18 cookies / egg, read aloud as “18 cookies per egg.” 
+        The ratio is 18 cookies/egg, read aloud as “18 cookies per egg.” 
         </p>
         </example>
         <example>
@@ -94,7 +94,7 @@
                 \frac{8\,\,\text{miles}}{3\,\,\text{hours}}
                 </md>
                 <md>
-                \frac{8}{3}\,\frac{text{\miles}}{\text{hours}}
+                \frac{8}{3}\,\frac{text{miles}}{\text{hours}}
                 </md>
                 The rate is 8/3 miles per hour.
             </p>
@@ -176,56 +176,56 @@
                     Write the following ratios: 
                 </p>
             </introduction>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         There are 18 apples and 24 oranges in a basket. Write the ratio of apples to oranges and simplify it.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A recipe uses 30 cups of flour and 18 cups of sugar. Write the ratio of flour to sugar and simplify.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A parking lot has 45 cars and 60 motorcycles. Write the ratio of cars to motorcycles in simplest form.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A cyclist rides 48 miles in 6 hours. Write the rate in miles per hour and simplify.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A machine produces 210 parts in 14 hours. Write the rate in parts per hour and simplify.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A runner runs 9 miles in 72 minutes. Write the rate in miles per minute and simplify.
                     </p>
                 </statement>
             </task>
-            <task workspace="1.0in">
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         You earn $150 for 12 hours of work. Write the rate in dollars per hour and simplify.
                     </p>
                 </statement>
             </task>
-            <task>
+            <task workspace="0.7in">
                 <statement>
                     <p>
                         A printer uses 500 sheets of paper in 20 minutes. Write the rate in sheets per minute and simplify.
@@ -239,7 +239,7 @@
               Use unit conversion and write the following ratios:  
             </p>
            </introduction>
-           <task workspace="1.5in">
+           <task workspace="1.0in">
             <statement>
                 <p>
                     A ribbon is 120 centimeters long and another ribbon is 3 meters long. Convert all the lengths to the same units, 
@@ -247,7 +247,7 @@
                 </p>
             </statement>
            </task>
-           <task workspace="1.5in">
+           <task workspace="1.0in">
             <statement>
                 <p>
                     A trail is 5 kilometers long and another trail is 750 meters long. Convert all the lengths to the same units, 
@@ -255,7 +255,7 @@
                 </p>
             </statement>
            </task>
-           <task workspace="1.5in">
+           <task workspace="1.0in">
             <statement>
                 <p>
                     A package weighs 900 grams, and another package weighs 2 kilograms.

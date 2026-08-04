@@ -1,4 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e10" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 10: Mixed Numbers</title>
+    <assemblage>
+        <title>Episode Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Convert a mixed number to an improper fraction
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Convert an improper fraction to a mixed number
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 10 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Improper fraction
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <p>
+        Remember from Episode 01 that a mixed number consists of a whole number together with a fraction:
+    </p>
+        <figure xml:id="mixed-number">
+            <caption>A visual representing the mixed number 1 and 3/4</caption>
+            <image width="50%">
+                <prefigure label="pf-mixed-number" xmlns="https://prefigure.org">
+            <diagram dimensions="(300,200)" margins="5">
+            <coordinates bbox="(0,0,12,8)">
+                <arc center="(3,6)" radius="2"  sector="yes" fill="pink" range="(0,360)"/>
+            <arc center="(8,6)" radius="2"  sector="yes" fill="pink" range="(90,360)"/>
+            <circle center="(3,6)" radius="2" stroke="black" thickness="3"/>
+            <circle center="(8,6)" radius="2" stroke="black" thickness="3"/>
+            <line endpoints="((1,6), (5,6))" stroke="black" thickness="2"/>
+                <line endpoints="((3,4), (3,8))" stroke="black" thickness="2"/>
+                    <line endpoints="((6,6), (10,6))" stroke="black" thickness="2"/>
+                <line endpoints="((8,4), (8,8))" stroke="black" thickness="2"/>
+                    <label anchor="(12,6)" alignment="w" scale="1.5">
+                    <m>1\frac{3}{4}</m>
+                    </label>
+                    <label anchor="(3,2.5)" scale="2.0">
+                    <m>1</m>
+                    </label>
+                    <label anchor="(8,2.5)" scale="2.0">
+                    <m>\frac{3}{4}</m>
+                    </label>
+            </coordinates>
+            </diagram>
+            </prefigure>   
+        </image>
+        </figure>
+    <p>
+        Notice that the mixed number <m>1\frac{3}{4}</m> is the same amount as the "improper" fraction <m>\frac{7}{4}</m>
+    </p>
+    <p>
+      (We call a fraction “improper” if its numerator is bigger than its denominator).  
+    </p>
+    <p>
+        <alert>How to Convert a Mixed Number to an Improper Fraction:</alert>
+    </p>
+    <p>
+        <ol>
+            <li>
+                <p>
+                    Multiply the whole number by the denominator.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Add the result to the numerator.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <figure>
+    <caption>Conversion of mixed numbers to improper fractions</caption>
+   <image source="mixednumber.png" width="25%">
+        <shortdescription>diagram showing how to convert 1 and three quarters to the fraction seven fourths</shortdescription>
+    </image>
+</figure>
+<example>
+<p>
+    Convert the mixed number <m>5\frac{1}{3}</m> to an improper fraction.
+</p>
+<p>
+    Multiply the whole number 5 by the denominator 3, then add the result to the numerator 1:
+    <md>
+        \frac{(5\times 3)+1}{3} = \frac{16}{3}
+    </md>
+    
+</p>
+</example>
+<assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+        Each of the 5 whole objects gets cut into 3 pieces. This gives us 15 pieces. Then, we combine this with 1 extra piece from the fraction 1/3. 
+        Therefore, we have a total of 16 pieces, giving us the improper fraction 16/3.
+    </p>
+</assemblage>
+<p>
+    Improper fractions can also be converted back to mixed numbers:
+</p>
+<p>
+    <alert>How to Convert an Improper Fraction to a Mixed Number:</alert>
+</p>
+<p>
+    <ol>
+        <li>
+            <p>
+                Divide the numerator by the denominator.
+            </p>
+        </li>
+        <li>
+            <p>
+                Count the number of times the numerator goes into the denominator fully. This becomes the whole number part of mixed number.
+            </p>
+        </li>
+        <li>
+            <p>
+                The remainder from the division becomes the numerator in the fraction part of the mixed number.
+            </p>
+        </li>
+    </ol>
+</p>
+<example>
+    <p>
+        Convert the fraction <m>\frac{11}{5}</m> to a mixed number.
+    </p>
+    <p>
+        Solution: Divide 11 by 5. The number 5 goes into 11 a total of 2 times, fully. This division leaves a remainder of 1.
+    </p>
+    <p>
+        🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢+🟢🟢🟢🟢🟢+🟢
+    </p>
+    <p>
+        So, 11/5 is equivalent to the mixed number: <m>2\frac{1}{5}</m>
+    </p>
+</example>
+<assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+      In 11/5, we have a total of 11 pieces, and it takes 5 pieces to make a whole object. So, we have enough pieces to make 2 entire objects, and this leaves 1 piece leftover.  
+    </p>
+</assemblage>
+<worksheet xml:id="ws-s03e10">
+    <p>
+        Under Construction
+    </p>
+</worksheet>
+<subsection>
+        <title>Interlude: Mixed Numbers</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-mixed-numbers">
+            <caption>Fractions: Mixed NUmbers</caption>
+            <interactive xml:id="interactive-mixed-numbers" iframe="https://phet.colorado.edu/sims/html/fractions-mixed-numbers/latest/fractions-mixed-numbers_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </subsection>
 </section>

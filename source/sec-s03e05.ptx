@@ -46,7 +46,7 @@
       <p>
         Step 2: Turn this relationship into a fraction with the units you have on the bottom and the units you want on the top:
         <md>
-            \frac{\text{desire}}{\text{have}} \leftrightarrow \frac{1000\text{grams}}{1\text{kilogram}}
+            \frac{\text{desire}}{\text{have}} \leftrightarrow \frac{1000\,\,\text{grams}}{1\,\,\text{kilogram}}
         </md>
       </p>
       <p>
@@ -121,6 +121,35 @@
            </md>
         </p>
      </example>
+     <subsection>
+        <title>Common Units Conversion Chart</title>
+        <p>     
+        <alert>Length</alert>
+        </p>
+        <p>
+           <md>
+            <mrow>1 \,\,\text{meter (m)}\,\, = \amp\,\, 100 \,\,\text{cemtimeters (cm)}\,\, = 1000\,\,\text{millimeters (mm)}</mrow>
+            <mrow>1 \,\,\text{foot (ft)}\,\, = \amp\,\, 12\,\,\text{inches (in)}</mrow>
+            <mrow>1 \,\,\text{yard (yd)}\,\, = \amp\,\, 3\,\,\text{feet}</mrow>
+            <mrow>1 \,\,\text{mile (mi)}\,\, = \amp\,\, 5280\,\,\text{feet}\,\, = 1720\,\,\text{feet}</mrow>
+            <mrow>1 \,\,\text{inch}\,\, = \amp\,\, 2.54\,\,\text{centimeters}</mrow>
+           </md>
+        </p>
+        <p>
+            <alert>Weight/Mass</alert>
+            </p>
+        <p>
+            <md>
+                <mrow>1 \,\,\text{kilogram (kg)}\,\, = \amp\,\, 1000\,\,\text{grams (g)} \,\, = 1,000,000\,\,\text{milligrams (mg)} </mrow>
+                <mrow>1 \,\,\text{pound (lb)}\,\, =\amp\,\, 16\,\,\text{ounces (oz)} </mrow>
+                <mrow>1 \,\,\text{ton}\,\, =\amp\,\, 2000\,\,\text{pounds} </mrow>
+                <mrow>1 \,\,\text{kilogram}\,\, =\amp\,\, 2.205\,\,\text{pounds} </mrow>
+            </md>
+            
+        </p>
+     </subsection>
+        
+    
      <worksheet xml:id="ws-s03e05">
         <title>Episode 5 Practice Problems</title>
         <exercise workspace="1.0in">

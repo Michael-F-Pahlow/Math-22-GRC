@@ -1,38 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e08" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 8: Adding/Subtracting Fractions, Part 1</title>
-    
+    <assemblage>
+        <title>Episode 8 Learning Goals</title>
+        <p>
+         <ul>
+            <li>
+                <p>
+                    Add and subtract fractions that have the same denominator.
+                </p>
+            </li>
+         </ul>   
+        </p>
+    </assemblage>
+    <p>
+        <alert>How to Add/Subtract Fraction with the Same Denominator</alert>
+        <ol>
+            <li>
+                <p>
+                    Add/Subtract the numerators and put the result over the common denominator
+                </p>
+            </li>
+            <li>
+                <p>
+                    Simplify your answer to lowest terms (if possible).
+                </p>
+            </li>
+        </ol>
+    </p>
+    <example>
+        <p>
+            Add:
+            <md>
+                \frac{1}{3}+\frac{1}{3}
+            </md>
+        </p>
+        <p>
+            Solution: The fractions have the same denominator, 3. Add the two numbers and put the result over the common denominator, 3:
+            <md>
+                \frac{1+1}{3} = \frac{2}{3}
+            </md>
+            This cannot be further simplified, so 2/3 is our final answer.
+        </p>
+    </example>
+    <p>
+        <alert>Makes Sense, Right?</alert>
+    </p>
+    <p>
+        If we have 1/3 of a pizza and we combine it with another 1/3 of a pizza, we have end up 2/3 of a pizza.
+    </p>
     <figure>
-        <caption>2/3 of a pizza splits into 2 portions of size 1/3.</caption>
+        <caption>1/3 of a pizza combined with another 1/3 of a pizza gives 2/3 of a pizza.</caption>
         <image width="90%">
-            <prefigure label="pf-two-thirds-pizza-1" xmlns="https://prefigure.org">
-            <diagram dimensions="(400,100)" margins="5">
-            <coordinates bbox="(0,0,16,4)">
-            <circle center="(2.5,2)" radius="2" stroke="black" thickness="4"/>
-            <circle center="(9,2)" radius="2" stroke="black" thickness="4"/>
-            <circle center="(13.5,2)" radius="2" stroke="black" thickness="4"/>
-
-            <line endpoints="((5,2), (6.5,2))" stroke="pink" thickness="6" arrows="1"/>
-
-            <line endpoints="((9,2), (9,4))" stroke="black" thickness="4"/>
-            <line endpoints="((9,2), (10.732,1))" stroke="black" thickness="4"/>
-            <line endpoints="((9,2), (7.268,1))" stroke="black" thickness="4"/>
-            <arc center="(9,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
-
-            <line endpoints="((2.5,2), (2.5,4))" stroke="black" thickness="4"/>
-            <line endpoints="((2.5,2), (4.232,1))" stroke="black" thickness="4"/>
-            <line endpoints="((2.5,2), (0.768,1))" stroke="black" thickness="4"/>
-            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
-            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
-
-            <line endpoints="((13.5,2), (13.5,4))" stroke="black" thickness="4"/>
-            <line endpoints="((13.5,2), (15.232,1))" stroke="black" thickness="4"/>
-            <line endpoints="((13.5,2), (11.768,1))" stroke="black" thickness="4"/>
-            <arc center="(13.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
-
+            <prefigure label="pf-two-thirds-pizza-2" xmlns="https://prefigure.org">
+            <diagram dimensions="(425,100)" margins="5">
+            <coordinates bbox="(0,0,17,4)">
+            <arc center="(2,2)" radius="2"  sector="yes" fill="green" range="(90,210)"/>
+            <arc center="(8,2)" radius="2"  sector="yes" fill="green" range="(210,330)"/>
+            <arc center="(15,2)" radius="2"  sector="yes" fill="green" range="(9,210)"/>
+            <arc center="(15,2)" radius="2"  sector="yes" fill="green" range="(210,330)"/>
+            <circle center="(2,2)" radius="2" stroke="black" thickness="4"/>
+            <circle center="(8,2)" radius="2" stroke="black" thickness="4"/>
+            <circle center="(15,2)" radius="2" stroke="black" thickness="4"/>
+            <line endpoints="((4.5,2), (5.5,2))" stroke="purple" thickness="2"/>
+            <line endpoints="((5,1.5), (5,2.5))" stroke="purple" thickness="2"/>
+            <line endpoints="((11,1.9), (12,1.9))" stroke="purple" thickness="2"/>
+            <line endpoints="((11,2.1), (12,2.1))" stroke="purple" thickness="2"/>
+            <line endpoints="((2,2), (2,4))" stroke="black" thickness="4"/>
+            <line endpoints="((2,2), (0.268,1))" stroke="black" thickness="4"/>
+            <line endpoints="((2,2), (3.732,1))" stroke="black" thickness="4"/>
+            <line endpoints="((8,2), (8,4))" stroke="black" thickness="4"/>
+            <line endpoints="((8,2), (6.268,1))" stroke="black" thickness="4"/>
+            <line endpoints="((8,2), (9.732,1))" stroke="black" thickness="4"/>
+            <line endpoints="((15,2), (15,4))" stroke="black" thickness="4"/>
+            <line endpoints="((15,2), (13.268,1))" stroke="black" thickness="4"/>
+            <line endpoints="((15,2), (16.732,1))" stroke="black" thickness="4"/>
             </coordinates>
             </diagram>
             </prefigure>   
         </image>
         </figure>
+        <p>
+            That's why <m>\frac{1}{3} + \frac{1}{3} = \frac{2}{3}</m>
+        </p>
+    <example>
+        <p>
+            Subtract:
+            <md>
+                \frac{3}{4}-\frac{1}{4}
+            </md>
+        </p>
+        <p>
+            Solution: The two fractions have the same denominator, 4. So we subtract the two numerators and put the result over the common denominator:
+            <md>
+                \frac{3-1}{4} = \frac{2}{4}
+            </md>
+            We notice that 2/4 can be simplified:
+            <md>
+                \frac{2\div 2}{4\div 2} = \frac{1}{2}
+            </md>
+        </p>
+    </example>
+    <p>
+        When we're adding and subtracting negative fractions, the same rules apply when we were adding subtracting negative whole numbers in Season 2.
+    </p>
+    <example>
+        <p>
+            Calculate:
+            <md>
+                -\frac{3}{5} + \frac{1}{5}
+            </md>
+        </p>
+        <p>
+            Solution: We are adding two numbers together, one positive, one negative. So, we find the difference between the two numbers:
+            <md>
+                \frac{3}{5}-\frac{1}{5} = \frac{3-1}{5} = \frac{2}{5}
+            </md>
+            Then we remember that in our original problem, the negative number <m>\frac{3}{5}</m> was bigger. So, that means the final answer will also be negative:
+            <md>
+                -\frac{2}{5}
+            </md>
+        </p>
+    </example>
+
+    <example>
+        <p>
+            Calculate
+            <md>
+                \frac{8}{7}-\left(-\frac{6}{7}\right)
+            </md>
+        </p>
+        <p>
+            Solution: We are subtracting a negative number, so we add the opposite:
+            <md>
+                \frac{8}{7}+\frac{6}{7} = \frac{8+6}{7} = \frac{14}{7} = 2
+            </md>
+        </p>
+    </example>
+    <worksheet xml:id="ws-s03e08">
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{3}{8}+\frac{5}{8}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{4}{9}+\frac{2}{9}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{6}{11}-\frac{9}{11}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{11}{12}-\frac{7}{12}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{3}{10}+\frac{7}{10}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{5}{6}+\frac{1}{6}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{13}{15}-\frac{4}{15}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{10}{13}-\frac{15}{13}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{12}{17}-\frac{3}{17}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{2}{7}-\frac{3}{7}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{1}{4}+\frac{6}{4}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{14}{19}+\frac{5}{19}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{5}{14}+\frac{9}{14}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{7}{16}+\frac{5}{16}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> \frac{8}{21}+\frac{11}{21}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{8}{9}+\frac{2}{9}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{9}{20}-\frac{1}{20}\hspace{1.5in}</md> </p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p> <md> -\frac{6}{25}+\frac{16}{25}\hspace{1.5in}</md> </p>
+            </exercise>
+        </sidebyside>
+        <exercise workspace="1.5in">
+            <p>
+                Lily drank 3/8 of a bottle of water in the morning and 2/8 of the bottle in the afternoon. What fraction of the bottle did Lily drink in total?
+            </p>
+        </exercise>
+        <exercise workspace="1.5in">
+            <p>
+                A pizza was cut into 10 equal slices. If 7/10 of the pizza was eaten, what fraction of the pizza is left?
+            </p>
+        </exercise>
+        <exercise workspace="1.5in">
+            <p>
+                Noah spent 4/6 of an hour doing homework and 1/6 of an hour reading. How much time did he spend on both activities altogether?
+            </p>
+        </exercise>
+        <exercise workspace="1.0in">
+            Emma had 9/12 of a chocolate bar. She gave 5/12 of it to her friend. What fraction of the chocolate bar does Emma have now?
+        </exercise>
+    </worksheet>
 </section>

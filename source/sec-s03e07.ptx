@@ -103,28 +103,23 @@
             <prefigure label="pf-two-thirds-pizza-1" xmlns="https://prefigure.org">
             <diagram dimensions="(400,100)" margins="5">
             <coordinates bbox="(0,0,16,4)">
+            <arc center="(9,2)" radius="2"  sector="yes" fill="green" range="(90,210)"/>
+            <arc center="(2.5,2)" radius="2"  sector="yes" fill="green" range="(90,210)"/>
+            <arc center="(2.5,2)" radius="2"  sector="yes" fill="green" range="(210,330)"/>
+            <arc center="(13.5,2)" radius="2"  sector="yes" fill="green" range="(210,330)"/>
             <circle center="(2.5,2)" radius="2" stroke="black" thickness="4"/>
             <circle center="(9,2)" radius="2" stroke="black" thickness="4"/>
             <circle center="(13.5,2)" radius="2" stroke="black" thickness="4"/>
-
-            <line endpoints="((5,2), (6.5,2))" stroke="pink" thickness="6" arrows="1"/>
-
+            <line endpoints="((5,2), (6.5,2))" stroke="purple" thickness="6" arrows="1"/>
             <line endpoints="((9,2), (9,4))" stroke="black" thickness="4"/>
             <line endpoints="((9,2), (10.732,1))" stroke="black" thickness="4"/>
             <line endpoints="((9,2), (7.268,1))" stroke="black" thickness="4"/>
-            <arc center="(9,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
-
             <line endpoints="((2.5,2), (2.5,4))" stroke="black" thickness="4"/>
             <line endpoints="((2.5,2), (4.232,1))" stroke="black" thickness="4"/>
             <line endpoints="((2.5,2), (0.768,1))" stroke="black" thickness="4"/>
-            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(90,210)"/>
-            <arc center="(2.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
-
             <line endpoints="((13.5,2), (13.5,4))" stroke="black" thickness="4"/>
             <line endpoints="((13.5,2), (15.232,1))" stroke="black" thickness="4"/>
             <line endpoints="((13.5,2), (11.768,1))" stroke="black" thickness="4"/>
-            <arc center="(13.5,2)" radius="1.92"  sector="yes" fill="green" range="(210,330)"/>
-
             </coordinates>
             </diagram>
             </prefigure>   
