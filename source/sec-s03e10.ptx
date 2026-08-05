@@ -155,9 +155,103 @@
     </p>
 </assemblage>
 <worksheet xml:id="ws-s03e10">
+<title>Episode 10 Practice Problems</title>
+
+
     <p>
-        Under Construction
+        Convert each of the following mixed numbers to an improper fraction:
     </p>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>2\frac{1}{3}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>3\frac{7}{8}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>9\frac{1}{4}</m></p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>5\frac{3}{4}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>4\frac{1}{9}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>10\frac{3}{7}</m></p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>1\frac{2}{5}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>6\frac{5}{9}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>7\frac{1}{6}</m></p>
+        </exercise>
+    </sidebyside>
+     <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>8\frac{2}{5}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>4\frac{3}{4}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>5\frac{2}{3}</m></p>
+        </exercise>
+    </sidebyside>
+    <p>
+        Convert each of the following improper fractions to a mixed number.
+    </p>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>\frac{7}{4}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{10}{3}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{8}{5}</m></p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>\frac{9}{5}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{15}{7}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{19}{12}</m></p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>\frac{11}{6}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{14}{9}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{13}{8}</m></p>
+        </exercise>
+    </sidebyside>
+     <sidebyside>
+        <exercise workspace="0.75in">
+            <p><m>\frac{17}{10}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{23}{8}</m></p>
+        </exercise>
+        <exercise workspace="0.75in">
+            <p><m>\frac{16}{3}</m></p>
+        </exercise>
+    </sidebyside>
 </worksheet>
 <subsection>
         <title>Interlude: Mixed Numbers</title>

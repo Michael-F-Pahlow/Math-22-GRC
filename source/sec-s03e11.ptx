@@ -1,4 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s03e11" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 11: Calculations with Mixed Numbers</title>
+    <assemblage>
+        <title>Episode 11 Learning Goals</title>
+        <p>
+          <ul>
+            <li>
+                <p>
+                    Perform calculations involving mixed numbers.
+                </p>
+            </li>
+          </ul>  
+        </p>
+    </assemblage>
+    <p>
+        <alert>How to Perform Calculations Involving Mixed NUmbers</alert>
+        </p>
+      <p>
+        <ol>
+            <li>
+                <p>
+                    Convert the mixed numbers to improper fractions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Perform the calculations on those fractions.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Convert the answer back to a mixed number.
+                </p>
+            </li>
+        </ol>
+      </p>  
+      <example>
+        <p>
+            Perform the calculation:
+            <md>
+                2\frac{1}{4}+3\frac{1}{4}
+            </md>
+        </p>
+        <p>
+            Solution: We start by converting both mixed numbers to improper fractions:
+            <md>
+                \frac{9}{4}+\frac{13}{4}
+            </md>
+            We are adding two fractions that have the same denominator. So, we add the two numerators:
+            <md>
+                \frac{22}{4}
+            </md>
+            We notice we can simplify this fraction, because both 22 and 4 can be divided by 2:
+            <md>
+                \frac{22\div 2}{4\div 2} = \frac{11}{2}
+            </md>
+            Then we convert 11/2 back to a mixed number. The number 2 goes into the number 11 a total of 5 times, with 1 remaining. This gives us the answer:
+            <md>
+                5\frac{1}{2}
+            </md>
+            
+        </p>
+      </example>
+      <example>
+        <p>
+            Perform the calculation:
+            <md>
+                1\frac{2}{7}\times 3\frac{2}{5}
+            </md>
+        </p>
+        <p>
+            Solution: We start by converting both mixed numbers to improper fractions:
+            <md>
+                \frac{9}{7}\times \frac{17}{5}
+            </md>
+            Since this is a multiplication problem, we check to see if we can cross-cancel, but we cannot. So, we multiply straight across:
+            <md>
+                \frac{9\times 17}{7\times 5} = \frac{153}{35}
+            </md>
+            Now, we convert back to a mixed number. The number 35 goes into 153 a total of 4 times, with 13 left over, so we have:
+            <md>
+                4\frac{13}{35}
+            </md>
+            
+        </p>
+      </example>
+      <worksheet xml:id="ws-s03e11">
+        <title>Episode 11 Practice Problems</title>
+        <p>
+            Perform the following calculations:
+        </p>
+        <exercise workspace="0.8in">
+            <p>
+                <m>2\frac{1}{3}+1\frac{3}{4}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>6\frac{7}{8}+2\frac{1}{4}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>9\frac{1}{2}-4\frac{3}{4}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>5\frac{2}{5}+3\frac{1}{10}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>4\frac{5}{6}-2\frac{1}{3}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>7\frac{2}{5}-3\frac{7}{10}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>1\frac{2}{3}\times 2\frac{1}{4}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>4\frac{3}{5}\times 2\frac{2}{3}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>5\frac{3}{4}\div 2\frac{1}{3}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>3\frac{5}{6}\times 1\frac{1}{2}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>2\frac{1}{2}\div 1\frac{1}{4}</m>
+            </p>    
+        </exercise>
+        <exercise workspace="0.8in">
+            <p>
+                <m>6\frac{2}{7}\div 1\frac{4}{5}</m>
+            </p>    
+        </exercise>
+      </worksheet>
 </section>
