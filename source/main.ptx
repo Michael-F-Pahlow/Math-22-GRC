@@ -9,6 +9,7 @@
     <xi:include href="./ch-season1.ptx" />
     <xi:include href="./ch-season2.ptx" />
     <xi:include href="./ch-season3.ptx" />
+    <xi:include href="./ch-season4.ptx" />
     <xi:include href="./backmatter.ptx" />
   </book>
 </pretext>

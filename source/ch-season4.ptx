@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chapter xml:id="ch-season4" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Season 4: Decimal Numbers and Introductory Percents </title>
+    <introduction>
+        <p>
+           Like fractions, decimal numbers are also used to represent portions of a whole. 
+           While fractions arise most commonly in construction and baking, decimals are used most often when dealing with money. 
+           In this season, we will learn how to perform basic calculations involving decimals, how to compare two decimal numbers, 
+           and how to convert between fractions and decimals. We will also learn how to calculate percents using decimal numbers. 
+        </p>
+    </introduction>
+
+    <xi:include href="sec-s04e01.ptx" />
+    <xi:include href="sec-s04e02.ptx" />
+    <xi:include href="sec-s04e03.ptx" />
+    <xi:include href="sec-s04e04.ptx" />
+    <xi:include href="sec-s04e05.ptx" />
+   
+
+</chapter>
