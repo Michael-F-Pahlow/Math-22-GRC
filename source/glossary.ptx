@@ -17,11 +17,27 @@ When multiplying fractions, you can simplify your answer before multiplying the 
 </gi>
 
 <gi>
+<title>decimal number</title>
+<p>
+    A way of representing a portion of a whole. Decimal numbers are written using a <term>decimal point</term>, which is a period in the middle of the number. 
+    The value of a decimal number depends on the digits in the number and the position of each digit relative to the decimal point. 
+</p>
+</gi>
+
+
+<gi>
 <title>denominator</title>
 <p>
 The number on the bottom of the fraction. In 1/4, the denominator is 4. The denominator tells you how many pieces you need to cut the whole object into.
 </p>
 </gi>
+
+<gi>
+<title>digit</title>
+<p>
+    The numbers zero to nine (0 1 2 3 4 5 6 7 8 9).
+    </p>
+    </gi>
 
 <gi>
 <title>division</title>
@@ -120,6 +136,13 @@ A whole number that cannot be evenly divided by 2.
 <p>
 The opposite of a positive number is the negative version of that number. The opposite of a negative number is the positive version of that number. The opposite
 of zero is zero.
+</p>
+</gi>
+
+<gi>
+<title>rounding</title>
+<p>
+    The process of shortening a decimal number to make it easier to work with. 
 </p>
 </gi>
 

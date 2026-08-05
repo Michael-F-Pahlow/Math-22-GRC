@@ -314,7 +314,7 @@
 </exercise>
 </worksheet>
 
-     <subsection>
+     <paragraphs>
         <title>Interlude: Comparing Numbers</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -323,5 +323,5 @@
             <caption>Comparing Numbers</caption>
             <interactive xml:id="interactive-phet-number-compare" iframe="https://phet.colorado.edu/sims/html/number-compare/latest/number-compare_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>

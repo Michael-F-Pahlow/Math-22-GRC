@@ -1,5 +1,405 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s04e01" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 1: What Decimal Numbers Represent </title>
-    
+    <assemblage>
+        <title>Episode 1 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Interpret the amount represented by a decimal number using the place value system.  
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Represent decimal numbers on a number line. 
+                    </p>
+                </li>
+                <li>
+                    <p>
+                    Compare decimal numbers using <m>\gt</m> and <m>\lt</m>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <assemblage>
+        <title>Episode 1 Key Terminology</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        Decimal point
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Digit
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Tenths place
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Hundredths place
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Thousandths place
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <definition xml:id="def-decimal">
+        <statement>
+            <p>
+                A <term>decimal number</term> is another way of representing a portion of a whole. Decimal numbers are written using a <term>decimal point</term>, 
+                which is a period in the middle of the number. The value of a decimal number depends on the <term>digits</term> (the numbers 0-9) in the number 
+                and the position of each digit relative to the decimal point. 
+            </p>
+        </statement>
+    </definition>
+    <figure>
+        <caption>An example of a decimal number</caption>
+        <image source="placevalues.png" widths="75%">
+    </image>
+    </figure>
+    <p>
+        For example, in the decimal number 1234.5678:
+        <ul>
+            <li>
+                <p>
+                    The digit 4 is located one step to the left of the decimal point. It represents the number of ones in the decimal number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The digit 3 is located two steps to the left of the decimal point. It represents the number of tens in the decimal number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The digit 2 is located three steps to the left of the decimal point. It represents the number of hundreds in the decimal number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The digit 1 is located four steps to the left of the decimal point. It represents the number of thousands in the decimal number.
+                </p>
+            </li>
+            <li>
+                <p>
+                  The digit 5 is located one step to the right of the decimal point. It represents the number of tenths (1/10) in the decimal number. 
+                  </p>
+            </li>
+            <li>
+                <p>
+                   The digit 6 is located two steps to the right of the decimal point. It represents the number of hundredths (1/100) in the decimal number.
+                 </p>
+            </li>
+            <li>
+                <p>
+                    The digit 7 is located three steps to the right of the decimal point. It represents the number of thousands (1/1000) in the decimal number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    The digit 8 is located four steps to the right of the decimal point. It represents the number of ten-thousands (1/10000) in the decimal number.
+                </p>
+            </li>
+        </ul>
+        So, in total, the decimal number 1234.5678 is the same as:
+        <md>
+            1000+200+30+4+\frac{5}{10}+\frac{6}{100}+\frac{7}{1000}+\frac{8}{10000}
+        </md>
+    </p>
+    <assemblage>
+        <title>Notice Something Neat</title>
+        <p>
+            The digits on the left side of a decimal number are always worth more than the digits on the right side of a decimal number.
+        </p>
+    </assemblage>
+    <p>
+        Decimal numbers can be drawn on a number line. They are typically drawn in the space between two whole numbers.
+    </p>
+    <p>
+        <alert>Positive Decimal Numbers</alert>
+    </p>
+        <image width="100%">
+        <prefigure label="pf-positive-decimals" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,50)" margins="5">
+        <coordinates bbox="(-0.05,-1,1.05,1)">
+        <axes axes="horizontal" arrows="3" hticks="(0,0.1,1)"
+        hlabels="(0,0.1,1)" thickness="2" tick-size="5"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    <p>
+        <alert>Negative Decimal Numbers</alert>
+    </p>
+        <image width="100%">
+        <prefigure label="pf-negative-decimals" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,50)" margins="5">
+        <coordinates bbox="(-1.05,-1,0.05,1)">
+        <axes axes="horizontal" arrows="2" hticks="(-1,0.1,0)"
+        hlabels="(-1,0.1,0)" thickness="2" tick-size="5"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+ <example>
+    <p>
+        Mark the decimal number 1.3 on a number line.
+    </p>
+    <p>
+        Solution: The decimal number 1.3 is equivalent to 1 and 3/10. The value of 1.3 is more than the whole number 1, 
+        but less than the whole number 2. So, the decimal number 1.3 will appear on the number line in the space between 1 and 2.
+    </p>
+    <p>
+        Specifically, we can take the space between 1 and 2 on the number line, and we split that space into 10 portions. 
+        Then, starting at 1, we walk three steps to the right to reach 1.3.
+    </p>
+    <image width="80%">
+        <prefigure label="pf-decimals-example" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,50)" margins="5">
+        <coordinates bbox="(0.95,-1,2.05,1)">
+        <axes axes="horizontal" arrows="2" hticks="(1,0.1,2)"
+        hlabels="(1,0.1,2)" thickness="1" tick-size="5"/>
+        <point p="(1.3,0)" size="10" fill="green" stroke="none"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+ </example>
+ <p>
+    We can compare decimal numbers using the symbols <m>\gt</m> and <m>\lt</m>.
+ </p>
+ <p>
+    <alert>To Compare Positive Decimals Numbers:</alert>
+    <ol>
+        <li>
+            <p>
+                Write the numbers in a vertical list, aligned at the decimal point.
+            </p>
+        </li>
+        <li>
+            <p>
+                Read the numbers starting on the left. 
+                <ol>
+                    <li>
+                        <p>
+                            If the two numbers have different digits, the number with the bigger digit is bigger overall.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            If the two numbers have the same digits, move one step to the right and then compare the digits in that position. 
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </li>
+    </ol>
+ </p>
+ <example>
+    <p>
+      Compare the decimal numbers 2.4328 and 2.45.  
+    </p>
+    <p>
+        Solution: We start by writing the numbers vertically, lined up at the decimal point:
+        <md>
+            <mrow>2.4328 \amp </mrow>
+            <mrow>2.45 \amp </mrow>
+        </md>
+        </p>
+    <p>
+        We read both numbers, starting on the left. 
+        <ul>
+            <li>
+                <p>
+                    The first place on the left is the ones place. Both numbers have the same digit, 2, in the ones place. So we move one step to the right.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Next is the tenths place. Both numbers have the same digit, 4, in the tenths place. So we move another step to the right.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Next is the hundredth place. In the hundredths place, the second number has a bigger digit (5) than the first number (3). 
+                </p>
+            </li>
+        </ul>
+    </p> 
+    <p>
+        So, the first number is bigger overall:
+        <md>
+            2.45 \gt 2.4328
+        </md>
+    </p>   
+ </example>
+ <example>
+    <p>
+        Sort the decimal numbers 4.3, 4.03, 4.08, 40.3 from largest to smallest.
+    </p>
+    <p>
+        Solution: We start by writing the numbers vertically, lined up at the decimal point:
+        <md>
+            <mrow>4.3 \amp </mrow>
+            <mrow>4.03 \amp </mrow>
+            <mrow>4.08 \amp </mrow>
+            <mrow>40.3 \amp </mrow>
+        </md>
+        We read all the numbers, starting on the left.
+        <ul>
+            <li>
+                <p>
+                    The first place on the left is the tens place. The final number, 40.3, has a digit 4 in the tens place, 
+                    while all the other numbers have nothing in the tens place. So 40.3 is the biggest number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Moving one step to the right, the next place is the ones place. All the remaining numbers 4.3, 4.03, and 4.08 have the same digit 
+                    in the ones place, so we move another step to the right.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Now we are in the tenths place. The number 4.3 has the digit 3 in the tenths place, while all the other numbers 
+                    have 0 in the tenths. So 4.3 is the next largest number.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Moving another step to the right, now we are in the hundredths place. The number 4.08 has a larger digit (8) in the hundredths place than 4.03 (3), 
+                    so the number 4.08 is the next largest number.
+                </p>
+            </li>
+        </ul>
+        <md>
+            40.3 \gt 4.3 \gt 4.08 \gt 4.03
+        </md>
+    </p>
+ </example>
+ <assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+       Think about the values in terms of money. 40.3 is the same as having forty dollars and thirty cents. 
+       That’s more money than 4.3, which is four dollars and thirty cents. That’s more money than 4.08, which is four dollars and 8 cents. 
+       That’s more than 4.03, which is four dollars and 3 cents.
+    </p>
+ </assemblage>
+ <example>
+    <p>
+        Compare the negative decimal numbers -3.42 and -3.08.
+    </p>
+    <p>
+        Solution: Temporarily treat the numbers as if they were all positive. 
+        <md>
+            <mrow>3.42 \amp </mrow>
+            <mrow>3.08 \amp </mrow>
+        </md>
+        Both numbers are the same in the ones place, but the first number has a bigger digit in the tenths place. That means 3.42 is bigger than 3.08.
+    </p>
+    <p>
+        That means -3.42 is more negative or “colder” than -3.08. So, we point the “mouth” of the <m>\gt</m> symbol toward the warmer number:
+        <md>
+            -3.42 \lt -3.08
+        </md>
+    </p>
+ </example>
+ <worksheet xml:id="ws-s04e01">
+    <exercise workspace="0.5in">
+        <p>
+            In the number 4.372, what digit is in the hundredths place?
+        </p>
+    </exercise>
+    <exercise workspace="0.5in">
+        <p>
+            What is the place of the digit 9 in 0.594?
+        </p>
+    </exercise>
+    <exercise workspace="0.5in">
+        <p>
+            Which digit is in the thousands place in the number 3,482.916?
+        </p>
+    </exercise>
+    <exercise workspace="0.5in">
+        <p>
+            How many hundredths are in the number 0.86?
+        </p>
+    </exercise>
+    <exercise workspace="0.5in">
+        <p> Mark each of the following decimal numbers on a number line: 0.3, 2.5, 2.8, -1.6 </p>
+            <image width="100%">
+        <prefigure label="pf-decimals-exercise" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,50)" margins="5">
+        <coordinates bbox="(-3.1,-1,3.1,1)">
+        <axes axes="horizontal" arrows="2" hticks="(-3,0.1,3)"
+        hlabels="(-3,0.5,3)" thickness="1" tick-size="4"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <p>
+       Use the symbols <m>\lt</m> and <m>\gt</m> to compare the decimal numbers in the pairs below: 
+    </p>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p>
+                <m>0.3\quad\quad 0.7</m>
+            </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p>
+                <m>5.06\quad\quad 5.60</m>
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p>
+                <m>-0.3\quad\quad -0.7</m>
+            </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p>
+                <m>7.81\quad\quad 7.29</m>
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p>
+                <m>0.3\quad\quad -0.7</m>
+            </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p>
+                <m>-5.06\quad\quad -5.60</m>
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.5in">
+            <p>
+                <m>-0.3\quad\quad 0.7</m>
+            </p>
+        </exercise>
+        <exercise workspace="0.5in">
+            <p>
+                <m>-7.81\quad\quad -7.29</m>
+            </p>
+        </exercise>
+    </sidebyside>
+ </worksheet>
 </section>
