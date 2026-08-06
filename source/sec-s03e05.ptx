@@ -121,7 +121,7 @@
            </md>
         </p>
      </example>
-     <subsection>
+     <paragraphs>
         <title>Common Units Conversion Chart</title>
         <p>     
         <alert>Length</alert>
@@ -147,7 +147,7 @@
             </md>
             
         </p>
-     </subsection>
+     </paragraphs>
         
     
      <worksheet xml:id="ws-s03e05">

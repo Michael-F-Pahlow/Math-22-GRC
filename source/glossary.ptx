@@ -140,6 +140,13 @@ of zero is zero.
 </gi>
 
 <gi>
+<title>percent</title>
+<p>
+    An amount out of 100 or a fraction with a denominator of 100. (per = fraction, cent = 100)
+</p>
+</gi>
+
+<gi>
 <title>rounding</title>
 <p>
     The process of shortening a decimal number to make it easier to work with. 

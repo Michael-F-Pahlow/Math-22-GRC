@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season8" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 8: Inequalities</title>
+
+  <introduction>
+    <p> 
+        Equations are lines of math that use the = sign. When we write an equation like A=B, 
+        that means that we either know that A and B are exactly the same, or we want A and B to be exactly the same.
+      </p>
+      <p>
+        However, sometimes we don’t need A and B to be exactly the same. For example, if A represents 
+        the amount of money we earn in a month, and we have $2000 worth of bills to pay, we don’t need to earn exactly $2000. We would also be happy to earn more 
+        than $2000. This desire would be expressed using an inequality, <m>A \geq \$2000</m>. 
+        The symbol <m>\geq</m>, resembling <m>\gt</m> but with a bar underneath, means “greater than or equal to.” 
+      </p>
+      <p>
+       In this season, we will be learning how to create inequalities that represent our desires, 
+       and how to solve those inequalities to figure out how to achieve those desires. 
+      </p>
+  </introduction>
+  <xi:include href="sec-s08e01.ptx" />
+  <xi:include href="sec-s08e02.ptx" />
+  <xi:include href="sec-s08e03.ptx" />
+</chapter>

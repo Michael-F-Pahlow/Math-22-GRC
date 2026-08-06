@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season6" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 6: Equations</title>
+
+  <introduction>
+    <p> 
+        An equation is a line of mathematics containing an = sign. 
+        Equations communicate that the quantity on the left side of the = is equal to the quantity on the right side of the = sign.
+      </p>
+      <p>
+        Equations can be used to express known facts (e.g. “I know that the value of A is 5, so <m>A=5</m>”). 
+        Equations can also be used to expressed desired results (e.g. “I want the value of A to be 5, so <m>A = 5</m>”). 
+      </p>
+      <p>
+       In this lesson, we will learn how to “solve” equations that contain a variable. 
+       “Solving” an equation means finding the value of the variable that will make the equation true or which will achieve the desired result.  
+      </p>
+  </introduction>
+  <xi:include href="sec-s06e01.ptx" />
+  <xi:include href="sec-s06e02.ptx" />
+  <xi:include href="sec-s06e03.ptx" />
+  <xi:include href="sec-s06e04.ptx" />
+  <xi:include href="sec-s06e05.ptx" />
+</chapter>

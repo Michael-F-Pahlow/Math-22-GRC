@@ -253,7 +253,7 @@
         </exercise>
     </sidebyside>
 </worksheet>
-<subsection>
+<paragraphs>
         <title>Interlude: Mixed Numbers</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -262,5 +262,5 @@
             <caption>Fractions: Mixed NUmbers</caption>
             <interactive xml:id="interactive-mixed-numbers" iframe="https://phet.colorado.edu/sims/html/fractions-mixed-numbers/latest/fractions-mixed-numbers_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>

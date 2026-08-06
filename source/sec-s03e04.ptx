@@ -181,9 +181,8 @@
 <p>
     Practice measuring lengths, areas, volumes, and weights of real-world objects using physical tools, such as scales, measuring cups, rulers, and measuring tapes!
 </p>
-<p>
-    <alert>Interlude: Unit Rates</alert>
-</p>
+<paragraphs>
+<title>Interlude: Unit Rates</title>
 <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
         </p>
@@ -191,4 +190,5 @@
             <caption>Unit Rates</caption>
             <interactive xml:id="interactive-phet-unit-rates" iframe="https://phet.colorado.edu/sims/html/unit-rates/latest/unit-rates_all.html" width="95%" aspect="15:10"/>
         </figure>
+</paragraphs>
 </section>

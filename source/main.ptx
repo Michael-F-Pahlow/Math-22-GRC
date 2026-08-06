@@ -10,6 +10,12 @@
     <xi:include href="./ch-season2.ptx" />
     <xi:include href="./ch-season3.ptx" />
     <xi:include href="./ch-season4.ptx" />
+    <xi:include href="./ch-season5.ptx" />
+    <xi:include href="./ch-season6.ptx" />
+    <xi:include href="./ch-season7.ptx" />
+    <xi:include href="./ch-season8.ptx" />
+    <xi:include href="./ch-season9.ptx" />
+    <xi:include href="./ch-season10.ptx" />
     <xi:include href="./backmatter.ptx" />
   </book>
 </pretext>

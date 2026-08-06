@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season7" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 7: Operations with Variables</title>
+
+  <introduction>
+    <p> 
+        In Season 01, we learned how to add, subtract, multiply, divide, and do exponents with whole numbers.
+      </p>
+      <p>
+        In Season 02, we learned how to add, subtract, multiply, divide, and do exponents with negative numbers.
+      </p>
+      <p>
+       In Season 03, we learned how to add, subtract, multiply, divide, and do exponents with fractions.
+      </p>
+      <p>
+        In Season 04, we learned how to add, subtract, multiply, divide, and do exponents with decimals.
+      </p>
+      <p>
+        In this season, we’re going to learn how to add, subtract, multiply, divide, and do exponents with variables, which represent numbers that are changing or unknown. 
+        Because a variable can theoretically have any value, 
+        when we’re doing operations with variables, we need to make sure that the steps we’re taking are valid for all values.
+      </p>
+  </introduction>
+  <xi:include href="sec-s07e01.ptx" />
+  <xi:include href="sec-s07e02.ptx" />
+  <xi:include href="sec-s07e03.ptx" />
+  <xi:include href="sec-s07e04.ptx" />
+  <xi:include href="sec-s07e05.ptx" />
+  <xi:include href="sec-s07e06.ptx" />
+  <xi:include href="sec-s07e07.ptx" />
+  <xi:include href="sec-s07e08.ptx" />
+  <xi:include href="sec-s07e09.ptx" />
+  <xi:include href="sec-s07e010.ptx" />
+</chapter>

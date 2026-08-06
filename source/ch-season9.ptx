@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season9" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 9: Graphing</title>
+
+  <introduction>
+    <p> 
+        Equations containing two variables are used to express the relationship between two quantities that affect each other. 
+        For example, the formula for the area of a square, <m>A=s^{2}</m>, is an equation containing two variables, which expresses 
+        the relationship between the square’s side length and the square’s area. 
+      </p>
+      <p>
+        The graph of an equation containing two variables is a visual representation of that relationship.  
+      </p>
+      <p>
+       In this season, we will learn how to create and read the graphs of equations of two variables. 
+      </p>
+  </introduction>
+  <xi:include href="sec-s09e01.ptx" />
+  <xi:include href="sec-s09e02.ptx" />
+  <xi:include href="sec-s09e03.ptx" />
+  <xi:include href="sec-s09e04.ptx" />
+  <xi:include href="sec-s09e05.ptx" />
+  <xi:include href="sec-s09e06.ptx" />
+  <xi:include href="sec-s09e07.ptx" />
+</chapter>

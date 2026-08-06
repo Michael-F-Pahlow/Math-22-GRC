@@ -168,7 +168,7 @@
     </md>
     </p>
     <xi:include href="ws-s02e02.ptx" />
-    <subsection>
+    <paragraphs>
         <title>Interlude: Number Line Operations</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -177,5 +177,5 @@
             <caption>Number line operations</caption>
             <interactive xml:id="interactive-phet-number-line-operations" iframe="https://phet.colorado.edu/sims/html/number-line-operations/latest/number-line-operations_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>

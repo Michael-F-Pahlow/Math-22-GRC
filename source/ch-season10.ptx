@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season10" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 10: Systems of Equations</title>
+
+  <introduction>
+    <p> 
+        A system of equations consists of two or more equations that need to be true simultaneously. 
+        A solution to a system of equations is something that makes all the equations true at the same time. 
+      </p>
+        </introduction>
+  <xi:include href="sec-s10e01.ptx" />
+  <xi:include href="sec-s10e02.ptx" />
+</chapter>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-season5" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Season 5: Variables and Formulas</title>
+
+  <introduction>
+    <p> 
+        Variables are letters that represent numbers that are unknown or that are changing. 
+        Formulas are incomplete calculations containing variables, calculations which we can complete 
+        later after the values of the variables become known. In this season, we will practice creating variables and 
+        formulas that match real-world situations, and we will practice those formulas to answer real-world problems. 
+      </p>
+  </introduction>
+  <xi:include href="sec-s05e01.ptx" />
+  <xi:include href="sec-s05e02.ptx" />
+  <xi:include href="sec-s05e03.ptx" />
+  <xi:include href="sec-s05e04.ptx" />
+  <xi:include href="sec-s05e05.ptx" />
+  <xi:include href="sec-s05e06.ptx" />
+</chapter>

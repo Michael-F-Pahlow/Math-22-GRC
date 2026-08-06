@@ -132,7 +132,7 @@
     </p>
 </example>
 <xi:include href="ws-s02e03.ptx" />
-<subsection>
+<paragraphs>
         <title>Interlude: Number Line Integers</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -141,5 +141,5 @@
             <caption>Number line integers</caption>
             <interactive xml:id="interactive-phet-number-line-integers" iframe="https://phet.colorado.edu/sims/html/number-line-integers/latest/number-line-integers_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>

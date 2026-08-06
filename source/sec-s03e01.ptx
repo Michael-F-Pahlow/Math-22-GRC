@@ -300,7 +300,7 @@
            </task>
         </exercise>
     </worksheet>
-    <subsection>
+    <paragraphs>
         <title>Interlude: Fractions in the Physical World</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -309,5 +309,5 @@
             <caption>Introduction to Fractions</caption>
             <interactive xml:id="interactive-phet-fractions-intro" iframe="https://phet.colorado.edu/sims/html/fractions-intro/latest/fractions-intro_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>

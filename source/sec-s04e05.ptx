@@ -1,4 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section xml:id="sec-s04e05" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Episode 5: Percent of a Number </title>
+    <assemblage>
+        <title>Episode 5 Learning Goals</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                    Find a percent of a given number.
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </assemblage>
+    <p>
+        Percents are generally used to find a portion of some other number, such as the portion of a restaurant bill that should be paid as a tip. 
+    </p>
+    <p>
+        <alert>How to Find a Percent of a Number:</alert>
+        <ol>
+            <li>
+                <p>
+                    Convert the percent to a decimal.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Multiply the number by that decimal.
+                </p>
+            </li>
+        </ol>
+    </p>
+    <assemblage>
+        <title>Makes Sense, Right?</title>
+        <p>
+            Remember from Season 1 that the keyword “of” indicates multiplication. When we want 50% of 30, that means we need to multiply 50% and 30:
+            <md>
+                50\%\times 30
+            </md>
+            
+        </p>
+    </assemblage>
+    <example>
+        <p>
+            Find 20% of 84.
+        </p>
+        <p>
+            Solution: Start by converting the 20% to a decimal number by removing the % and moving the decimal point two places to the left:
+            <md>
+                0.20
+            </md>
+            Now, multiply 0.20 and 84:
+            <md>
+                0.20\times 84 = 16.8
+            </md>
+            
+        </p>
+    </example>
+    <example>
+        <p>
+            Find 4.5% of 200.
+        </p>
+        <p>
+            Start by converting the 4.5% to a decimal number:
+            <md>
+                0.045
+            </md>
+            Now, multiply 0.045 and 200:
+            <md>
+                0.045\times 200 = 9
+            </md>
+            
+        </p>
+    </example>
+    <example>
+        <p>
+            A loan of $6000 has an annual interest rate of 5.6%. After a year, how much interest accumulates on the loan?
+        </p>
+        <p>
+           Solution: The interest on this loan after one year is the annual interest rate, 5.6%, times the amount of the loan, $6000.
+            <md>
+                5.6\% \times 6000
+            </md>
+            To calculate this product, we convert the percent to a decimal:
+            <md>
+                0.056\times 6000
+            </md>
+            Then we complete the multiplication on a calculator:
+            <md>
+                336
+            </md>
+            That means this loan will accumulate $336 of interest after a year.
+        </p>
+    </example>
+    <example>
+        <p>
+            A game originally costs $70. Then it goes on sale for 20% off. How much does the game cost after the discount?
+        </p>
+        <p>
+            Solution: The discount amount is 20% of 70$:
+            <md>
+                20\% \times 70 = 0.20\times 70 = 14
+            </md>
+            This amount is then subtracted from the original price:
+            <md>
+                <mrow>\text{New Price}\,\,=\,\, \amp \text{original price}\,\,-\,\,\text{discount}</mrow>
+                <mrow> = \amp 70-14 </mrow>
+                <mrow> = \amp 56 </mrow>
+            </md>
+            The new price after the discount is $56.
+        </p>
+    </example>
+    <worksheet xml:id="ws-s0405">
+        <title>Episode 5 Practice Problems</title>
+        <p>
+            Perform the following percent calculations:
+        </p>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                What is 25% of 320?
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                What is 200% of 90?
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                Find 150% of 80.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Find 0.25% of 2,400.
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                Calculate 0.5% of 600.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Calculate 300% of 50.
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                What is 120% of 250?
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                What is 1.5% of 800?
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                Find 0.8% of 1,250.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Find 110% of 370.
+            </p>
+        </exercise>
+    </sidebyside>
+    <sidebyside>
+        <exercise workspace="0.75in">
+            <p>
+                Calculate 75% of 480.
+            </p>
+        </exercise>
+        <exercise>
+            <p>
+                Calculate 0.05% of 6,000.
+            </p>
+        </exercise>
+    </sidebyside>
+    <p>
+        Solve the following percent word problems.
+    </p>
+    <exercise workspace="1.25in">
+        <p>
+            Sarah invested $4,800 in a savings account. If her investment grows by 25% this year, how much money will she have gained?
+        </p>
+    </exercise>
+    <exercise workspace="1.25in">
+        <p>
+            A client has $1,200 in a checking account. The bank charges 0.5% as a monthly maintenance fee. How much is the fee?
+        </p>
+    </exercise>
+    <exercise workspace="1.25in">
+        <p>
+            A business made $75,000 in profits last year. They decide to donate 1.5% of their profits to a local charity. How much money do they donate?
+        </p>
+    </exercise>
+    <exercise workspace="1.25in">
+        <p>
+            A laptop costs $1,200. It is on sale for 15% off. How much does the laptop cost now?
+        </p>
+    </exercise>
+    <exercise workspace="1.25in">
+        <p>
+            A sofa is priced at $850. The store offers a 25% discount. What is the discounted price of the sofa?
+        </p>
+    </exercise>
+    </worksheet>
 </section>

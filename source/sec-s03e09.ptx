@@ -221,7 +221,7 @@
             </exercise>
         </sidebyside>
     </worksheet>
-    <subsection>
+    <paragraphs>
         <title>Interlude: Fraction Matcher</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
@@ -230,5 +230,5 @@
             <caption>Introduction to Fractions</caption>
             <interactive xml:id="interactive-phet-fractions-matcher" iframe="https://phet.colorado.edu/sims/html/fraction-matcher/latest/fraction-matcher_all.html" width="95%" aspect="15:10"/>
         </figure>
-    </subsection>
+    </paragraphs>
 </section>
