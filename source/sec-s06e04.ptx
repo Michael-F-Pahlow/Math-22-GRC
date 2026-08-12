@@ -2,4 +2,238 @@
 
 <section xml:id="sec-s06e04" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 4: Proportions</title>
+  <assemblage>
+    <title>Episode 4 Learning Goals</title>
+    <p>
+      Set up and solve proportions
+    </p>
+  </assemblage>
+  <assemblage xml:id="assemblage-">
+    <title>Episode 4 Key Terminology</title>
+    <p>
+      Proportion
+    </p>
+  </assemblage>
+  <p>
+    Suppose you have a cookie recipe. The recipe requires 2 cups of flour, and makes 24 cookies. How many cups of flour would you need if you wanted to make 36 cookies?
+  </p>
+  <p>
+    Because the amount of flour we need is unknown, represent it by a variable, <m>x</m>.
+  </p>
+      <tabular bottom="minor" top = "minor" left="minor" right="minor">
+      <row>
+        <cell></cell>
+        <cell>Old</cell>
+        <cell>New</cell>
+      </row>
+      <row>
+        <cell>Flour</cell>
+        <cell>2</cell>
+        <cell><m>x</m></cell>
+      </row>
+      <row>
+        <cell>Cookies</cell>
+        <cell>24</cell>
+        <cell>36</cell>
+      </row>
+    </tabular>
+  <p>
+    This recipe has a certain ratio (see Season 3) of flour to cookies. 
+  </p>
+  <p>
+    From the recipe’s directions, the ratio is:
+    <md>
+      \frac{2\,\,\text{cups of flour}}{24\,\,\text{cookies}}
+    </md>
+    But we want to make 36 cookies, so the ratio that matters to us is:
+    <md>
+      \frac{x\,\,\text{cups of flour}}{36\,\,\text{cookies}}
+    </md>
+    But since it’s the same recipe, it’s the same ratio:
+    <md>
+      \frac{2\,\,\text{cups of flour}}{24\,\,\text{cookies}} = \frac{x\,\,\text{cups of flour}}{36\,\,\text{cookies}}
+    </md>
+    Now we have an equation that we can solve for <m>x</m>.
+    <md>
+      \frac{2}{24}=\frac{x}{36}
+    </md>
+    Multiply both sides by 36 to get rid of the divided 36:
+    <md>
+      \frac{2}{24}\times 36 = \frac{x}{36}\times 36
+    </md>
+    <md>
+      \frac{2}{24}\times \frac{36}{1} = x
+    </md>
+    <md>
+      \frac{72}{24}=x
+    </md>
+    <md>
+      3=x
+    </md>
+    In other words, to make 36 cookies with this recipe, we would need 3 cups of flour.
+  </p>
+  <definition xml:id="def-proportion">
+    <statement>
+      <p>
+        A <term>proportion</term> is an equation that you get by setting two different-looking ratios equal to each other. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    Proportions arise in situations where you’re working with two related quantities, and doubling Quantity A means doubling Quantity B.
+    <ul>
+      <li>
+        <p>
+          When you’re cooking, if you want to double the amount of food you make, you need to double the amount of each ingredient.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you’re walking at a certain speed, if you want to double the distance you walk, you need to double the time you spend walking. 
+        </p>
+      </li>
+      <li>
+        <p>
+          When you’re being paid at a certain hourly rate, if you want to double the money you earn, you need to double the hours you work.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you’re buying a certain product, if you want to buy double the number of items, you need to double the amount of money you spend.
+        </p>
+      </li>
+      <li>
+        <p>
+          When you’re making a photo bigger, if you want to make the double the width of a photo, you also need to double the height of the photo.
+        </p>
+      </li>
+    </ul>
+  </p>
+  <example>
+    <p>
+      You get paid $350 for 6 hours of work. How much would you get paid for 8 hours of work?
+    </p>
+    <p>
+      Solution: The pay for 8 hours of work is unknown, so represent it by a variable, <m>x</m>. 
+    </p>
+    <p>
+      We can organize this problem in a table:
+    </p>
+    <tabular bottom="minor" top = "minor" left="minor" right="minor">
+      <row>
+        <cell></cell>
+        <cell>Old</cell>
+        <cell>New</cell>
+      </row>
+      <row>
+        <cell>Pay</cell>
+        <cell>$35</cell>
+        <cell><m>x</m></cell>
+      </row>
+      <row>
+        <cell>Hours</cell>
+        <cell>6</cell>
+        <cell>8</cell>
+      </row>
+    </tabular>
+    <p>
+      The columns can be turned into ratios, and we can put an = sign between them:
+      <md>
+        \frac{350}{6} = \frac{x}{8}
+      </md>
+      Now, we can solve this equation by multiplying both sides by 8:
+      <md>
+        \frac{350}{6}\times 8 = \frac{x}{8}\times 8
+      </md>
+      <md>
+        \frac{350\times 8}{6} = x
+      </md>
+      Since <m>x</m> is money, it makes sense to write our answer as a decimal:
+      <md>
+        <mrow>466.6666666666… \amp =x</mrow>
+        <mrow>466.67 \amp \approx x</mrow>
+      </md>
+      So, if we work 8 hours, we will earn about $466.67.
+    </p>
+  </example>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      When we set up our table and proportion, we always put the quantity we want in the top row. This makes the equation much easier to solve.
+    </p>
+  </assemblage>
+  <worksheet>
+    <title>Season 6, Episode 4 Practice Problems</title>
+    <exercise workspace="1.25in">
+      <p>
+        A worker earns $18 per hour. How much will they earn if they work for 7 hours?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        If 4 kilograms of rice cost $12, how much will 10 kilograms cost at the same rate?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A car travels 120 km in 2 hours at a constant speed. How far will it travel in 5 hours?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A recipe requires 300 g of flour to make 6 muffins. How much flour is needed to make 15 muffins?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A truck uses 8 liters of fuel to travel 100 km. How many liters will it use to travel 350 km?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A printer produces 45 pages in 3 minutes. How many pages will it print in 12 minutes?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        If 6 movie tickets cost $54, what is the cost of 9 tickets?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A steady electric current transfers 20 coulombs of charge in 4 seconds. How much charge is transferred in 15 seconds?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A factory packs 240 bottles into 8 boxes. How many bottles will be packed into 15 boxes at the same rate?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A liquid has a weight of 1.5 kg for every 1.2 liters. What will be the weight of 5 liters of the liquid?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A painter covers 18 square meters in 3 hours. How much area will the painter cover in 10 hours?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        If $250 is equal to 200 euros, how many euros will $475 be worth at the same exchange rate?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A download uses 600 MB of data in 5 minutes at a constant speed. How much data is used in 18 minutes?
+      </p>
+    </exercise>
+    <exercise workspace="1.25in">
+      <p>
+        A bakery uses 1.5 kg of sugar to bake 120 cookies. How much sugar is needed to bake 350 cookies?
+      </p>
+    </exercise>
+    
+  </worksheet>
 </section>  

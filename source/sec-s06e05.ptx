@@ -2,4 +2,380 @@
 
 <section xml:id="sec-s06e05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 5: More Percent Problems</title>
+  <assemblage>
+    <title>Episode 5 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Solve percent problems of the form: [Number] is what percent of [Another Number]?
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve percent problems of the form [Number] is [Given Percent] of what?
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    In Season 04, we answered percent problems like the following.
+  </p>
+  <p>
+    <alert>Review Example:</alert> What is 41% of 29?
+  </p>
+  <p>
+    <alert>Review Solution:</alert> We translate the word “of” into multiplication:
+    <md>
+      41\%\times 29
+    </md>
+    Then we convert the percent to a decimal so we can complete the calculation:
+    <md>
+      0.41\times 29 = 11.89
+    </md>
+  In this episode, we will solve more complicated percent problems by setting up and solving equations.
+  </p>
+  <p>
+    <alert>Solving General Percent Problems</alert>
+    <ol>
+      <li>
+        <p>
+          Translate the problem into an equation:
+          <ol>
+            <li>
+              <p>
+              Translate the quantity you’re looking for (common keyword: “what”) into a variable, such as <m>x</m> or <m>N</m>.
+              </p>
+            </li>
+            <li>
+              <p>
+                Translate the “is” into an equals sign.
+              </p>
+            </li>
+            <li>
+              <p>
+                Translate the “of” into multiplication.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          If necessary, solve the equation.
+        </p>
+      </li>
+      <li>
+        <p>
+          If necessary, turn the percent into a decimal to complete the calculations.
+        </p>
+      </li>
+      <li>
+        <p>
+          If necessary, reformat your final answer to match the problem instructions.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      What is 41% of 29?
+    </p>
+    <p>
+      Solution (Using the General Step-by-Step Process): 
+      <ol>
+        <li>
+          <p>
+            Translate the problem into an equation using the keywords.
+            <md>
+              x=41\%\times 29
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            It is NOT necessary, in this problem, to solve this equation for x, because here, the x is already isolated on one side of the = sign. We move on to Step 2.
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to turn the percent into a decimal to complete the calculations:
+            <md>
+              x = 0.41\times 29
+            </md>
+            <md>
+              x=11.89
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            It is NOT necessary, in this problem, to reformat our final answer, 
+            because the problem has not given us any specific instructions about how our answer should be formatted.
+          </p>
+        </li>
+      </ol>
+      So, the final answer is
+      <md>
+        x = 11.89
+      </md>
+      The same answer we got before. In other words, 41% of 29 is 11.89.
+    </p>
+  </example>
+  <example>
+    <p>
+      4 is 30% of what number? Write your answer as a decimal rounded to 2 decimal places.
+    </p>
+    <p>
+      Solution:
+      <ol>
+        <li>
+          <p>
+            Translate the problem into an equation using the keywords. Because it is messy to put <m>\times</m> right next to <m>x</m>, I will use the letter <m>N</m> 
+            in this problem for the variable.
+            <md>
+              4 = 30\%\times N
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to solve for <m>N</m>, because here, <m>N</m> is being affected by a multiplied 30%. 
+            We can get rid of the multiplied 30% using a divided 30%:
+            <md>
+              \frac{4}{30\%} = \frac{30\% \times N}{30\%}
+            </md>
+            <md>
+              \frac{4}{30\%} = N
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to convert the percent to a decimal to complete the calculation:
+            <md>
+              \frac{4}{0.30} = N
+            </md>
+            <md>
+              13.333333... = N
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to reformat our final answer, because this question asked us to round our answer to 2 decimal places:
+            <md>
+              13.33\approx N
+            </md>
+          </p>
+        </li>
+      </ol>
+      In other words, 4 is 30% of 13.33.
+    </p>
+  </example>
+  <example>
+    <p>
+      5 is what percent of 20?
+    </p>
+    <p>
+      Solution:
+      <ol>
+        <li>
+          <p>
+            Translate the problem into an equation:
+            <md>
+              5 = N\times 20
+            </md>
+            
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to solve for <m>N</m>.
+            <md>
+              \frac{5}{20} = \frac{N\times 20}{20}
+            </md>
+            <md>
+              \frac{5}{20} = N
+            </md>
+            
+          </p>
+        </li>
+        <li>
+          <p>
+            It is NOT necessary, in this problem, to rewrite percents as decimals to complete calculations.
+          </p>
+        </li>
+        <li>
+          <p>
+            It IS necessary, in this problem, to rewrite our final answer. The question asked us, “what percent?” So we should format our final answer as a percent. 
+            Begin by dividing 5 by 20 in the calculator: 
+            <md>
+              0.25 = N
+            </md>
+            Then move the decimal point 2 places to the right and attach the % sign:
+            <md>
+              25\% = N
+            </md>
+            
+          </p>
+        </li>
+      </ol>
+      In other words, 5 is 25% of 20.
+    </p>
+  </example>
+  <worksheet xml:id="ws-s06e05">
+    <title>Season 6, Episode 5 Practice Problems</title>
+    <exercise>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 0.5% of 320?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 150% of 48?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+           What is 12% of 75?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 225% of 64?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 87.5% of 160?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 0.25% of 2400?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            24 is 12% of what?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            3 is 0.5% of what?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+           180 is 225% of what?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            90 is 150% of what?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            4 is 0.25% of what?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            What is 0.25% of 2400?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            18 is what percent of 72?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            150 is what percent of 100?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+           45 is what percent of 30?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            7.5 is what percent of 25?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+           12 is what percent of 80?
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+           96 is what percent of 64?
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        Because of inflation, the current price of eggs is 180% of the price last year. 
+        If the current price of eggs is $3.18 (per dozen), what was the price of eggs last year? [In other words, 3.18 is 180% of what?]
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A jacket originally cost $40. Then it was marked down to 60% of its original price. What is the new price? [In other words, what is 60% of 40?]
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        An exam is worth 42 points. A student earns 37 points. What is their score as a percent? [In other words, 27 is what percent of 42?]
+      </p>
+    </exercise>
+  </worksheet>
 </section>  
