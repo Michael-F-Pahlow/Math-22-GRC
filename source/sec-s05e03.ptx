@@ -2,4 +2,292 @@
 
 <section xml:id="sec-s05e03" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 3: Common 2D Shapes</title>
+  <assemblage>
+    <title>Episode 3 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Identify basic 2D shapes like a rectangle, triangle, circle 
+          </p>
+        </li>
+        <li>
+          <p>
+            (Physical manipulatives) Examine real physical representations of the shapes above 
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret terms like perimeter, area, circumference, diameter, radius, side length 
+          </p>
+        </li>
+        <li>
+          <p>
+            Identify appropriate units for things like perimeter, area, circumference, diameter, radius, side length 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 3 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Rectangle
+          </p>
+        </li>
+        <li>
+          <p>
+            Triangle
+          </p>
+        </li>
+        <li>
+          <p>
+            Circle
+          </p>
+        </li>
+        <li>
+          <p>
+            Perimeter
+          </p>
+        </li>
+        <li>
+          <p>
+            Area
+          </p>
+        </li>
+        <li>
+          <p>
+            Circumference
+          </p>
+        </li>
+        <li>
+          <p>
+            Diameter
+          </p>
+        </li>
+        <li>
+          <p>
+            Radius
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-rectangle">
+    <statement>
+      <p>
+        A <term>rectangle</term> is a shape with four straight sides and four right angles. Most rooms have a rectangular shape.
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-square">
+    <statement>
+      <p>
+        A <term>square</term> is a special rectangle that has the property that all four sides are the same length.
+      </p>
+    </statement>
+  </definition>
+      <figure>
+      <caption>A rectangle and a square</caption>
+      <image>
+      <prefigure label="pf-def-rectangle-and-square" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,300)" margins="5">
+        <coordinates bbox="(-10,-6,10,6)">
+        <rectangle lower-left="(-9,-3)" dimensions="(10,6)" stroke="red" thickness="8"/>
+        <rectangle lower-left="(3,-3)" dimensions="(6,6)" stroke="green" thickness="8"/>
+        <label anchor = "(-4,-4)">
+        A Rectangle
+        </label>
+        <label anchor = "(6,-4)">
+        A Square
+        </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+       </image>
+    </figure>
+ 
+  <definition xml:id="def-triangle">
+    <statement>
+      <p>
+        A <term>triangle</term> is a shape with three straight lines.
+      </p>
+    </statement>
+  </definition>
+  <figure>
+      <caption>Various triangles</caption>
+      <image width="80%">
+      <prefigure label="pf-various-triangles" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-10,-10,10,10)">
+        <definition>points1=((-9,1),(-1,1),(-4,5))</definition>
+        <polygon points="points1" closed="yes" fill="purple" stroke="black"/>
+        <definition>points1=((2,1),(8,1),(5,6.196))</definition>
+        <polygon points="points1" closed="yes" fill="pink" stroke="black"/>
+          <definition>points1=((-9,-9),(-5,-9),(-7,-2))</definition>
+        <polygon points="points1" closed="yes"  fill="pink" stroke="black"/>
+          <definition>points1=((-2,-9),(8,-9),(-2,-3))</definition>
+        <polygon points="points1" closed="yes" fill="purple" stroke="black"/>
+        </coordinates>
+               </diagram>
+         </prefigure>
+      </image>
+    </figure>
+    <definition xml:id="def-circle">
+      <statement>
+        <p>
+          A <term>circle</term> is a band of made up of all the points that are a certain distance from a center.
+        </p>
+      </statement>
+    </definition>
+    <figure>
+      <caption>A circle</caption>
+      <image width="60%">
+      <prefigure label="pf-def-circle" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-5,-5,5,5)">
+        <circle center="(0,0)" radius="4.5" stroke="blue" thickness="8"/>
+        <point p="(0,0)" fill ="black" size = "8"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+      <alert>Perimeter and Area</alert>
+      </p>
+      <definition xml:id="def-perimeter">
+        <statement>
+          <p>
+            The <term>perimeter</term> of a 2D shape is a measure of its size on the outside. 
+          </p>
+        </statement>
+      </definition>
+      <p>
+        <ul>
+          <li>
+            <p>
+              It can always be found by adding together the lengths of all the sides of the object. 
+            </p>
+          </li>
+          <li>
+            <p>
+              Perimeter is measured using length units such as centimeters, meters, inches, or feet.
+            </p>
+          </li>
+        </ul>
+      </p>
+      <definition xml:id="def-area">
+        <statement>
+          <p>
+            The <term>area</term> of a 2D shape is a measure of its size on the inside. 
+          </p>
+        </statement>
+      </definition>
+      <p>
+        <ul>
+          <li>
+            <p>
+              There are different formulas that can be used to calculate the areas of different shapes.
+            </p>
+          </li>
+          <li>
+            <p>
+              Area is measured using area units such as square centimeters, square meters, square inches, square feet, or acres. 
+            </p>
+          </li>
+        </ul>
+      </p>
+      <example>
+        <p>
+          Suppose a rectangle has two sides of length 6 inches and two sides of length 4 inches. Determine the rectangle’s area and perimeter.
+        </p>
+         <figure>
+      <caption>A 4-by-6 rectangle</caption>
+      <image width="60%">
+      <prefigure label="pf-ex-area-rectangle" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,200)" margins="(75,15,75,10)">
+        <coordinates bbox="(-3,-2,3,3)">
+        <rectangle lower-left="(-3,-2)" dimensions="(6,4)" stroke = "black" thickness="3"/>
+        <line endpoints="((-2,-2),(-2,2))" stroke ="grey" thickness="1"/>
+          <line endpoints="((-1,-2),(-1,2))" stroke ="grey" thickness="1"/>
+            <line endpoints="((0,-2),(0,2))" stroke ="grey" thickness="1"/>
+              <line endpoints="((1,-2),(1,2))" stroke ="grey" thickness="1"/>
+                <line endpoints="((2,-2),(2,2))" stroke ="grey" thickness="1"/>
+                  <line endpoints="((-3,-1),(3,-1))" stroke ="grey" thickness="1"/>
+                    <line endpoints="((-3,0),(3,0))" stroke ="grey" thickness="1"/>
+                      <line endpoints="((-3,1),(3,1))" stroke ="grey" thickness="1"/>
+        <label anchor="(0,2)" alignment="north">
+        6 units
+        </label>
+        <label anchor="(0,-2)" alignment="south">
+        6 units
+        </label>
+        <label anchor="(3,0)" alignment="east">
+        4 units
+        </label>
+        <label anchor="(-3,0)" alignment="west">
+        4 units
+        </label>
+        
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+      The perimeter would be <m>6+4+6+4=20</m> inches, from adding together the lengths of all the sides.
+    </p>
+    <p>
+      The area would be 24 square inches. We can get this by counting the number of 1-by-1 square tiles that fill up the inside the rectangle. 
+    </p>
+      </example>
+    <p>
+      <alert>Special Measurements for Circles</alert>
+      <ul>
+        <li>
+          <p>
+            The perimeter of a circle is called its <term>circumference</term>. 
+          </p>
+        </li>
+        <li>
+          <p>
+            The distance from the center of the circle to the edge is called its <term>radius</term>.
+          </p>
+        </li>
+        <li>
+          <p>
+            The <term>diameter</term> of a circle is the distance from edge to opposite edge.
+          </p>
+        </li>
+      </ul>
+    </p>  
+    <figure>
+      <caption>A circle showing diameter, radius and circumference</caption>
+      <image width="60%">
+      <prefigure label="pf-def-circle-2" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="10">
+        <coordinates bbox="(-5,-5,5,5)">
+        <circle center="(0,0)" radius="4.5" stroke="red" thickness="5"/>
+        <line endpoints="(0,0),(4.387,-1)" stroke="green" thickness ="3"/>
+          <line endpoints="(4.031,2),(-4.031,-2)" stroke = "blue" thickness = "3"/>
+            <label anchor="(2.1935,-1)" rotate = "-12.6" stroke = "green">
+            Radius
+            </label>
+            <label anchor="(-2.0155,-1)" alignment = "north" rotate = "25.2" stroke = "blue">
+            Diameter
+            </label>
+            <label anchor="(0,4.7)" alignment="north" stroke = "red">
+            Circumference
+            </label>
+            <arc center="(0,0)" radius = "5" range="(70,25)" arrows ="1" stroke = "red" thickness="3"/>
+            <arc center="(0,0)" radius = "5" range="(115,155)" arrows ="1"  stroke = "red" thickness="3"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
 </section>  

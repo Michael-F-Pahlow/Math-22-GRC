@@ -2,4 +2,241 @@
 
 <section xml:id="sec-s05e06" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 6: Pythagorean Theorem</title>
+  <assemblage>
+    <title>Episode 6 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Recognize right angles and right triangles.
+          </p>
+        </li>
+        <li>
+          <p>
+            For a right triangle, identify the hypotenuse and the legs.
+          </p>
+          </li>
+          <li>
+            <p>
+              Given two sides on a right triangle, use Pythagorean theorem to find the length of the remaining side.
+            </p>
+          </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 6 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Right angle
+          </p>
+        </li>
+        <li>
+          <p>
+            Right triangle
+          </p>
+        </li>
+        <li>
+          <p>
+            Hypotenuse
+          </p>
+        </li>
+        <li>
+          <p>
+            Leg of a triangle
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-right-angle">
+    <statement>
+      <p>
+        A <term>right angle</term> is a 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    They are typically emphasized by drawing a small square.
+  </p>
+  <figure>
+    <caption>An image of a 90 degree angle, marked by a small square.</caption>
+    <image width = "60%">
+         <prefigure label="pf-right-angle" xmlns="https://prefigure.org">
+      <diagram dimensions="(300,400)" margins="5">
+        <coordinates bbox="(-3,-4,3,4)">
+       <definition>points=((3,-2),(-3,-2),(-3,4))</definition>
+       <angle-marker points="points"/>
+        <label anchor="(0,-3)" alignment="north">
+        Right Angle
+        </label>
+        <line endpoints="((-3,-2),(3,-2))" stroke="purple" arrows="1" thickness="3"/>
+          <line endpoints="((-3,-2),(-3,4))" stroke="purple" arrows="1" thickness="3"/>
+        </coordinates>
+        </diagram>
+    </prefigure>
+    </image>
+  </figure>
+  <definition xml:id="def-right-triangle">
+    <statement>
+      <p>
+        A <term>right triangle</term> is a triangle that contains a right angle. For example, 
+        the triangle pictured below is a right triangle, because it has a right angle in the bottom left corner.
+      </p>
+    </statement>
+  </definition>
+   <figure>
+    <caption>A right triangle with the right angle in the bottom left corner..</caption>
+    <image width = "60%">
+         <prefigure label="pf-right-triangle" xmlns="https://prefigure.org">
+      <diagram dimensions="(300,400)" margins="5">
+        <coordinates bbox="(-3,-4,3,4)">
+       <triangle vertices="((3,-2),(-3,-2),(-3,4))" angle-markers="yes"/>
+        <label anchor="(0,-3)" alignment="south">
+        Right Triangle
+        </label>
+        <label anchor="(0,-2.5)" alignment="north">
+        Leg
+        </label>
+        <label anchor="(-3,0)" alignment="east">
+        Leg
+        </label>
+        <label anchor="(0.5,1)" alignment="east">
+        Hypotenuse
+        </label>
+        </coordinates>
+        </diagram>
+    </prefigure>
+    </image>
+  </figure>
+  <p>
+    For a right triangle:
+    <ul>
+      <li>
+        <p>
+          The side across from the right angle is called the <term>hypotenuse</term>.
+        </p>
+      </li>
+      <li>
+        <p>
+          The other two sides are called the <term>legs</term>. 
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    The Pythagorean Theorem is a famous formula used to find the side lengths of a right triangle.
+  </p>
+  <p>
+    Call the length of the hypotenuse <m>c</m> and call the lengths of the legs <m>a</m> and <m>b</m>. 
+    If you know the lengths of the legs, and you want to find the length of the hypotenuse, use the formula:
+    <md>
+      c=\sqrt{a^2+b^2}
+    </md>
+  </p>
+  <example>
+    <p>
+      A right triangle has legs of lengths 3 inches and 4 inches. Find the length of the hypotenuse of that right triangle.
+    </p>
+    <p>
+      Solution: Plug <m>a=3</m> and <m>b=4</m> into the Pythagorean theorem formula to find the length of the hypotenuse, <m>c</m>.
+      <md>
+        c=\sqrt{3^2+4^2}
+      </md>
+      To calculate this value, we use PEMDAS. We start by calculating the exponents:
+      <md>
+        c=\sqrt{9+16}
+      </md>
+      Then we add the numbers under the root:
+      <md>
+        c=\sqrt{25}
+      </md>
+      Then we calculate the square root:
+      <md>
+        c=5
+      </md>
+          The length of the hypotenuse is 5 inches. 
+    </p>
+  </example>
+  <p>
+    If you know the length of the hypotenuse and the length of one of the legs, use the following formula to find the length of the other leg:
+    <md>
+      b=\sqrt{c^2-a^2}
+    </md>
+  </p>
+  <example>
+  <p>
+    A right triangle has a hypotenuse of length 9 cm and one leg of length 5 cm. Find the length of the other leg.
+  </p>
+    <p>
+      Solution: Plug <m>c=9</m> and <m>a=5</m> into the Pythagorean theorem formula to find the length of the other leg, <m>b</m>.
+      <md>
+        <mrow>b \amp = \sqrt{9^2-5^2} </mrow>
+        <mrow> \amp = \sqrt{81-25} </mrow>
+        <mrow> \amp = \sqrt{56} </mrow>
+        <mrow> \amp = 7.4833147735… </mrow>
+        <mrow> \amp \approx 7.48 </mrow>
+      </md>
+      So the length of the other leg is approximately 7.48 cm.
+    </p>
+  </example>
+  <worksheet xml:id="ws-s05e06">
+    <title>Season 5, Episode 6 Practice Problems</title>
+    <p>
+      Use the Pythagorean theorem to answer the following questions. Include units in your answer, and round your answer to 2 decimal places if necessary.
+    </p>
+    <exercise workspace="2.0in">
+      <p>
+        A right triangle has legs measuring 6 meters and 8 meters. Find the length of the hypotenuse.
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A ladder leans against a wall. The bottom of the ladder is 2.5 feet from the wall, and the ladder reaches 6 feet up the wall. Find the length of the ladder.
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A television screen has a width of 16 inches and a height of 9 inches. Find the diagonal length of the screen.
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A right triangle has a hypotenuse of 13 centimeters and one leg of 5 centimeters. Find the length of the other leg in centimeters.
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A triangular sail has two perpendicular sides measuring 1.2 meters and 1.6 meters. Find the length of the longest side in meters.
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        A right triangle has legs measuring <m>2\frac{1}{2}</m> miles and 6 miles. Find the length of the hypotenuse in miles.
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        A drone travels 7 kilometers east and then 24 kilometers north. How far is the drone from its starting point in kilometers?
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        A ramp rises <m>\frac{5}{6}</m> meters vertically over a horizontal distance of <m>\frac{7}{6}</m> meters. Find the length of the ramp in meters.
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        A right triangle has a hypotenuse of length 2 feet and one leg of length 10 inches. Find the length of the other leg. 
+        (Suggestion! Start by converting all the lengths to the same units.)
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        A right triangle has legs of <m>4\frac{1}{2}</m> centimeters and <m>2\frac{1}{2}</m> centimeters. Find the length of the hypotenuse in centimeters.
+      </p>
+    </exercise>
+  </worksheet>
 </section>  

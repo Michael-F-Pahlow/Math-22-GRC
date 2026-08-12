@@ -2,4 +2,246 @@
 
 <section xml:id="sec-s05e02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 2: Evaluating Formulas</title>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Evaluate given formulas to calculate desired quantities.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Evaluate ("plug in")
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    In the previous episode, we noted that an expression represents a calculation that cannot be complete because it contains an unknown number (a variable).
+  </p>
+  <definition xml:id="def-evaluating">
+    <statement>
+      <p>
+        <term>Evaluating</term> an expression is completing the calculation after the value of the variable becomes known. In other words, we "plug in" a specific number
+        for a variable.
+      </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+      In the previous episode, we represented the cost of buying a dozen eggs by <m>C</m>, so that the total cost of buying 3 dozen eggs was
+      <md>
+        3C
+      </md>
+      You enter the grocery store and find the cost of a dozen eggs is currently $2.18. Use this info to complete the calculation in the expression.
+    </p>
+    <p>
+      Solution: Replace the <m>C</m> in the formula with 2.18, so that instead of 3 times C, we now have 3 times 2.18:
+      <md>
+        3(2.18) = 6.54
+      </md>
+      The total cost is $6.54
+    </p>
+  </example>
+  <example>
+    <p>
+      In the previous episode, for a student with exam scores 80%, 90%, and an unknown score <m>x</m>, the expression representing their average score was:
+      <md>
+        \frac{80\% + 90\% + x}{3}
+      </md>
+      The student takes their third exam and earns a score of 72%. Use this info to complete the calculation in the expression.
+    </p>
+    <p>
+      Replace the <m>x</m> in the formula with 72\%:
+      <md>
+        \frac{80\%+90\%+72\%}{3} = 80.666666666...\% \approx 80.67\%
+      </md>
+      Their exam average is 80.67%.
+    </p> 
+    </example>
+    <p>
+      <alert>Be particularly careful when doing evaluation with negative numbers.</alert>
+    </p>
+    <example>
+      <p>
+        Given that <m>x=-3</m>, evaluate the expression:
+        <md>
+          x^2
+        </md>
+      </p>
+      <p>
+        The expression is asking us to square <m>x</m>. Since the value of <m>x</m> is -3, we need to square -3. 
+      </p>
+      <p>
+        <alert>It would not be correct to write <m>-3^2</m>, </alert>, because this notation only squares the 3, note the minus sign. 
+      </p>
+      <p>
+        Instead, we should wrap the -3 in parentheses: 
+        <md>
+          (-3)^2 = (-3)\times(-3) = 9
+        </md>
+      </p>
+    </example>
+    <example>
+      <p>
+        Given that <m>x=-2</m>, evaluate the expression:
+        <md>
+          5-x
+        </md>
+      </p>
+      <p>
+        It would not be correct to write <m>5 - -2</m>, since we should not have two minus/negative signs directly next to each other. 
+      </p>
+      <p>
+        Instead, we should wrap the -2 in parentheses:
+        <md>
+          5-(-2) = 5+2 = 7
+        </md>
+      </p>
+    </example>
+    <example>
+      <p>
+        Given that <m>x=-4</m>, evaluate the expression:
+        <md>
+          3x
+        </md>
+      </p>
+      <p>
+        Solution: It would not be correct to write 3-4, since this notation means “subtract 3 and 4”, but we want “multiply 3 by negative 4.” 
+      </p>
+      <p>
+        Instead, we should wrap the -4 in parentheses:
+        <md>
+          3(-4) = -12
+        </md>
+      </p>
+    </example>
+    <assemblage>
+      <title>Be Careful!</title>
+      <p>
+        Whenever you’re doing an evaluation problem with a negative value, it is recommended to wrap the negative number in parentheses.
+      </p>
+    </assemblage>
+    <p>
+      If a variable appears in a formula multiple times, you need to replace EVERY instance of that variable with its value.
+    </p>
+    <example>
+      <p>
+        Given that <m>x=2</m>, evaluate the expression
+        <md>
+          x^2 + 3x + 1
+        </md>
+      </p>
+      <p>
+        Solution: Replace every <m>x</m> in the expression with 2:
+        <md>
+          2^2 + 3(2) + 1
+        </md>
+        <md>
+          4+6+1 = 11
+        </md>
+      </p>
+    </example>
+    <p>
+      Formulas can contain two or more different variables. 
+    </p>
+    <example>
+      <p>
+        Given that <m>L=5</m> and <m>W = 7</m>, evaluate the formula:
+        <md>
+          2L + 2+W
+        </md>
+      </p>
+      <p>
+        Solution: Replace every <m>L</m> with 5 and <m>W</m> with 7:
+        <md>
+          <mrow> 2(5)+2(7)\amp = 10+14 </mrow>
+          <mrow> \amp = 24 </mrow>
+        </md>
+      </p>
+    </example>
+    <worksheet xml:id="ws-s05e02">
+      <title>Episode 2 Practice Problems</title>
+      <p>
+        Evaluate the following expressions at the given values:
+      </p>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>3x+5</m> when <m>x=4</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>2a^2-3a+7</m> when <m>a=2</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>5y-2z</m> when <m>y=6</m> and <m>z=3</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>x^3-4x</m> when <m>x=2</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>4m^2+3n</m> when <m>m=1</m> and <m>n=5</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>2(p+3)-5</m> when <m>p=7</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>6x-x^2+4</m> when <m>x=3</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>\frac{1}{4}a+b-5</m> when <m>a=2</m> and <m>b=\frac{1}{3}</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>2(x-1)^2+3</m> when <m>x=5</m>.
+        </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Evaluate <m>7y^2-2y+1</m> when <m>y=-1</m>.
+        </p>
+      </exercise>
+      <exercise workspace="2.0in">
+        <p>
+          If a car travels at a speed R, for a length of time T, the distance they travel is given by the formula
+          <md>
+            R \times T
+          </md>
+          If the car’s speed is 40 miles per hour, and they drive for 1.4 hours, find the total distance traveled.
+          </p>
+      </exercise>
+      <exercise workspace="2.0in">
+        <p>
+          If the temperature in the room is C degrees Celsius, then the temperature in degrees Fahrenheit is
+          <md>
+            \frac{9}{5}C+32
+          </md>
+          If the temperature in the room is 27 degrees Celsius, find the temperature in Fahrenheit.
+          </p>
+      </exercise>
+    </worksheet>
 </section>  

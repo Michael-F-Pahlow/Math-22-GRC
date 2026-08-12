@@ -133,13 +133,17 @@
 </example>
 <xi:include href="ws-s02e03.ptx" />
 <paragraphs>
-        <title>Interlude: Number Line Integers</title>
+        <title>Interlude: Number Lines</title>
         <p>
             Play around with this interactive tool for the University of Colorado's PhET simulations
         </p>
         <figure xml:id="figure-number-line-integers">
             <caption>Number line integers</caption>
             <interactive xml:id="interactive-phet-number-line-integers" iframe="https://phet.colorado.edu/sims/html/number-line-integers/latest/number-line-integers_all.html" width="95%" aspect="15:10"/>
+        </figure>
+        <figure xml:id="figure-number-line-distance">
+            <caption>Number line distance</caption>
+            <interactive xml:id="interactive-phet-number-line-distance" iframe="https://phet.colorado.edu/sims/html/number-line-distance/latest/number-line-distance_all.html" width="95%" aspect="15:10"/>
         </figure>
     </paragraphs>
 </section>

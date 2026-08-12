@@ -121,7 +121,7 @@
         </p>
         <figure>
         <caption>A vertical number line</caption>
-        <image width="100">
+        <image width="100%">
         <prefigure label="pf-vertical-nl" xmlns="https://prefigure.org">
         <diagram dimensions="(250,250)" margins="5">
         <coordinates bbox="(-1,-6,1,6)">

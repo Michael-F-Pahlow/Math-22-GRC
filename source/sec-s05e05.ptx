@@ -2,4 +2,239 @@
 
 <section xml:id="sec-s05e05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 5: Square Roots</title>
+  <assemblage>
+    <title>Episode 5 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret square roots
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate very simple square roots by hand. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate more complicated square roots on a calculator. 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 5 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Square root
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 5 Key Symbols</title>
+    <p>
+      <md>
+        \sqrt{\quad}
+      </md>
+      <md>
+        \text{as in}\,\, \sqrt{16}
+      </md>
+      
+    </p>
+  </assemblage>
+  <p>
+    Remember that squaring a number means raising it to a power of 2.
+    <md>
+      \text{square}\,\, 7 = 7^2 = 49
+    </md>
+  </p>
+  <definition xml:id="def-square-root">
+    <statement>
+      <p>
+        The <term> square root</term> is meant to undo or reverse the square.
+        <md>
+          <mrow>\text{square}\,\, 6 \amp = 36 </mrow>
+          <mrow>\text{square root}\,\, 36 \amp =6</mrow>
+        </md>
+        The symbol for the square root is 
+        <md>
+          \sqrt{\quad}
+        </md>
+      </p>
+    </statement>
+  </definition>
+  <p>
+    If we want to write something that means, “calculate the square root of 36,” we would write the 36 underneath the root symbol:
+    <md>
+      \sqrt{36} = 6
+    </md>
+  </p>
+  <example>
+    <p>
+      Calculate the square root <m>\sqrt{100}</m>. 
+    </p>
+    <p>
+      Solution: Because <m>10^2 = 100</m>, we know:
+      <md>
+        \sqrt{100} = 10
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Calculate the square root <m>\sqrt{25}</m>. 
+    </p>
+    <p>
+      Solution: Because <m>5^2 = 25</m>, we know:
+      <md>
+        \sqrt{25} = 5
+      </md>
+    </p>
+  </example>
+  <p>
+    Not all square roots work out to be whole numbers and should be calculated on a calculator:
+  </p>
+  <example>
+    <p>
+      Calculate the square root below. Round to 2 decimal places if necessary.
+      <md>
+        \sqrt{7}
+      </md>
+    </p>
+    <p>
+      There's no nice whole number that becomes 7 after it's squared. So, we calculate this square root on a calculator:
+      <md>
+        <mrow> \sqrt{7} \amp = 2.64575131106…</mrow> 
+        <mrow> \amp \approx 2.65 \,\,\text{after rounding}</mrow>
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Notice Something Neat!</title>
+    <p>
+      The number 7 is between 4 and 9. So <m>\sqrt{7}</m> is between <m>\sqrt{4}=2</m> and <m>\sqrt{9}=3</m>.
+    </p>
+  </assemblage>
+  <p>
+    The geometric object called a square is a special kind of rectangle whose length and width are equal:
+  </p>
+  <image width="75%">
+    <shortdescription>A picture of a square with four equal sides</shortdescription>
+    <prefigure label="pf-square-root-square" xmlns="https://prefigure.org">
+      <diagram dimensions="(300,300)" margins="(75,20,75,20)">
+        <coordinates bbox="(-3,-3,3,3)">
+        <rectangle lower-left="(-3,-3)" dimensions="(6,6)" stroke = "black" thickness="2"/>
+        <label anchor="(0,3)" alignment="north">
+        Side
+        </label>
+        <label anchor="(0,-3)" alignment="south">
+        Side
+        </label>
+        <label anchor="(3,0)" alignment="east">
+        Side
+        </label>
+        <label anchor="(-3,0)" alignment="west">
+        Side
+        </label>
+        </coordinates>
+        </diagram>
+    </prefigure>
+  </image>
+  <p>
+    Use the variable <m>s</m> to represent the length and the width of the square. 
+  </p>
+  <p>
+    Because of the rectangle area formula, the area of the square is the length, <m>s</m>, multiplied by the width, also <m>s</m>:
+    <md>
+      A = s\times s = s^2
+    </md>
+  </p>
+  <p>
+    So, squaring the side length gives us the square’s area. That means taking the square root of the area gives us the square’s side length:
+    <md>
+      s=\sqrt{A}
+    </md>
+  </p>
+  <example>
+    <p>
+      A square has an area of 10 square feet. Find the square’s side length. Round to 2 decimal places, if necessary.
+    </p>
+    <p>
+      Solution: We can find the side length by taking the square root of the area:
+      <md>
+        <mrow>s \amp =\sqrt{10} </mrow>
+        <mrow> \amp = 3.162277660168… </mrow>
+        <mrow> \amp \approx 3.16 \,\,\text{feet}</mrow>
+      </md>
+    </p>
+  </example>
+  <worksheet xml:id="ws-s05e05">
+    <title>
+    Season 5, Episode 5 Practice Problems
+    </title>
+    <p>
+      Problem 1: Calculate the following square roots by hand:
+    </p>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{49}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{1}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{0}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{121}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{81}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{4}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{16}</m></p>
+    </exercise>
+    <exercise workspace="0.9in">
+      <p><m>\sqrt{36}</m></p>
+    </exercise>
+    
+    <p>
+      Calculate the following square roots using a calculator. Round to 3 decimal places, if necessary.
+    </p>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{12}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{15}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{18}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{20}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{8}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{6}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{3}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{50}</m></p>
+    </exercise>
+    <exercise workspace="0.1in">
+      <p><m>\sqrt{27}</m></p>
+    </exercise>
+  </worksheet>
 </section>  

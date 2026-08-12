@@ -2,4 +2,343 @@
 
 <section xml:id="sec-s06e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: What Equations Represent</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret equations as a statement of a desired result or known fact. 
+          </p>
+        </li>
+        <li>
+          <p>
+          	Interpret equations as a statement of equality / balance. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Determine whether a given value is a “solution” to an equation. 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Equation
+          </p>
+        </li>
+        <li>
+          <p>
+            Solution
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-equation">
+    <statement>
+      <p>
+        An <term>equation</term> is a line of mathematics containing an = sign. 
+        Equations communicate that the quantity on the left side of the = sign is equal to the quantity on the right side of the = sign. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    For example, we have written lines like:
+    <md>
+      \frac{2}{4} = \frac{1}{2}
+    </md>
+This communicates that, although the two fractions look different, the fraction 2/4 represents the same physical amount as the fraction 1/2.
+  </p>
+  <p>
+    We have also written lines like:
+    <md>
+      \frac{3}{4} = 0.75
+    </md>
+    <md>
+      0.20 = 20\%
+    </md>
+    Again, equations like these communicate that the quantity on the left is the same as the quantity on the right, although the two quantities look different.
+  </p>
+  <p>
+    Equations containing variables can be used to express known facts. 
+  </p>
+  <example>
+    <p>
+      Represent Amanda’s age by the letter A. If you know that Amanda’s age is 35, write down the equation that expresses this fact.
+    </p>
+    <p>
+      Solution: If Amanda’s age is 35, that corresponds to the equation
+      <md>
+        A = 35
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Notice Something Neat!</title>
+    <p>
+      The keyword “is” usually corresponds to an = sign, the same way the keyword “of” usually corresponds multiplication.
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Represent the cost of a dozen eggs by a variable, C. If you know that the total cost of buying 3 dozen eggs is $7, 
+      write down an equation that expresses this fact.
+    </p>
+    <p>
+      Solution: The expression that represents the cost of buying 3 dozen eggs is
+      <md>
+        3C
+      </md>
+      If I know that this cost is $7, that becomes the equation
+      <md>
+        3C = 7
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      An <term>expression</term> does NOT contain an = sign. It represents a quantity that can’t be fully calculated yet because it involves a variable.
+    </p>
+    <p>
+      An <term>equation</term> contains an = sign. It represents a known fact or a desired result.
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Represent the length of a rectangle by a variable L and the width of the rectangle by a variable W. 
+      If you know that the rectangle’s area is 30 square inches, write down an equation that expresses that fact.
+    </p>
+    <p>
+      Solution: We remember that a rectangle’s area is equal to the product of its length and its width:
+      <md>
+        LW
+      </md>
+      If we know that this area is 30, that becomes the equation
+      <md>
+        LW = 30
+      </md>
+    </p>
+  </example>
+  <p>
+    Equations containing variables can also be used to express desired results or targets.
+  </p>
+  <example>
+    <p>
+      Represent the number of cakes by a variable, <m>N</m>. Making a single cake requires 2 eggs. 
+      You have 6 eggs that are about to go bad, and you want to make enough cakes to use up all of them. Write down an equation that expresses this desire.
+    </p>
+    <p>
+      Solution: If you make <m>N</m> cakes, and each cake requires 2 eggs, then the total number of eggs used is given by the expression
+      <md>
+        2N
+      </md>
+      If we want to use 6 eggs, that becomes the equation
+      <md>
+        2N=6
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Represent the cost of a house by a variable, B. You plan to make 25% of the house cost as a down payment. 
+      If you only want to put $80,000 down, write down an equation that expresses this desire.
+    </p>
+    <p>
+      Solution: The expression representing the down payment is 25% of B:
+      <md>
+        0.25B
+      </md>
+      If we want to put $80,000 down, that becomes the equation
+      <md>
+        0.25B = 80,000
+      </md>
+    </p>
+  </example>
+  <definition xml:id="def-solution">
+    <statement>
+      <p>
+        A <term>solution</term> to an equation is a value that can replace the variable in the equation and make the equation true. 
+        Solutions tell you how to achieve the desired result that the equation represents.
+      </p>
+    </statement>
+  </definition>
+  <example>
+    <p>
+      Show that <m>N=1</m> is NOT a solution to the equation <m>2N=6</m>.
+    </p>
+    <p>
+      To show that <m>N=1</m> is NOT solution, we just need to plug <m>N=1</m> into the equation and see if it makes the equation true or false. 
+      <md>
+        <mrow> 2(1)\amp = 6 ? </mrow>
+        <mrow> 2\amp = 6 ? </mrow>
+      </md>
+      Because 2 is definitely NOT the same as 6, this is proof that <m>N=1</m> is NOT a solution. 
+      In other words, if we want to use up 6 eggs, making just 1 cake is not going to work. 
+    </p>
+  </example>
+  <example>
+  <p>
+    Show that <m>N=3</m> is a solution to the equation <m>2N=6</m>.
+  </p>
+    <p>
+      To show that <m>N=3</m> is a solution, we just need to plug <m>N=3</m> into the equation and see if it makes the equation true or false.
+      <md>
+        <mrow> 2(3)\amp = 6 ? </mrow>
+        <mrow> 6\amp = 6 ? </mrow>
+      </md>
+      Because 6 is the same as 6, this is proof that <m>N=3</m> is a solution. In other words, if we want to use up 6 eggs, we can accomplish that by making 3 cakes.
+    </p>
+  </example>
+  <example>
+    <p>
+      Show that <m>B=650,000</m> is NOT a solution to the equation <m>0.25B=80,000</m>.
+    </p>
+    <p>
+      To show that <m>B=650,000</m> is NOT a solution, we just need to plug <m>B=650,000</m> into the equation and see if it makes the equation true or false.
+      <md>
+        <mrow> 0.25(650,000)\amp = 80,000 ? </mrow>
+        <mrow> 162,500\amp = 80,000 ? </mrow>
+      </md>
+      Because 162,500 is not the same as 80,000, this is proof that <m>B=650,000</m> is not a solution. 
+      In other words, if we want to put only $80,000 down, then we cannot buy a house costing $650,000. 
+    </p>
+  </example>
+    <example>
+    <p>
+      Show that <m>B=320,000</m> is NOT a solution to the equation <m>0.25B=80,000</m>.
+    </p>
+    <p>
+      To show that <m>B=320,000</m> is NOT a solution, we just need to plug <m>B=320,000</m> into the equation and see if it makes the equation true or false.
+      <md>
+        <mrow> 0.25(320,000)\amp = 80,000 ? </mrow>
+        <mrow> 80,000\amp = 80,000 ? </mrow>
+      </md>
+      Because 80,000 is not the same as 80,000, this is proof that <m>B=320,000</m> is not a solution. 
+      In other words, if we want to put only $80,000 down, then we cannot buy a house costing $320,000. 
+    </p>
+  </example>
+  <worksheet xml:id="ws-s06e01">
+    <title>Season 6, Episode 1 Practice Problems</title>
+    <exercise>
+    <introduction>
+      <p>
+        Represent the base of a triangle by the variable b and represent the height of a triangle by the variable <m>h</m>.
+      </p>
+    </introduction>
+            <task workspace="0.5in">
+        <statement>
+          <p>
+            Write down the expression that represents the triangle’s area.
+          </p>
+        </statement>
+        </task>
+        <task workspace="1.0in">
+        <statement>
+          <p>
+            Suppose you know that the triangle’s area is 14 square centimeters. Write down the equation that represents this known fact.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+    <introduction>
+      <p>
+        A student takes two quizzes. The student earns a score of 72% on the first quiz. 
+        The student hasn’t taken the second quiz yet, so represent the second quiz score by a variable <m>x</m>.
+      </p>
+    </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            Write down an expression that represents the average of the two quiz scores. 
+          </p>
+        </statement>
+        </task>
+        <task workspace="1.0in">
+        <statement>
+          <p>
+            Suppose the student wants their quiz average to be 80%. Write down an equation that represents this desired result.
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+    <introduction>
+      <p>
+        Let <m>D</m> represent the amount of money you put in savings each week. 
+      </p>
+    </introduction>
+      <task workspace="0.5in">
+        <statement>
+          <p>
+            Write down an expression that represents the total money you’ve saved after one year (52 weeks).
+          </p>
+        </statement>
+        </task>
+        <task workspace="1.0in">
+        <statement>
+          <p>
+            Suppose you want to have $350 in savings at the end of the year. Write down an equation that represents this desired result. 
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+    <introduction>
+      <p>
+        Check whether the given values are solutions to the given equations.
+      </p>
+    </introduction>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>B=2</m> a solution to <m>B+3=8</m>?
+          </p>
+        </statement>
+        </task>
+        <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>x=-1</m> a solution to <m>2x+5=1</m>?
+          </p>
+        </statement>
+        </task>
+        <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>D=4</m> a solution to <m>\frac{12}{D}=3</m>?
+          </p>
+        </statement>
+        </task>
+        <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>C=\frac{1}{2}</m> a solution to <m>C+\frac{1}{4}=\frac{3}{4}</m>?
+          </p>
+        </statement>
+        </task>
+        <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>A=-7</m> a solution to <m>A^2=49</m>?
+          </p>
+        </statement>
+        </task>
+        <task workspace="0.75in">
+        <statement>
+          <p>
+            Is <m>t=0.1</m> a solution to <m>10t=1</m>?
+          </p>
+        </statement>
+        </task>
+    </exercise>
+  </worksheet>
 </section>  

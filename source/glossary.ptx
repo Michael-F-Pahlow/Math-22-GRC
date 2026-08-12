@@ -10,6 +10,27 @@ The operation that corresponds to combining piles of similar objects. Addition i
 </gi>
 
 <gi>
+<title>area</title>
+<p>
+    A measure of the size on the inside of a 2D shape. 
+</p>
+</gi>
+
+<gi>
+<title>circle</title>
+<p>
+    A band of made up of all the points that are a certain distance from a center.
+</p>
+</gi>
+
+<gi>
+<title>circumference</title>
+<p>
+    The name for the perimeter of a circle.
+</p>
+</gi>
+
+<gi>
 <title> cross-cancel</title>
 <p>
 When multiplying fractions, you can simplify your answer before multiplying the numerator and denominator by canceling out common factors.
@@ -33,6 +54,13 @@ The number on the bottom of the fraction. In 1/4, the denominator is 4. The deno
 </gi>
 
 <gi>
+<title>diameter</title>
+<p>
+    The distance from edge to opposite edge in a circle.
+</p>
+</gi>
+
+<gi>
 <title>digit</title>
 <p>
     The numbers zero to nine (0 1 2 3 4 5 6 7 8 9).
@@ -43,6 +71,13 @@ The number on the bottom of the fraction. In 1/4, the denominator is 4. The deno
 <title>division</title>
 <p>
     The operation that corresponds to splitting a pile into smaller piles. 
+</p>
+</gi>
+
+<gi>
+<title>equation</title>
+<p>
+   A line of mathematics containing an = sign.
 </p>
 </gi>
 
@@ -61,9 +96,30 @@ A whole number that can be evenly divided by 2.
 </gi>
 
 <gi>
+<title>expression</title>
+<p>
+    An incomplete calculation involving a variable. 
+</p>
+</gi>
+
+<gi>
+<title>formula</title>
+<p>
+    An expression involving real-world variables.
+</p>
+</gi>
+
+<gi>
 <title>fraction</title>
 <p>
 A fraction represents a portion of a whole.
+</p>
+</gi>
+
+<gi>
+<title>hypotenuse</title>
+<p>
+    The longest side in a right triangle. The side across from the right angle.
 </p>
 </gi>
 
@@ -82,16 +138,24 @@ A fraction represents a portion of a whole.
 </gi>
 
 <gi>
+<title>leg</title>
+<p>
+    The two shorter sides in a right triangle.
+</p>
+</gi>
+
+<gi>
 <title> mean </title>
 <p>
-
+Also called the average, is a number that we can calculate that will tell us a “typical” or “normal” value for a data set. 
+Specifically, the sum of all of the data values divided by the number of data points.
 </p>
 </gi>
 
 <gi>
 <title> median </title>
 <p>
-
+Another number that tells us what’s “normal” or “typical.” Specifically, the middle number in an ordered data set.
 </p>
 </gi>
 
@@ -147,6 +211,41 @@ of zero is zero.
 </gi>
 
 <gi>
+<title>perimeter</title>
+<p>
+   A measure of the size on the outside of a 2D shape. 
+</p>
+</gi>
+
+<gi>
+<title>radius</title>
+<p>
+    The distance from the center of the circle to the edge.
+</p>
+</gi>
+
+<gi>
+<title>rectangle</title>
+<p>
+    A shape with four straight sides and four right angles. Most rooms have a rectangular shape.
+</p>
+</gi>
+
+<gi>
+<title>right angle</title>
+<p>
+    A 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.
+</p>
+</gi>
+
+<gi>
+<title>right triangle</title>
+<p>
+    A triangle that contains a right angle.
+</p>
+</gi>
+
+<gi>
 <title>rounding</title>
 <p>
     The process of shortening a decimal number to make it easier to work with. 
@@ -169,9 +268,38 @@ then the fraction is said to be <term>simplified</term> to <term>lowest terms</t
 </gi>
 
 <gi>
+<title>solution</title>
+<p>
+    A value that can replace the variable in the equation and make the equation true. 
+    Solutions tell you how to achieve the desired result that the equation represents.
+    </p>
+</gi>
+
+<gi>
+<title>square</title>
+<p>
+    A special rectangle that has the property that all four sides are the same length
+</p>
+</gi>
+
+<gi>
 <title>subtraction</title>
 <p>
 The operation that corresponds to removing objects from a pile. Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+</p>
+</gi>
+
+<gi>
+<title>triangle</title>
+<p>
+   A shape with three straight lines. 
+</p>
+</gi>
+
+<gi>
+<title>variable</title>
+<p>
+    A number that is changing or that is unknown. 
 </p>
 </gi>
 

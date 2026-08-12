@@ -1,5 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-s05e01" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Episode 1: Title</title>
+  <title>Episode 1: What Variables and Formulas Represent</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret a variable as an unknown or changing quantity.
+          </p>
+        </li>
+        <li>
+          <p>
+            Interpret an expression / formula as an incomplete calculation to be completed when the variable values become known.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Variable
+          </p>
+        </li>
+        <li>
+          <p>
+            Formula
+          </p>
+        </li>
+        <li>
+          <p>
+            Expression
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+<definition xml:id="def-variable">
+  <statement>
+    <p>
+      A <term>variable</term> is a number that is changing or that is unknown. 
+    </p>
+  </statement>
+</definition>
+<p>
+  For example:
+  <ul>
+    <li>
+      <p>
+        The cost of a dozen eggs at the grocery store can change over time. 
+        It would be reasonable to represent the cost of eggs by a variable until you go into the store and see the current price.
+      </p>
+    </li>
+    <li>
+      <p>
+        Another person's age might be unknown. It would be reasonable to represent their age by a variable until they tell you how old they are.
+      </p>
+    </li>
+  </ul>
+  Variables are usually represented by letters.
+  <ul>
+    <li>
+      <p>
+        The cost of a dozen eggs might be represented by the letter C (for cost) or the letter E (for eggs).
+      </p>
+    </li>
+    <li>
+      <p>
+        A person's age might be represented by the letter A.
+      </p>
+    </li>
+  </ul>
+  The letter <m>x</m> is very commonly used for variables. Calculations involving variables cannot be completed, because the value of the variable is not known.
+</p>
+<definition xml:id="def-expression">
+  <statement>
+    <p>
+      An <term>expression</term> is an incomplete calculation involving a variable. If the expression involves a real-world scenario, then the expression is also
+      called a <term>formula</term>.
+    </p>
+  </statement>
+</definition>
+<p>
+  An expression acts as a record / to-do list of the steps that we would take to complete the calculation, after the variable becomes known.
+</p>
+<example>
+  <p>
+    The cost of a dozen eggs is currently unknown, so represent it by a variable, <m>C</m>. Write down an expression that represents the total cost of buying 3 dozen eggs.
+  </p>
+  <p>
+    Solution: To calculate the total cost of buying 3 dozen eggs, we would need to take the cost of one dozen eggs, <m>C</m>, and multiply that price by 3. 
+  </p>
+  <p>
+    So the expression would be
+    <md>
+    3\times C
+    </md>
+  </p>
+</example>
+<example>
+  <p>
+    The total cost of your bill at a restaurant is currently unknown, so represent it by a variable, <m>B</m>. 
+    You plan to pay 20% of the bill as a tip. Write down an expression that represents the tip.
+  </p>
+  <p>
+    Solution: To calculate the tip, we would need to calculate 20% of the bill. In other words, we would need to multiply the bill by 20%:
+    <md>
+      20\% \times B
+    </md>
+    <md>
+      0.20 \times B
+    </md>
+  </p>
+</example>
+<example>
+<p>
+  A student takes three midterm exams. Their score on the first exam is 80%, their score on the second exam is 90%, 
+  but they haven't taken the third exam yet, so represent their score on the third exam by a variable, <m>x</m>. 
+  Write down an expression that represents their average midterm score.
+</p>
+<p>
+  Solution: To calculate the average, we would need to add the three midterm scores together, then divide the result by 3. 
+  <md>
+    \frac{80\%+90\%+x}{3}
+  </md>
+</p>
+</example>
+<example>
+  <p>
+    You're going to pick apples, but number of ripe apples you can pick is currently known, so represent it by a variable, <m>A</m>. 
+    After picking the apples, you plan to give 3 to your mother. Write down an expression that represents the number of apples remaining after giving 3 to your mom. 
+  </p>
+  <p>
+    Solution: To find the number of leftover apples, we would subtract the 3 we gave to Mom:
+    <md>
+      A-3
+    </md>
+  </p>
+</example>
+<p>
+  Recall that we have several ways of representing multiplication between two numbers:
+  <md>
+    2\times 3
+  </md>
+  <md>
+    2\cdot 3
+  </md>
+  <md>
+    2(3)
+  </md>
+  <md>
+    (2)(3)
+  </md>
+</p>
+<p>
+  There is another way of representing multiplication when variables are involved.
+  </p>
+  <p>
+    Instead of <m>5\times x</m> (5 times x), which is awkward to read, we write
+    <md>
+      5x
+    </md>
+    with the 5 directly next to the <m>x</m>.
+  </p>
+  <p>
+    Similarly,
+    <md>
+      3C
+    </md>
+    means 3 times C, and
+    <md>
+      0.20B
+    </md>
+    means 0,20 times B.
+  </p>
+  <worksheet xml:id="ws-s05e01">
+    <title>Episode 1 Practice Problems</title>
+    <exercise workspace="1.0in">
+      <p>
+        The amount of electricity you use in a month can vary, so represent it by a variable, E. 
+        If each kilowatt-hour of electricity you use costs $0.12, write down an expression that represents the total cost of your electricity in a month.
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        You have a bag containing 100 pieces of candy. You’re going to bring the bag to class and share the candy with your classmates. 
+        But you don’t how many people are going to be attending class today, so you represent it by a variable, C. 
+        Write down an expression that represents the number of pieces of candy each person will get if the pieces are shared fairly.
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        A recipe making one pie requires ¾ cups of sugar. You don’t know how many pies you’re going to make this Christmas, so you represent it by a variable, P. 
+        Write down an expression that represents the total amount of sugar you would need to make the pies.
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        Problem 4: The price of a house can vary over time, so you represent it by a variable, H. 
+        You plan to put a 35% down payment on the house when you purchase it. Write down an expression that represents the size of the down payment. 
+      </p>
+    </exercise>
+  </worksheet>
 </section> 

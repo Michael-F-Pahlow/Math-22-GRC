@@ -2,4 +2,360 @@
 
 <section xml:id="sec-s05e04" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 4: Calculating Area and Perimeter</title>
+  <assemblage>
+    <title>Episode 4 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Use geometry formulas to calculate area and perimeter / circumference for rectangles, triangles, and circles.
+          </p>
+        </li>
+        <li>
+          <p>
+            Approximate pi as a decimal number.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 4 Key Symbols</title>
+    <p>
+      <md>
+        \pi
+      </md>
+    </p>
+  </assemblage>
+  <p>
+    <alert>Perimeter and Area of a Rectangle</alert>
+  </p>
+  <p>
+    Use the variable L to represent the length of a rectangle and use the variable W to represent the width of a rectangle. 
+  </p>
+  <figure>
+      <caption>A rectangle with its width and length labeled</caption>
+      <image width="60%">
+      <prefigure label="pf-WL-rectangle" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,200)" margins="(75,20,75,10)">
+        <coordinates bbox="(-3,-2,3,2)">
+        <rectangle lower-left="(-3,-2)" dimensions="(6,4)" stroke = "black" thickness="2"/>
+        <label anchor="(0,2)" alignment="north">
+        Length
+        </label>
+        <label anchor="(0,-2)" alignment="south">
+        Length
+        </label>
+        <label anchor="(3,0)" alignment="east">
+        Width
+        </label>
+        <label anchor="(-3,0)" alignment="west">
+        Width
+        </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+      The formula for the perimeter (<m>P</m>) of the rectangle is:
+      <md>
+        P = L + W + L + W
+      </md>
+    </p>
+    <assemblage>
+      <title>Notice Something Neat!</title>
+      <p>
+        Remember that a number to itself is the same as multiplying that number by 2. So, we could also write the perimeter formula this way:
+        <md>
+          P = 2L + 2W
+        </md>
+      </p>
+    </assemblage>
+    <p>
+      The formula for the area (<m>A</m>) of the rectangle is:
+      <md>
+        A = LW
+      </md>
+    </p>
+    <example>
+      <p>
+       If a rectangle has a length of 4 feet and a width of 3 feet, find its perimeter and area. Include appropriate units in your answer. 
+      </p>
+      <p>
+        Solution: The rectangle’s perimeter is:
+        <md>
+          P = 2(4) + 2(3) = 8 + 6 = 14 \,\,\text{feet}
+        </md>
+        And its area is
+        <md>
+          A = 4\times 3 = 12 \,\,\text{square feet}
+        </md>
+      </p>
+    </example>
+    <p>
+      <alert>Perimeter and Area of a Triangle</alert>
+    </p>
+    <p>
+      Use the variables <m>s_1</m>, <m>s_2</m> and <m>s_3</m> to represent the lengths of the three sides of your triangle. 
+      (Note: We are using subscripts on our variables to tell the lengths of the different sides apart.)
+    </p>
+    <p>
+      Then the perimeter of the triangle can be found by adding together the lengths of all three sides:
+      <md>
+        P = s_1 + s_1 + s_3
+      </md>
+    </p>
+    <figure>
+      <caption>Perimeter of a triangle</caption>
+      <image width="60%">
+      <prefigure label="pf-perimeter-triangle" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-10,-10,10,10)">
+        <triangle vertices="((-8,-8),(1,-8),(8,7))"/>
+        <label anchor="(-3.5, -9)">
+        <m>s_1</m>
+        </label>
+        <label anchor="(-0.5, 1)">
+        <m>s_2</m>
+        </label>
+        <label anchor="(4.5, -2.5)">
+        <m>s_3</m>
+        </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    
+    <example>
+      <p>
+        If a triangle has sides of lengths 2 centimeters, 3 centimeters, and 4 centimeters, find its perimeter. Include units in your answer.
+      </p>
+      <p>
+        The triangle’s perimeter is:
+        <md>
+          P = 2  +3 + 4 = 9\,\,\text{centimeters}
+        </md>
+      </p>
+    </example>
+    <p>
+      To find the area of the triangle, we need to start by making sure one side of the triangle is lying horizontal, as if we had set the triangle on a table. 
+      The length of the side that’s on the table is called the base, represented by the variable <m>b</m>. 
+      Then we measure the height of the triangle from the base to the top corner; we represent the height by the variable <m>h</m>. 
+    </p>
+  <figure>
+      <caption>Area of a triangle</caption>
+      <image width="60%">
+      <prefigure label="pf-area-triangle" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-10,-10,10,10)">
+        <triangle vertices="((-9,-9),(9,-9),(2,7))" stroke="green" thickness="3"/>
+        <label anchor="(0, -9.5)">
+        Base
+        </label>
+        <label anchor="(0, 0)" rotate="90" alignment="north">
+        Height
+        </label>
+        <rectangle lower-left="(2,-9)" dimensions="(0.75,0.75)"/>
+        <line endpoints="(2,-9),(2,7)" dash="9 9"/>
+          <line endpoints="(2,-9.5),(9,-9.5)" arrows="1"/>
+            <line endpoints="(-2,-9.5),(-9,-9.5)" arrows="1"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+      </image>
+    </figure>
+    <p>
+      Then the area of the triangle can be found using the formula:
+      <md>
+        A = \frac{1}{2}\times b \times h
+      </md>
+    </p>
+    <example>
+      <p>
+        If the triangle has a base of length 4 centimeters and a height of 1.5 centimeters, find its area. Include units in your answer.
+      </p>
+      <p>
+        Solution: The triangle’s area is:
+        <md>
+          A = \frac{1}{2}\times 4 \times 1.5 = 3\,\,\text{square centimeters}
+        </md>
+      </p>
+    </example>
+    <p>
+      The letter <m>\pi</m> The letter π (“pi”, read aloud as “pie” as in “apple pie”) represents the area of a circle with a radius of 1. Its value is around 3.14. 
+      <md>
+        \pi \approx 3.14
+      </md>
+      Representations of <m>\pi</m> with more decimals like 3.14159 might be needed if you are doing a calculation that requires a lot of precision. 
+      The decimals of <m>\pi</m> can be seen by using the <m>\pi</m> button that appears on most calculators.
+    </p>
+    <p>
+      <alert>Area and Circumference for a Circle</alert>
+    </p>
+    <p>
+      Suppose a circle has a radius of length <m>r</m>. 
+    </p>
+    <p>
+      Then the circumference is given by the formula:
+      <md>
+        C=2\times \pi r
+      </md>
+      And the area is given by the formula:
+      <md>
+        A = \pi\times r^2
+      </md>
+    </p>
+    <assemblage>
+      <title>Notice Something Neat!</title>
+      <p>
+        What if you’re given the diameter of the circle instead of the radius? In that case, you can just cut the diameter in half to find the circle’s radius.
+      </p>
+    </assemblage>
+    <example>
+      <p>
+        Suppose that a circle has a diameter of 1.2 feet. Find the circle’s circumference and area. Include units in your area.
+      </p>
+      <p>
+        Solution: We can cut the diameter in half to get the radius:
+        <md>
+          \frac{1.2\,\,\text{feet}}{2} = 0.6\,\,\text{feet}
+        </md>
+        Now, we can use the formula for the area of a circle, following PEMDAS, and using \pi\approx 3.14:
+    
+      <md>
+        <mrow> A \amp = \pi\times (0.6)^2</mrow> 
+        <mrow> \amp = 1.1304 \,\,\text{square feet} </mrow>
+      </md>
+      And we can use the formula for the circumference,
+      <md>
+        <mrow>C \amp = 2\times \pi \times 0.6 </mrow>
+        <mrow> \amp = 3.768\,\,\text{feet} </mrow>
+      </md>
+      </p>
+    </example>
+
+    <worksheet xml:id="ws-s05e04">
+      <title>Episode 4 Practice Problems</title>
+      <p>
+        Find the perimeter and area of the rectangle with each of the following length and width measurements. Include units in your answer.
+      </p>
+      <exercise workspace="0.4in">
+        <p>Length: 12 cm, Width: 7 cm </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: <m>\frac{1}{3}</m> cm, Width: <m>\frac{1}{4}</m> cm </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: 0.25 cm, Width: 0.1 cm </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: 2.2 m, Width: 0.9 m </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: 180 mm, Width: 50 mm </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: 400 mm, Width: 150 mm </p>
+      </exercise>
+      <exercise workspace="0.4in">
+        <p>Length: <m>1\frac{1}{4}</m> in, Width: <m>2\frac{1}{8}</m> in </p>
+      </exercise>
+      <exercise workspace="2.0in">
+        <p>
+          A rectangle has a width of 3 feet and a length of 28 inches. Find the perimeter and area. 
+          (Suggestion: Start by converting all measurements to the same units.)
+        </p>
+      </exercise>
+      <p>
+        Find the perimeter of the triangle with each of the following side length measurements. Include units in your answer.
+      </p>
+      <exercise workspace="0.6in">
+        <p>
+          Triangle 1: 5 cm, 7 cm, 8 cm
+        </p>
+      </exercise>
+      <exercise workspace="0.6in">
+        <p>
+          Triangle 2: 120 mm, 150 mm, 180 mm
+        </p>
+      </exercise>
+          <exercise workspace="0.6in">
+        <p>
+          Triangle 3: 0.6 m, 0.8 m, 1.0 m
+        </p>
+      </exercise>
+      <exercise workspace="0.6in">
+        <p>
+          Triangle 4: <m>\frac{1}{2}</m> in, <m>\frac{1}{4}</m> in, <m>\frac{3}{4}</m> in, 
+        </p>
+      </exercise>
+      <p>
+        Find the area of a triangle with each of the following base and height measurements. Include units in your answer.
+      </p>
+      <exercise workspace="0.5in">
+        <p>
+          Triangle 1: Base = 8 cm, Height = 5 cm
+          </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Triangle 2: Base = 150 mm, Height = 120 mm
+          </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Triangle 3: Base = 0.9 m, Height = 0.6 m
+          </p>
+      </exercise>
+      <exercise workspace="0.5in">
+        <p>
+          Triangle 4: Base = <m>\frac{2}{3}</m> in, Height = <m>\frac{1}{6}</m> in
+          </p>
+      </exercise>
+      <p>
+        Find the area and circumference of a circle with each of the following measurements. Include units in your answer.
+      </p>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 1: radius = 5 cm
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 2: diameter = 14 cm
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 1: radius = 0.3 m
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 2: diameter = 3 m
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 1: radius = 120 mm
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 2: diameter = 160 mm
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 1: radius = 4 in
+          </p>
+      </exercise>
+      <exercise workspace="0.75in">
+        <p>
+          Circle 2: diameter = 4 in
+          </p>
+      </exercise>
+    </worksheet>
 </section>  

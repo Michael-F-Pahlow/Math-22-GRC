@@ -2,4 +2,444 @@
 
 <section xml:id="sec-s06e02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 2: Solving Equations Using Addition and Subtraction</title>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            	Solve equations that look like <m>x+5=9</m> or <m>x-3=2</m> using addition and subtraction.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Key Terminology</title>
+    <p>
+     <ul>
+      <li>
+        <p>
+          Solve
+        </p>
+      </li>
+     </ul> 
+    </p>
+  </assemblage>
+  <p>
+    In the previous episode, we learned how to check whether a given number is a solution to an equation.
+  </p>
+  <p>
+    In this episode, we will find the solutions ourselves from scratch. Finding the solutions from scratch is called solving the equation.
+  </p>
+  <p>
+    When we solve the equation, we think of the equation like a balance. For example, the image below is a visual representation of the equation
+    <md>
+      6=2+n
+    </md>
+    because the left side holds 6 units of weight, the right side holds 2+n units of weight, and the two sides are equally balanced.
+  </p>
+  <figure>
+    <caption>The equation <m>6 = 2+n</m> represented on a balance.</caption>
+    <image source="balanceeq1.png">
+    </image>
+  </figure>
+  <assemblage>
+    <title>To Keep the Balance When Working with an Equation</title>
+    <p>
+      Whatever action you perform on the left side of the equation, perform exactly the same action on the right side of the equation.
+    </p>
+  </assemblage>
+  <p>
+    For example, in the equation
+    <md>
+      6=2+n
+    </md>
+    We can subtract 2 on the right side, as long as we also subtract 2 on the left side, and the balance will be preserved:
+    <md>
+      6-2=2+n-2
+    </md>
+    <ul>
+      <li>
+        <p>
+          <m>6-2</m> becomes 4
+        </p>
+      </li>
+      <li>
+        <p>
+          <m>2+n--2</m> becomes <m>n</m>because the subtracted 2 “cancels” (gets rid off) the added 2. 
+        </p>
+      </li>
+    </ul>
+    So in the end, we get the following statement about <m>n</m>:
+    <md>
+      4=n
+    </md>
+    This means that <m>n=4</m> is a solution to the equation <m>6=2+n</m>.
+  </p>
+  <p>
+    In the picture, this is like taking 2 blocks off the left and right side of the balance:
+  </p>
+  <figure>
+    <caption>The equation <m>4=n</m> represented on a balance.</caption>
+    <image source="balanceeq2.png">
+    </image>
+  </figure>
+  <p>
+    <alert>To Solve Equations of the Form [Variable] + [A Number] = [Another Number]:</alert>
+  <ol>
+    <li>
+      <p>
+        Subtract [A Number] from both sides of the equation.
+      </p>
+    </li>
+  </ol>
+  </p>
+  <example>
+    <p>
+      Solve the equation
+      <md>
+        x+5=13
+      </md>
+    </p>
+    <p>
+      Solution: We subtract 5 from both sides of the equation:
+      <md>
+        x+5-5 = 13-5
+      </md>On the left, the added 5 and the subtracted 5 cancel each other out. On the right side, the <m>13-5</m> becomes 8. So we get the solution:
+      <md>
+        x=8
+      </md>
+    </p>
+  </example>
+  <example>
+  <p>
+    Solve the equation
+    <md>
+      C+\frac{1}{3} = 1
+    </md>
+  </p>
+  <p>
+    Solution: We subtract <m>\frac{1}{3}</m> from both sides of the equation:
+    <md>
+      C=1-\frac{1}{3}
+    </md>
+    <md>
+      C = \frac{3}{3}-\frac{1}{3}
+    </md>
+    <md>
+      C=\frac{2}{3}
+    </md>
+  </p>
+  </example>
+  <example>
+    <p>
+      Solve the equation
+      <md>
+        N +3 = 1
+      </md>
+    </p>
+    <p>
+      Solution: We subtract 3 from both sides of the equation:
+      <md>
+        N+3-3=1-3
+      </md>
+    <md>
+      N=-2
+    </md>
+    </p>
+  </example>
+  <p>
+    <alert>To Solve Equations of the Form [Variable] - [A Number] = [Another Number]:</alert>
+    <ol>
+      <li>
+        <p>
+          	Add [A Number] to both sides of the equation. 
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Solve the equation
+      <md>
+        x-2=7
+      </md>
+    </p>
+    <p>
+      Solution: We add 2 to both sides of the equation:
+      <md>
+        x-2+2=7+2
+      </md>
+      On the left side, the added 2 and the subtracted 2 cancel out. On the right side, the 7+2 becomes 9.
+      <md>
+        x=9
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Solve the equation
+      <md>
+        x-\frac{1}{4}=\frac{1}{2}
+      </md>
+    </p>
+    <p>
+      Solution: We add 1/4 to both sides of the equation:
+      <md>
+        x-\frac{1}{4}+\frac{1}{4}=\frac{1}{2}+\frac{1}{4}
+      </md>
+      On the left side, the added 1/4 and the subtracted 1/4 cancel out. On the right side, we add the fractions by making them have common denominators:
+      <md>
+        x=\frac{1}{2}+\frac{1}{4}
+      </md>
+      <md>
+        x=\frac{2}{4}+\frac{1}{4}
+      </md>
+      <md>
+        x=\frac{3}{4}
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>
+Notice Something Neat!
+</title>
+    <p>
+      Addition and subtraction are opposite actions. 
+      If your variable is being affected by addition, use subtraction. If your variable is being affected by subtraction, use addition.
+    </p>
+  </assemblage>
+  <p>
+    Equations give us a way to take tricky or complicated problems and break them down into simple steps.
+  </p>
+  <example>
+    <p>
+      You don’t know the balance in your bank account yesterday, so represent it by a variable, B. 
+      This morning, you deposited $50.23, and now your bank account balance is $18.16. Figure out how much money was in your account yesterday.
+    </p>
+    <p>
+      Solution:
+      <ol>
+        <li>
+          <p>
+            The amount of money in our account yesterday is being represented by B. Let’s create an expression for the amount of money in our account today. 
+            Since we added 50.23 to our account, the amount of money in our account today can be represented by the expression
+            <md>
+              B+50.23
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            We know that the amount of money in our account today is 18.16. Let’s write an equation to represent this known fact. 
+            <md>
+              B+50.23=18.16
+            </md>
+          </p>
+        </li>
+        <li>
+          <p>
+            Now, we have an equation we can solve for B. We subtract 50.23 from both sides:
+            <md>
+              B + 50.23 - 50.23 = 18.16-50.23
+            </md>
+            <md>
+              B=-32.07
+            </md>
+          </p>
+        </li>
+      </ol>
+      In other words, yesterday, our account was overdrawn, and the balance was negative $32.07.
+    </p>
+  </example>
+<worksheet xml:id="ws-s06e02">
+  <title>Season 6, Episode 2 Practice Problems</title>
+  <exercise>
+  <introduction>
+    <p>
+        Solve the following equations:
+    </p>
+  </introduction>
+        <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>x+7=15</m>
+        </p>
+      </statement>
+      </task>
+      <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>n-\frac{3}{5}=\frac{2}{5}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>y-9=4</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>p+12=-3</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>a+3.5=10</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>q-(-6)=14</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>b-2.75=6.25</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>r+(-8)=5</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>m+\frac{1}{4}=\frac{5}{4}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>s-11=-20</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>t+0.6=2.1</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>h-13=0</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>u-4.8=-1.2</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>c+(-3.4)=-7.9</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>v+\frac{7}{8}=2</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>d-(-2.5)=6</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>w-\frac{5}{6}=\frac{1}{6}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>z+\frac{9}{10} = \frac{19}{10}</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>k+25=40</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.5in">
+      <statement>
+        <p>
+          <m>j-1.25=3.75</m>
+        </p>
+      </statement>
+    </task>
+  </exercise>
+  <exercise>
+  <introduction>
+    <p>
+     You don’t know the amount of money you had in your bank account yesterday, so you represent it by a variable, <m>M</m>. You spent $41 this morning.  
+    </p>
+  </introduction>
+    
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          Write down an expression that represents the amount of money you have in your bank account now.
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          You check your bank account and find that your current balance is $210. Write down an equation that expresses this known fact. 
+        </p>
+      </statement>
+    </task>
+    <task workspace="1.0in">
+      <statement>
+        <p>
+          Solve the equation from (b) to figure out how much money you had in your account yesterday.
+        </p>
+      </statement>
+    </task>
+  </exercise>
+</worksheet>
+<paragraphs>
+        <title>Interlude: Equality Explorer</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-equality-explorer">
+            <caption>Equality Explorer</caption>
+            <interactive xml:id="interactive-phet-equality-explorer" iframe="https://phet.colorado.edu/sims/html/equality-explorer/latest/equality-explorer_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </paragraphs>
 </section>  
