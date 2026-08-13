@@ -2,4 +2,534 @@
 
 <section xml:id="sec-s07e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: Adding and Subtracting with Variables</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Identify when two terms are like 
+          </p>
+        </li>
+        <li>
+          <p>
+            Add/subtract with variables by combining like terms 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Term
+          </p>
+        </li>
+        <li>
+          <p>
+            Coefficient
+          </p>
+        </li>
+        <li>
+          <p>
+            Like term
+          </p>
+        </li>
+        <li>
+          <p>
+            Polynomial
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-term">
+    <statement>
+      <p>
+        A <term>term</term> is a product of variables and numbers. In other words, a term is created by multiplying together numbers and variables. 
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-coefficient">
+    <statement>
+      <p>
+        The <term>coefficient</term> of a term is the term’s number. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    For example:
+    <md>
+      3x
+    </md>
+    is one term, because it’s a product of the number 3 and the variable <m>x</m>. The coefficient of the term is the number 3.
+  </p>
+  <p>
+  For another example:
+  <md>
+    5x^2
+  </md>
+  is one term, because it’s a product of the number 5 and two copies of the variable <m>x</m>.
+  <md>
+    5\cdot x \cdot x
+  </md>
+  The coefficient of the term is the number 5.
+  </p>
+  <p>
+    For a third example:
+    <md>
+      LW
+    </md>
+    is one term, because you can think about it as a product of the number 1 and the variables <m>L</m> and <m>W</m>.
+    <md>
+      1\cdot L \cdot W
+    </md>
+    The coefficient of the term is the number 1.
+  </p>
+  <p>
+    For a fourth example:
+    <md>
+      -x
+    </md>
+    is one term, because you can think about it as a product of the number -1 and the variable <m>x</m>.
+    <md>
+      (-1)\cdot x
+    </md>
+    The coefficient of the term is the number -1.
+  </p>
+  <p>
+    For a final example:
+    <md>
+      p
+    </md>
+    is one term, even though it’s just a number and doesn’t contain any variables. The coefficient of the term is the number 9.
+  </p>
+  <p>
+    By contrast, an expression like
+    <md>
+      3x+x^2
+    </md>
+    contains TWO terms, <m>3x</m> and <m>x^2</m>.
+  </p>
+  <p>
+    An expression like
+    <md>
+      x^2+6x+3
+    </md>
+    contains THREE terms, <m>x^2</m> and <m>6x</m> and 3.
+  </p>
+  <definition xml:id="def-polynomial">
+    <statement>
+      <p>
+        An expression containing multiple terms is called a <term>polynomial</term>.
+      </p>
+    </statement>
+  </definition>
+  <definition xml:id="def-like-terms">
+    <statement>
+      <p>
+        Two terms are called <term>like terms</term> if they are exactly the same or the only difference between them is the coefficient.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    For example:
+    <ul>
+      <li>
+        <p>
+          	<m>3x</m> and <m>5x</m> are like terms because the only difference between them is the coefficient.
+        </p>
+      </li>
+      <li>
+        <p>
+          	<m>3x</m> and <m>3y</m> are NOT like terms because there’s a difference in the variable portion of the term.
+        </p>
+      </li>
+      <li>
+        <p>
+          	<m>LW</m> and <m>2LW</m> are like terms because the only difference between them is the coefficient.
+        </p>
+      </li>
+      <li>
+        <p>
+          	<m>x^3</m> and <m>x^3</m> are like terms because they are exactly the same. 
+        </p>
+      </li>
+    </ul>
+  </p>
+  <p>
+    If like terms are added or subtracted, they can be combined into a single term. This has the effect of simplifying the expression.
+  </p>
+  <p>
+    <alert>How to Add/Subtract with Variables</alert>
+    <ol>
+      <li>
+        <p>
+          Look for all the like terms in the expression.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add / subtract the like terms by adding / subtracting their coefficients.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        2x+5x
+      </md>
+    </p>
+    <p>
+      Solution: This expression asks us to add two like terms, <m>2x</m> and <m>5x</m>. So, we can add their coefficients, <m>2+5=7</m>, and this gives us the answer:
+      <md>
+        7x
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        4x^2-9x^2
+      </md>
+    </p>
+    <p>
+      Solution: This expression asks us to subtract two like terms, <m>4x^{2}</m> and <m>9x^{2}</m>. 
+      So, we can subtract their coefficients, <m>4-9=-5</m>, and this gives us the answer
+      <md>
+        -5x^2
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        6LW-LW
+      </md>
+    </p>
+    <p>
+      Solution: This expression asks us to subtract two like terms, <m>6LW</m> and <m>LW</m>. So, we can subtract their coefficients, <m>6-1=5</m>, 
+      and this gives us the answer:
+      <md>
+        5LW
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        \frac{1}{4}x+\frac{1}{x}3
+      </md>
+    </p>
+    <p>
+      Solution: This expression asks us to add two like terms, so we can add their coefficients:
+      <md>
+        \frac{1}{4}+\frac{1}{3}
+      </md>
+      <md>
+        \frac{1\times 3}{4\times 3} + \frac{1\times 4}{3\times 4}
+      </md>
+      <md>
+        \frac{3}{12}+\frac{4}{12}
+      </md>
+      <md>
+        \frac{7}{12}
+      </md>
+      This gives us the final answer:
+      <md>
+        \frac{7}{12}x
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        5x+2+3x+7
+      </md>
+    </p>
+    <p>
+      Solution: Look for like terms in the expression. The terms <m>5x</m> and <m>3x</m> are like, and the terms 2 and 7 are like.
+    </p>
+    <p>
+      Combine the first two terms by adding their coefficients:
+      <md>
+        5x+3x = 8x
+      </md>
+      Combine the second two terms by adding their coefficients:
+      <md>
+        2+7=9
+      </md>
+      This makes our final answer:
+      <md>
+        8x+9
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        -2x+3-7x-8
+      </md>
+    </p>
+    <p>
+      Solution: Look for like terms in the expression that can be combined:
+      <md>
+        -2x-7x=-9x
+      </md>
+      <md>
+        3-8=-5
+      </md>
+      This makes our final answer:
+      <md>
+        -9x-5
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      x^2+4x-1-2x^2-4x+3
+    </p>
+    <p>
+      Solution: Look for like terms in the expression.
+      <md>
+        x^2-2x^2 = -x^2
+      </md>
+      (This is because, when we look at the coefficients, 1-2=-1.)
+      <md>
+        4x-4x=0
+      </md>
+      (This is because a positive <m>4x</m> cancels out a negative <m>4x</m>.)
+      <md>
+        -1+3=2
+      </md>
+      This makes our final answer:
+      <md>
+        -x^2+2
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify the expression:
+      <md>
+        3x+2-(5x-3)
+      </md>
+    </p>
+    <p>
+      Solution: This notation is asking us to subtract the entire quantity <m>5x-3</m>. 
+      Instead of subtracting the entire quantity, we can separately subtract <m>5x</m> and separately subtract <m>-3</m>:
+      <md>
+        3x+2-5x-(-3)
+      </md>
+      Now, we remember that subtracting an integer like <m>-3</m> is the same as adding its opposite:
+      <md>
+        3x+2-5x+3
+      </md>
+      3x+2-5x+3
+      Now we can combine like terms:
+      <md>
+        3x-5x=2x
+      </md>
+      <md>
+        2+3=5
+      </md>
+      This gives us a final answer:
+      <md>
+        -2x+5
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+      Imagine you have $100 in your bank account you want to buy a book costing B dollars and a coat costing C dollars.
+    </p>
+    <p>
+      On the one hand, you could put both the book and the jacket in your shopping cart and pay for both of them at once. That would be like
+      <md>
+        100-(B+C)
+      </md>
+      On the other hand, you could pay for the book first and separately pay for the jacket. That would be like
+      <md>
+        100-B-C
+      </md>
+      This is why, when we’re subtracting a quantity in parentheses, we can separately subtract each term in the parentheses.
+    </p>
+  </assemblage>
+  <worksheet xml:id="ws-s07e01">
+    <title>Seaon 7, Episode 1 Practice Problems</title>
+    <exercise>
+      <introduction> 
+      <p>
+        Simplify the following expressions.
+      </p>
+      </introduction>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>5x-2x</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>8k^2-2.5k^2+k^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>4y^2+7y^2-3y^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            <m>-3b+5b^2+7b-2b^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>1.5a+2a-0.5a</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>0.6r^3+2r^3-1.4r^3</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>-6m^2+2m^2+9</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>9-4t^2+11t^2-3</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>\frac{1}{2}p+\frac{3}{4}p-\frac{1}{4}p</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>\frac{5}{3}x^2-\frac{2}{3}x^2+\frac{1}{3}x^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>-10n+4n^2+6n-2n^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>12h-0.5h+h^2-3h^2+5</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>3.25q^2-1.75q^2+0.5q^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>5x^2+3x-2x^2+7</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>6z+\frac{1}{2}-2z+\frac{3}{2}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>4a^2+6a-3a^2+2a</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>-4w^3+8x-3w^3-2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>1.5m^3-2m+0.5m^3+6</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>\frac{2}{5}c^2+1.2c^2-\frac{7}{5}c^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.6in">
+        <statement>
+          <p>
+            <m>-7y+3y^2+4y-y^2-5</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        Simplify
+        <md>
+          (x^2+3x-4)-(4x^2-5x+7)
+        </md>
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        Simplify
+        <md>
+          (2x+y)-(3x-2y)
+        </md>
+      </p>
+    </exercise>
+  </worksheet>
 </section> 

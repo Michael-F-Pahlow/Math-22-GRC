@@ -2,4 +2,230 @@
 
 <section xml:id="sec-s07e05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 5: Multiplying with Variables, Part 2</title>
+  <assemblage>
+    <title>Episode 5 Learning Goals</title>
+    <p>
+      Use distribution to multiply a polynomial by a polynomial. 
+    </p>
+  </assemblage>
+  <p>
+    <alert>How to Multiply a Polynomial by Another Polynomial:</alert>
+    <ol>
+      <li>
+        <p>
+          Distribute every term in the first polynomial to every term in the second polynomial.
+        </p>
+      </li>
+      <li>
+        <p>
+          Complete all the multiplication.
+        </p>
+      </li>
+      <li>
+        <p>
+          Combine like terms.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        (x+3)(x+4)
+      </md>
+    </p>
+    <p>
+      Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. To help organize this, we can make a small table. 
+    </p>
+    <p>
+      We can put the terms of the first polynomial in the first column, 
+      the terms of the second polynomial in the first row. Then, we can fill up the rest of the table with the products:
+    </p>
+    <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
+      <row>
+        <cell></cell>
+        <cell><m>x</m></cell>
+        <cell><m>4</m></cell>
+      </row>
+      <row>
+        <cell><m>x</m></cell>
+        <cell><m>x\cdot x = x^2</m></cell>
+        <cell><m>x\cdot 4 = 4x</m></cell>
+      </row>
+      <row>
+        <cell>3</cell>
+        <cell><m>x\cdot 4 = 4x</m></cell>
+        <cell><m>3\cdot 4 = 12</m></cell>
+      </row>
+    </tabular>
+    <p>
+      Now, we add together all the terms in the table:
+      <md>
+        x^2+4x+3x+12
+      </md>
+      Finally, combine like terms:
+      <md>
+        x^2+7x+12
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Makes Sense, Right?</title>
+    <p>
+      Imagine a rectangle with a width of <m>x+3</m> units and a length of <m>x+4</m> units.
+    </p>
+    <image source="foiltable.png" width="60%">
+      <shortdescription> a rectanlge with areas that add up to the desired result of distribution</shortdescription>
+    </image>
+    <p>
+      On the one hand, the area of the rectangle is going to be its length times its width,
+      <md>
+        (x+3)(x+4)
+      </md>
+      At the same time, the area of the rectangle is going to be the areas of all the little rectangles, added together:
+      <md>
+        x^2+3x+4x+12
+      </md>
+      This is the reason why distribution works. 
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        (x^2+x-4)(x-3)
+      </md>
+    </p>
+    <p>
+      Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. 
+      We can organize this in a table, being careful to include the - signs. 
+    </p>
+    <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
+      <row>
+        <cell></cell>
+        <cell><m>x</m></cell>
+        <cell><m>-3</m></cell>
+      </row>
+      <row>
+        <cell><m>x^2</m></cell>
+        <cell><m>x^2\cdot x = x^3</m></cell>
+        <cell><m>x^2\cdot (-3) = -3x^2</m></cell>
+      </row>
+      <row>
+        <cell>x</cell>
+        <cell><m>x\cdot x = x^2</m></cell>
+        <cell><m>x\cdot (-3) = -3x</m></cell>
+      </row>
+      <row>
+        <cell>-4</cell>
+        <cell><m>(-4)\cdot x = -4x</m></cell>
+        <cell><m>(-4)\cdot (-3) = 12</m></cell>
+      </row>
+    </tabular>
+    <p>
+      Now add together all the terms in the table:
+      <md>
+        x^3-3x^2+x^2-3x-4x+12
+      </md>
+      Finally, combine like terms:
+      <md>
+        x^3-2x^2-7x+12
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        (x+4)^2
+      </md>
+    </p>
+    <p>
+      Solution: Remember that exponents mean repeated multiplication:
+      <md>
+        (x+4)(x+4)
+      </md>
+      Now, we distribute:
+    </p>
+    <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
+      <row>
+        <cell></cell>
+        <cell><m>x</m></cell>
+        <cell><m>4</m></cell>
+      </row>
+      <row>
+        <cell><m>x</m></cell>
+        <cell><m>x\cdot x = x^2</m></cell>
+        <cell><m>x\cdot 4 = 4x</m></cell>
+      </row>
+      <row>
+        <cell>4</cell>
+        <cell><m>4\cdot x = 4x</m></cell>
+        <cell><m>4\cdot 4 = 16</m></cell>
+      </row>
+    </tabular>
+    <p>
+      Now, we add together all the terms in the table:
+      <md>
+        x^2+4x+4x+16
+      </md>
+      Finally, combine like terms:
+      <md>
+        x^2+8x+16
+      </md>
+    </p>
+  </example>
+  <worksheet xml:id="ws-s07e05">
+    <title>Season 7, Episode 5 Practice Problems</title>
+    <p>
+      Simplify the following expressions using distribution.
+    </p>
+    <exercise workspace="2.25in">
+      <p><m>(x+3)(x+5)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>\left(b-\frac{2}{3}\right)(3b+1)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(2y-1)(y+4)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(3m+2)(m^2-m+4)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(0.5a+3)(a-2)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>\left(\frac{1}{2}p-3\right)(2p^2+p-1)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(x^2+0.5x-1)(2x-3)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(2x-0.5)(x^2+x-3)</m></p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p><m>\left(y^2-\frac{1}{4}y+1\right)(y+2)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>\left(\frac{3}{2}t^2-t+1\right)(t^2+2t-5)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(3a+1.5)(a^2-2a+4)</m></p>
+    </exercise>
+    <exercise workspace="2.25in">
+      <p><m>(0.25u^2+u-2)(4u^2-3u+1)</m></p>
+    </exercise>
+  </worksheet>
+  <paragraphs>
+        <title>Interlude: Polynomials Practice</title>
+        <p>
+            Play around with this interactive tool for the University of Colorado's PhET simulations
+        </p>
+        <figure xml:id="figure-phet-area-model">
+            <caption>Area Model Algebra</caption>
+            <interactive xml:id="interactive-phet-area-model" iframe="https://phet.colorado.edu/sims/html/area-model-algebra/latest/area-model-algebra_all.html" width="95%" aspect="15:10"/>
+        </figure>
+    </paragraphs>
 </section> 

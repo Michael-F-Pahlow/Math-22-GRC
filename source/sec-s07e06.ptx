@@ -2,4 +2,272 @@
 
 <section xml:id="sec-s07e06" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 6: Integer Exponents and Exponent Properties</title>
+  <assemblage>
+    <title>Episode 6 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Use exponent properties to simplify expressions
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    Remember that when we simplified a product like
+    <md>
+      x^3\cdot x^4
+    </md>
+    we remembered that exponents indicated repeated multiplication:
+    <md>
+      x\cdot x\cdot x\cdot x\cdot x\cdot x\cdot x
+    </md>
+    We observed that we had a total of 7 multiplied x’s, giving us an answer:
+    <md>
+      x^7
+    </md>
+    Notice that we ended up adding the exponents together.
+    <md>
+      x^3 \cdot x^4 = x^{3+4}
+    </md>
+  </p>
+  <assemblage>
+    <title>Exponent Property One</title>
+    <p>
+      Let <m>m</m> and <m>n</m> stand for two numbers (that may be different from problem to problem). 
+    </p>
+    <p>
+      If you have the base <m>x</m> raised to a power, and then you multiply that by the same base <m>x</m> raised to a different power, 
+      you should add the two exponents together.
+      <md>
+        x^m \cdot x^n = x^{n+m}
+      </md>
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        x^{100} \cdot x^{214}
+      </md>
+    </p>
+    <p>
+      It would be tedious to write out 100 x’s and 214 x’s, so instead, we’ll use our exponent property. It tells us we should add the exponents together:
+      <md>
+        x^{100} \cdot x^{214} = x^{100+214} = x^{214}
+      </md>
+      
+    </p>
+  </example>
+  <p>
+    Now let’s think about what happens when we raise something to a power, and then raise that result to another power, like:
+    <md>
+      (x^3)^4
+    </md>
+    Remember that an exponent of 4 means multiplying 4 copies of the base together:
+    <md>
+      x^3 \cdot x^3 \cdot x^3 \cdot x^3
+    </md>
+    And each <m>x^{3}</m> is the same as 3 copies of <m>x</m>:
+    <md>
+      x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x
+    </md>
+    In total, we see we have 12 copies of x multiplied together:
+    <md>
+      x^{12}
+    </md>
+    Notice that we ended up multiplying together the exponents. 
+    <md>
+      (x^3)^4 = x^{3\cdot 4}
+    </md>
+  </p>
+  <assemblage>
+    <title>Exponent Property Two</title>
+    <p>
+      Let <m>a</m> and <m>b</m> stand for two numbers (that may be different from problem to problem). 
+    </p>
+    <p>
+      If you have the base <m>x</m> raised to a power, and then you raise that result to another power, you should multiply the two exponents together.
+      <md>
+        (x^a)^b = x^{a\cdot b}
+      </md>
+      
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        (x^{20})^4
+      </md>
+    </p>
+    <p>
+      Solution: It would be tedious to write out 20 copies of x, so let’s use our exponent property. It says we should multiply the exponents:
+      <md>
+        (x^{20})^4 = x^{20\cdot 4} = x^{80}
+      </md>
+    </p>
+  </example>
+  <p>
+    Now let's think about what happens when we multiply two things together, and then raise that result to a power, like:
+    <md>
+      (xy)^3
+    </md>
+    This means we should multiply 3 copies of the base together:
+    <md>
+      x\cdot y \cdot x\cdot y \cdot x\cdot y
+    </md>
+    All together, we have 3 copies of x and 3 copies of y:
+    <md>
+      x^3 y^3
+    </md>
+    Notice that we ended up raising x to the power 3 and separately raising y to the power 3.
+  </p>
+  <assemblage>
+    <title>Exponent Property Three</title>
+    <p>
+      Let <m>p</m> stand for a number (that may be different from problem to problem). 
+    </p>
+    <p>
+      If you have a product in your base, and you raise that product to a power, you can apply that power to each piece of the product separately:
+      <md>
+        (xy)^p = x^p y^p
+      </md>
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Simplify:
+      <md>
+        (2x)^5
+      </md>
+    </p>
+    <p>
+      Solution: It would be tedious to write out 5 copies of <m>2x</m>, so we use our exponent properties. 
+      <md>
+        (2x)^5 = 2^5 x^5  = 32x^5
+      </md>
+    </p>
+  </example>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      When you apply an exponent to a product, you can apply the exponent to each part of the product:
+      <md>
+        (3x)^2 = 3^2x^2
+      </md>
+      This is the most common mistake that I (Michael) make, forgetting to square the number!
+    </p>
+    <p>
+      When you apply an exponent to a sum or different, you CANNOT apply the exponent to each part of the sum. Instead, you should distribute:
+      <md>
+        <mrow>(x+3)^2 \amp = (x+3)(x+3) </mrow>
+        <mrow> \amp = x^2+3x+3x+9 </mrow>
+        <mrow> \amp = x^2+6x+9 \neq x^2 + 3^2</mrow>
+      </md>
+    </p>
+  </assemblage>
+  <worksheet xml:id="ws-s07e06">
+    <title>Season 7, Episode 6 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Use the exponent properties to simplify the following.
+        </p>
+      </introduction>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>x^{12}\cdot x^{87}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>z^{200}\cdot z^{57}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>b^{150}\cdot b^{248}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>y^{35}\cdot y^{164}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>a^{3}\cdot x^{399}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>m^{78}\cdot m^{121}</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+    <exercise>
+      <introduction>
+        <p>
+          Use the exponent properties to simplify the following.
+        </p>
+      </introduction>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(x^{12})^7</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(z^{20})^{15}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(b^{17})^{23}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(y^5)^{32}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(a^{3})^{50}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>(m^8)^{49}</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
 </section> 

@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <section xml:id="sec-s07e07" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>Episode 7: ???</title>
+  <title>Episode 7: Dividing with Variables</title>
+  <assemblage>
+    <title>Exponent Rules</title>
+    <p>
+      Here is a list of the three exponent rules in this episode
+      <ol>
+        <li>
+          <p>
+            <m>x^m x^n = x^{m+n}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            (x^a)^b = x^{a\cdot b}
+          </p>
+        </li>
+        <li>
+          <p>
+            (xy)^p = x^p y^p
+          </p>
+        </li>
+      </ol>
+    </p>
+  </assemblage>
 </section> 

@@ -31,6 +31,13 @@ The operation that corresponds to combining piles of similar objects. Addition i
 </gi>
 
 <gi>
+<title>coefficient</title>
+<p>
+    The coefficient of a term is the term’s number. 
+</p>
+</gi>
+
+<gi>
 <title> cross-cancel</title>
 <p>
 When multiplying fractions, you can simplify your answer before multiplying the numerator and denominator by canceling out common factors.
@@ -66,6 +73,14 @@ The number on the bottom of the fraction. In 1/4, the denominator is 4. The deno
     The numbers zero to nine (0 1 2 3 4 5 6 7 8 9).
     </p>
     </gi>
+
+<gi>
+<title>distribution</title>
+<p>
+    For equations that contain a mixture of addition, subtraction, and multiplication, 
+    distribution tells us how multiplication interacts with addition and subtraction. 
+</p>
+</gi>
 
 <gi>
 <title>division</title>
@@ -145,6 +160,13 @@ A fraction represents a portion of a whole.
 </gi>
 
 <gi>
+<title>like terms</title>
+<p>
+    Two terms are called like terms if they are exactly the same or the only difference between them is the coefficient.
+</p>
+</gi>
+
+<gi>
 <title> mean </title>
 <p>
 Also called the average, is a number that we can calculate that will tell us a “typical” or “normal” value for a data set. 
@@ -214,6 +236,13 @@ of zero is zero.
 <title>perimeter</title>
 <p>
    A measure of the size on the outside of a 2D shape. 
+</p>
+</gi>
+
+<gi>
+<title>polynomial</title>
+<p>
+    An expression containing multiple terms.
 </p>
 </gi>
 
@@ -293,6 +322,13 @@ then the fraction is said to be <term>simplified</term> to <term>lowest terms</t
 <title>subtraction</title>
 <p>
 The operation that corresponds to removing objects from a pile. Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+</p>
+</gi>
+
+<gi>
+<title>term</title>
+<p>
+A product of variables and numbers.
 </p>
 </gi>
 

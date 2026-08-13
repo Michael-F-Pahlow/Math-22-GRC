@@ -20,7 +20,7 @@
   <p>
     Because the amount of flour we need is unknown, represent it by a variable, <m>x</m>.
   </p>
-      <tabular bottom="minor" top = "minor" left="minor" right="minor">
+      <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
       <row>
         <cell></cell>
         <cell>Old</cell>
@@ -119,7 +119,7 @@
     <p>
       We can organize this problem in a table:
     </p>
-    <tabular bottom="minor" top = "minor" left="minor" right="minor">
+    <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
       <row>
         <cell></cell>
         <cell>Old</cell>
