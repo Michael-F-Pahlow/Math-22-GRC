@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: greens                       *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Episode 2: Rounding</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Math 22 Guide">
+<meta property="og:title" content="Math 22 Guide">
+<meta property="book:title" content="Math 22 Guide">
+<meta name="twitter:description" content="Guide for Math 22, a support course for Math 72.">
+<meta property="og:description" content="Guide for Math 22, a support course for Math 72.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.42"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="math22guide" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-22-guide.html"><span class="title">Math 22 Guide</span></a></h1>
+<p class="byline">Sam Smith, Michael Pahlow (Editor)</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search book" commandfor="ptx-search-dialog" command="show-modal"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog" closedby="closerequest"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close search" id="ptx-search-close" class="ptx-search-close" commandfor="ptx-search-dialog" command="close"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-s04e01.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-season4.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-s04e03.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season1.html" class="internal"><span class="codenumber">1</span> <span class="title">Season 1: Mathematical Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e01.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1: Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e01.html#ws-s01e01" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e02.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2: Multiplication and Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e02.html#ws-s01e02" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e03.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Episode 3: Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e03.html#ws-s01e03" class="internal"><span class="codenumber">1.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e04.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Episode 4: Order of Operations (PEMDAS)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e04.html#ws-s01e04" class="internal"><span class="codenumber">1.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e05.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Episode 1: Median and Mean</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e05.html#ws-s01e05" class="internal"><span class="codenumber">1.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season2.html" class="internal"><span class="codenumber">2</span> <span class="title">Season 2: Negative Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e01.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Episode 1: What Negative Numbers Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e01.html#ws-s02e01" class="internal"><span class="codenumber">2.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e02.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Episode 2: Adding Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e02.html#ws-s02e02" class="internal"><span class="codenumber">2.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e03.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Episode 3: Subtracting Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e03.html#ws-s02e03" class="internal"><span class="codenumber">2.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e04.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Episode 4: Multiplying and Dividing Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e04.html#ws-s02e04" class="internal"><span class="codenumber">2.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e05.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Episode 5: PEMDAS with Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e05.html#ws-s02e05" class="internal"><span class="codenumber">2.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season3.html" class="internal"><span class="codenumber">3</span> <span class="title">Season 3: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e01.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Episode 1: What Fractions Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e01.html#ws-03e01" class="internal"><span class="codenumber">3.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e02.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Episode 2: Simplifying Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e02.html#ws-s03e02" class="internal"><span class="codenumber">3.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e03.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Episode 3: Multiplying Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e03.html#ws-s03e03" class="internal"><span class="codenumber">3.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s03e04.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Episode 4: Units</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e05.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Episode 5: Unit Conversion</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e05.html#ws-s03e05" class="internal"><span class="codenumber">3.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e06.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Episode 6: Ratios</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e06.html#ws-s03e06" class="internal"><span class="codenumber">3.6</span> <span class="title">Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e07.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Episode 7: Dividing Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e07.html#ws-s03e07" class="internal"><span class="codenumber">3.7</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e08.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Episode 8: Adding/Subtracting Fractions, Part 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e08.html#ws-s03e08" class="internal"><span class="codenumber">3.8</span> <span class="title">Episode 8 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e09.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Episode 9: Adding/Subtracting Fractions, Part 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e09.html#ws-s03e09" class="internal"><span class="codenumber">3.9</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e10.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Episode 10: Mixed Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e10.html#ws-s03e10" class="internal"><span class="codenumber">3.10</span> <span class="title">Episode 10 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e11.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Episode 11: Calculations with Mixed Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e11.html#ws-s03e11" class="internal"><span class="codenumber">3.11</span> <span class="title">Episode 11 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-season4.html" class="internal"><span class="codenumber">4</span> <span class="title">Season 4: Decimal Numbers and Introductory Percents</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e01.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Episode 1: What Decimal Numbers Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e01.html#ws-s04e01" class="internal"><span class="codenumber">4.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-s04e02.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Episode 2: Rounding</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e02.html#ws-s04e02" class="internal"><span class="codenumber">4.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e03.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Episode 3: Decimal Arithmetic</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e03.html#ws-s04e03" class="internal"><span class="codenumber">4.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e04.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Episode 4: What Percents Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e04.html#ws-s04e04" class="internal"><span class="codenumber">4.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e05.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Episode 5: Percent of a Number</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e05.html#ws-s0405" class="internal"><span class="codenumber">4.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season5.html" class="internal"><span class="codenumber">5</span> <span class="title">Season 5: Variables and Formulas</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e01.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Episode 1: What Variables and Formulas Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e01.html#ws-s05e01" class="internal"><span class="codenumber">5.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e02.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Episode 2: Evaluating Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e02.html#ws-s05e02" class="internal"><span class="codenumber">5.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s05e03.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Episode 3: Common 2D Shapes</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e04.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Episode 4: Calculating Area and Perimeter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e04.html#ws-s05e04" class="internal"><span class="codenumber">5.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e05.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Episode 5: Square Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e05.html#ws-s05e05" class="internal"><span class="codenumber">5.5</span> <span class="title">Season 5, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e06.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Episode 6: Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e06.html#ws-s05e06" class="internal"><span class="codenumber">5.6</span> <span class="title">Season 5, Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season6.html" class="internal"><span class="codenumber">6</span> <span class="title">Season 6: Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e01.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Episode 1: What Equations Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e01.html#ws-s06e01" class="internal"><span class="codenumber">6.1</span> <span class="title">Season 6, Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e02.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Episode 2: Solving Equations Using Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e02.html#ws-s06e02" class="internal"><span class="codenumber">6.2</span> <span class="title">Season 6, Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e03.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Episode 3: Solving Equations Using Multiplication and Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e03.html#ws-s06e03" class="internal"><span class="codenumber">6.3</span> <span class="title">Season 6, Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e04.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Episode 4: Proportions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e04.html#sec-s06e04-13" class="internal"><span class="codenumber">6.4</span> <span class="title">Season 6, Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e05.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Episode 5: More Percent Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e05.html#ws-s06e05" class="internal"><span class="codenumber">6.5</span> <span class="title">Season 6, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season7.html" class="internal"><span class="codenumber">7</span> <span class="title">Season 7: Operations with Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e01.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Episode 1: Adding and Subtracting with Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e01.html#ws-s07e01" class="internal"><span class="codenumber">7.1</span> <span class="title">Seaon 7, Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e02.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Episode 2: Solving Multi-step Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e02.html#ws-s07e02" class="internal"><span class="codenumber">7.2</span> <span class="title">Season 7, Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e03.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Episode 3: Multiplying with Variables, Part 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e03.html#ws-s07e03" class="internal"><span class="codenumber">7.3</span> <span class="title">Season 7, Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e04.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Episode 4: Solving Equations Requiring Distribution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e04.html#ws-s07e04" class="internal"><span class="codenumber">7.4</span> <span class="title">Season 7, Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e05.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Episode 5: Multiplying with Variables, Part 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e05.html#ws-s07e05" class="internal"><span class="codenumber">7.5</span> <span class="title">Season 7, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e06.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Episode 6: Integer Exponents and Exponent Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e06.html#ws-s07e06" class="internal"><span class="codenumber">7.6</span> <span class="title">Season 7, Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e07.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Episode 7: Dividing with Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e07.html#ws-s07e07" class="internal"><span class="codenumber">7.7</span> <span class="title">Season 7, Episode 7 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e08.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Episode 8: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e08.html#ws-s07e08" class="internal"><span class="codenumber">7.8</span> <span class="title">Season 7, Episode 8 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e09.html" class="internal"><span class="codenumber">7.9</span> <span class="title">Episode 9: Rearranging Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e09.html#ws-s07e09" class="internal"><span class="codenumber">7.9</span> <span class="title">Season 7, Episode 9 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season8.html" class="internal"><span class="codenumber">8</span> <span class="title">Season 8: Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e01.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Episode 1: Solving Inequalities, Part 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e02.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Episode 2: Interval Notation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e03.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Episode 3: Solving Inequalities, Part 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season9.html" class="internal"><span class="codenumber">9</span> <span class="title">Season 9: Graphing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e01.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Episode 1: The xy-Plane</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e02.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Episode 2: Plotting Points</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e03.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Episode 3: Interpreting Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e04.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Episode 4: Intercepts</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e05.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Episode 5: Slope of a Line</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e06.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Episode 6: Slope-Intercept Form, Part 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e07.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Episode 7: Slope-Intercept Form, Part 7</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season10.html" class="internal"><span class="codenumber">10</span> <span class="title">Season 10: Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s10e01.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Episode 1: Solve Systems of Equations by Graphing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s10e02.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Episode 2: Solve Systems of Equations by Substitution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="resources.html" class="internal"><span class="codenumber">1</span> <span class="title">Additional Resources</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="glossary.html" class="internal"><span class="title">Glossary</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="sec-s04e02">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Episode 2: Rounding</span>
+</h2>
+<article class="assemblage assemblage-like" id="sec-s04e02-2"><h3 class="heading"><span class="title">Episode 2 Learning Goals.</span></h3>
+<div class="para logical" id="sec-s04e02-2-2">
+<ul class="disc" id="sec-s04e02-2-2-1">
+<li id="sec-s04e02-2-2-1-1">
+<div class="para" id="sec-s04e02-2-2-1-1-1">Round decimal numbers.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-2-2-1-2">
+<div class="para" id="sec-s04e02-2-2-1-2-1">Convert fractions to decimals.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 2 Learning Goals"><a href="#sec-s04e02-2" title="Copy heading and permalink for Assemblage: Episode 2 Learning Goals" aria-label="Copy heading and permalink for Assemblage: Episode 2 Learning Goals">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s04e02-3"><h3 class="heading"><span class="title">Episode 2 Key Terminology.</span></h3>
+<div class="para logical" id="sec-s04e02-3-2">
+<ul class="disc" id="sec-s04e02-3-2-1">
+<li id="sec-s04e02-3-2-1-1">
+<div class="para" id="sec-s04e02-3-2-1-1-1">Round<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-3-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 2 Key Terminology"><a href="#sec-s04e02-3" title="Copy heading and permalink for Assemblage: Episode 2 Key Terminology" aria-label="Copy heading and permalink for Assemblage: Episode 2 Key Terminology">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s04e02-4"><h3 class="heading"><span class="title">Episode 3 Key Symbols.</span></h3>
+<div class="para logical" id="sec-s04e02-4-2">
+<div class="displaymath process-math" id="sec-s04e02-4-2-1">
+\begin{equation*}
+\approx \quad\quad \quad \text{as in}\,\, 3.1 \approx 3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 3 Key Symbols"><a href="#sec-s04e02-4" title="Copy heading and permalink for Assemblage: Episode 3 Key Symbols" aria-label="Copy heading and permalink for Assemblage: Episode 3 Key Symbols">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-rounding"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-rounding-1-1">
+<dfn class="terminology">Rounding</dfn> is the process of shortening a decimal number to make it easier to work with.<div class="autopermalink" data-description="Paragraph"><a href="#def-rounding-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 4.2.1"><a href="#def-rounding" title="Copy heading and permalink for Definition 4.2.1" aria-label="Copy heading and permalink for Definition 4.2.1">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s04e02-6">
+<ul class="disc" id="sec-s04e02-6-1">
+<li id="sec-s04e02-6-1-1">
+<div class="para" id="sec-s04e02-6-1-1-1">“Round to the nearest whole number”: Shorten the decimal number so that it has no digits to the right of the decimal point.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-6-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-6-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-6-1-2">
+<div class="para" id="sec-s04e02-6-1-2-1">“Round to one decimal place” or “round to the nearest tenth”: Shorten the decimal number so that it has no digits to the right of the tenths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-6-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-6-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-6-1-3">
+<div class="para" id="sec-s04e02-6-1-3-1">“Round to two decimal places” or “round to the nearest hundredth”: Shorten the decimal number so that it has no digits to the right of the hundredths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-6-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-6-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-6-1-4">
+<div class="para" id="sec-s04e02-6-1-4-1">“Round to three decimal places” or “round to the nearest thousandth”: Shorten the decimal number so that it has no digits to the right of the thousandths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-6-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-6-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s04e02-7">Shortening a decimal number changes its value, but we take the following steps to make sure the value changes as little as possible.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s04e02-8">
+<em class="alert">How to Round a Decimal Number:</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-8" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-9">
+<div class="para">Suppose, for example, that you want to round a decimal number to the nearest tenth.</div>
+<ul class="disc" id="sec-s04e02-9-1">
+<li id="sec-s04e02-9-1-1">
+<div class="para" id="sec-s04e02-9-1-1-1">Look at the digit directly to the right of the tenths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-9-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-9-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-9-1-2">
+<div class="para" id="sec-s04e02-9-1-2-1">If this digit is 0, 1, 2, 3, or 4, we round down: Delete all digits to the right of the tenths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-9-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-9-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s04e02-9-1-3">
+<div class="para" id="sec-s04e02-9-1-3-1">If the digit is 5, 6, 7, 8, or 9, we round up: Increase the digit in the tenths place by 1, and then delete all the digits to the right of the tenths place.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-9-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s04e02-9-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s04e02-10">A similar technique is used when rounding decimal numbers to other places (look at the digit directly to the right of that place).<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s04e02-11"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.2</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-11-1">Round 14.318 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-11-2">
+<div class="para">Solution: The digit directly to the right of the tenths place is 1. Because the digit 1 is small, we round down and delete everything to the right of the tenths place:</div>
+<div class="displaymath process-math" id="sec-s04e02-11-2-1">
+\begin{equation*}
+14.3
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.2"><a href="#sec-s04e02-11" title="Copy heading and permalink for Example 4.2.2" aria-label="Copy heading and permalink for Example 4.2.2">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s04e02-12"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-12-1">Round 8.3791 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-12-2">
+<div class="para">The digit directly to the right of the tenths place is 7. Because the digit 7 is big, we round up. We take the digit in the tenths place and increase it from 3 to 4. Then we delete everything to the right of the tenths place.</div>
+<div class="displaymath process-math" id="sec-s04e02-12-2-1">
+\begin{equation*}
+8.4
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.3"><a href="#sec-s04e02-12" title="Copy heading and permalink for Example 4.2.3" aria-label="Copy heading and permalink for Example 4.2.3">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s04e02-13"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-13-1">Round 17.98 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-13-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-13-2">
+<div class="para">Solution: The digit directly to the right of the tenths place is 8. Because the digit 8 is big, we round up. We take the digit in the tenths place and increase it from 9 to 10. But 10 cannot fit in the tenths place, so it rolls over into the ones place:</div>
+<div class="displaymath process-math" id="sec-s04e02-13-2-1">
+\begin{equation*}
+18.0
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-13-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.4"><a href="#sec-s04e02-13" title="Copy heading and permalink for Example 4.2.4" aria-label="Copy heading and permalink for Example 4.2.4">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s04e02-14"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-14-1">Round 1.8 to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-14-2">
+<div class="para">Solution: The digit directly to the right of the whole number portion is the digit 8. Because the digit 8 is big, we round up. We increase value in the whole number portion from 1 to 2, and then delete everything to the right of the whole number portion, giving us:</div>
+<div class="displaymath process-math" id="sec-s04e02-14-2-1">
+\begin{equation*}
+2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.5"><a href="#sec-s04e02-14" title="Copy heading and permalink for Example 4.2.5" aria-label="Copy heading and permalink for Example 4.2.5">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s04e02-15"><h3 class="heading"><span class="title">Makes Sense, Right?</span></h3>
+<div class="para" id="sec-s04e02-15-2">If we plot 1.8 on a number line, we see that 2 is, literally, the nearest whole number: 1.8 is closer to 2 than any other number on the line.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-15-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="image-box" style="width: 80%; margin-left: 10%; margin-right: 10%;"><img src="generated/prefigure/pf-decimals-example2.svg" role="img" class="contained"></div>
+<div class="autopermalink" data-description="Assemblage: Makes Sense, Right?"><a href="#sec-s04e02-15" title="Copy heading and permalink for Assemblage: Makes Sense, Right?" aria-label="Copy heading and permalink for Assemblage: Makes Sense, Right?">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s04e02-16"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-16-1">Round 3.14159 to two decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-16-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-16-2">
+<div class="para">Solution: Rounding to two decimal places is the same as rounding to the nearest hundredth. The digit directly to the right of the hundredths place is 1. Since the digit 1 is small, we round down and delete all the digits to the right of the hundredths place:</div>
+<div class="displaymath process-math" id="sec-s04e02-16-2-1">
+\begin{equation*}
+3.14
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-16-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.6"><a href="#sec-s04e02-16" title="Copy heading and permalink for Example 4.2.6" aria-label="Copy heading and permalink for Example 4.2.6">🔗</a></div>
+</article>
+<div class="para" id="sec-s04e02-17">Negative decimals are rounded just like positive decimals.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-17" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s04e02-18"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-18-1">Round -2.18 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-18-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-18-2">
+<div class="para">The digit 8 to the right of the tenths place is big, so we round up. We increase the digit in the tenths place from 1 to 2, and then delete everything to the right of the tenths place:</div>
+<div class="displaymath process-math" id="sec-s04e02-18-2-1">
+\begin{equation*}
+-2.2
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-18-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.7"><a href="#sec-s04e02-18" title="Copy heading and permalink for Example 4.2.7" aria-label="Copy heading and permalink for Example 4.2.7">🔗</a></div>
+</article>
+<div class="para" id="sec-s04e02-19">Fractions and decimals both represent portions of a whole number. Here’s how to take a fraction and convert it to a decimal number that represents the same amount.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-19" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s04e02-20">
+<em class="alert">How to Convert a Fraction to a Decimal:</em><div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-20" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-21">
+<ol class="decimal" id="sec-s04e02-21-1">
+<li id="sec-s04e02-21-1-1">
+<div class="para" id="sec-s04e02-21-1-1-1">Divide the fraction’s numerator by its denominator (using a calculator).<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-21-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 1"><a href="#sec-s04e02-21-1-1" title="Copy heading and permalink for Item 1" aria-label="Copy heading and permalink for Item 1">🔗</a></div>
+</li>
+<li id="sec-s04e02-21-1-2">
+<div class="para" id="sec-s04e02-21-1-2-1">Round the result if necessary.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-21-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item 2"><a href="#sec-s04e02-21-1-2" title="Copy heading and permalink for Item 2" aria-label="Copy heading and permalink for Item 2">🔗</a></div>
+</li>
+</ol>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s04e02-22"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.8</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-22-1">Convert the fraction 1/4 to a decimal number.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-22-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-22-2">
+<div class="para">Solution: In a calculator, we calculate</div>
+<div class="displaymath process-math" id="sec-s04e02-22-2-1">
+\begin{equation*}
+1\div 4 = 0.25
+\end{equation*}
+</div>
+<div class="para">In other words, the fraction ¼ and the decimal 0.25 represent the same amount (one quarter).</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-22-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.8"><a href="#sec-s04e02-22" title="Copy heading and permalink for Example 4.2.8" aria-label="Copy heading and permalink for Example 4.2.8">🔗</a></div>
+</article>
+<article class="example example-like" id="sec-s04e02-23"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">4.2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s04e02-23-1">Convert the fraction 2/3 to a decimal number. Round to three decimal places, if necessary.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-23-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-23-2">
+<div class="para">We start by calculating <span class="process-math">\(2\div 3\)</span>in a calculator. We get a complicated answer:</div>
+<div class="displaymath process-math" id="sec-s04e02-23-2-2">
+\begin{equation*}
+2\div 3 = 0.666666666666666...
+\end{equation*}
+</div>
+<div class="para">Working with such a long number would be difficult, so we round the number.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-23-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s04e02-23-3">
+<div class="para">The question asks us to round to three decimal places. Looking at the fourth decimal place, we have the digit 6, which is a large digit. So we round up. We increase the number in the third decimal place from 6 to 7, and then we delete everything to the right.</div>
+<div class="displaymath process-math" id="sec-s04e02-23-3-1">
+\begin{equation*}
+\frac{2}{3} \approx 0.667
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-23-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 4.2.9"><a href="#sec-s04e02-23" title="Copy heading and permalink for Example 4.2.9" aria-label="Copy heading and permalink for Example 4.2.9">🔗</a></div>
+</article>
+<div class="para" id="sec-s04e02-24">The symbol <span class="process-math">\(\approx\)</span> is used when two values aren’t exactly equal, but they are almost equal. We would read it aloud as “two-thirds is approximately equal to 0.667.”<div class="autopermalink" data-description="Paragraph"><a href="#sec-s04e02-24" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<section class="worksheet" id="ws-s04e02" data-margins="0.75in 0.75in 0.75in 0.75in" data-header-first-left="Name:" data-header-first-right="Math 22" data-header-running-right="Math 22">
+<h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Episode 2 Practice Problems</span><div class="print-links"><a href="?printpreview=ws-s04e02" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<div class="para" id="ws-s04e02-2">Round the following decimal numbers.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ws-s04e02-3"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-3-1">Round 4.678 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.1"><a href="#ws-s04e02-3" title="Copy heading and permalink for Worksheet Exercise 4.2.1" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-4"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-4-1">Round −3.452 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.2"><a href="#ws-s04e02-4" title="Copy heading and permalink for Worksheet Exercise 4.2.2" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-5"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-5-1">Round 9.994 to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.3"><a href="#ws-s04e02-5" title="Copy heading and permalink for Worksheet Exercise 4.2.3" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-6"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-6-1">Round −7.501 to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.4"><a href="#ws-s04e02-6" title="Copy heading and permalink for Worksheet Exercise 4.2.4" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-7"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-7-1">Round 12.386 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.5"><a href="#ws-s04e02-7" title="Copy heading and permalink for Worksheet Exercise 4.2.5" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-8"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-8-1">Round −0.764 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.6"><a href="#ws-s04e02-8" title="Copy heading and permalink for Worksheet Exercise 4.2.6" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-9"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-9-1">Round 5.245 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.7"><a href="#ws-s04e02-9" title="Copy heading and permalink for Worksheet Exercise 4.2.7" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-10"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-10-1">Round −2.835 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.8"><a href="#ws-s04e02-10" title="Copy heading and permalink for Worksheet Exercise 4.2.8" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.8">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-11"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-11-1">Round 18.499 to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.9"><a href="#ws-s04e02-11" title="Copy heading and permalink for Worksheet Exercise 4.2.9" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.9">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-12"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-12-1">Round −0.1492 to the nearest thousandth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.10"><a href="#ws-s04e02-12" title="Copy heading and permalink for Worksheet Exercise 4.2.10" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.10">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-13"><h4 class="heading"><span class="codenumber">11<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-13-1">Round 27.675 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-13-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.11"><a href="#ws-s04e02-13" title="Copy heading and permalink for Worksheet Exercise 4.2.11" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.11">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-14"><h4 class="heading"><span class="codenumber">12<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-14-1">Round −14.444 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.12"><a href="#ws-s04e02-14" title="Copy heading and permalink for Worksheet Exercise 4.2.12" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.12">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-15"><h4 class="heading"><span class="codenumber">13<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-15-1">Round 3.9999 to the nearest thousandth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-15-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.13"><a href="#ws-s04e02-15" title="Copy heading and permalink for Worksheet Exercise 4.2.13" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.13">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-16"><h4 class="heading"><span class="codenumber">14<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-16-1">Round −8.125 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-16-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.14"><a href="#ws-s04e02-16" title="Copy heading and permalink for Worksheet Exercise 4.2.14" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.14">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-17"><h4 class="heading"><span class="codenumber">15<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-17-1">Round 6.350 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-17-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.15"><a href="#ws-s04e02-17" title="Copy heading and permalink for Worksheet Exercise 4.2.15" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.15">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-18"><h4 class="heading"><span class="codenumber">16<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-18-1">Round −1.995 to the nearest hundredth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-18-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.16"><a href="#ws-s04e02-18" title="Copy heading and permalink for Worksheet Exercise 4.2.16" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.16">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-19"><h4 class="heading"><span class="codenumber">17<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-19-1">Round 45.5001 to the nearest tenth.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-19-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.17"><a href="#ws-s04e02-19" title="Copy heading and permalink for Worksheet Exercise 4.2.17" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.17">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-20"><h4 class="heading"><span class="codenumber">18<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-20-1">Round −0.500 to the nearest whole number.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-20-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.25in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.18"><a href="#ws-s04e02-20" title="Copy heading and permalink for Worksheet Exercise 4.2.18" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.18">🔗</a></div>
+</article>
+<div class="para" id="ws-s04e02-21">Convert the following fractions to decimals. If necessary, round the result to 2 decimal places.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-21" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-22-1"><h4 class="heading"><span class="codenumber">19<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-22-1-1">
+<span class="process-math">\(\frac{3}{4}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-22-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.19"><a href="#ws-s04e02-22-1" title="Copy heading and permalink for Worksheet Exercise 4.2.19" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.19">🔗</a></div>
+</article>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-22-2"><h4 class="heading"><span class="codenumber">20<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-22-2-1">
+<span class="process-math">\(-\frac{5}{6}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-22-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.20"><a href="#ws-s04e02-22-2" title="Copy heading and permalink for Worksheet Exercise 4.2.20" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.20">🔗</a></div>
+</article>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-23-1"><h4 class="heading"><span class="codenumber">21<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-23-1-1">
+<span class="process-math">\(\frac{7}{12}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-23-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.21"><a href="#ws-s04e02-23-1" title="Copy heading and permalink for Worksheet Exercise 4.2.21" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.21">🔗</a></div>
+</article>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-23-2"><h4 class="heading"><span class="codenumber">22<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-23-2-1">
+<span class="process-math">\(-\frac{11}{30}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-23-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.22"><a href="#ws-s04e02-23-2" title="Copy heading and permalink for Worksheet Exercise 4.2.22" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.22">🔗</a></div>
+</article>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-24-1"><h4 class="heading"><span class="codenumber">23<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-24-1-1">
+<span class="process-math">\(\frac{13}{40}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-24-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.23"><a href="#ws-s04e02-24-1" title="Copy heading and permalink for Worksheet Exercise 4.2.23" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.23">🔗</a></div>
+</article>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-24-2"><h4 class="heading"><span class="codenumber">24<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-24-2-1">
+<span class="process-math">\(-\frac{9}{16}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-24-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.24"><a href="#ws-s04e02-24-2" title="Copy heading and permalink for Worksheet Exercise 4.2.24" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.24">🔗</a></div>
+</article>
+</div>
+</div>
+</div>
+<div class="sidebyside">
+<div class="sbsrow" style="margin-left:0%;margin-right:0%;grid-template-columns:50% 50%;column-gap:0%;">
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-25-1"><h4 class="heading"><span class="codenumber">25<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-25-1-1">
+<span class="process-math">\(\frac{2}{3}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-25-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.25"><a href="#ws-s04e02-25-1" title="Copy heading and permalink for Worksheet Exercise 4.2.25" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.25">🔗</a></div>
+</article>
+</div>
+<div class="sbspanel sbspanel--top top" style="">
+<article class="exercise exercise-like" id="ws-s04e02-25-2"><h4 class="heading"><span class="codenumber">26<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s04e02-25-2-1">
+<span class="process-math">\(-\frac{5}{9}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-25-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="0.35in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.26"><a href="#ws-s04e02-25-2" title="Copy heading and permalink for Worksheet Exercise 4.2.26" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.26">🔗</a></div>
+</article>
+</div>
+</div>
+</div>
+<div class="para" id="ws-s04e02-26">Use the symbols <span class="process-math">\(\gt\)</span> and <span class="process-math">\(\lt\)</span> to compare the following pairs of numbers.  (Suggestion: Convert the fractions to decimals.)<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-26" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ws-s04e02-27"><h4 class="heading"><span class="codenumber">27<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="ws-s04e02-27-1">
+<div class="displaymath process-math" id="ws-s04e02-27-1-1">
+\begin{equation*}
+\frac{1}{3} \quad\quad\quad\quad \frac{1}{4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-27-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.27"><a href="#ws-s04e02-27" title="Copy heading and permalink for Worksheet Exercise 4.2.27" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.27">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-28"><h4 class="heading"><span class="codenumber">28<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="ws-s04e02-28-1">
+<div class="displaymath process-math" id="ws-s04e02-28-1-1">
+\begin{equation*}
+0.7 \quad\quad\quad\quad \frac{3}{4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-28-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.28"><a href="#ws-s04e02-28" title="Copy heading and permalink for Worksheet Exercise 4.2.28" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.28">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-29"><h4 class="heading"><span class="codenumber">29<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="ws-s04e02-29-1">
+<div class="displaymath process-math" id="ws-s04e02-29-1-1">
+\begin{equation*}
+\frac{2}{5} \quad\quad\quad\quad \frac{3}{8}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-29-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.29"><a href="#ws-s04e02-29" title="Copy heading and permalink for Worksheet Exercise 4.2.29" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.29">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s04e02-30"><h4 class="heading"><span class="codenumber">30<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para logical" id="ws-s04e02-30-1">
+<div class="displaymath process-math" id="ws-s04e02-30-1-1">
+\begin{equation*}
+3.58 \quad\quad\quad\quad \frac{11}{4}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#ws-s04e02-30-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 4.2.30"><a href="#ws-s04e02-30" title="Copy heading and permalink for Worksheet Exercise 4.2.30" aria-label="Copy heading and permalink for Worksheet Exercise 4.2.30">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet 4.2: Episode 2 Practice Problems"><a href="#ws-s04e02" title="Copy heading and permalink for Worksheet 4.2: Episode 2 Practice Problems" aria-label="Copy heading and permalink for Worksheet 4.2: Episode 2 Practice Problems">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 4.2: Episode 2: Rounding"><a href="#sec-s04e02" title="Copy heading and permalink for Section 4.2: Episode 2: Rounding" aria-label="Copy heading and permalink for Section 4.2: Episode 2: Rounding">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-s04e01.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-s04e03.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

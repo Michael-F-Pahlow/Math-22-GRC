@@ -1,0 +1,339 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-decimals-exercise-figure" width="510" height="60" viewBox="0 0 510 60">
+  <defs>
+    <clipPath id="pf-decimals-exercise-__clipPath-0">
+      <rect x="5.0" y="5.0" width="500.0" height="50.0"/>
+    </clipPath>
+    <clipPath id="pf-decimals-exercise-__clipPath-1">
+      <rect x="5.0" y="5.0" width="500.0" height="50.0"/>
+    </clipPath>
+    <marker id="pf-decimals-exercise-arrow-head-end-1_None_24_60-black" markerWidth="4.5" markerHeight="4.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="3.3" refY="2.0">
+      <path d="M 4.5 2.0L 0.0 4.0L 0.9 2.5L 0.9 1.5L 0.0 0.0Z" fill="black" stroke="none"/>
+    </marker>
+    <marker id="pf-decimals-exercise-arrow-head-end-1_None_24_60-black-outline" markerWidth="8.5" markerHeight="8.0" markerUnits="userSpaceOnUse" orient="auto-start-reverse" refX="5.3" refY="4.0">
+      <path d="M 7.3 5.8 L 2.8 7.8 A 2 2 0 0 1 0.0 6.0 L 0.0 2.0 A 2 2 0 0 1 2.8 0.2 L 7.3 2.2 A 2 2 0 0 1 7.3 5.8 Z" fill="white" stroke="none"/>
+    </marker>
+  </defs>
+  <g id="pf-decimals-exercise-axes" stroke="black" stroke-width="1">
+    <line id="pf-decimals-exercise-__line-0" x1="5.0" y1="30.0" x2="505.0" y2="30.0" stroke="black" stroke-width="1" marker-end="url(#pf-decimals-exercise-arrow-head-end-1_None_24_60-black)" marker-start="url(#pf-decimals-exercise-arrow-head-end-1_None_24_60-black)"/>
+    <g id="pf-decimals-exercise-__g-0">
+      <line id="pf-decimals-exercise-__line-1" x1="13.1" y1="34.0" x2="13.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-2" x1="21.1" y1="34.0" x2="21.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-3" x1="29.2" y1="34.0" x2="29.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-4" x1="37.3" y1="34.0" x2="37.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-5" x1="45.3" y1="34.0" x2="45.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-6" x1="53.4" y1="34.0" x2="53.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-7" x1="61.5" y1="34.0" x2="61.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-8" x1="69.5" y1="34.0" x2="69.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-9" x1="77.6" y1="34.0" x2="77.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-10" x1="85.6" y1="34.0" x2="85.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-11" x1="93.7" y1="34.0" x2="93.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-12" x1="101.8" y1="34.0" x2="101.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-13" x1="109.8" y1="34.0" x2="109.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-14" x1="117.9" y1="34.0" x2="117.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-15" x1="126.0" y1="34.0" x2="126.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-16" x1="134.0" y1="34.0" x2="134.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-17" x1="142.1" y1="34.0" x2="142.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-18" x1="150.2" y1="34.0" x2="150.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-19" x1="158.2" y1="34.0" x2="158.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-20" x1="166.3" y1="34.0" x2="166.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-21" x1="174.4" y1="34.0" x2="174.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-22" x1="182.4" y1="34.0" x2="182.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-23" x1="190.5" y1="34.0" x2="190.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-24" x1="198.5" y1="34.0" x2="198.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-25" x1="206.6" y1="34.0" x2="206.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-26" x1="214.7" y1="34.0" x2="214.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-27" x1="222.7" y1="34.0" x2="222.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-28" x1="230.8" y1="34.0" x2="230.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-29" x1="238.9" y1="34.0" x2="238.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-30" x1="246.9" y1="34.0" x2="246.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-31" x1="255.0" y1="34.0" x2="255.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-32" x1="263.1" y1="34.0" x2="263.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-33" x1="271.1" y1="34.0" x2="271.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-34" x1="279.2" y1="34.0" x2="279.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-35" x1="287.3" y1="34.0" x2="287.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-36" x1="295.3" y1="34.0" x2="295.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-37" x1="303.4" y1="34.0" x2="303.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-38" x1="311.5" y1="34.0" x2="311.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-39" x1="319.5" y1="34.0" x2="319.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-40" x1="327.6" y1="34.0" x2="327.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-41" x1="335.6" y1="34.0" x2="335.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-42" x1="343.7" y1="34.0" x2="343.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-43" x1="351.8" y1="34.0" x2="351.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-44" x1="359.8" y1="34.0" x2="359.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-45" x1="367.9" y1="34.0" x2="367.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-46" x1="376.0" y1="34.0" x2="376.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-47" x1="384.0" y1="34.0" x2="384.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-48" x1="392.1" y1="34.0" x2="392.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-49" x1="400.2" y1="34.0" x2="400.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-50" x1="408.2" y1="34.0" x2="408.2" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-51" x1="416.3" y1="34.0" x2="416.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-52" x1="424.4" y1="34.0" x2="424.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-53" x1="432.4" y1="34.0" x2="432.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-54" x1="440.5" y1="34.0" x2="440.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-55" x1="448.5" y1="34.0" x2="448.5" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-56" x1="456.6" y1="34.0" x2="456.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-57" x1="464.7" y1="34.0" x2="464.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-58" x1="472.7" y1="34.0" x2="472.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-59" x1="480.8" y1="34.0" x2="480.8" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-60" x1="488.9" y1="34.0" x2="488.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-61" x1="496.9" y1="34.0" x2="496.9" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-62" x1="13.1" y1="34.0" x2="13.1" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-63" x1="53.4" y1="34.0" x2="53.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-64" x1="93.7" y1="34.0" x2="93.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-65" x1="134.0" y1="34.0" x2="134.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-66" x1="174.4" y1="34.0" x2="174.4" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-67" x1="214.7" y1="34.0" x2="214.7" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-68" x1="255.0" y1="34.0" x2="255.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-69" x1="295.3" y1="34.0" x2="295.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-70" x1="335.6" y1="34.0" x2="335.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-71" x1="376.0" y1="34.0" x2="376.0" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-72" x1="416.3" y1="34.0" x2="416.3" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-73" x1="456.6" y1="34.0" x2="456.6" y2="26.0"/>
+      <line id="pf-decimals-exercise-__line-74" x1="496.9" y1="34.0" x2="496.9" y2="26.0"/>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-0" transform="translate(13.1,41.0) translate(-7.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-1">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="15.080px" height="12.432px" role="img" focusable="false" viewBox="0 -665 833 687" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-2-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-2-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 3">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-2-TEX-N-2D"/>
+              <use data-c="33" xlink:href="#pf-decimals-exercise-MJX-2-TEX-N-33" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-1" transform="translate(53.4,41.0) translate(-14.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-2">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="29.160px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1611 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-3-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-3-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="pf-decimals-exercise-MJX-3-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-3-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2.5">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-3-TEX-N-2D"/>
+              <use data-c="32" xlink:href="#pf-decimals-exercise-MJX-3-TEX-N-32" transform="translate(333,0)"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-3-TEX-N-2E" transform="translate(833,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-3-TEX-N-35" transform="translate(1111,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-2" transform="translate(93.7,41.0) translate(-7.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-3">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-4-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-4-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 2">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-4-TEX-N-2D"/>
+              <use data-c="32" xlink:href="#pf-decimals-exercise-MJX-4-TEX-N-32" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-3" transform="translate(134.0,41.0) translate(-14.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-4">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="29.160px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1611 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-5-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-5-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          <path id="pf-decimals-exercise-MJX-5-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-5-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1.5">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-5-TEX-N-2D"/>
+              <use data-c="31" xlink:href="#pf-decimals-exercise-MJX-5-TEX-N-31" transform="translate(333,0)"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-5-TEX-N-2E" transform="translate(833,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-5-TEX-N-35" transform="translate(1111,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-4" transform="translate(174.4,41.0) translate(-7.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-5">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="15.080px" height="12.056px" role="img" focusable="false" viewBox="0 -666 833 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-6-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-6-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 1">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-6-TEX-N-2D"/>
+              <use data-c="31" xlink:href="#pf-decimals-exercise-MJX-6-TEX-N-31" transform="translate(333,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-5" transform="translate(214.7,41.0) translate(-14.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-6">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="29.160px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1611 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-7-TEX-N-2D" d="M11 179V252H277V179H11Z"/>
+          <path id="pf-decimals-exercise-MJX-7-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          <path id="pf-decimals-exercise-MJX-7-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-7-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="hyphen 0.5">
+              <use data-c="2D" xlink:href="#pf-decimals-exercise-MJX-7-TEX-N-2D"/>
+              <use data-c="30" xlink:href="#pf-decimals-exercise-MJX-7-TEX-N-30" transform="translate(333,0)"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-7-TEX-N-2E" transform="translate(833,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-7-TEX-N-35" transform="translate(1111,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-6" transform="translate(255.0,41.0) translate(-4.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-7">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.456px" role="img" focusable="false" viewBox="0 -666 500 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-8-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0">
+              <use data-c="30" xlink:href="#pf-decimals-exercise-MJX-8-TEX-N-30"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-7" transform="translate(295.3,41.0) translate(-11.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-8">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-9-TEX-N-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"/>
+          <path id="pf-decimals-exercise-MJX-9-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-9-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="0.5">
+              <use data-c="30" xlink:href="#pf-decimals-exercise-MJX-9-TEX-N-30"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-9-TEX-N-2E" transform="translate(500,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-9-TEX-N-35" transform="translate(778,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-8" transform="translate(335.6,41.0) translate(-4.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-9">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-10-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1">
+              <use data-c="31" xlink:href="#pf-decimals-exercise-MJX-10-TEX-N-31"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-9" transform="translate(376.0,41.0) translate(-11.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-10">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-11-TEX-N-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"/>
+          <path id="pf-decimals-exercise-MJX-11-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-11-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="1.5">
+              <use data-c="31" xlink:href="#pf-decimals-exercise-MJX-11-TEX-N-31"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-11-TEX-N-2E" transform="translate(500,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-11-TEX-N-35" transform="translate(778,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-10" transform="translate(416.3,41.0) translate(-4.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-11">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: 0.000px" width="9.048px" height="12.056px" role="img" focusable="false" viewBox="0 -666 500 666" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-12-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2">
+              <use data-c="32" xlink:href="#pf-decimals-exercise-MJX-12-TEX-N-32"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-11" transform="translate(456.6,41.0) translate(-11.6,-0.0)">
+    <g id="pf-decimals-exercise-__g-12">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="23.128px" height="12.456px" role="img" focusable="false" viewBox="0 -666 1278 688" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-13-TEX-N-32" d="M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z"/>
+          <path id="pf-decimals-exercise-MJX-13-TEX-N-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"/>
+          <path id="pf-decimals-exercise-MJX-13-TEX-N-35" d="M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="unknown" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="2.5">
+              <use data-c="32" xlink:href="#pf-decimals-exercise-MJX-13-TEX-N-32"/>
+              <use data-c="2E" xlink:href="#pf-decimals-exercise-MJX-13-TEX-N-2E" transform="translate(500,0)"/>
+              <use data-c="35" xlink:href="#pf-decimals-exercise-MJX-13-TEX-N-35" transform="translate(778,0)"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="pf-decimals-exercise-__label-12" transform="translate(496.9,41.0) translate(-4.5,-0.0)">
+    <g id="pf-decimals-exercise-__g-13">
+      <svg xmlns:xlink="http://www.w3.org/1999/xlink" style="vertical-align: -0.400px" width="9.048px" height="12.432px" role="img" focusable="false" viewBox="0 -665 500 687" x="0.0" y="0.0">
+        <defs>
+          <path id="pf-decimals-exercise-MJX-14-TEX-N-33" d="M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z"/>
+        </defs>
+        <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)">
+          <g data-mml-node="math">
+            <g data-mml-node="mtext" data-semantic-type="text" data-semantic-role="integer" data-semantic-font="normal" data-semantic-annotation="clearspeak:unit" data-semantic-id="0" data-semantic-speech="3">
+              <use data-c="33" xlink:href="#pf-decimals-exercise-MJX-14-TEX-N-33"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </g>
+  </g>
+</svg>

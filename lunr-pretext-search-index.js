@@ -520,7 +520,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.1",
   "title": "Episode 1: What Negative Numbers Represent",
-  "body": " Episode 1: What Negative Numbers Represent   Episode 1 Learning Goals     Give examples of real-world quantities represented by negative numbers.    Plot integers on a number line.    Compare integers using and        Episode 1 Key Terminology     Integer    Number line       Episode 1 Key Symbols          Negative Numbers are used to represent quantities below 0.    Symbolically, negative numbers are written using a sign, as in (read aloud as “negative 5” or “minus 5.”)  For example, when measuring temperatures, 0 degrees Celsius is the temperature at which water freezes. Temperatures colder than 0 would be represented by a negative number, such as -10.  Negative numbers can also be used to represent overdrawn bank accounts, or to represent debts.  The word integer means a whole number that might be positive or negative or zero.   Be Careful  Notice that the symbol is used to represent subtraction: And it is also used to represent negative numbers: The symbol means “negative” if there is nothing or if there is a ( on the left side of the sign.  The symbol means “subtract” otherwise.     A number line is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and negative numbers (it displays integers).     A horizontal number line            On a horizontal number line, negative numbers are positioned to the left of 0, and positive numbers are located to the right of 0.   Number lines can also be vertical. In a vertical number line, negative numbers are below 0, and positive numbers are above 0.   A vertical number line             We can use the symbol (read aloud as “is greater than”) or the symbol (read aloud as “is less than”) to compare two integers.  When we use these symbols, we place the symbol between two numbers, with the “alligator mouth” pointing toward the number that is “hotter.”   Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7: We would read this aloud as: “2 is less than 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2: We would read this aloud as: “2 is greater than negative 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2: We would read this aloud as: “negative 2 is greater than negative 7.”    Mnemonic  A mnemonic for how to use the symbols and is:  “The alligator likes hot food!”  We think of the “mouth” of the and symbols as being like the mouth of an alligator who is eating the numbers. 🐊    Notice Something Neat  On a horizontal number line, the hotter number is always on the right. So, we can also say that because when we mark -2 and -7 on a number line, the number -2 is on the right.    Episode 1 Practice Problems   Mark the following integers on a horizontal number line:   -3    -7    0    4                 Put the correct symbol, or , between the pairs of integers:                                                             "
+  "body": " Episode 1: What Negative Numbers Represent   Episode 1 Learning Goals     Give examples of real-world quantities represented by negative numbers.    Plot integers on a number line.    Compare integers using and        Episode 1 Key Terminology     Integer    Number line       Episode 1 Key Symbols          Negative Numbers are used to represent quantities below 0.    Symbolically, negative numbers are written using a sign, as in (read aloud as “negative 5” or “minus 5.”)  For example, when measuring temperatures, 0 degrees Celsius is the temperature at which water freezes. Temperatures colder than 0 would be represented by a negative number, such as -10.  Negative numbers can also be used to represent overdrawn bank accounts, or to represent debts.  The word integer means a whole number that might be positive or negative or zero.   Be Careful  Notice that the symbol is used to represent subtraction: And it is also used to represent negative numbers: The symbol means “negative” if there is nothing or if there is a ( on the left side of the sign.  The symbol means “subtract” otherwise.     A number line is like a measuring tape or ruler. But unlike a measuring tape, a number line displays both positive and negative numbers (it displays integers).     A horizontal number line            On a horizontal number line, negative numbers are positioned to the left of 0, and positive numbers are located to the right of 0.   Number lines can also be vertical. In a vertical number line, negative numbers are below 0, and positive numbers are above 0.   A vertical number line             We can use the symbol (read aloud as “is greater than”) or the symbol (read aloud as “is less than”) to compare two integers.  When we use these symbols, we place the symbol between two numbers, with the “alligator mouth” pointing toward the number that is “hotter.”   Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 7 degrees is hotter than a temperature of 2 degrees. So, we would put the “mouth” toward 7: We would read this aloud as: “2 is less than 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of 2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward 2: We would read this aloud as: “2 is greater than negative 7.”    Put the correct symbol, or between the two integers Solution: Think about the numbers as temperatures. A temperature of -2 degrees is hotter than a temperature of -7 degrees. So, we would put the “mouth” toward -2: We would read this aloud as: “negative 2 is greater than negative 7.”    Mnemonic  A mnemonic for how to use the symbols and is:  “The alligator likes hot food!”  We think of the “mouth” of the and symbols as being like the mouth of an alligator who is eating the numbers. 🐊    Notice Something Neat  On a horizontal number line, the hotter number is always on the right. So, we can also say that because when we mark -2 and -7 on a number line, the number -2 is on the right.    Episode 1 Practice Problems   Mark the following integers on a horizontal number line:   -3    -7    0    4                 Put the correct symbol, or , between the pairs of integers:                                                              Interlude: Comparing Numbers  Play around with this interactive tool for the University of Colorado's PhET simulations   Comparing Numbers     "
 },
 {
   "id": "def-negative-numbers",
@@ -547,7 +547,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.1.2",
   "title": "",
-  "body": "  A number line is like a measuring tape or ruler. But unlike a measuring table, a number line displays both positive and negative numbers (it displays integers).   "
+  "body": "  A number line is like a measuring tape or ruler. But unlike a measuring tape, a number line displays both positive and negative numbers (it displays integers).   "
 },
 {
   "id": "sec-s02e01-12",
@@ -613,13 +613,22 @@ var ptx_lunr_docs = [
   "body": "  Put the correct symbol, or , between the pairs of integers:                                                           "
 },
 {
+  "id": "figure-number-compare",
+  "level": "2",
+  "url": "sec-s02e01.html#figure-number-compare",
+  "type": "Figure",
+  "number": "2.1.8",
+  "title": "",
+  "body": " Comparing Numbers   "
+},
+{
   "id": "sec-s02e02",
   "level": "1",
   "url": "sec-s02e02.html",
   "type": "Section",
   "number": "2.2",
   "title": "Episode 2: Adding Integers",
-  "body": " Episode 2: Adding Integers   Episode 2 Learning Goals     Add integers       Episode 2 Key Terminology     Sign      Suppose your bank account is overdrawn by $18. The balance in your account is represented by a negative number, -18.  Then your deposit $50 into the account. You’re combining two piles of money, one “negative” pile representing your debt, and one “positive” pile representing your deposit.  To find out how much money you have in your account in the end, we would add these two integers:     The sign of an integer is whether it’s positive, negative, or zero    The sign of -3 is negative.  The sign of 5 is positive.  The sign of 0 is zero (no sign).   How to Add Integers    If the integers are both negative:  Add the integers together as if they were both positive, then apply a negative sign to the result.    If one of the integers is positive and the other one is negative:  Find the difference between the integers as if they were both positive. Then, take the sign of the bigger integer, and apply that sign to the result.      Calculate   Solution: We are adding a negative number, -18, to a positive number, 50. So, we find the difference between 50 and 18 first: Then, we notice that the positive 50 is bigger than the negative 18. So we make our final answer positive: 32    Makes Sense, Right?  If we start with our bank account overdrawn by $18, and then deposit $50, some of that $50 will go to cover the debt, and then some will be leftover to fill up our account.    Calculate:   Solution: We are adding a negative number, -8, to another negative number, -4. So, we add together the numbers as if they were both positive: Then, we apply a negative sign to our final answer:     Makes Sense, Right?  If we start with our bank account overdrawn by $8, and then take on another debt of $4, we end up in even more debt than we started with.    Calculate:   Solution: We are adding a negative number, -40, to a positive number, 5. So, we find the difference between 40 and 5 first: Then, we notice that the negative 40 is bigger than the positive 5. So we make our final answer negative:     Makes Sense, Right?  If we start with our bank account overdrawn by $40, and then deposit $5, that will only be enough to pay off some of our debt.   When we write addition problems containing integers, we don't want to have a + symbol directly next to a - symbol.  To separate the + and -, when we add a negative number, we put the negative number in parentheses:   Adding 0 (adding nothing) doesn't change an integer:    Episode 2 Practice Problems   Calculate the answer to the following addition problems:                                                                                        A bank account has a balance of –$45 (money owed). A deposit of $30 is made. What is the new balance?    An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?    "
+  "body": " Episode 2: Adding Integers   Episode 2 Learning Goals     Add integers       Episode 2 Key Terminology     Sign      Suppose your bank account is overdrawn by $18. The balance in your account is represented by a negative number, -18.  Then your deposit $50 into the account. You’re combining two piles of money, one “negative” pile representing your debt, and one “positive” pile representing your deposit.  To find out how much money you have in your account in the end, we would add these two integers:     The sign of an integer is whether it’s positive, negative, or zero    The sign of -3 is negative.  The sign of 5 is positive.  The sign of 0 is zero (no sign).   How to Add Integers    If the integers are both negative:  Add the integers together as if they were both positive, then apply a negative sign to the result.    If one of the integers is positive and the other one is negative:  Find the difference between the integers as if they were both positive. Then, take the sign of the bigger integer, and apply that sign to the result.      Calculate   Solution: We are adding a negative number, -18, to a positive number, 50. So, we find the difference between 50 and 18 first: Then, we notice that the positive 50 is bigger than the negative 18. So we make our final answer positive: 32    Makes Sense, Right?  If we start with our bank account overdrawn by $18, and then deposit $50, some of that $50 will go to cover the debt, and then some will be leftover to fill up our account.    Calculate:   Solution: We are adding a negative number, -8, to another negative number, -4. So, we add together the numbers as if they were both positive: Then, we apply a negative sign to our final answer:     Makes Sense, Right?  If we start with our bank account overdrawn by $8, and then take on another debt of $4, we end up in even more debt than we started with.    Calculate:   Solution: We are adding a negative number, -40, to a positive number, 5. So, we find the difference between 40 and 5 first: Then, we notice that the negative 40 is bigger than the positive 5. So we make our final answer negative:     Makes Sense, Right?  If we start with our bank account overdrawn by $40, and then deposit $5, that will only be enough to pay off some of our debt.   When we write addition problems containing integers, we don't want to have a + symbol directly next to a - symbol.  To separate the + and -, when we add a negative number, we put the negative number in parentheses:   Adding 0 (adding nothing) doesn't change an integer:    Episode 2 Practice Problems   Calculate the answer to the following addition problems:                                                                                        A bank account has a balance of –$45 (money owed). A deposit of $30 is made. What is the new balance?    An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?     Interlude: Number Line Operations  Play around with this interactive tool for the University of Colorado's PhET simulations   Number line operations     "
 },
 {
   "id": "def-sign",
@@ -829,13 +838,22 @@ var ptx_lunr_docs = [
   "body": " An elevator starts on floor –3 (three floors below ground). It goes up 8 floors. What floor does the elevator stop on?  "
 },
 {
+  "id": "figure-number-line-operations",
+  "level": "2",
+  "url": "sec-s02e02.html#figure-number-line-operations",
+  "type": "Figure",
+  "number": "2.2.5",
+  "title": "",
+  "body": " Number line operations   "
+},
+{
   "id": "sec-s02e03",
   "level": "1",
   "url": "sec-s02e03.html",
   "type": "Section",
   "number": "2.3",
   "title": "Episode 3: Subtracting Integers",
-  "body": " Episode 3: Subtracting Integers   Episode 3 Learning Goals     Subtract Integers       Episode 3 Learning Goals     Opposite      A person owes $3000 of student loan debt, represented by the negative number -3000. Then, $2000 is cancelled. Because we are removing some debt, this is a subtraction problem: (Read aloud as “negative 3000 minus negative 2000.”)    The opposite of a positive number is the negative version of that number. For example, the opposite of 7 is -7.  The opposite of a negative number is the positive version of that number. For example, the opposite of -4 is 4.  The opposite of zero is zero.    Symbolically, the opposite is represented by putting an extra negative sign on the number. For example, if we want to say “find the opposite of -7” in symbols, we would write:    How to Subtract Integers   To subtract an integer, add the opposite.   Calculate   Solution: Instead of subtracting -2000, we will add the opposite, 2000. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -3000 and 2000 have opposite signs, so we find their difference: The negative number 3000 is bigger, so we make the final answer negative: -1000    Makes Sense, Right?  If we’re $3000 in debt, and someone cancels $2000 of our debt, we still have some debt left that we have to pay off.    Calculate   Instead of subtracting 4, we add the opposite, -4. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -24 and -4 are both negative, so we add them together as if they were both positive: Then we make the final answer negative: -28    Makes Sense, Right?  If we're $24 overdrawn already, and then we try to withdraw another $4, then we end up even more overdrawn than we were at the start.    The temperature was 30 degrees Fahrenheit in the day and then dropped to -20 degrees Fahrenheit at night. How much did the temperature decrease?  Solution: This question is asking us for the difference between the daytime and nighttime temperature, so this is a subtraction problem. We add the opposite of -20: The temperature decreased by 50 degrees.    Episode 3 Practice Problems   Perform the following integer subtractions:                                                                                         The temperature is C in the afternoon. Overnight, the temperature drops to C. How much did the temperature change?    A bank account balance is $12. After a withdrawal, the balance becomes –$8. How much money was withdrawn?    A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?    "
+  "body": " Episode 3: Subtracting Integers   Episode 3 Learning Goals     Subtract Integers       Episode 3 Learning Goals     Opposite      A person owes $3000 of student loan debt, represented by the negative number -3000. Then, $2000 is cancelled. Because we are removing some debt, this is a subtraction problem: (Read aloud as “negative 3000 minus negative 2000.”)    The opposite of a positive number is the negative version of that number. For example, the opposite of 7 is -7.  The opposite of a negative number is the positive version of that number. For example, the opposite of -4 is 4.  The opposite of zero is zero.    Symbolically, the opposite is represented by putting an extra negative sign on the number. For example, if we want to say “find the opposite of -7” in symbols, we would write:    How to Subtract Integers   To subtract an integer, add the opposite.   Calculate   Solution: Instead of subtracting -2000, we will add the opposite, 2000. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -3000 and 2000 have opposite signs, so we find their difference: The negative number 3000 is bigger, so we make the final answer negative: -1000    Makes Sense, Right?  If we’re $3000 in debt, and someone cancels $2000 of our debt, we still have some debt left that we have to pay off.    Calculate   Instead of subtracting 4, we add the opposite, -4. Now, this is an addition problem, so we can calculate this using the method we learned in the previous episode. The numbers -24 and -4 are both negative, so we add them together as if they were both positive: Then we make the final answer negative: -28    Makes Sense, Right?  If we're $24 overdrawn already, and then we try to withdraw another $4, then we end up even more overdrawn than we were at the start.    The temperature was 30 degrees Fahrenheit in the day and then dropped to -20 degrees Fahrenheit at night. How much did the temperature decrease?  Solution: This question is asking us for the difference between the daytime and nighttime temperature, so this is a subtraction problem. We add the opposite of -20: The temperature decreased by 50 degrees.    Episode 3 Practice Problems   Perform the following integer subtractions:                                                                                         The temperature is C in the afternoon. Overnight, the temperature drops to C. How much did the temperature change?    A bank account balance is $12. After a withdrawal, the balance becomes –$8. How much money was withdrawn?    A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?     Interlude: Number Lines  Play around with this interactive tool for the University of Colorado's PhET simulations   Number line integers     Number line distance     "
 },
 {
   "id": "def-opposite",
@@ -1034,6 +1052,24 @@ var ptx_lunr_docs = [
   "number": "2.3.18",
   "title": "",
   "body": " A diver is 10 meters below sea level. They descend to 25 meters below sea level. How many meters did the diver descend?  "
+},
+{
+  "id": "figure-number-line-integers",
+  "level": "2",
+  "url": "sec-s02e03.html#figure-number-line-integers",
+  "type": "Figure",
+  "number": "2.3.5",
+  "title": "",
+  "body": " Number line integers   "
+},
+{
+  "id": "figure-number-line-distance",
+  "level": "2",
+  "url": "sec-s02e03.html#figure-number-line-distance",
+  "type": "Figure",
+  "number": "2.3.6",
+  "title": "",
+  "body": " Number line distance   "
 },
 {
   "id": "sec-s02e04",
@@ -1266,8 +1302,8 @@ var ptx_lunr_docs = [
   "url": "sec-s02e05.html",
   "type": "Section",
   "number": "2.5",
-  "title": "Episode 5: PEMDAS Integers",
-  "body": " Episode 5: PEMDAS Integers   Episode Learning Goals     Perform multi-step calculations involving integers.      The same rules of PEMDAS apply when working with integers   Calculate   Solution: First, we work on the calculation inside the innermost parentheses, : Then, we work on the calculation inside the brackets, . Applying PEMDAS here, we calculate the exponent next: We calculate the multiplication next: Then the subtraction: Finally, we remember that the extra - is telling us to find the opposite of -33. So our answer is     Be Careful  There is a difference between By default, an exponent only applies to the single symbol directly underneath it. So in only the 3 is getting copied, not the : If you want to copy the entire quantity -3, then you need to wrap -3 in parentheses before applying the exponent, like in :     Episode 5 Practice Problems   Use PEMDAS to calculate the following quantities:                                                      "
+  "title": "Episode 5: PEMDAS with Integers",
+  "body": " Episode 5: PEMDAS with Integers   Episode Learning Goals     Perform multi-step calculations involving integers.      The same rules of PEMDAS apply when working with integers   Calculate   Solution: First, we work on the calculation inside the innermost parentheses, : Then, we work on the calculation inside the brackets, . Applying PEMDAS here, we calculate the exponent next: We calculate the multiplication next: Then the subtraction: Finally, we remember that the extra - is telling us to find the opposite of -33. So our answer is     Be Careful  There is a difference between By default, an exponent only applies to the single symbol directly underneath it. So in only the 3 is getting copied, not the : If you want to copy the entire quantity -3, then you need to wrap -3 in parentheses before applying the exponent, like in :     Episode 5 Practice Problems   Use PEMDAS to calculate the following quantities:                                                      "
 },
 {
   "id": "sec-s02e05-4",
@@ -1375,7 +1411,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.1",
   "title": "Episode 1: What Fractions Represent",
-  "body": " Episode 1: What Fractions Represent   Episode 1 Learning Goals     Determine the physical quantity represented by a fraction.    Interpret fractions on physical objects such as measuring tapes and measuring cups.       Episode 1 Key Terminology     Fraction    Numerator    Denominator        A fraction A fraction represents a portion of a whole.    Fractions are related to division. The fraction also written as 1\/4, would correspond to dividing 1 object into 4 portions:   You would have to start by cutting the object into 4 equally sized pieces.    Then each portion would consist of 1 of those pieces.       1\/4 of a round pizza                  1\/4 of a square                  The denominator of a fraction is the number on the bottom of the fraction. In 1\/4, the denominator is 4. The denominator tells you how many pieces you need to cut the whole object into.      The numerator of a fraction is the number on the bottom of the fraction. In 1\/4, the numerator is 4. The numerator tells you how many pieces are in each portion.     Draw a representation of the fraction 2\/3.  Start with a picture representing a whole object, for example, a circle or a box. The denominator of our fraction is 3, so cut the whole object into 3 equally sized pieces. The numerator is 2, so we have 2 of those 3 pieces.   The fraction 2\/3 represented using a circle   A pizza cut into three equal pieces with one piece removed     The fraction 2\/3 represented using a box                Draw a representation of the fraction 9\/4.  The denominator, 4, tells us each whole object needs to be cut into 4 pieces. The numerator, 9, tells us we need 9 pieces in total. So, we will need multiple whole objects to be able to get 9 pieces in total:   The fraction 9\/4 represented using boxes                        If you have 2 whole objects and ¼ of another object, that amount can be represented as a mixed number. When writing mixed numbers, we write the whole number directly next to the fraction. Notice that the fraction 9\/4 above is the same amount as the mixed number .  Fractions appear on tape measures so that you measure fractions of an inch.  For example, you can measure 1\/4 of an inch by taking a whole inch, dividing that inch into 4 equal portions, and then taking 1 of those portions.  You can measure 3\/8 of an inch by taking a whole inch, dividing that inch into 8 equal portions, and then taking 3 of those portions.   Common fractions of inches on a tape measure.  >   Fractions appear on measuring cups, so that you can measure fractions of a cup.   A measuring cup showing fractions of a cup  >   From a measuring cup, we can see, for example, that 1\/3 cup is more than 1\/4 cup, in other words:    Episode 1 Practice Problems   Draw representation of each of the following fractions:                                                     Find the following fractions on a measuring tape, ruler, or measuring cup, determine which fraction is bigger, and then put the appropriate symbol or between the fractions:                                 "
+  "body": " Episode 1: What Fractions Represent   Episode 1 Learning Goals     Determine the physical quantity represented by a fraction.    Interpret fractions on physical objects such as measuring tapes and measuring cups.       Episode 1 Key Terminology     Fraction    Numerator    Denominator        A fraction A fraction represents a portion of a whole.    Fractions are related to division. The fraction also written as 1\/4, would correspond to dividing 1 object into 4 portions:   You would have to start by cutting the object into 4 equally sized pieces.    Then each portion would consist of 1 of those pieces.       1\/4 of a round pizza                  1\/4 of a square                  The denominator of a fraction is the number on the bottom of the fraction. In 1\/4, the denominator is 4. The denominator tells you how many pieces you need to cut the whole object into.      The numerator of a fraction is the number on the bottom of the fraction. In 1\/4, the numerator is 1. The numerator tells you how many pieces are in each portion.     Draw a representation of the fraction 2\/3.  Start with a picture representing a whole object, for example, a circle or a box. The denominator of our fraction is 3, so cut the whole object into 3 equally sized pieces. The numerator is 2, so we have 2 of those 3 pieces.   The fraction 2\/3 represented using a circle   A pizza cut into three equal pieces with one piece removed     The fraction 2\/3 represented using a box                Draw a representation of the fraction 9\/4.  The denominator, 4, tells us each whole object needs to be cut into 4 pieces. The numerator, 9, tells us we need 9 pieces in total. So, we will need multiple whole objects to be able to get 9 pieces in total:   The fraction 9\/4 represented using boxes                        If you have 2 whole objects and ¼ of another object, that amount can be represented as a mixed number. When writing mixed numbers, we write the whole number directly next to the fraction. Notice that the fraction 9\/4 above is the same amount as the mixed number .  Fractions appear on tape measures so that you measure fractions of an inch.  For example, you can measure 1\/4 of an inch by taking a whole inch, dividing that inch into 4 equal portions, and then taking 1 of those portions.  You can measure 3\/8 of an inch by taking a whole inch, dividing that inch into 8 equal portions, and then taking 3 of those portions.   Common fractions of inches on a tape measure.     Fractions appear on measuring cups, so that you can measure fractions of a cup.   A measuring cup showing fractions of a cup     From a measuring cup, we can see, for example, that 1\/3 cup is more than 1\/4 cup, in other words:    Episode 1 Practice Problems   Draw representation of each of the following fractions:                                                     Find the following fractions on a measuring tape, ruler, or measuring cup, determine which fraction is bigger, and then put the appropriate symbol or between the fractions:                                  Interlude: Fractions in the Physical World  Play around with this interactive tool for the University of Colorado's PhET simulations   Introduction to Fractions     "
 },
 {
   "id": "def-fraction",
@@ -1420,7 +1456,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "3.1.5",
   "title": "",
-  "body": "  The numerator of a fraction is the number on the bottom of the fraction. In 1\/4, the numerator is 4. The numerator tells you how many pieces are in each portion.   "
+  "body": "  The numerator of a fraction is the number on the bottom of the fraction. In 1\/4, the numerator is 1. The numerator tells you how many pieces are in each portion.   "
 },
 {
   "id": "sec-s03e01-9",
@@ -1456,7 +1492,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "3.1.11",
   "title": "",
-  "body": " Common fractions of inches on a tape measure.  >  "
+  "body": " Common fractions of inches on a tape measure.    "
 },
 {
   "id": "sec-s03e01-17",
@@ -1465,7 +1501,7 @@ var ptx_lunr_docs = [
   "type": "Figure",
   "number": "3.1.12",
   "title": "",
-  "body": " A measuring cup showing fractions of a cup  >  "
+  "body": " A measuring cup showing fractions of a cup    "
 },
 {
   "id": "ws-03e01-3-1",
@@ -1549,13 +1585,22 @@ var ptx_lunr_docs = [
   "body": "  Find the following fractions on a measuring tape, ruler, or measuring cup, determine which fraction is bigger, and then put the appropriate symbol or between the fractions:                               "
 },
 {
+  "id": "figure-phet-fractions-intro",
+  "level": "2",
+  "url": "sec-s03e01.html#figure-phet-fractions-intro",
+  "type": "Figure",
+  "number": "3.1.13",
+  "title": "",
+  "body": " Introduction to Fractions   "
+},
+{
   "id": "sec-s03e02",
   "level": "1",
   "url": "sec-s03e02.html",
   "type": "Section",
   "number": "3.2",
   "title": "Episode 2: Simplifying Fractions",
-  "body": " Episode 2: Simplifying Fractions   Episode 2 Learning Goals     Simplify fractions       Episode 2 Key Terminology     Equivalent    Simplify      Notice that it's possible to have two fractions that look different, but they actually represent the same amount (they are equal).   Common fractions of inches on a tape measure.  >   For example, on a tape measure, we can see that 2\/8 of an inch is the same as 1\/4 of an inch. These fractions are equal.    Common fractions of inches on a tape measure.  >   From a picture, we can see that 1\/2 of a pizza is the same amount as 2\/4 of that pizza. It's also the same as 3\/6 of that pizza, and it's also the same as 4\/8 of that pizza. All these fractions are equal.     Equal fractions are sometimes also called equivalent .     Making Equivalent Fractions   There are two actions that make a fraction look different but keep it equal to what it was originally:   Multiply the numerator and denominator by the same number.    Divide the numerator and denominator by the same number (called “simplifying” because it makes the fraction simpler)   For example, if I start with the fraction 1\/2, and I multiply the numerator and denominator by 4: I get 4\/8, which we saw earlier is equal to 1\/2.  If I start with the fraction 3\/6, and I divide the numerator and denominator by 3: I get 1\/2, which we saw earlier is equal to 3\/6.     Simplify a fraction by dividing the numerator and denominator by the same number. If no whole numbers divide both the numerator and denominator, then the fraction is said to be simplified to lowest terms .     How to Fully Simplify a Fraction      Find a number that divides both the numerator and denominator of the fraction.    Divide the numerator and denominator by this number.    Repeat steps 1-2 until there are no more numbers that divide both numerator and denominator.      Simplify the fraction   Solution 1: I notice that the number 2 divides both 12 and 18. I notice that the number 3 divides both 6 and 9: There are no numbers that divide both 2 and 3, so the fully simplified fraction is:   Solution 2: I notice that the number 3 divides both 12 and 18. I notice that the number 2 divides both 4 and 6: There are no numbers that divide both 2 and 3, so the fully simplified fraction is:     Episode 2 Practice Problems   Simplify the following fractions as much as possible. (Some fractions may already be as simple as they can be.)                                                           "
+  "body": " Episode 2: Simplifying Fractions   Episode 2 Learning Goals     Simplify fractions       Episode 2 Key Terminology     Equivalent    Simplify      Notice that it's possible to have two fractions that look different, but they actually represent the same amount (they are equal).   Common fractions of inches on a tape measure.  >   For example, on a tape measure, we can see that 2\/8 of an inch is the same as 1\/4 of an inch. These fractions are equal.    Common fractions of inches on a tape measure.  >   From a picture, we can see that 1\/2 of a pizza is the same amount as 2\/4 of that pizza. It's also the same as 3\/6 of that pizza, and it's also the same as 4\/8 of that pizza. All these fractions are equal.     Equal fractions are sometimes also called equivalent .     Making Equivalent Fractions   There are two actions that make a fraction look different but keep it equal to what it was originally:   Multiply the numerator and denominator by the same number.    Divide the numerator and denominator by the same number (called “simplifying” because it makes the fraction simpler)   For example, if I start with the fraction 1\/2, and I multiply the numerator and denominator by 4: I get 4\/8, which we saw earlier is equal to 1\/2.  If I start with the fraction 3\/6, and I divide the numerator and denominator by 3: I get 1\/2, which we saw earlier is equal to 3\/6.     Simplify a fraction by dividing the numerator and denominator by the same number. If no whole numbers divide both the numerator and denominator, then the fraction is said to be simplified to lowest terms .     How to Fully Simplify a Fraction      Find a number that divides both the numerator and denominator of the fraction.    Divide the numerator and denominator by this number.    Repeat steps 1-2 until there are no more numbers that divide both numerator and denominator.      Simplify the fraction   Solution 1: I notice that the number 2 divides both 12 and 18. I notice that the number 3 divides both 6 and 9: There are no numbers that divide both 2 and 3, so the fully simplified fraction is:   Solution 2: I notice that the number 3 divides both 12 and 18. I notice that the number 2 divides both 4 and 6: There are no numbers that divide both 2 and 3, so the fully simplified fraction is:     Episode 2 Practice Problems   Simplify the following fractions as much as possible. (Some fractions may already be as simple as they can be.)                                                            Interlude: Equal Fractions  Play around with this interactive tool for the University of Colorado's PhET simulations   Equality of Fractions     "
 },
 {
   "id": "sec-s03e02-5",
@@ -1736,6 +1781,15 @@ var ptx_lunr_docs = [
   "number": "3.2.15",
   "title": "",
   "body": "  "
+},
+{
+  "id": "figure-phet-fractions-equal",
+  "level": "2",
+  "url": "sec-s03e02.html#figure-phet-fractions-equal",
+  "type": "Figure",
+  "number": "3.2.6",
+  "title": "",
+  "body": " Equality of Fractions   "
 },
 {
   "id": "sec-s03e03",
@@ -1951,7 +2005,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.4",
   "title": "Episode 4: Units",
-  "body": " Episode 4: Units   Episode 4 Learning Goals     Interpret common units for volume, length, area, weight, etc.    (Physical manipulatives) Measure volume, length, area, weight using physical tools (measuring tape, measuring cups, scales, etc.) and report the measured volume using the appropriate units.       Table of Common Length Units       Imperial (American)  Metric    Large Lengths  miles (mi)  kilometers (km)    Medium Lengths  feet (ft)  meters (m)    Small Lengths  inches (in)  centimeters (cm)    Very Small Lengths   millimeters (mm)      Examples of these units in real life:      1 foot is about the length of your forearm.    1 inch is about the length of the first joint on your index finger.    1 centimeter is about the width of your pinky fingernail    A tall person might be about 2 meters tall, or about 6 feet tall.    The width of the head of a screw is usually between 1 and 7 millimeters depending on the screw size.      Table of Common Weight Units       Imperial (American)  Metric    Large Weights  tons  metric tons    Medium Weights  pounds (lb)  kilograms (kg)    Small Weights  ounces (oz)  grams (g)    Very Small weights   milligrams (mg)      Examples of these units in real life      A pallet of bricks, or a small car, weighs around 1 ton.    A newborn baby might weigh around 8 pounds or 4 kilograms.    A tablet of ibuprofen might weigh around 200 milligrams.    A medium apple might weigh around 6 ounces.      Common Units for Area      A “square inch” is a unit for area, referring to the area of a square patch that is one inch wide and one inch tall.    A square kilometer is a unit for area, referring to the area of a square patch that is one kilometer wide and one kilometer tall.   An acre is a special unit for area. One acre contains 640 square miles.   Common Units for Volume      A “cubic inch” is a unit for volume, referring to the volume of a box that is one inch wide and one inch tall and one inch deep.    A “cubic centimeter” is a unit for volume, referring to the volume of a box that is one centimeter wide and one centimeter tall and one centimeter deep.   A liter is a special unit for volume. You can buy a 2-liter bottle of soda in the grocery store.  Practice measuring lengths, areas, volumes, and weights of real-world objects using physical tools, such as scales, measuring cups, rulers, and measuring tapes!  "
+  "body": " Episode 4: Units   Episode 4 Learning Goals     Interpret common units for volume, length, area, weight, etc.    (Physical manipulatives) Measure volume, length, area, weight using physical tools (measuring tape, measuring cups, scales, etc.) and report the measured volume using the appropriate units.       Table of Common Length Units       Imperial (American)  Metric    Large Lengths  miles (mi)  kilometers (km)    Medium Lengths  feet (ft)  meters (m)    Small Lengths  inches (in)  centimeters (cm)    Very Small Lengths   millimeters (mm)      Examples of these units in real life:      1 foot is about the length of your forearm.    1 inch is about the length of the first joint on your index finger.    1 centimeter is about the width of your pinky fingernail    A tall person might be about 2 meters tall, or about 6 feet tall.    The width of the head of a screw is usually between 1 and 7 millimeters depending on the screw size.      Table of Common Weight Units       Imperial (American)  Metric    Large Weights  tons  metric tons    Medium Weights  pounds (lb)  kilograms (kg)    Small Weights  ounces (oz)  grams (g)    Very Small weights   milligrams (mg)      Examples of these units in real life      A pallet of bricks, or a small car, weighs around 1 ton.    A newborn baby might weigh around 8 pounds or 4 kilograms.    A tablet of ibuprofen might weigh around 200 milligrams.    A medium apple might weigh around 6 ounces.      Common Units for Area      A “square inch” is a unit for area, referring to the area of a square patch that is one inch wide and one inch tall.    A square kilometer is a unit for area, referring to the area of a square patch that is one kilometer wide and one kilometer tall.   An acre is a special unit for area. One acre contains 640 square miles.   Common Units for Volume      A “cubic inch” is a unit for volume, referring to the volume of a box that is one inch wide and one inch tall and one inch deep.    A “cubic centimeter” is a unit for volume, referring to the volume of a box that is one centimeter wide and one centimeter tall and one centimeter deep.   A liter is a special unit for volume. You can buy a 2-liter bottle of soda in the grocery store.  Practice measuring lengths, areas, volumes, and weights of real-world objects using physical tools, such as scales, measuring cups, rulers, and measuring tapes!   Interlude: Unit Rates  Play around with this interactive tool for the University of Colorado's PhET simulations   Unit Rates     "
 },
 {
   "id": "sec-s03e04-3",
@@ -1972,13 +2026,22 @@ var ptx_lunr_docs = [
   "body": " Table of Common Weight Units       Imperial (American)  Metric    Large Weights  tons  metric tons    Medium Weights  pounds (lb)  kilograms (kg)    Small Weights  ounces (oz)  grams (g)    Very Small weights   milligrams (mg)    "
 },
 {
+  "id": "figure-unit-rates",
+  "level": "2",
+  "url": "sec-s03e04.html#figure-unit-rates",
+  "type": "Figure",
+  "number": "3.4.3",
+  "title": "",
+  "body": " Unit Rates   "
+},
+{
   "id": "sec-s03e05",
   "level": "1",
   "url": "sec-s03e05.html",
   "type": "Section",
   "number": "3.5",
   "title": "Episode 5: Unit Conversion",
-  "body": " Episode 5: Unit Conversion   Episode 5 Learning Goals     Convert from one unit of measurement to using simple unit analysis (e.g. cm to m, pounds to ounces, inches to feet)      We can convert measurements in one unit (e.g. feet) to measurements in another unit (e.g. inches) using the following 3-step process:   Look up the relationship between the units you have and the units you desire.    Turn this relationship into a fraction, with the units you have on the bottom and the units you desire on the top:    Multiply the given measurement by the fraction from Step 2.      A person weighs 72 kilograms. What is their weight in grams?  Step 1: Look up the relationship between the units you have (kilograms) and the units you want \/ desire (grams).  1 kilogram = 1000 grams  Step 2: Turn this relationship into a fraction with the units you have on the bottom and the units you want on the top:   Step 3: Multiply the given weight by this fraction:     Notice Something Neat  Units in a fraction can be “cross-cancelled” just like numbers. That's why we put the units we have in the denominator: so they will get cancelled out.     A person's height is 5 feet and 3 inches. What is their height in inches?  Solution: First, convert the feet to meters:   Add 3 inches to get the total height in inches:     Multi-step Conversions  A doctor writes an order for a medication. The order reads: “administer 0.5 mg by mouth daily.” You're dispensed a bottle of medication that says 100 mcg per tablet. How many tablets should be administered to the patient in their daily dose?  There are several units in this problem. What we have at the start of the problem are instructions to administer 0.2 mg per day. The units we want are tablets to administer each day. But we don't have a direct relationship between mg of medication and tablets of medication. Here's what we do know:   1 mg = 1000 mcg  (look up this conversion)    100 mcg = 1 tablet  (from the medication description)   We can convert from mg to tablets by using these relationships to construct multiple fractions. Notice that the units in these fractions are positioned diagonally:     Episode 5 Practice Problems   Convert 3 kilometers to meters.    Convert 45 liters to milliliters.    Convert 2 hours to minutes.    Convert 12 feet to inches.    Convert 540 seconds to minutes.    Convert 36 inches to feet.    Convert 62 kilograms to grams.    Convert 5 miles to feet.    Convert 9000 milligrams to grams.    Convert 2,640 feet to miles.    "
+  "body": " Episode 5: Unit Conversion   Episode 5 Learning Goals     Convert from one unit of measurement to using simple unit analysis (e.g. cm to m, pounds to ounces, inches to feet)      We can convert measurements in one unit (e.g. feet) to measurements in another unit (e.g. inches) using the following 3-step process:   Look up the relationship between the units you have and the units you desire.    Turn this relationship into a fraction, with the units you have on the bottom and the units you desire on the top:    Multiply the given measurement by the fraction from Step 2.      A person weighs 72 kilograms. What is their weight in grams?  Step 1: Look up the relationship between the units you have (kilograms) and the units you want \/ desire (grams).  1 kilogram = 1000 grams  Step 2: Turn this relationship into a fraction with the units you have on the bottom and the units you want on the top:   Step 3: Multiply the given weight by this fraction:     Notice Something Neat  Units in a fraction can be “cross-cancelled” just like numbers. That's why we put the units we have in the denominator: so they will get cancelled out.     A person's height is 5 feet and 3 inches. What is their height in inches?  Solution: First, convert the feet to meters:   Add 3 inches to get the total height in inches:     Multi-step Conversions  A doctor writes an order for a medication. The order reads: “administer 0.5 mg by mouth daily.” You're dispensed a bottle of medication that says 100 mcg per tablet. How many tablets should be administered to the patient in their daily dose?  There are several units in this problem. What we have at the start of the problem are instructions to administer 0.2 mg per day. The units we want are tablets to administer each day. But we don't have a direct relationship between mg of medication and tablets of medication. Here's what we do know:   1 mg = 1000 mcg  (look up this conversion)    100 mcg = 1 tablet  (from the medication description)   We can convert from mg to tablets by using these relationships to construct multiple fractions. Notice that the units in these fractions are positioned diagonally:     Common Units Conversion Chart   Length       Weight\/Mass        Episode 5 Practice Problems   Convert 3 kilometers to meters.    Convert 45 liters to milliliters.    Convert 2 hours to minutes.    Convert 12 feet to inches.    Convert 540 seconds to minutes.    Convert 36 inches to feet.    Convert 62 kilograms to grams.    Convert 5 miles to feet.    Convert 9000 milligrams to grams.    Convert 2,640 feet to miles.    "
 },
 {
   "id": "sec-s03e05-4",
@@ -2104,7 +2167,7 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.6",
   "title": "Episode 6: Ratios",
-  "body": " Episode 6: Ratios   Episode 6 Learning Goals     Calculate ratios in real-world contexts    Interpret ratios in real-world contexts       Episode 6 Key Terminology     Ratio       Episode 6 Key Symbols         Ratios are fractions used to compare two numbers.     A car can drive 120 miles on 3 gallons of gas. Write down and simplify a ratio comparing the miles driven to the required gallons of gas (the car's gas mileage).  Solution: The car's gas mileage is the fraction: This fraction can be simplified by separately considering the numbers and the units in the fraction.  The car's gas mileage is 40 miles \/ gallon, read aloud as “40 miles per gallon.”    A recipe making 36 cookies requires 2 eggs. Write down and simplify a ratio comparing the number of cookies to the number of required eggs.  Solution: The recipe's ratio is Separate the numbers and the units and simplify each part separately:  The ratio is 18 cookies \/ egg, read aloud as “18 cookies per egg.”    A person hikes 8 miles in 3 hours. Find the rate at which they're walking.  Solution: The rate at which they're walking is the ratio of distance traveled to time required.  The rate is 8\/3 miles per hour.   Special ratios can be written when you're comparing two quantities that have the same units.   Suppose a pizza dough recipe requires 110 grams of flour to be mixed with 200 grams of water. Write the ratio of flour to water for the recipe.  Solution: As a fraction, this ratio is This can be simplified to   But because both the flour and the water are being measured in the same units (grams), this ratio can be written using special notation: Read aloud, we would say “the ratio of flour to water is 20 to 11.”    Open Google Maps and look at the bottom right corner of the screen to find the “map scale.”   An image of a map scale from Google Maps     This map scale means the length of that white bar (about 2 inches) on your screen corresponds to 500 feet of distance in the real world.  Using this map scale, write the ratio of map distance to real world distance.  Solution: According to the map scale, the map distance is 2 inches. The corresponding real-world distance is 500 feet. Right now, the distance units aren't the same. But we can convert all the distances to inches.  We look up: So we calculate: Now, the map distance (2 inches) and the real-world distance (6000 inches) have the same units. So the ratio of map distance to real-world distance can be written: Or, after being simplified:     Episode 6 Practice Problems    Write the following ratios:     There are 18 apples and 24 oranges in a basket. Write the ratio of apples to oranges and simplify it.      A recipe uses 30 cups of flour and 18 cups of sugar. Write the ratio of flour to sugar and simplify.      A parking lot has 45 cars and 60 motorcycles. Write the ratio of cars to motorcycles in simplest form.      A cyclist rides 48 miles in 6 hours. Write the rate in miles per hour and simplify.      A machine produces 210 parts in 14 hours. Write the rate in parts per hour and simplify.      A runner runs 9 miles in 72 minutes. Write the rate in miles per minute and simplify.      You earn $150 for 12 hours of work. Write the rate in dollars per hour and simplify.      A printer uses 500 sheets of paper in 20 minutes. Write the rate in sheets per minute and simplify.       Use unit conversion and write the following ratios:     A ribbon is 120 centimeters long and another ribbon is 3 meters long. Convert all the lengths to the same units, then write the ratio of the first ribbon to the second ribbon.      A trail is 5 kilometers long and another trail is 750 meters long. Convert all the lengths to the same units, then write the ratio of the first trail's length to the second trail's length.      A package weighs 900 grams, and another package weighs 2 kilograms. Convert all the weights to the same units, then write the ratio of the first trail's length to the second trail's length.      "
+  "body": " Episode 6: Ratios   Episode 6 Learning Goals     Calculate ratios in real-world contexts    Interpret ratios in real-world contexts       Episode 6 Key Terminology     Ratio       Episode 6 Key Symbols         Ratios are fractions used to compare two numbers.     A car can drive 120 miles on 3 gallons of gas. Write down and simplify a ratio comparing the miles driven to the required gallons of gas (the car's gas mileage).  Solution: The car's gas mileage is the fraction: This fraction can be simplified by separately considering the numbers and the units in the fraction.  The car's gas mileage is 40 miles\/gallon, read aloud as “40 miles per gallon.”    A recipe making 36 cookies requires 2 eggs. Write down and simplify a ratio comparing the number of cookies to the number of required eggs.  Solution: The recipe's ratio is Separate the numbers and the units and simplify each part separately:  The ratio is 18 cookies\/egg, read aloud as “18 cookies per egg.”    A person hikes 8 miles in 3 hours. Find the rate at which they're walking.  Solution: The rate at which they're walking is the ratio of distance traveled to time required.  The rate is 8\/3 miles per hour.   Special ratios can be written when you're comparing two quantities that have the same units.   Suppose a pizza dough recipe requires 110 grams of flour to be mixed with 200 grams of water. Write the ratio of flour to water for the recipe.  Solution: As a fraction, this ratio is This can be simplified to   But because both the flour and the water are being measured in the same units (grams), this ratio can be written using special notation: Read aloud, we would say “the ratio of flour to water is 20 to 11.”    Open Google Maps and look at the bottom right corner of the screen to find the “map scale.”   An image of a map scale from Google Maps     This map scale means the length of that white bar (about 2 inches) on your screen corresponds to 500 feet of distance in the real world.  Using this map scale, write the ratio of map distance to real world distance.  Solution: According to the map scale, the map distance is 2 inches. The corresponding real-world distance is 500 feet. Right now, the distance units aren't the same. But we can convert all the distances to inches.  We look up: So we calculate: Now, the map distance (2 inches) and the real-world distance (6000 inches) have the same units. So the ratio of map distance to real-world distance can be written: Or, after being simplified:     Episode 6 Practice Problems    Write the following ratios:     There are 18 apples and 24 oranges in a basket. Write the ratio of apples to oranges and simplify it.      A recipe uses 30 cups of flour and 18 cups of sugar. Write the ratio of flour to sugar and simplify.      A parking lot has 45 cars and 60 motorcycles. Write the ratio of cars to motorcycles in simplest form.      A cyclist rides 48 miles in 6 hours. Write the rate in miles per hour and simplify.      A machine produces 210 parts in 14 hours. Write the rate in parts per hour and simplify.      A runner runs 9 miles in 72 minutes. Write the rate in miles per minute and simplify.      You earn $150 for 12 hours of work. Write the rate in dollars per hour and simplify.      A printer uses 500 sheets of paper in 20 minutes. Write the rate in sheets per minute and simplify.       Use unit conversion and write the following ratios:     A ribbon is 120 centimeters long and another ribbon is 3 meters long. Convert all the lengths to the same units, then write the ratio of the first ribbon to the second ribbon.      A trail is 5 kilometers long and another trail is 750 meters long. Convert all the lengths to the same units, then write the ratio of the first trail's length to the second trail's length.      A package weighs 900 grams, and another package weighs 2 kilograms. Convert all the weights to the same units, then write the ratio of the first trail's length to the second trail's length.      "
 },
 {
   "id": "def-ratio",
@@ -2122,7 +2185,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.2",
   "title": "",
-  "body": " A car can drive 120 miles on 3 gallons of gas. Write down and simplify a ratio comparing the miles driven to the required gallons of gas (the car's gas mileage).  Solution: The car's gas mileage is the fraction: This fraction can be simplified by separately considering the numbers and the units in the fraction.  The car's gas mileage is 40 miles \/ gallon, read aloud as “40 miles per gallon.”  "
+  "body": " A car can drive 120 miles on 3 gallons of gas. Write down and simplify a ratio comparing the miles driven to the required gallons of gas (the car's gas mileage).  Solution: The car's gas mileage is the fraction: This fraction can be simplified by separately considering the numbers and the units in the fraction.  The car's gas mileage is 40 miles\/gallon, read aloud as “40 miles per gallon.”  "
 },
 {
   "id": "sec-s03e06-7",
@@ -2131,7 +2194,7 @@ var ptx_lunr_docs = [
   "type": "Example",
   "number": "3.6.3",
   "title": "",
-  "body": " A recipe making 36 cookies requires 2 eggs. Write down and simplify a ratio comparing the number of cookies to the number of required eggs.  Solution: The recipe's ratio is Separate the numbers and the units and simplify each part separately:  The ratio is 18 cookies \/ egg, read aloud as “18 cookies per egg.”  "
+  "body": " A recipe making 36 cookies requires 2 eggs. Write down and simplify a ratio comparing the number of cookies to the number of required eggs.  Solution: The recipe's ratio is Separate the numbers and the units and simplify each part separately:  The ratio is 18 cookies\/egg, read aloud as “18 cookies per egg.”  "
 },
 {
   "id": "sec-s03e06-8",
@@ -2185,7 +2248,241 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.7",
   "title": "Episode 7: Dividing Fractions",
-  "body": " Episode 7: Dividing Fractions  "
+  "body": " Episode 7: Dividing Fractions   Episode 7 Learning Goals     Divide fractions.       Episode 7 Key Terminology     Reciprocal        The reciprocal of a fraction can be found by swapping the numerator and denominator (flipping the fraction “upside-down”).     Find the reciprocal of 3\/5.  Solution: Swapping the numerator and denominator, the reciprocal is 5\/3.    Find the reciprocal of 4.  The number 4 can be thought of as 4\/1. Swap the numerator and denominator to get 1\/4.    How to Divide Fractions.      Keep the first fraction the same.    Change the to a .    Flip the second fraction.   The mnemonic is KCF, “Kentucky Chicken Fried.”   Divide Solution: We keep the first fraction, change the to a , and flip the second fraction (find its reciprocal) Now this is a multiplication problem. We can cross-cancel the 3's: Then we can multiply the numerators and multiply the denominators:     Makes Sense, Right?   Imagine that we have 2\/3 of a pizza, and we're dividing that into portions, where each portion consists of 1\/3 of a pizza.   2\/3 of a pizza splits into 2 portions of size 1\/3.                            Here, we see that we can make 2 portions. That's why    Divide   Solution: We keep the first fraction, change the to a , and flip the second fraction. We remember that 4 is the same as 4\/1, so:     Divide   Solution: We keep the first fraction, change the to a , and flip the second fraction. There is nothing to cross-cancel, so we multiply:    Be Careful!  When we write That means dividing the entire fraction 1\/5 by 3. It represents, for example, taking 1\/5 of a pound of candy and sharing it between 3 people.  By contrast, when we write something like: That means dividing the numerator by 2 and separately dividing the denominator by 2. This is what we write when we're simplifying the fraction 4\/6.    Division involving negative fractions follows the same rules as division involving negative whole numbers.   Divide   We start by counting the number of negative signs in the problem. There are two minus signs in the problem.  Then, we divide the numbers as if they were both positive:   Because there were an even number of minus signs in the original problem, our final answer is positive: 8.    Episode 5 Practice Problems  Divide and fully simplify your answer.                                                          A recipe uses cup of sugar for one batch of cookies. How many batches can be made with cups of sugar?    A garden plot is of a mile long. Each section of the garden is mile long. How many sections can be made from the plot?    A piece of ribbon is yard long. Each gift needs yard of ribbon. How many gifts can be wrapped with the ribbon?    "
+},
+{
+  "id": "def-reciprocal",
+  "level": "2",
+  "url": "sec-s03e07.html#def-reciprocal",
+  "type": "Definition",
+  "number": "3.7.1",
+  "title": "",
+  "body": "  The reciprocal of a fraction can be found by swapping the numerator and denominator (flipping the fraction “upside-down”).   "
+},
+{
+  "id": "sec-s03e07-5",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-5",
+  "type": "Example",
+  "number": "3.7.2",
+  "title": "",
+  "body": " Find the reciprocal of 3\/5.  Solution: Swapping the numerator and denominator, the reciprocal is 5\/3.  "
+},
+{
+  "id": "sec-s03e07-6",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-6",
+  "type": "Example",
+  "number": "3.7.3",
+  "title": "",
+  "body": " Find the reciprocal of 4.  The number 4 can be thought of as 4\/1. Swap the numerator and denominator to get 1\/4.  "
+},
+{
+  "id": "sec-s03e07-9",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-9",
+  "type": "Example",
+  "number": "3.7.4",
+  "title": "",
+  "body": " Divide Solution: We keep the first fraction, change the to a , and flip the second fraction (find its reciprocal) Now this is a multiplication problem. We can cross-cancel the 3's: Then we can multiply the numerators and multiply the denominators:   "
+},
+{
+  "id": "sec-s03e07-12",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-12",
+  "type": "Figure",
+  "number": "3.7.5",
+  "title": "",
+  "body": " 2\/3 of a pizza splits into 2 portions of size 1\/3.                           "
+},
+{
+  "id": "sec-s03e07-14",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-14",
+  "type": "Example",
+  "number": "3.7.6",
+  "title": "",
+  "body": " Divide   Solution: We keep the first fraction, change the to a , and flip the second fraction. We remember that 4 is the same as 4\/1, so:   "
+},
+{
+  "id": "sec-s03e07-15",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-15",
+  "type": "Example",
+  "number": "3.7.7",
+  "title": "",
+  "body": " Divide   Solution: We keep the first fraction, change the to a , and flip the second fraction. There is nothing to cross-cancel, so we multiply:    Be Careful!  When we write That means dividing the entire fraction 1\/5 by 3. It represents, for example, taking 1\/5 of a pound of candy and sharing it between 3 people.  By contrast, when we write something like: That means dividing the numerator by 2 and separately dividing the denominator by 2. This is what we write when we're simplifying the fraction 4\/6.   "
+},
+{
+  "id": "sec-s03e07-17",
+  "level": "2",
+  "url": "sec-s03e07.html#sec-s03e07-17",
+  "type": "Example",
+  "number": "3.7.8",
+  "title": "",
+  "body": " Divide   We start by counting the number of negative signs in the problem. There are two minus signs in the problem.  Then, we divide the numbers as if they were both positive:   Because there were an even number of minus signs in the original problem, our final answer is positive: 8.  "
+},
+{
+  "id": "ws-s03e07-3-1",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-3-2",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-3-3",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-4-1",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-4-2",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-4-3",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-4-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-5-1",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-5-2",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-5-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-5-3",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-5-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-6-1",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-6-2",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-6-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-6-3",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-6-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-7-1",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-7-1",
+  "type": "Worksheet Exercise",
+  "number": "3.7.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-7-2",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-7-2",
+  "type": "Worksheet Exercise",
+  "number": "3.7.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-7-3",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-7-3",
+  "type": "Worksheet Exercise",
+  "number": "3.7.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e07-8",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-8",
+  "type": "Worksheet Exercise",
+  "number": "3.7.16",
+  "title": "",
+  "body": " A recipe uses cup of sugar for one batch of cookies. How many batches can be made with cups of sugar?  "
+},
+{
+  "id": "ws-s03e07-9",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-9",
+  "type": "Worksheet Exercise",
+  "number": "3.7.17",
+  "title": "",
+  "body": " A garden plot is of a mile long. Each section of the garden is mile long. How many sections can be made from the plot?  "
+},
+{
+  "id": "ws-s03e07-10",
+  "level": "2",
+  "url": "sec-s03e07.html#ws-s03e07-10",
+  "type": "Worksheet Exercise",
+  "number": "3.7.18",
+  "title": "",
+  "body": " A piece of ribbon is yard long. Each gift needs yard of ribbon. How many gifts can be wrapped with the ribbon?  "
 },
 {
   "id": "sec-s03e08",
@@ -2194,7 +2491,250 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.8",
   "title": "Episode 8: Adding\/Subtracting Fractions, Part 1",
-  "body": " Episode 8: Adding\/Subtracting Fractions, Part 1  "
+  "body": " Episode 8: Adding\/Subtracting Fractions, Part 1   Episode 8 Learning Goals     Add and subtract fractions that have the same denominator.       How to Add\/Subtract Fraction with the Same Denominator    Add\/Subtract the numerators and put the result over the common denominator    Simplify your answer to lowest terms (if possible).      Add:   Solution: The fractions have the same denominator, 3. Add the two numbers and put the result over the common denominator, 3: This cannot be further simplified, so 2\/3 is our final answer.    Makes Sense, Right?   If we have 1\/3 of a pizza and we combine it with another 1\/3 of a pizza, we have end up 2\/3 of a pizza.   1\/3 of a pizza combined with another 1\/3 of a pizza gives 2\/3 of a pizza.                               That's why    Subtract:   Solution: The two fractions have the same denominator, 4. So we subtract the two numerators and put the result over the common denominator: We notice that 2\/4 can be simplified:    When we're adding and subtracting negative fractions, the same rules apply when we were adding subtracting negative whole numbers in Season 2.   Calculate:   Solution: We are adding two numbers together, one positive, one negative. So, we find the difference between the two numbers: Then we remember that in our original problem, the negative number was bigger. So, that means the final answer will also be negative:     Calculate   Solution: We are subtracting a negative number, so we add the opposite:     Episode 8 Practice Problems                                                                                                         Lily drank 3\/8 of a bottle of water in the morning and 2\/8 of the bottle in the afternoon. What fraction of the bottle did Lily drink in total?    A pizza was cut into 10 equal slices. If 7\/10 of the pizza was eaten, what fraction of the pizza is left?    Noah spent 4\/6 of an hour doing homework and 1\/6 of an hour reading. How much time did he spend on both activities altogether?   Emma had 9\/12 of a chocolate bar. She gave 5\/12 of it to her friend. What fraction of the chocolate bar does Emma have now?   "
+},
+{
+  "id": "sec-s03e08-4",
+  "level": "2",
+  "url": "sec-s03e08.html#sec-s03e08-4",
+  "type": "Example",
+  "number": "3.8.1",
+  "title": "",
+  "body": " Add:   Solution: The fractions have the same denominator, 3. Add the two numbers and put the result over the common denominator, 3: This cannot be further simplified, so 2\/3 is our final answer.  "
+},
+{
+  "id": "sec-s03e08-7",
+  "level": "2",
+  "url": "sec-s03e08.html#sec-s03e08-7",
+  "type": "Figure",
+  "number": "3.8.2",
+  "title": "",
+  "body": " 1\/3 of a pizza combined with another 1\/3 of a pizza gives 2\/3 of a pizza.                              "
+},
+{
+  "id": "sec-s03e08-9",
+  "level": "2",
+  "url": "sec-s03e08.html#sec-s03e08-9",
+  "type": "Example",
+  "number": "3.8.3",
+  "title": "",
+  "body": " Subtract:   Solution: The two fractions have the same denominator, 4. So we subtract the two numerators and put the result over the common denominator: We notice that 2\/4 can be simplified:   "
+},
+{
+  "id": "sec-s03e08-11",
+  "level": "2",
+  "url": "sec-s03e08.html#sec-s03e08-11",
+  "type": "Example",
+  "number": "3.8.4",
+  "title": "",
+  "body": " Calculate:   Solution: We are adding two numbers together, one positive, one negative. So, we find the difference between the two numbers: Then we remember that in our original problem, the negative number was bigger. So, that means the final answer will also be negative:   "
+},
+{
+  "id": "sec-s03e08-12",
+  "level": "2",
+  "url": "sec-s03e08.html#sec-s03e08-12",
+  "type": "Example",
+  "number": "3.8.5",
+  "title": "",
+  "body": " Calculate   Solution: We are subtracting a negative number, so we add the opposite:   "
+},
+{
+  "id": "ws-s03e08-2-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-2-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-2-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-2-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-3-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-3-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-3-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-4-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-4-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-4-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-4-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-5-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-5-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-5-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-5-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-5-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-6-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-6-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-6-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.14",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-6-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-6-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.15",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-7-1",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-7-1",
+  "type": "Worksheet Exercise",
+  "number": "3.8.16",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-7-2",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-7-2",
+  "type": "Worksheet Exercise",
+  "number": "3.8.17",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-7-3",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-7-3",
+  "type": "Worksheet Exercise",
+  "number": "3.8.18",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e08-8",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-8",
+  "type": "Worksheet Exercise",
+  "number": "3.8.19",
+  "title": "",
+  "body": " Lily drank 3\/8 of a bottle of water in the morning and 2\/8 of the bottle in the afternoon. What fraction of the bottle did Lily drink in total?  "
+},
+{
+  "id": "ws-s03e08-9",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-9",
+  "type": "Worksheet Exercise",
+  "number": "3.8.20",
+  "title": "",
+  "body": " A pizza was cut into 10 equal slices. If 7\/10 of the pizza was eaten, what fraction of the pizza is left?  "
+},
+{
+  "id": "ws-s03e08-10",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-10",
+  "type": "Worksheet Exercise",
+  "number": "3.8.21",
+  "title": "",
+  "body": " Noah spent 4\/6 of an hour doing homework and 1\/6 of an hour reading. How much time did he spend on both activities altogether?  "
+},
+{
+  "id": "ws-s03e08-11",
+  "level": "2",
+  "url": "sec-s03e08.html#ws-s03e08-11",
+  "type": "Worksheet Exercise",
+  "number": "3.8.22",
+  "title": "",
+  "body": "Emma had 9\/12 of a chocolate bar. She gave 5\/12 of it to her friend. What fraction of the chocolate bar does Emma have now? "
 },
 {
   "id": "sec-s03e09",
@@ -2203,7 +2743,187 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.9",
   "title": "Episode 9: Adding\/Subtracting Fractions, Part 2",
-  "body": " Episode 9: Adding\/Subtracting Fractions, Part 2  "
+  "body": " Episode 9: Adding\/Subtracting Fractions, Part 2   Episode 9 Learning Goals     Add and subtract fractions with different denominators.       Episode 9 Key Terminology     Least common denominator.      Remember that there are two actions that can change a fraction’s appearance without changing its value:   Multiply the numerator and denominator by the same number.    Divide the numerator and denominator by the same number.   We have used technique #2 to simplify fractions.  In this episode, we will use technique #1 to make fractions have the same denominator.  How to Add \/ Subtract Fractions with Different Denominators   Take the denominator of Fraction #2 and use it to multiply the numerator and denominator of Fraction #1.    Take the denominator of Fraction #1 and use it to multiply the numerator and denominator of Fraction #2.    Now the fractions have the same denominator, so add \/ subtract as in Episode 8.    Simplify your answer, if possible.      Add:   Solution: We start by rewriting the fractions so they have the same denominator.  Now that the fractions have the same denominator, we can add the numerators: This cannot be simplified any more, so 5\/6 is our final answer.    Subtract:   Solution: Make both fractions have the same denominator:  Finally, we see that 20\/32 can be simplified, because both 20 and 32 can be divided by 4:    Sometimes there is a more efficient way to make two fractions have the same denominator.   Add:   Solution 1: Make the two fractions have the denominator:  We notice that 8\/12 can be simplified, because both 8 and 12 can be divided by 4:   Solution 2: Looking at We see that the denominator 2 can be turned into the denominator 6 by multiplying by 3:  We notice that 4\/6 can be simplified, because both 4 and 6 can be divided by 2: We get the same answer, but the simplification was a little easier because the common denominator was smaller.     The smallest possible common denominator in an addition \/ subtraction problem is called the least common denominator (LCD).     Calculate and fully simplify your answer.                                                           Interlude: Fraction Matcher  Play around with this interactive tool for the University of Colorado's PhET simulations   Introduction to Fractions     "
+},
+{
+  "id": "sec-s03e09-7",
+  "level": "2",
+  "url": "sec-s03e09.html#sec-s03e09-7",
+  "type": "Example",
+  "number": "3.9.1",
+  "title": "",
+  "body": " Add:   Solution: We start by rewriting the fractions so they have the same denominator.  Now that the fractions have the same denominator, we can add the numerators: This cannot be simplified any more, so 5\/6 is our final answer.  "
+},
+{
+  "id": "sec-s03e09-8",
+  "level": "2",
+  "url": "sec-s03e09.html#sec-s03e09-8",
+  "type": "Example",
+  "number": "3.9.2",
+  "title": "",
+  "body": " Subtract:   Solution: Make both fractions have the same denominator:  Finally, we see that 20\/32 can be simplified, because both 20 and 32 can be divided by 4:   "
+},
+{
+  "id": "sec-s03e09-10",
+  "level": "2",
+  "url": "sec-s03e09.html#sec-s03e09-10",
+  "type": "Example",
+  "number": "3.9.3",
+  "title": "",
+  "body": " Add:   Solution 1: Make the two fractions have the denominator:  We notice that 8\/12 can be simplified, because both 8 and 12 can be divided by 4:   Solution 2: Looking at We see that the denominator 2 can be turned into the denominator 6 by multiplying by 3:  We notice that 4\/6 can be simplified, because both 4 and 6 can be divided by 2: We get the same answer, but the simplification was a little easier because the common denominator was smaller.  "
+},
+{
+  "id": "def-LCD",
+  "level": "2",
+  "url": "sec-s03e09.html#def-LCD",
+  "type": "Definition",
+  "number": "3.9.4",
+  "title": "",
+  "body": "  The smallest possible common denominator in an addition \/ subtraction problem is called the least common denominator (LCD).   "
+},
+{
+  "id": "ws-s03e09-2-1",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-2-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-2-2",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-2-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-2-3",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-2-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-3-1",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-3-2",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-3-3",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-4-1",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-4-2",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-4-3",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-4-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-5-1",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-5-2",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-5-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-5-3",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-5-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-6-1",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3.9.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-6-2",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-6-2",
+  "type": "Worksheet Exercise",
+  "number": "3.9.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e09-6-3",
+  "level": "2",
+  "url": "sec-s03e09.html#ws-s03e09-6-3",
+  "type": "Worksheet Exercise",
+  "number": "3.9.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "figure-phet-fractions-matcher",
+  "level": "2",
+  "url": "sec-s03e09.html#figure-phet-fractions-matcher",
+  "type": "Figure",
+  "number": "3.9.5",
+  "title": "",
+  "body": " Introduction to Fractions   "
 },
 {
   "id": "sec-s03e10",
@@ -2212,7 +2932,268 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.10",
   "title": "Episode 10: Mixed Numbers",
-  "body": " Episode 10: Mixed Numbers  "
+  "body": " Episode 10: Mixed Numbers   Episode Learning Goals     Convert a mixed number to an improper fraction    Convert an improper fraction to a mixed number       Episode 10 Key Terminology     Improper fraction      Remember from Episode 01 that a mixed number consists of a whole number together with a fraction:   A visual representing the mixed number 1 and 3\/4               1\\frac{3}{4}    1    \\frac{3}{4}        Notice that the mixed number is the same amount as the \"improper\" fraction   (We call a fraction “improper” if its numerator is bigger than its denominator).   How to Convert a Mixed Number to an Improper Fraction:      Multiply the whole number by the denominator.    Add the result to the numerator.      Conversion of mixed numbers to improper fractions   diagram showing how to convert 1 and three quarters to the fraction seven fourths     Convert the mixed number to an improper fraction.  Multiply the whole number 5 by the denominator 3, then add the result to the numerator 1:     Makes Sense, Right?  Each of the 5 whole objects gets cut into 3 pieces. This gives us 15 pieces. Then, we combine this with 1 extra piece from the fraction 1\/3. Therefore, we have a total of 16 pieces, giving us the improper fraction 16\/3.   Improper fractions can also be converted back to mixed numbers:   How to Convert an Improper Fraction to a Mixed Number:      Divide the numerator by the denominator.    Count the number of times the numerator goes into the denominator fully. This becomes the whole number part of mixed number.    The remainder from the division becomes the numerator in the fraction part of the mixed number.      Convert the fraction to a mixed number.  Solution: Divide 11 by 5. The number 5 goes into 11 a total of 2 times, fully. This division leaves a remainder of 1.  🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢+🟢🟢🟢🟢🟢+🟢  So, 11\/5 is equivalent to the mixed number:     Makes Sense, Right?  In 11\/5, we have a total of 11 pieces, and it takes 5 pieces to make a whole object. So, we have enough pieces to make 2 entire objects, and this leaves 1 piece leftover.    Episode 10 Practice Problems  Convert each of the following mixed numbers to an improper fraction:                                              Convert each of the following improper fractions to a mixed number.                                                Interlude: Mixed Numbers  Play around with this interactive tool for the University of Colorado's PhET simulations   Fractions: Mixed NUmbers     "
+},
+{
+  "id": "mixed-number",
+  "level": "2",
+  "url": "sec-s03e10.html#mixed-number",
+  "type": "Figure",
+  "number": "3.10.1",
+  "title": "",
+  "body": " A visual representing the mixed number 1 and 3\/4               1\\frac{3}{4}    1    \\frac{3}{4}       "
+},
+{
+  "id": "sec-s03e10-10",
+  "level": "2",
+  "url": "sec-s03e10.html#sec-s03e10-10",
+  "type": "Figure",
+  "number": "3.10.2",
+  "title": "",
+  "body": " Conversion of mixed numbers to improper fractions   diagram showing how to convert 1 and three quarters to the fraction seven fourths   "
+},
+{
+  "id": "sec-s03e10-11",
+  "level": "2",
+  "url": "sec-s03e10.html#sec-s03e10-11",
+  "type": "Example",
+  "number": "3.10.3",
+  "title": "",
+  "body": " Convert the mixed number to an improper fraction.  Multiply the whole number 5 by the denominator 3, then add the result to the numerator 1:   "
+},
+{
+  "id": "sec-s03e10-16",
+  "level": "2",
+  "url": "sec-s03e10.html#sec-s03e10-16",
+  "type": "Example",
+  "number": "3.10.4",
+  "title": "",
+  "body": " Convert the fraction to a mixed number.  Solution: Divide 11 by 5. The number 5 goes into 11 a total of 2 times, fully. This division leaves a remainder of 1.  🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢🟢 = 🟢🟢🟢🟢🟢+🟢🟢🟢🟢🟢+🟢  So, 11\/5 is equivalent to the mixed number:   "
+},
+{
+  "id": "ws-s03e10-3-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-3-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-3-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-3-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-3-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-3-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-4-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-4-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-4-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-4-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-4-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-4-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-5-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-5-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-5-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-5-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-5-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-5-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-6-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-6-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-6-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-6-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-6-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-6-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-8-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-8-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-8-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-8-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-8-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-8-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-9-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-9-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.16",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-9-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-9-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.17",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-9-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-9-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.18",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-10-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-10-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.19",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-10-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-10-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.20",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-10-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-10-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.21",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-11-1",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-11-1",
+  "type": "Worksheet Exercise",
+  "number": "3.10.22",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-11-2",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-11-2",
+  "type": "Worksheet Exercise",
+  "number": "3.10.23",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s03e10-11-3",
+  "level": "2",
+  "url": "sec-s03e10.html#ws-s03e10-11-3",
+  "type": "Worksheet Exercise",
+  "number": "3.10.24",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "figure-phet-mixed-numbers",
+  "level": "2",
+  "url": "sec-s03e10.html#figure-phet-mixed-numbers",
+  "type": "Figure",
+  "number": "3.10.5",
+  "title": "",
+  "body": " Fractions: Mixed NUmbers   "
 },
 {
   "id": "sec-s03e11",
@@ -2221,7 +3202,4498 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "3.11",
   "title": "Episode 11: Calculations with Mixed Numbers",
-  "body": " Episode 11: Calculations with Mixed Numbers  "
+  "body": " Episode 11: Calculations with Mixed Numbers   Episode 11 Learning Goals     Perform calculations involving mixed numbers.       How to Perform Calculations Involving Mixed NUmbers      Convert the mixed numbers to improper fractions.    Perform the calculations on those fractions.    Convert the answer back to a mixed number.      Perform the calculation:   Solution: We start by converting both mixed numbers to improper fractions: We are adding two fractions that have the same denominator. So, we add the two numerators: We notice we can simplify this fraction, because both 22 and 4 can be divided by 2: Then we convert 11\/2 back to a mixed number. The number 2 goes into the number 11 a total of 5 times, with 1 remaining. This gives us the answer:     Perform the calculation:   Solution: We start by converting both mixed numbers to improper fractions: Since this is a multiplication problem, we check to see if we can cross-cancel, but we cannot. So, we multiply straight across: Now, we convert back to a mixed number. The number 35 goes into 153 a total of 4 times, with 13 left over, so we have:     Episode 11 Practice Problems  Perform the following calculations:                                                               "
+},
+{
+  "id": "sec-s03e11-5",
+  "level": "2",
+  "url": "sec-s03e11.html#sec-s03e11-5",
+  "type": "Example",
+  "number": "3.11.1",
+  "title": "",
+  "body": " Perform the calculation:   Solution: We start by converting both mixed numbers to improper fractions: We are adding two fractions that have the same denominator. So, we add the two numerators: We notice we can simplify this fraction, because both 22 and 4 can be divided by 2: Then we convert 11\/2 back to a mixed number. The number 2 goes into the number 11 a total of 5 times, with 1 remaining. This gives us the answer:   "
+},
+{
+  "id": "sec-s03e11-6",
+  "level": "2",
+  "url": "sec-s03e11.html#sec-s03e11-6",
+  "type": "Example",
+  "number": "3.11.2",
+  "title": "",
+  "body": " Perform the calculation:   Solution: We start by converting both mixed numbers to improper fractions: Since this is a multiplication problem, we check to see if we can cross-cancel, but we cannot. So, we multiply straight across: Now, we convert back to a mixed number. The number 35 goes into 153 a total of 4 times, with 13 left over, so we have:   "
+},
+{
+  "id": "ws-s03e11-3",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-3",
+  "type": "Worksheet Exercise",
+  "number": "3.11.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-4",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-4",
+  "type": "Worksheet Exercise",
+  "number": "3.11.2",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-5",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-5",
+  "type": "Worksheet Exercise",
+  "number": "3.11.3",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-6",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-6",
+  "type": "Worksheet Exercise",
+  "number": "3.11.4",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-7",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-7",
+  "type": "Worksheet Exercise",
+  "number": "3.11.5",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-8",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-8",
+  "type": "Worksheet Exercise",
+  "number": "3.11.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-9",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-9",
+  "type": "Worksheet Exercise",
+  "number": "3.11.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-10",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-10",
+  "type": "Worksheet Exercise",
+  "number": "3.11.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-11",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-11",
+  "type": "Worksheet Exercise",
+  "number": "3.11.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-12",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-12",
+  "type": "Worksheet Exercise",
+  "number": "3.11.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-13",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-13",
+  "type": "Worksheet Exercise",
+  "number": "3.11.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s03e11-14",
+  "level": "2",
+  "url": "sec-s03e11.html#ws-s03e11-14",
+  "type": "Worksheet Exercise",
+  "number": "3.11.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-s04e01",
+  "level": "1",
+  "url": "sec-s04e01.html",
+  "type": "Section",
+  "number": "4.1",
+  "title": "Episode 1: What Decimal Numbers Represent",
+  "body": " Episode 1: What Decimal Numbers Represent   Episode 1 Learning Goals     Interpret the amount represented by a decimal number using the place value system.    Represent decimal numbers on a number line.    Compare decimal numbers using and        Episode 1 Key Terminology     Decimal point    Digit    Tenths place    Hundredths place    Thousandths place        A decimal number is another way of representing a portion of a whole. Decimal numbers are written using a decimal point , which is a period in the middle of the number. The value of a decimal number depends on the digits (the numbers 0-9) in the number and the position of each digit relative to the decimal point.     An example of a decimal number     For example, in the decimal number 1234.5678:   The digit 4 is located one step to the left of the decimal point. It represents the number of ones in the decimal number.    The digit 3 is located two steps to the left of the decimal point. It represents the number of tens in the decimal number.    The digit 2 is located three steps to the left of the decimal point. It represents the number of hundreds in the decimal number.    The digit 1 is located four steps to the left of the decimal point. It represents the number of thousands in the decimal number.    The digit 5 is located one step to the right of the decimal point. It represents the number of tenths (1\/10) in the decimal number.    The digit 6 is located two steps to the right of the decimal point. It represents the number of hundredths (1\/100) in the decimal number.    The digit 7 is located three steps to the right of the decimal point. It represents the number of thousands (1\/1000) in the decimal number.    The digit 8 is located four steps to the right of the decimal point. It represents the number of ten-thousands (1\/10000) in the decimal number.   So, in total, the decimal number 1234.5678 is the same as:    Notice Something Neat  The digits on the left side of a decimal number are always worth more than the digits on the right side of a decimal number.   Decimal numbers can be drawn on a number line. They are typically drawn in the space between two whole numbers.   Positive Decimal Numbers             Negative Decimal Numbers             Mark the decimal number 1.3 on a number line.  Solution: The decimal number 1.3 is equivalent to 1 and 3\/10. The value of 1.3 is more than the whole number 1, but less than the whole number 2. So, the decimal number 1.3 will appear on the number line in the space between 1 and 2.  Specifically, we can take the space between 1 and 2 on the number line, and we split that space into 10 portions. Then, starting at 1, we walk three steps to the right to reach 1.3.             We can compare decimal numbers using the symbols and .   To Compare Positive Decimals Numbers:    Write the numbers in a vertical list, aligned at the decimal point.    Read the numbers starting on the left.   If the two numbers have different digits, the number with the bigger digit is bigger overall.    If the two numbers have the same digits, move one step to the right and then compare the digits in that position.         Compare the decimal numbers 2.4328 and 2.45.  Solution: We start by writing the numbers vertically, lined up at the decimal point:   We read both numbers, starting on the left.   The first place on the left is the ones place. Both numbers have the same digit, 2, in the ones place. So we move one step to the right.    Next is the tenths place. Both numbers have the same digit, 4, in the tenths place. So we move another step to the right.    Next is the hundredth place. In the hundredths place, the second number has a bigger digit (5) than the first number (3).     So, the first number is bigger overall:     Sort the decimal numbers 4.3, 4.03, 4.08, 40.3 from largest to smallest.  Solution: We start by writing the numbers vertically, lined up at the decimal point: We read all the numbers, starting on the left.   The first place on the left is the tens place. The final number, 40.3, has a digit 4 in the tens place, while all the other numbers have nothing in the tens place. So 40.3 is the biggest number.    Moving one step to the right, the next place is the ones place. All the remaining numbers 4.3, 4.03, and 4.08 have the same digit in the ones place, so we move another step to the right.    Now we are in the tenths place. The number 4.3 has the digit 3 in the tenths place, while all the other numbers have 0 in the tenths. So 4.3 is the next largest number.    Moving another step to the right, now we are in the hundredths place. The number 4.08 has a larger digit (8) in the hundredths place than 4.03 (3), so the number 4.08 is the next largest number.        Makes Sense, Right?  Think about the values in terms of money. 40.3 is the same as having forty dollars and thirty cents. That’s more money than 4.3, which is four dollars and thirty cents. That’s more money than 4.08, which is four dollars and 8 cents. That’s more than 4.03, which is four dollars and 3 cents.    Compare the negative decimal numbers -3.42 and -3.08.  Solution: Temporarily treat the numbers as if they were all positive. Both numbers are the same in the ones place, but the first number has a bigger digit in the tenths place. That means 3.42 is bigger than 3.08.  That means -3.42 is more negative or “colder” than -3.08. So, we point the “mouth” of the symbol toward the warmer number:     Episode 1 Practice Problems   In the number 4.372, what digit is in the hundredths place?    What is the place of the digit 9 in 0.594?    Which digit is in the thousands place in the number 3,482.916?    How many hundredths are in the number 0.86?    Mark each of the following decimal numbers on a number line: 0.3, 2.5, 2.8, -1.6            Use the symbols and to compare the decimal numbers in the pairs below:                                                   "
+},
+{
+  "id": "def-decimal",
+  "level": "2",
+  "url": "sec-s04e01.html#def-decimal",
+  "type": "Definition",
+  "number": "4.1.1",
+  "title": "",
+  "body": "  A decimal number is another way of representing a portion of a whole. Decimal numbers are written using a decimal point , which is a period in the middle of the number. The value of a decimal number depends on the digits (the numbers 0-9) in the number and the position of each digit relative to the decimal point.   "
+},
+{
+  "id": "sec-s04e01-5",
+  "level": "2",
+  "url": "sec-s04e01.html#sec-s04e01-5",
+  "type": "Figure",
+  "number": "4.1.2",
+  "title": "",
+  "body": " An example of a decimal number    "
+},
+{
+  "id": "sec-s04e01-13",
+  "level": "2",
+  "url": "sec-s04e01.html#sec-s04e01-13",
+  "type": "Example",
+  "number": "4.1.3",
+  "title": "",
+  "body": " Mark the decimal number 1.3 on a number line.  Solution: The decimal number 1.3 is equivalent to 1 and 3\/10. The value of 1.3 is more than the whole number 1, but less than the whole number 2. So, the decimal number 1.3 will appear on the number line in the space between 1 and 2.  Specifically, we can take the space between 1 and 2 on the number line, and we split that space into 10 portions. Then, starting at 1, we walk three steps to the right to reach 1.3.            "
+},
+{
+  "id": "sec-s04e01-16",
+  "level": "2",
+  "url": "sec-s04e01.html#sec-s04e01-16",
+  "type": "Example",
+  "number": "4.1.4",
+  "title": "",
+  "body": " Compare the decimal numbers 2.4328 and 2.45.  Solution: We start by writing the numbers vertically, lined up at the decimal point:   We read both numbers, starting on the left.   The first place on the left is the ones place. Both numbers have the same digit, 2, in the ones place. So we move one step to the right.    Next is the tenths place. Both numbers have the same digit, 4, in the tenths place. So we move another step to the right.    Next is the hundredth place. In the hundredths place, the second number has a bigger digit (5) than the first number (3).     So, the first number is bigger overall:   "
+},
+{
+  "id": "sec-s04e01-17",
+  "level": "2",
+  "url": "sec-s04e01.html#sec-s04e01-17",
+  "type": "Example",
+  "number": "4.1.5",
+  "title": "",
+  "body": " Sort the decimal numbers 4.3, 4.03, 4.08, 40.3 from largest to smallest.  Solution: We start by writing the numbers vertically, lined up at the decimal point: We read all the numbers, starting on the left.   The first place on the left is the tens place. The final number, 40.3, has a digit 4 in the tens place, while all the other numbers have nothing in the tens place. So 40.3 is the biggest number.    Moving one step to the right, the next place is the ones place. All the remaining numbers 4.3, 4.03, and 4.08 have the same digit in the ones place, so we move another step to the right.    Now we are in the tenths place. The number 4.3 has the digit 3 in the tenths place, while all the other numbers have 0 in the tenths. So 4.3 is the next largest number.    Moving another step to the right, now we are in the hundredths place. The number 4.08 has a larger digit (8) in the hundredths place than 4.03 (3), so the number 4.08 is the next largest number.      "
+},
+{
+  "id": "sec-s04e01-19",
+  "level": "2",
+  "url": "sec-s04e01.html#sec-s04e01-19",
+  "type": "Example",
+  "number": "4.1.6",
+  "title": "",
+  "body": " Compare the negative decimal numbers -3.42 and -3.08.  Solution: Temporarily treat the numbers as if they were all positive. Both numbers are the same in the ones place, but the first number has a bigger digit in the tenths place. That means 3.42 is bigger than 3.08.  That means -3.42 is more negative or “colder” than -3.08. So, we point the “mouth” of the symbol toward the warmer number:   "
+},
+{
+  "id": "ws-s04e01-2",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.1",
+  "title": "",
+  "body": " In the number 4.372, what digit is in the hundredths place?  "
+},
+{
+  "id": "ws-s04e01-3",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-3",
+  "type": "Worksheet Exercise",
+  "number": "4.1.2",
+  "title": "",
+  "body": " What is the place of the digit 9 in 0.594?  "
+},
+{
+  "id": "ws-s04e01-4",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-4",
+  "type": "Worksheet Exercise",
+  "number": "4.1.3",
+  "title": "",
+  "body": " Which digit is in the thousands place in the number 3,482.916?  "
+},
+{
+  "id": "ws-s04e01-5",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-5",
+  "type": "Worksheet Exercise",
+  "number": "4.1.4",
+  "title": "",
+  "body": " How many hundredths are in the number 0.86?  "
+},
+{
+  "id": "ws-s04e01-6",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-6",
+  "type": "Worksheet Exercise",
+  "number": "4.1.5",
+  "title": "",
+  "body": " Mark each of the following decimal numbers on a number line: 0.3, 2.5, 2.8, -1.6           "
+},
+{
+  "id": "ws-s04e01-8-1",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-8-1",
+  "type": "Worksheet Exercise",
+  "number": "4.1.6",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-8-2",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-8-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.7",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-9-1",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-9-1",
+  "type": "Worksheet Exercise",
+  "number": "4.1.8",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-9-2",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-9-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.9",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-10-1",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-10-1",
+  "type": "Worksheet Exercise",
+  "number": "4.1.10",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-10-2",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-10-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-11-1",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-11-1",
+  "type": "Worksheet Exercise",
+  "number": "4.1.12",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e01-11-2",
+  "level": "2",
+  "url": "sec-s04e01.html#ws-s04e01-11-2",
+  "type": "Worksheet Exercise",
+  "number": "4.1.13",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-s04e02",
+  "level": "1",
+  "url": "sec-s04e02.html",
+  "type": "Section",
+  "number": "4.2",
+  "title": "Episode 2: Rounding",
+  "body": " Episode 2: Rounding   Episode 2 Learning Goals     Round decimal numbers.    Convert fractions to decimals.       Episode 2 Key Terminology     Round       Episode 3 Key Symbols         Rounding is the process of shortening a decimal number to make it easier to work with.       “Round to the nearest whole number”: Shorten the decimal number so that it has no digits to the right of the decimal point.    “Round to one decimal place” or “round to the nearest tenth”: Shorten the decimal number so that it has no digits to the right of the tenths place.    “Round to two decimal places” or “round to the nearest hundredth”: Shorten the decimal number so that it has no digits to the right of the hundredths place.    “Round to three decimal places” or “round to the nearest thousandth”: Shorten the decimal number so that it has no digits to the right of the thousandths place.     Shortening a decimal number changes its value, but we take the following steps to make sure the value changes as little as possible.   How to Round a Decimal Number:   Suppose, for example, that you want to round a decimal number to the nearest tenth.   Look at the digit directly to the right of the tenths place.    If this digit is 0, 1, 2, 3, or 4, we round down: Delete all digits to the right of the tenths place.    If the digit is 5, 6, 7, 8, or 9, we round up: Increase the digit in the tenths place by 1, and then delete all the digits to the right of the tenths place.     A similar technique is used when rounding decimal numbers to other places (look at the digit directly to the right of that place).   Round 14.318 to the nearest tenth.  Solution: The digit directly to the right of the tenths place is 1. Because the digit 1 is small, we round down and delete everything to the right of the tenths place:     Round 8.3791 to the nearest tenth.  The digit directly to the right of the tenths place is 7. Because the digit 7 is big, we round up. We take the digit in the tenths place and increase it from 3 to 4. Then we delete everything to the right of the tenths place.     Round 17.98 to the nearest tenth.  Solution: The digit directly to the right of the tenths place is 8. Because the digit 8 is big, we round up. We take the digit in the tenths place and increase it from 9 to 10. But 10 cannot fit in the tenths place, so it rolls over into the ones place:     Round 1.8 to the nearest whole number.  Solution: The digit directly to the right of the whole number portion is the digit 8. Because the digit 8 is big, we round up. We increase value in the whole number portion from 1 to 2, and then delete everything to the right of the whole number portion, giving us:     Makes Sense, Right?  If we plot 1.8 on a number line, we see that 2 is, literally, the nearest whole number: 1.8 is closer to 2 than any other number on the line.              Round 3.14159 to two decimal places.  Solution: Rounding to two decimal places is the same as rounding to the nearest hundredth. The digit directly to the right of the hundredths place is 1. Since the digit 1 is small, we round down and delete all the digits to the right of the hundredths place:    Negative decimals are rounded just like positive decimals.   Round -2.18 to the nearest tenth.  The digit 8 to the right of the tenths place is big, so we round up. We increase the digit in the tenths place from 1 to 2, and then delete everything to the right of the tenths place:    Fractions and decimals both represent portions of a whole number. Here’s how to take a fraction and convert it to a decimal number that represents the same amount.   How to Convert a Fraction to a Decimal:      Divide the fraction’s numerator by its denominator (using a calculator).    Round the result if necessary.      Convert the fraction 1\/4 to a decimal number.  Solution: In a calculator, we calculate In other words, the fraction ¼ and the decimal 0.25 represent the same amount (one quarter).    Convert the fraction 2\/3 to a decimal number. Round to three decimal places, if necessary.  We start by calculating in a calculator. We get a complicated answer: Working with such a long number would be difficult, so we round the number.  The question asks us to round to three decimal places. Looking at the fourth decimal place, we have the digit 6, which is a large digit. So we round up. We increase the number in the third decimal place from 6 to 7, and then we delete everything to the right.    The symbol is used when two values aren’t exactly equal, but they are almost equal. We would read it aloud as “two-thirds is approximately equal to 0.667.”   Episode 2 Practice Problems  Round the following decimal numbers.   Round 4.678 to the nearest tenth.    Round −3.452 to the nearest tenth.    Round 9.994 to the nearest whole number.    Round −7.501 to the nearest whole number.    Round 12.386 to the nearest hundredth.    Round −0.764 to the nearest hundredth.    Round 5.245 to the nearest tenth.    Round −2.835 to the nearest tenth.    Round 18.499 to the nearest whole number.    Round −0.1492 to the nearest thousandth.    Round 27.675 to the nearest hundredth.    Round −14.444 to the nearest hundredth.    Round 3.9999 to the nearest thousandth.    Round −8.125 to the nearest tenth.    Round 6.350 to the nearest hundredth.    Round −1.995 to the nearest hundredth.    Round 45.5001 to the nearest tenth.    Round −0.500 to the nearest whole number.   Convert the following fractions to decimals. If necessary, round the result to 2 decimal places.                                  Use the symbols and to compare the following pairs of numbers. (Suggestion: Convert the fractions to decimals.)               "
+},
+{
+  "id": "def-rounding",
+  "level": "2",
+  "url": "sec-s04e02.html#def-rounding",
+  "type": "Definition",
+  "number": "4.2.1",
+  "title": "",
+  "body": "   Rounding is the process of shortening a decimal number to make it easier to work with.   "
+},
+{
+  "id": "sec-s04e02-11",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-11",
+  "type": "Example",
+  "number": "4.2.2",
+  "title": "",
+  "body": " Round 14.318 to the nearest tenth.  Solution: The digit directly to the right of the tenths place is 1. Because the digit 1 is small, we round down and delete everything to the right of the tenths place:   "
+},
+{
+  "id": "sec-s04e02-12",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-12",
+  "type": "Example",
+  "number": "4.2.3",
+  "title": "",
+  "body": " Round 8.3791 to the nearest tenth.  The digit directly to the right of the tenths place is 7. Because the digit 7 is big, we round up. We take the digit in the tenths place and increase it from 3 to 4. Then we delete everything to the right of the tenths place.   "
+},
+{
+  "id": "sec-s04e02-13",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-13",
+  "type": "Example",
+  "number": "4.2.4",
+  "title": "",
+  "body": " Round 17.98 to the nearest tenth.  Solution: The digit directly to the right of the tenths place is 8. Because the digit 8 is big, we round up. We take the digit in the tenths place and increase it from 9 to 10. But 10 cannot fit in the tenths place, so it rolls over into the ones place:   "
+},
+{
+  "id": "sec-s04e02-14",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-14",
+  "type": "Example",
+  "number": "4.2.5",
+  "title": "",
+  "body": " Round 1.8 to the nearest whole number.  Solution: The digit directly to the right of the whole number portion is the digit 8. Because the digit 8 is big, we round up. We increase value in the whole number portion from 1 to 2, and then delete everything to the right of the whole number portion, giving us:   "
+},
+{
+  "id": "sec-s04e02-16",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-16",
+  "type": "Example",
+  "number": "4.2.6",
+  "title": "",
+  "body": " Round 3.14159 to two decimal places.  Solution: Rounding to two decimal places is the same as rounding to the nearest hundredth. The digit directly to the right of the hundredths place is 1. Since the digit 1 is small, we round down and delete all the digits to the right of the hundredths place:   "
+},
+{
+  "id": "sec-s04e02-18",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-18",
+  "type": "Example",
+  "number": "4.2.7",
+  "title": "",
+  "body": " Round -2.18 to the nearest tenth.  The digit 8 to the right of the tenths place is big, so we round up. We increase the digit in the tenths place from 1 to 2, and then delete everything to the right of the tenths place:   "
+},
+{
+  "id": "sec-s04e02-22",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-22",
+  "type": "Example",
+  "number": "4.2.8",
+  "title": "",
+  "body": " Convert the fraction 1\/4 to a decimal number.  Solution: In a calculator, we calculate In other words, the fraction ¼ and the decimal 0.25 represent the same amount (one quarter).  "
+},
+{
+  "id": "sec-s04e02-23",
+  "level": "2",
+  "url": "sec-s04e02.html#sec-s04e02-23",
+  "type": "Example",
+  "number": "4.2.9",
+  "title": "",
+  "body": " Convert the fraction 2\/3 to a decimal number. Round to three decimal places, if necessary.  We start by calculating in a calculator. We get a complicated answer: Working with such a long number would be difficult, so we round the number.  The question asks us to round to three decimal places. Looking at the fourth decimal place, we have the digit 6, which is a large digit. So we round up. We increase the number in the third decimal place from 6 to 7, and then we delete everything to the right.   "
+},
+{
+  "id": "ws-s04e02-3",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-3",
+  "type": "Worksheet Exercise",
+  "number": "4.2.1",
+  "title": "",
+  "body": " Round 4.678 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-4",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-4",
+  "type": "Worksheet Exercise",
+  "number": "4.2.2",
+  "title": "",
+  "body": " Round −3.452 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-5",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-5",
+  "type": "Worksheet Exercise",
+  "number": "4.2.3",
+  "title": "",
+  "body": " Round 9.994 to the nearest whole number.  "
+},
+{
+  "id": "ws-s04e02-6",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-6",
+  "type": "Worksheet Exercise",
+  "number": "4.2.4",
+  "title": "",
+  "body": " Round −7.501 to the nearest whole number.  "
+},
+{
+  "id": "ws-s04e02-7",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-7",
+  "type": "Worksheet Exercise",
+  "number": "4.2.5",
+  "title": "",
+  "body": " Round 12.386 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-8",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-8",
+  "type": "Worksheet Exercise",
+  "number": "4.2.6",
+  "title": "",
+  "body": " Round −0.764 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-9",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-9",
+  "type": "Worksheet Exercise",
+  "number": "4.2.7",
+  "title": "",
+  "body": " Round 5.245 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-10",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-10",
+  "type": "Worksheet Exercise",
+  "number": "4.2.8",
+  "title": "",
+  "body": " Round −2.835 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-11",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-11",
+  "type": "Worksheet Exercise",
+  "number": "4.2.9",
+  "title": "",
+  "body": " Round 18.499 to the nearest whole number.  "
+},
+{
+  "id": "ws-s04e02-12",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-12",
+  "type": "Worksheet Exercise",
+  "number": "4.2.10",
+  "title": "",
+  "body": " Round −0.1492 to the nearest thousandth.  "
+},
+{
+  "id": "ws-s04e02-13",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-13",
+  "type": "Worksheet Exercise",
+  "number": "4.2.11",
+  "title": "",
+  "body": " Round 27.675 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-14",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-14",
+  "type": "Worksheet Exercise",
+  "number": "4.2.12",
+  "title": "",
+  "body": " Round −14.444 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-15",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-15",
+  "type": "Worksheet Exercise",
+  "number": "4.2.13",
+  "title": "",
+  "body": " Round 3.9999 to the nearest thousandth.  "
+},
+{
+  "id": "ws-s04e02-16",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-16",
+  "type": "Worksheet Exercise",
+  "number": "4.2.14",
+  "title": "",
+  "body": " Round −8.125 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-17",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-17",
+  "type": "Worksheet Exercise",
+  "number": "4.2.15",
+  "title": "",
+  "body": " Round 6.350 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-18",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-18",
+  "type": "Worksheet Exercise",
+  "number": "4.2.16",
+  "title": "",
+  "body": " Round −1.995 to the nearest hundredth.  "
+},
+{
+  "id": "ws-s04e02-19",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-19",
+  "type": "Worksheet Exercise",
+  "number": "4.2.17",
+  "title": "",
+  "body": " Round 45.5001 to the nearest tenth.  "
+},
+{
+  "id": "ws-s04e02-20",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-20",
+  "type": "Worksheet Exercise",
+  "number": "4.2.18",
+  "title": "",
+  "body": " Round −0.500 to the nearest whole number.  "
+},
+{
+  "id": "ws-s04e02-22-1",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-22-1",
+  "type": "Worksheet Exercise",
+  "number": "4.2.19",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-22-2",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-22-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.20",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-23-1",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-23-1",
+  "type": "Worksheet Exercise",
+  "number": "4.2.21",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-23-2",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-23-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.22",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-24-1",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-24-1",
+  "type": "Worksheet Exercise",
+  "number": "4.2.23",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-24-2",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-24-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.24",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-25-1",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-25-1",
+  "type": "Worksheet Exercise",
+  "number": "4.2.25",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-25-2",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-25-2",
+  "type": "Worksheet Exercise",
+  "number": "4.2.26",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-27",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-27",
+  "type": "Worksheet Exercise",
+  "number": "4.2.27",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-28",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-28",
+  "type": "Worksheet Exercise",
+  "number": "4.2.28",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-29",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-29",
+  "type": "Worksheet Exercise",
+  "number": "4.2.29",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s04e02-30",
+  "level": "2",
+  "url": "sec-s04e02.html#ws-s04e02-30",
+  "type": "Worksheet Exercise",
+  "number": "4.2.30",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-s04e03",
+  "level": "1",
+  "url": "sec-s04e03.html",
+  "type": "Section",
+  "number": "4.3",
+  "title": "Episode 3: Decimal Arithmetic",
+  "body": " Episode 3: Decimal Arithmetic   Episode 3 Learning Goals     Perform decimal arithmetic on a calculator, rounding if necessary.    Perform decimal calculations in real-world contexts.      Decimal calculations are typically just performed on a calculator.   Numworks Calculator     Episode 3 Practice Problems  Perform the following unit conversions involving decimals.    Convert 3.5 kilometers to meters.    Convert 950 milligrams to grams.      Convert 875 centimeters to meters.    Convert 4.5 liters to milliliters.      Convert 1,250 milliliters to liters.    Convert 2.4 hours to minutes.      Convert 6.2 kilograms to grams.    Convert 2,640 feet to miles.    Perform the following median and mean calculations involving decimals.   A swimmer’s lap times (in seconds) were 32.5, 31.5, 30.0, and 30.0. What is the average lap time?    The prices of five notebooks are $1.50, $2.00, $2.50, $3.00, and $4.00. What is the median price?    A student spent 1.5, 2.0, 2.5, and 4.0 hours studying over four days. What is the average number of hours studied per day?    A car traveled 10.5, 12.5, 11.0, and 14.0 miles on four trips. What is the average distance traveled per trip?    The test scores for six students are 78.5, 80.0, 82.5, 85.0, 87.5, and 90.0. What is the median test score?   Use PEMDAS to perform these multi-step calculations. Round your final answer to 1 decimal place, if necessary.                                 "
+},
+{
+  "id": "numworks-calculator",
+  "level": "2",
+  "url": "sec-s04e03.html#numworks-calculator",
+  "type": "Figure",
+  "number": "4.3.1",
+  "title": "",
+  "body": " Numworks Calculator   "
+},
+{
+  "id": "ws-s04e03-3-1",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.1",
+  "title": "",
+  "body": " Convert 3.5 kilometers to meters.  "
+},
+{
+  "id": "ws-s04e03-3-2",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4.3.2",
+  "title": "",
+  "body": " Convert 950 milligrams to grams.  "
+},
+{
+  "id": "ws-s04e03-4-1",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.3",
+  "title": "",
+  "body": " Convert 875 centimeters to meters.  "
+},
+{
+  "id": "ws-s04e03-4-2",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4.3.4",
+  "title": "",
+  "body": " Convert 4.5 liters to milliliters.  "
+},
+{
+  "id": "ws-s04e03-5-1",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.5",
+  "title": "",
+  "body": " Convert 1,250 milliliters to liters.  "
+},
+{
+  "id": "ws-s04e03-5-2",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4.3.6",
+  "title": "",
+  "body": " Convert 2.4 hours to minutes.  "
+},
+{
+  "id": "ws-s04e03-6-1",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-6-1",
+  "type": "Worksheet Exercise",
+  "number": "4.3.7",
+  "title": "",
+  "body": " Convert 6.2 kilograms to grams.  "
+},
+{
+  "id": "ws-s04e03-6-2",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-6-2",
+  "type": "Worksheet Exercise",
+  "number": "4.3.8",
+  "title": "",
+  "body": " Convert 2,640 feet to miles.  "
+},
+{
+  "id": "ws-s04e03-8",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-8",
+  "type": "Worksheet Exercise",
+  "number": "4.3.9",
+  "title": "",
+  "body": " A swimmer’s lap times (in seconds) were 32.5, 31.5, 30.0, and 30.0. What is the average lap time?  "
+},
+{
+  "id": "ws-s04e03-9",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-9",
+  "type": "Worksheet Exercise",
+  "number": "4.3.10",
+  "title": "",
+  "body": " The prices of five notebooks are $1.50, $2.00, $2.50, $3.00, and $4.00. What is the median price?  "
+},
+{
+  "id": "ws-s04e03-10",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-10",
+  "type": "Worksheet Exercise",
+  "number": "4.3.11",
+  "title": "",
+  "body": " A student spent 1.5, 2.0, 2.5, and 4.0 hours studying over four days. What is the average number of hours studied per day?  "
+},
+{
+  "id": "ws-s04e03-11",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-11",
+  "type": "Worksheet Exercise",
+  "number": "4.3.12",
+  "title": "",
+  "body": " A car traveled 10.5, 12.5, 11.0, and 14.0 miles on four trips. What is the average distance traveled per trip?  "
+},
+{
+  "id": "ws-s04e03-12",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-12",
+  "type": "Worksheet Exercise",
+  "number": "4.3.13",
+  "title": "",
+  "body": " The test scores for six students are 78.5, 80.0, 82.5, 85.0, 87.5, and 90.0. What is the median test score?  "
+},
+{
+  "id": "ws-s04e03-14",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-14",
+  "type": "Worksheet Exercise",
+  "number": "4.3.14",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e03-15",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-15",
+  "type": "Worksheet Exercise",
+  "number": "4.3.15",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e03-16",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-16",
+  "type": "Worksheet Exercise",
+  "number": "4.3.16",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e03-17",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-17",
+  "type": "Worksheet Exercise",
+  "number": "4.3.17",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e03-18",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-18",
+  "type": "Worksheet Exercise",
+  "number": "4.3.18",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e03-19",
+  "level": "2",
+  "url": "sec-s04e03.html#ws-s04e03-19",
+  "type": "Worksheet Exercise",
+  "number": "4.3.19",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-s04e04",
+  "level": "1",
+  "url": "sec-s04e04.html",
+  "type": "Section",
+  "number": "4.4",
+  "title": "Episode 4: What Percents Represent",
+  "body": " Episode 4: What Percents Represent   Episode 4 Learning Goals     Interpret percents and give examples of real-world situations where percents arise.    Convert between fractions, percents, and decimals (including e.g. 200% or 0.3%)       Episode 4 Key Terminology     Percent       Episode 4 Key Symbols      Like fractions and decimals, percents are also used to represent portions of a whole. Percent numbers are represented using the percent symbol, %.    A percent is an amount out of 100. For example, 50% is the same as 50 out of 100:      Visual Representations of 50%, 25% and 75%     Percents are commonly used when representing portions of money. For example:   We use percents, when we go to a restaurant, to calculate a portion of the bill to pay as a tip.    We use percents to calculate a portion of our income to pay in taxes.    We use percents, when buying a house, to calculate a portion of the house price for a down payment.    We use percents, when taking out a loan, to calculate the portion of the loan we have to pay in interest.     In certain cases, percents can exceed 100%. For example, we can have Percents can also be expressed using decimals, for example, we can have    How to Convert Between Fractions, Decimals, and Percents:    To convert a fraction to a decimal, divide the numerator by the denominator, rounding if necessary (see Episode 2).    To convert a percent to a fraction, put the percent number over a denominator of 100 and remove the % sign.    To convert a percent to a decimal, divide the number by 100 and remove the % sign.    To convert a decimal to a percent, multiply the number by 100 and attach a % sign.      Conversion techniques among decimals, percents and fractions      Notice Something Neat!     You can convert a fraction to a percent by converting it to a decimal first and then converting that decimal to a percent.    Dividing by 100 is the same as moving the decimal point two places to the LEFT. So, to convert a percent to a decimal, you can move the decimal point two places to the left, then remove the % sign.    Multiplying by 100 is the same as moving the decimal point two places to the RIGHT. So, to convert a decimal to a percent, you can move the decimal point two places to the right, then attach the % sign.       Convert the decimal 0.42 to a percent.  We multiply 0.42 by 100 (or, put another way, we move the decimal point 2 places to the right): And we attach the % sign: 42%    Convert the percent 58% to a decimal.  We remove the % sign, and we divide the 58 by 100 (or, put another way, we move the decimal point 2 places to the left):     Notice Something Neat!  A mnemonic is to put the letters D (for decimal) and P (for percent) in alphabetical order.  If converting FROM decimal TO percent notice the arrow is going to the RIGHT. That reminds us to move the decimal point to the RIGHT.  If converting FROM percent TO decimal: notice the arrow is going to the LEFT. That reminds us to move the decimal point to the LEFT.    Convert 208% to a decimal number.  Remove the % and divide by 100:     Convert 0.02% to a decimal number.  Remove the % and divide by 100:     Be Careful!     A number written with a % is a percent number.    A number written without a % is a decimal number.    0.02% is a percent because it has a % symbol.    72.1 is a decimal because it has no % symbol.       Convert 3\/4 to a percent.  Solution: Start by converting the fraction to a decimal by dividing the numerator by the denominator in a calculator: Then convert that decimal to a percent by moving the decimal two places to the right and attaching a %:     A student gets a score of 15 out of 18 points on a quiz. What is their score as a percent? Round your final answer to 2 decimal places.  Solution: The student’s score, as a fraction, is 15\/18. We convert this to a decimal first by dividing the numerator by the denominator: To convert this to a percent, we move the decimal point two places to the right, and attach a % sign: Now, let’s round this answer to 2 decimal places: 83.33%    Episode 4 Practice Problems  Convert each of the following decimals to percents:    0.25    0.6075   0.125      0.1375    0.9   0.76432      0.42    0.03468   0.08      0.083    0.512   0.2914    Convert each of the following percents to decimals:    0.5%    0.08%   123%      12%    200%   5%      87%    45%   0.25%      150%    0.9%   75%    Convert the following fractions to percents. Round your final answer to the nearest hundredth, if necessary                                                                   "
+},
+{
+  "id": "def-percent",
+  "level": "2",
+  "url": "sec-s04e04.html#def-percent",
+  "type": "Definition",
+  "number": "4.4.1",
+  "title": "",
+  "body": "  A percent is an amount out of 100. For example, 50% is the same as 50 out of 100:    "
+},
+{
+  "id": "percent-chart",
+  "level": "2",
+  "url": "sec-s04e04.html#percent-chart",
+  "type": "Figure",
+  "number": "4.4.2",
+  "title": "",
+  "body": " Visual Representations of 50%, 25% and 75%    "
+},
+{
+  "id": "percent-decimal-fraction",
+  "level": "2",
+  "url": "sec-s04e04.html#percent-decimal-fraction",
+  "type": "Figure",
+  "number": "4.4.3",
+  "title": "",
+  "body": " Conversion techniques among decimals, percents and fractions    "
+},
+{
+  "id": "sec-s04e04-13",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-13",
+  "type": "Example",
+  "number": "4.4.4",
+  "title": "",
+  "body": " Convert the decimal 0.42 to a percent.  We multiply 0.42 by 100 (or, put another way, we move the decimal point 2 places to the right): And we attach the % sign: 42%  "
+},
+{
+  "id": "sec-s04e04-14",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-14",
+  "type": "Example",
+  "number": "4.4.5",
+  "title": "",
+  "body": " Convert the percent 58% to a decimal.  We remove the % sign, and we divide the 58 by 100 (or, put another way, we move the decimal point 2 places to the left):   "
+},
+{
+  "id": "sec-s04e04-16",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-16",
+  "type": "Example",
+  "number": "4.4.6",
+  "title": "",
+  "body": " Convert 208% to a decimal number.  Remove the % and divide by 100:   "
+},
+{
+  "id": "sec-s04e04-17",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-17",
+  "type": "Example",
+  "number": "4.4.7",
+  "title": "",
+  "body": " Convert 0.02% to a decimal number.  Remove the % and divide by 100:   "
+},
+{
+  "id": "sec-s04e04-19",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-19",
+  "type": "Example",
+  "number": "4.4.8",
+  "title": "",
+  "body": " Convert 3\/4 to a percent.  Solution: Start by converting the fraction to a decimal by dividing the numerator by the denominator in a calculator: Then convert that decimal to a percent by moving the decimal two places to the right and attaching a %:   "
+},
+{
+  "id": "sec-s04e04-20",
+  "level": "2",
+  "url": "sec-s04e04.html#sec-s04e04-20",
+  "type": "Example",
+  "number": "4.4.9",
+  "title": "",
+  "body": " A student gets a score of 15 out of 18 points on a quiz. What is their score as a percent? Round your final answer to 2 decimal places.  Solution: The student’s score, as a fraction, is 15\/18. We convert this to a decimal first by dividing the numerator by the denominator: To convert this to a percent, we move the decimal point two places to the right, and attach a % sign: Now, let’s round this answer to 2 decimal places: 83.33%  "
+},
+{
+  "id": "ws-s04e04-3-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.1",
+  "title": "",
+  "body": " 0.25  "
+},
+{
+  "id": "ws-s04e04-3-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.2",
+  "title": "",
+  "body": " 0.6075  "
+},
+{
+  "id": "ws-s04e04-3-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-3-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.3",
+  "title": "",
+  "body": " 0.125  "
+},
+{
+  "id": "ws-s04e04-4-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.4",
+  "title": "",
+  "body": " 0.1375  "
+},
+{
+  "id": "ws-s04e04-4-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.5",
+  "title": "",
+  "body": " 0.9  "
+},
+{
+  "id": "ws-s04e04-4-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-4-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.6",
+  "title": "",
+  "body": " 0.76432  "
+},
+{
+  "id": "ws-s04e04-5-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.7",
+  "title": "",
+  "body": " 0.42  "
+},
+{
+  "id": "ws-s04e04-5-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.8",
+  "title": "",
+  "body": " 0.03468  "
+},
+{
+  "id": "ws-s04e04-5-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-5-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.9",
+  "title": "",
+  "body": " 0.08  "
+},
+{
+  "id": "ws-s04e04-6-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-6-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.10",
+  "title": "",
+  "body": " 0.083  "
+},
+{
+  "id": "ws-s04e04-6-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-6-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.11",
+  "title": "",
+  "body": " 0.512  "
+},
+{
+  "id": "ws-s04e04-6-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-6-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.12",
+  "title": "",
+  "body": " 0.2914  "
+},
+{
+  "id": "ws-s04e04-8-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-8-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.13",
+  "title": "",
+  "body": " 0.5%  "
+},
+{
+  "id": "ws-s04e04-8-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-8-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.14",
+  "title": "",
+  "body": " 0.08%  "
+},
+{
+  "id": "ws-s04e04-8-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-8-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.15",
+  "title": "",
+  "body": " 123%  "
+},
+{
+  "id": "ws-s04e04-9-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-9-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.16",
+  "title": "",
+  "body": " 12%  "
+},
+{
+  "id": "ws-s04e04-9-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-9-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.17",
+  "title": "",
+  "body": " 200%  "
+},
+{
+  "id": "ws-s04e04-9-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-9-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.18",
+  "title": "",
+  "body": " 5%  "
+},
+{
+  "id": "ws-s04e04-10-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-10-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.19",
+  "title": "",
+  "body": " 87%  "
+},
+{
+  "id": "ws-s04e04-10-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-10-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.20",
+  "title": "",
+  "body": " 45%  "
+},
+{
+  "id": "ws-s04e04-10-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-10-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.21",
+  "title": "",
+  "body": " 0.25%  "
+},
+{
+  "id": "ws-s04e04-11-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-11-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.22",
+  "title": "",
+  "body": " 150%  "
+},
+{
+  "id": "ws-s04e04-11-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-11-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.23",
+  "title": "",
+  "body": " 0.9%  "
+},
+{
+  "id": "ws-s04e04-11-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-11-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.24",
+  "title": "",
+  "body": " 75%  "
+},
+{
+  "id": "ws-s04e04-13-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-13-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.25",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-13-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-13-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.26",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-13-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-13-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.27",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-14-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-14-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.28",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-14-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-14-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.29",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-14-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-14-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.30",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-15-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-15-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.31",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-15-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-15-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.32",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-15-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-15-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.33",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-16-1",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-16-1",
+  "type": "Worksheet Exercise",
+  "number": "4.4.34",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-16-2",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-16-2",
+  "type": "Worksheet Exercise",
+  "number": "4.4.35",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "ws-s04e04-16-3",
+  "level": "2",
+  "url": "sec-s04e04.html#ws-s04e04-16-3",
+  "type": "Worksheet Exercise",
+  "number": "4.4.36",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "sec-s04e05",
+  "level": "1",
+  "url": "sec-s04e05.html",
+  "type": "Section",
+  "number": "4.5",
+  "title": "Episode 5: Percent of a Number",
+  "body": " Episode 5: Percent of a Number   Episode 5 Learning Goals     Find a percent of a given number.      Percents are generally used to find a portion of some other number, such as the portion of a restaurant bill that should be paid as a tip.   How to Find a Percent of a Number:    Convert the percent to a decimal.    Multiply the number by that decimal.      Makes Sense, Right?  Remember from Season 1 that the keyword “of” indicates multiplication. When we want 50% of 30, that means we need to multiply 50% and 30:     Find 20% of 84.  Solution: Start by converting the 20% to a decimal number by removing the % and moving the decimal point two places to the left: Now, multiply 0.20 and 84:     Find 4.5% of 200.  Start by converting the 4.5% to a decimal number: Now, multiply 0.045 and 200:     A loan of $6000 has an annual interest rate of 5.6%. After a year, how much interest accumulates on the loan?  Solution: The interest on this loan after one year is the annual interest rate, 5.6%, times the amount of the loan, $6000. To calculate this product, we convert the percent to a decimal: Then we complete the multiplication on a calculator: That means this loan will accumulate $336 of interest after a year.    A game originally costs $70. Then it goes on sale for 20% off. How much does the game cost after the discount?  Solution: The discount amount is 20% of 70$: This amount is then subtracted from the original price: The new price after the discount is $56.    Episode 5 Practice Problems  Perform the following percent calculations:    What is 25% of 320?    What is 200% of 90?      Find 150% of 80.    Find 0.25% of 2,400.      Calculate 0.5% of 600.    Calculate 300% of 50.      What is 120% of 250?    What is 1.5% of 800?      Find 0.8% of 1,250.    Find 110% of 370.      Calculate 75% of 480.    Calculate 0.05% of 6,000.    Solve the following percent word problems.   Sarah invested $4,800 in a savings account. If her investment grows by 25% this year, how much money will she have gained?    A client has $1,200 in a checking account. The bank charges 0.5% as a monthly maintenance fee. How much is the fee?    A business made $75,000 in profits last year. They decide to donate 1.5% of their profits to a local charity. How much money do they donate?    A laptop costs $1,200. It is on sale for 15% off. How much does the laptop cost now?    A sofa is priced at $850. The store offers a 25% discount. What is the discounted price of the sofa?    "
+},
+{
+  "id": "sec-s04e05-6",
+  "level": "2",
+  "url": "sec-s04e05.html#sec-s04e05-6",
+  "type": "Example",
+  "number": "4.5.1",
+  "title": "",
+  "body": " Find 20% of 84.  Solution: Start by converting the 20% to a decimal number by removing the % and moving the decimal point two places to the left: Now, multiply 0.20 and 84:   "
+},
+{
+  "id": "sec-s04e05-7",
+  "level": "2",
+  "url": "sec-s04e05.html#sec-s04e05-7",
+  "type": "Example",
+  "number": "4.5.2",
+  "title": "",
+  "body": " Find 4.5% of 200.  Start by converting the 4.5% to a decimal number: Now, multiply 0.045 and 200:   "
+},
+{
+  "id": "sec-s04e05-8",
+  "level": "2",
+  "url": "sec-s04e05.html#sec-s04e05-8",
+  "type": "Example",
+  "number": "4.5.3",
+  "title": "",
+  "body": " A loan of $6000 has an annual interest rate of 5.6%. After a year, how much interest accumulates on the loan?  Solution: The interest on this loan after one year is the annual interest rate, 5.6%, times the amount of the loan, $6000. To calculate this product, we convert the percent to a decimal: Then we complete the multiplication on a calculator: That means this loan will accumulate $336 of interest after a year.  "
+},
+{
+  "id": "sec-s04e05-9",
+  "level": "2",
+  "url": "sec-s04e05.html#sec-s04e05-9",
+  "type": "Example",
+  "number": "4.5.4",
+  "title": "",
+  "body": " A game originally costs $70. Then it goes on sale for 20% off. How much does the game cost after the discount?  Solution: The discount amount is 20% of 70$: This amount is then subtracted from the original price: The new price after the discount is $56.  "
+},
+{
+  "id": "ws-s0405-3-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-3-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.1",
+  "title": "",
+  "body": " What is 25% of 320?  "
+},
+{
+  "id": "ws-s0405-3-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-3-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.2",
+  "title": "",
+  "body": " What is 200% of 90?  "
+},
+{
+  "id": "ws-s0405-4-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-4-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.3",
+  "title": "",
+  "body": " Find 150% of 80.  "
+},
+{
+  "id": "ws-s0405-4-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-4-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.4",
+  "title": "",
+  "body": " Find 0.25% of 2,400.  "
+},
+{
+  "id": "ws-s0405-5-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-5-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.5",
+  "title": "",
+  "body": " Calculate 0.5% of 600.  "
+},
+{
+  "id": "ws-s0405-5-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-5-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.6",
+  "title": "",
+  "body": " Calculate 300% of 50.  "
+},
+{
+  "id": "ws-s0405-6-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-6-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.7",
+  "title": "",
+  "body": " What is 120% of 250?  "
+},
+{
+  "id": "ws-s0405-6-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-6-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.8",
+  "title": "",
+  "body": " What is 1.5% of 800?  "
+},
+{
+  "id": "ws-s0405-7-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-7-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.9",
+  "title": "",
+  "body": " Find 0.8% of 1,250.  "
+},
+{
+  "id": "ws-s0405-7-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-7-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.10",
+  "title": "",
+  "body": " Find 110% of 370.  "
+},
+{
+  "id": "ws-s0405-8-1",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-8-1",
+  "type": "Worksheet Exercise",
+  "number": "4.5.11",
+  "title": "",
+  "body": " Calculate 75% of 480.  "
+},
+{
+  "id": "ws-s0405-8-2",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-8-2",
+  "type": "Worksheet Exercise",
+  "number": "4.5.12",
+  "title": "",
+  "body": " Calculate 0.05% of 6,000.  "
+},
+{
+  "id": "ws-s0405-10",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-10",
+  "type": "Worksheet Exercise",
+  "number": "4.5.13",
+  "title": "",
+  "body": " Sarah invested $4,800 in a savings account. If her investment grows by 25% this year, how much money will she have gained?  "
+},
+{
+  "id": "ws-s0405-11",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-11",
+  "type": "Worksheet Exercise",
+  "number": "4.5.14",
+  "title": "",
+  "body": " A client has $1,200 in a checking account. The bank charges 0.5% as a monthly maintenance fee. How much is the fee?  "
+},
+{
+  "id": "ws-s0405-12",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-12",
+  "type": "Worksheet Exercise",
+  "number": "4.5.15",
+  "title": "",
+  "body": " A business made $75,000 in profits last year. They decide to donate 1.5% of their profits to a local charity. How much money do they donate?  "
+},
+{
+  "id": "ws-s0405-13",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-13",
+  "type": "Worksheet Exercise",
+  "number": "4.5.16",
+  "title": "",
+  "body": " A laptop costs $1,200. It is on sale for 15% off. How much does the laptop cost now?  "
+},
+{
+  "id": "ws-s0405-14",
+  "level": "2",
+  "url": "sec-s04e05.html#ws-s0405-14",
+  "type": "Worksheet Exercise",
+  "number": "4.5.17",
+  "title": "",
+  "body": " A sofa is priced at $850. The store offers a 25% discount. What is the discounted price of the sofa?  "
+},
+{
+  "id": "sec-s05e01",
+  "level": "1",
+  "url": "sec-s05e01.html",
+  "type": "Section",
+  "number": "5.1",
+  "title": "Episode 1: What Variables and Formulas Represent",
+  "body": " Episode 1: What Variables and Formulas Represent   Episode 1 Learning Goals     Interpret a variable as an unknown or changing quantity.    Interpret an expression \/ formula as an incomplete calculation to be completed when the variable values become known.       Episode 1 Key Terminology     Variable    Formula    Expression        A variable is a number that is changing or that is unknown.    For example:   The cost of a dozen eggs at the grocery store can change over time. It would be reasonable to represent the cost of eggs by a variable until you go into the store and see the current price.    Another person's age might be unknown. It would be reasonable to represent their age by a variable until they tell you how old they are.   Variables are usually represented by letters.   The cost of a dozen eggs might be represented by the letter C (for cost) or the letter E (for eggs).    A person's age might be represented by the letter A.   The letter is very commonly used for variables. Calculations involving variables cannot be completed, because the value of the variable is not known.    An expression is an incomplete calculation involving a variable. If the expression involves a real-world scenario, then the expression is also called a formula .    An expression acts as a record \/ to-do list of the steps that we would take to complete the calculation, after the variable becomes known.   The cost of a dozen eggs is currently unknown, so represent it by a variable, . Write down an expression that represents the total cost of buying 3 dozen eggs.  Solution: To calculate the total cost of buying 3 dozen eggs, we would need to take the cost of one dozen eggs, , and multiply that price by 3.  So the expression would be     The total cost of your bill at a restaurant is currently unknown, so represent it by a variable, . You plan to pay 20% of the bill as a tip. Write down an expression that represents the tip.  Solution: To calculate the tip, we would need to calculate 20% of the bill. In other words, we would need to multiply the bill by 20%:      A student takes three midterm exams. Their score on the first exam is 80%, their score on the second exam is 90%, but they haven't taken the third exam yet, so represent their score on the third exam by a variable, . Write down an expression that represents their average midterm score.  Solution: To calculate the average, we would need to add the three midterm scores together, then divide the result by 3.     You're going to pick apples, but number of ripe apples you can pick is currently known, so represent it by a variable, . After picking the apples, you plan to give 3 to your mother. Write down an expression that represents the number of apples remaining after giving 3 to your mom.  Solution: To find the number of leftover apples, we would subtract the 3 we gave to Mom:    Recall that we have several ways of representing multiplication between two numbers:      There is another way of representing multiplication when variables are involved.  Instead of (5 times x), which is awkward to read, we write with the 5 directly next to the .  Similarly, means 3 times C, and means 0,20 times B.   Episode 1 Practice Problems   The amount of electricity you use in a month can vary, so represent it by a variable, E. If each kilowatt-hour of electricity you use costs $0.12, write down an expression that represents the total cost of your electricity in a month.    You have a bag containing 100 pieces of candy. You’re going to bring the bag to class and share the candy with your classmates. But you don’t how many people are going to be attending class today, so you represent it by a variable, C. Write down an expression that represents the number of pieces of candy each person will get if the pieces are shared fairly.    A recipe making one pie requires ¾ cups of sugar. You don’t know how many pies you’re going to make this Christmas, so you represent it by a variable, P. Write down an expression that represents the total amount of sugar you would need to make the pies.    Problem 4: The price of a house can vary over time, so you represent it by a variable, H. You plan to put a 35% down payment on the house when you purchase it. Write down an expression that represents the size of the down payment.    "
+},
+{
+  "id": "def-variable",
+  "level": "2",
+  "url": "sec-s05e01.html#def-variable",
+  "type": "Definition",
+  "number": "5.1.1",
+  "title": "",
+  "body": "  A variable is a number that is changing or that is unknown.   "
+},
+{
+  "id": "def-expression",
+  "level": "2",
+  "url": "sec-s05e01.html#def-expression",
+  "type": "Definition",
+  "number": "5.1.2",
+  "title": "",
+  "body": "  An expression is an incomplete calculation involving a variable. If the expression involves a real-world scenario, then the expression is also called a formula .   "
+},
+{
+  "id": "sec-s05e01-8",
+  "level": "2",
+  "url": "sec-s05e01.html#sec-s05e01-8",
+  "type": "Example",
+  "number": "5.1.3",
+  "title": "",
+  "body": " The cost of a dozen eggs is currently unknown, so represent it by a variable, . Write down an expression that represents the total cost of buying 3 dozen eggs.  Solution: To calculate the total cost of buying 3 dozen eggs, we would need to take the cost of one dozen eggs, , and multiply that price by 3.  So the expression would be   "
+},
+{
+  "id": "sec-s05e01-9",
+  "level": "2",
+  "url": "sec-s05e01.html#sec-s05e01-9",
+  "type": "Example",
+  "number": "5.1.4",
+  "title": "",
+  "body": " The total cost of your bill at a restaurant is currently unknown, so represent it by a variable, . You plan to pay 20% of the bill as a tip. Write down an expression that represents the tip.  Solution: To calculate the tip, we would need to calculate 20% of the bill. In other words, we would need to multiply the bill by 20%:    "
+},
+{
+  "id": "sec-s05e01-10",
+  "level": "2",
+  "url": "sec-s05e01.html#sec-s05e01-10",
+  "type": "Example",
+  "number": "5.1.5",
+  "title": "",
+  "body": " A student takes three midterm exams. Their score on the first exam is 80%, their score on the second exam is 90%, but they haven't taken the third exam yet, so represent their score on the third exam by a variable, . Write down an expression that represents their average midterm score.  Solution: To calculate the average, we would need to add the three midterm scores together, then divide the result by 3.   "
+},
+{
+  "id": "sec-s05e01-11",
+  "level": "2",
+  "url": "sec-s05e01.html#sec-s05e01-11",
+  "type": "Example",
+  "number": "5.1.6",
+  "title": "",
+  "body": " You're going to pick apples, but number of ripe apples you can pick is currently known, so represent it by a variable, . After picking the apples, you plan to give 3 to your mother. Write down an expression that represents the number of apples remaining after giving 3 to your mom.  Solution: To find the number of leftover apples, we would subtract the 3 we gave to Mom:   "
+},
+{
+  "id": "ws-s05e01-2",
+  "level": "2",
+  "url": "sec-s05e01.html#ws-s05e01-2",
+  "type": "Worksheet Exercise",
+  "number": "5.1.1",
+  "title": "",
+  "body": " The amount of electricity you use in a month can vary, so represent it by a variable, E. If each kilowatt-hour of electricity you use costs $0.12, write down an expression that represents the total cost of your electricity in a month.  "
+},
+{
+  "id": "ws-s05e01-3",
+  "level": "2",
+  "url": "sec-s05e01.html#ws-s05e01-3",
+  "type": "Worksheet Exercise",
+  "number": "5.1.2",
+  "title": "",
+  "body": " You have a bag containing 100 pieces of candy. You’re going to bring the bag to class and share the candy with your classmates. But you don’t how many people are going to be attending class today, so you represent it by a variable, C. Write down an expression that represents the number of pieces of candy each person will get if the pieces are shared fairly.  "
+},
+{
+  "id": "ws-s05e01-4",
+  "level": "2",
+  "url": "sec-s05e01.html#ws-s05e01-4",
+  "type": "Worksheet Exercise",
+  "number": "5.1.3",
+  "title": "",
+  "body": " A recipe making one pie requires ¾ cups of sugar. You don’t know how many pies you’re going to make this Christmas, so you represent it by a variable, P. Write down an expression that represents the total amount of sugar you would need to make the pies.  "
+},
+{
+  "id": "ws-s05e01-5",
+  "level": "2",
+  "url": "sec-s05e01.html#ws-s05e01-5",
+  "type": "Worksheet Exercise",
+  "number": "5.1.4",
+  "title": "",
+  "body": " Problem 4: The price of a house can vary over time, so you represent it by a variable, H. You plan to put a 35% down payment on the house when you purchase it. Write down an expression that represents the size of the down payment.  "
+},
+{
+  "id": "sec-s05e02",
+  "level": "1",
+  "url": "sec-s05e02.html",
+  "type": "Section",
+  "number": "5.2",
+  "title": "Episode 2: Evaluating Formulas",
+  "body": " Episode 2: Evaluating Formulas   Episode 2 Learning Goals     Evaluate given formulas to calculate desired quantities.       Episode 2 Learning Goals     Evaluate (\"plug in\")      In the previous episode, we noted that an expression represents a calculation that cannot be complete because it contains an unknown number (a variable).     Evaluating an expression is completing the calculation after the value of the variable becomes known. In other words, we \"plug in\" a specific number for a variable.     In the previous episode, we represented the cost of buying a dozen eggs by , so that the total cost of buying 3 dozen eggs was You enter the grocery store and find the cost of a dozen eggs is currently $2.18. Use this info to complete the calculation in the expression.  Solution: Replace the in the formula with 2.18, so that instead of 3 times C, we now have 3 times 2.18: The total cost is $6.54    In the previous episode, for a student with exam scores 80%, 90%, and an unknown score , the expression representing their average score was: The student takes their third exam and earns a score of 72%. Use this info to complete the calculation in the expression.  Replace the in the formula with 72\\%: Their exam average is 80.67%.    Be particularly careful when doing evaluation with negative numbers.    Given that , evaluate the expression:   The expression is asking us to square . Since the value of is -3, we need to square -3.   It would not be correct to write , , because this notation only squares the 3, note the minus sign.  Instead, we should wrap the -3 in parentheses:     Given that , evaluate the expression:   It would not be correct to write , since we should not have two minus\/negative signs directly next to each other.  Instead, we should wrap the -2 in parentheses:     Given that , evaluate the expression:   Solution: It would not be correct to write 3-4, since this notation means “subtract 3 and 4”, but we want “multiply 3 by negative 4.”  Instead, we should wrap the -4 in parentheses:     Be Careful!  Whenever you’re doing an evaluation problem with a negative value, it is recommended to wrap the negative number in parentheses.   If a variable appears in a formula multiple times, you need to replace EVERY instance of that variable with its value.   Given that , evaluate the expression   Solution: Replace every in the expression with 2:     Formulas can contain two or more different variables.   Given that and , evaluate the formula:   Solution: Replace every with 5 and with 7:     Episode 2 Practice Problems  Evaluate the following expressions at the given values:   Evaluate when .    Evaluate when .    Evaluate when and .    Evaluate when .    Evaluate when and .    Evaluate when .    Evaluate when .    Evaluate when and .    Evaluate when .    Evaluate when .    If a car travels at a speed R, for a length of time T, the distance they travel is given by the formula If the car’s speed is 40 miles per hour, and they drive for 1.4 hours, find the total distance traveled.    If the temperature in the room is C degrees Celsius, then the temperature in degrees Fahrenheit is If the temperature in the room is 27 degrees Celsius, find the temperature in Fahrenheit.    "
+},
+{
+  "id": "def-evaluating",
+  "level": "2",
+  "url": "sec-s05e02.html#def-evaluating",
+  "type": "Definition",
+  "number": "5.2.1",
+  "title": "",
+  "body": "   Evaluating an expression is completing the calculation after the value of the variable becomes known. In other words, we \"plug in\" a specific number for a variable.   "
+},
+{
+  "id": "sec-s05e02-6",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-6",
+  "type": "Example",
+  "number": "5.2.2",
+  "title": "",
+  "body": " In the previous episode, we represented the cost of buying a dozen eggs by , so that the total cost of buying 3 dozen eggs was You enter the grocery store and find the cost of a dozen eggs is currently $2.18. Use this info to complete the calculation in the expression.  Solution: Replace the in the formula with 2.18, so that instead of 3 times C, we now have 3 times 2.18: The total cost is $6.54  "
+},
+{
+  "id": "sec-s05e02-7",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-7",
+  "type": "Example",
+  "number": "5.2.3",
+  "title": "",
+  "body": " In the previous episode, for a student with exam scores 80%, 90%, and an unknown score , the expression representing their average score was: The student takes their third exam and earns a score of 72%. Use this info to complete the calculation in the expression.  Replace the in the formula with 72\\%: Their exam average is 80.67%.  "
+},
+{
+  "id": "sec-s05e02-9",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-9",
+  "type": "Example",
+  "number": "5.2.4",
+  "title": "",
+  "body": " Given that , evaluate the expression:   The expression is asking us to square . Since the value of is -3, we need to square -3.   It would not be correct to write , , because this notation only squares the 3, note the minus sign.  Instead, we should wrap the -3 in parentheses:   "
+},
+{
+  "id": "sec-s05e02-10",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-10",
+  "type": "Example",
+  "number": "5.2.5",
+  "title": "",
+  "body": " Given that , evaluate the expression:   It would not be correct to write , since we should not have two minus\/negative signs directly next to each other.  Instead, we should wrap the -2 in parentheses:   "
+},
+{
+  "id": "sec-s05e02-11",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-11",
+  "type": "Example",
+  "number": "5.2.6",
+  "title": "",
+  "body": " Given that , evaluate the expression:   Solution: It would not be correct to write 3-4, since this notation means “subtract 3 and 4”, but we want “multiply 3 by negative 4.”  Instead, we should wrap the -4 in parentheses:   "
+},
+{
+  "id": "sec-s05e02-14",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-14",
+  "type": "Example",
+  "number": "5.2.7",
+  "title": "",
+  "body": " Given that , evaluate the expression   Solution: Replace every in the expression with 2:    "
+},
+{
+  "id": "sec-s05e02-16",
+  "level": "2",
+  "url": "sec-s05e02.html#sec-s05e02-16",
+  "type": "Example",
+  "number": "5.2.8",
+  "title": "",
+  "body": " Given that and , evaluate the formula:   Solution: Replace every with 5 and with 7:   "
+},
+{
+  "id": "ws-s05e02-3",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-3",
+  "type": "Worksheet Exercise",
+  "number": "5.2.1",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-4",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-4",
+  "type": "Worksheet Exercise",
+  "number": "5.2.2",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-5",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-5",
+  "type": "Worksheet Exercise",
+  "number": "5.2.3",
+  "title": "",
+  "body": " Evaluate when and .  "
+},
+{
+  "id": "ws-s05e02-6",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-6",
+  "type": "Worksheet Exercise",
+  "number": "5.2.4",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-7",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-7",
+  "type": "Worksheet Exercise",
+  "number": "5.2.5",
+  "title": "",
+  "body": " Evaluate when and .  "
+},
+{
+  "id": "ws-s05e02-8",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-8",
+  "type": "Worksheet Exercise",
+  "number": "5.2.6",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-9",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-9",
+  "type": "Worksheet Exercise",
+  "number": "5.2.7",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-10",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-10",
+  "type": "Worksheet Exercise",
+  "number": "5.2.8",
+  "title": "",
+  "body": " Evaluate when and .  "
+},
+{
+  "id": "ws-s05e02-11",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-11",
+  "type": "Worksheet Exercise",
+  "number": "5.2.9",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-12",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-12",
+  "type": "Worksheet Exercise",
+  "number": "5.2.10",
+  "title": "",
+  "body": " Evaluate when .  "
+},
+{
+  "id": "ws-s05e02-13",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-13",
+  "type": "Worksheet Exercise",
+  "number": "5.2.11",
+  "title": "",
+  "body": " If a car travels at a speed R, for a length of time T, the distance they travel is given by the formula If the car’s speed is 40 miles per hour, and they drive for 1.4 hours, find the total distance traveled.  "
+},
+{
+  "id": "ws-s05e02-14",
+  "level": "2",
+  "url": "sec-s05e02.html#ws-s05e02-14",
+  "type": "Worksheet Exercise",
+  "number": "5.2.12",
+  "title": "",
+  "body": " If the temperature in the room is C degrees Celsius, then the temperature in degrees Fahrenheit is If the temperature in the room is 27 degrees Celsius, find the temperature in Fahrenheit.  "
+},
+{
+  "id": "sec-s05e03",
+  "level": "1",
+  "url": "sec-s05e03.html",
+  "type": "Section",
+  "number": "5.3",
+  "title": "Episode 3: Common 2D Shapes",
+  "body": " Episode 3: Common 2D Shapes   Episode 3 Learning Goals     Identify basic 2D shapes like a rectangle, triangle, circle    (Physical manipulatives) Examine real physical representations of the shapes above    Interpret terms like perimeter, area, circumference, diameter, radius, side length    Identify appropriate units for things like perimeter, area, circumference, diameter, radius, side length       Episode 3 Key Terminology     Rectangle    Triangle    Circle    Perimeter    Area    Circumference    Diameter    Radius        A rectangle is a shape with four straight sides and four right angles. Most rooms have a rectangular shape.      A square is a special rectangle that has the property that all four sides are the same length.     A rectangle and a square        A Rectangle  A Square         A triangle is a shape with three straight lines.     Various triangles      points1=((-9,1),(-1,1),(-4,5))   points1=((2,1),(8,1),(5,6.196))   points1=((-9,-9),(-5,-9),(-7,-2))   points1=((-2,-9),(8,-9),(-2,-3))          A circle is a band of made up of all the points that are a certain distance from a center.     A circle              Perimeter and Area     The perimeter of a 2D shape is a measure of its size on the outside.       It can always be found by adding together the lengths of all the sides of the object.    Perimeter is measured using length units such as centimeters, meters, inches, or feet.       The area of a 2D shape is a measure of its size on the inside.       There are different formulas that can be used to calculate the areas of different shapes.    Area is measured using area units such as square centimeters, square meters, square inches, square feet, or acres.      Suppose a rectangle has two sides of length 6 inches and two sides of length 4 inches. Determine the rectangle’s area and perimeter.   A 4-by-6 rectangle               6 units  6 units  4 units  4 units       The perimeter would be inches, from adding together the lengths of all the sides.  The area would be 24 square inches. We can get this by counting the number of 1-by-1 square tiles that fill up the inside the rectangle.    Special Measurements for Circles    The perimeter of a circle is called its circumference .    The distance from the center of the circle to the edge is called its radius .    The diameter of a circle is the distance from edge to opposite edge.      A circle showing diameter, radius and circumference         Radius  Diameter  Circumference         "
+},
+{
+  "id": "def-rectangle",
+  "level": "2",
+  "url": "sec-s05e03.html#def-rectangle",
+  "type": "Definition",
+  "number": "5.3.1",
+  "title": "",
+  "body": "  A rectangle is a shape with four straight sides and four right angles. Most rooms have a rectangular shape.   "
+},
+{
+  "id": "def-square",
+  "level": "2",
+  "url": "sec-s05e03.html#def-square",
+  "type": "Definition",
+  "number": "5.3.2",
+  "title": "",
+  "body": "  A square is a special rectangle that has the property that all four sides are the same length.   "
+},
+{
+  "id": "sec-s05e03-6",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-6",
+  "type": "Figure",
+  "number": "5.3.3",
+  "title": "",
+  "body": " A rectangle and a square        A Rectangle  A Square      "
+},
+{
+  "id": "def-triangle",
+  "level": "2",
+  "url": "sec-s05e03.html#def-triangle",
+  "type": "Definition",
+  "number": "5.3.4",
+  "title": "",
+  "body": "  A triangle is a shape with three straight lines.   "
+},
+{
+  "id": "sec-s05e03-8",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-8",
+  "type": "Figure",
+  "number": "5.3.5",
+  "title": "",
+  "body": " Various triangles      points1=((-9,1),(-1,1),(-4,5))   points1=((2,1),(8,1),(5,6.196))   points1=((-9,-9),(-5,-9),(-7,-2))   points1=((-2,-9),(8,-9),(-2,-3))       "
+},
+{
+  "id": "def-circle",
+  "level": "2",
+  "url": "sec-s05e03.html#def-circle",
+  "type": "Definition",
+  "number": "5.3.6",
+  "title": "",
+  "body": "  A circle is a band of made up of all the points that are a certain distance from a center.   "
+},
+{
+  "id": "sec-s05e03-10",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-10",
+  "type": "Figure",
+  "number": "5.3.7",
+  "title": "",
+  "body": " A circle            "
+},
+{
+  "id": "def-perimeter",
+  "level": "2",
+  "url": "sec-s05e03.html#def-perimeter",
+  "type": "Definition",
+  "number": "5.3.8",
+  "title": "",
+  "body": "  The perimeter of a 2D shape is a measure of its size on the outside.   "
+},
+{
+  "id": "def-area",
+  "level": "2",
+  "url": "sec-s05e03.html#def-area",
+  "type": "Definition",
+  "number": "5.3.9",
+  "title": "",
+  "body": "  The area of a 2D shape is a measure of its size on the inside.   "
+},
+{
+  "id": "sec-s05e03-16",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-16",
+  "type": "Example",
+  "number": "5.3.10",
+  "title": "",
+  "body": " Suppose a rectangle has two sides of length 6 inches and two sides of length 4 inches. Determine the rectangle’s area and perimeter.   A 4-by-6 rectangle               6 units  6 units  4 units  4 units       The perimeter would be inches, from adding together the lengths of all the sides.  The area would be 24 square inches. We can get this by counting the number of 1-by-1 square tiles that fill up the inside the rectangle.  "
+},
+{
+  "id": "sec-s05e03-17",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-17",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "circumference radius diameter "
+},
+{
+  "id": "sec-s05e03-18",
+  "level": "2",
+  "url": "sec-s05e03.html#sec-s05e03-18",
+  "type": "Figure",
+  "number": "5.3.12",
+  "title": "",
+  "body": " A circle showing diameter, radius and circumference         Radius  Diameter  Circumference        "
+},
+{
+  "id": "sec-s05e04",
+  "level": "1",
+  "url": "sec-s05e04.html",
+  "type": "Section",
+  "number": "5.4",
+  "title": "Episode 4: Calculating Area and Perimeter",
+  "body": " Episode 4: Calculating Area and Perimeter   Episode 4 Learning Goals     Use geometry formulas to calculate area and perimeter \/ circumference for rectangles, triangles, and circles.    Approximate pi as a decimal number.       Episode 4 Key Symbols       Perimeter and Area of a Rectangle   Use the variable L to represent the length of a rectangle and use the variable W to represent the width of a rectangle.   A rectangle with its width and length labeled       Length  Length  Width  Width       The formula for the perimeter ( ) of the rectangle is:    Notice Something Neat!  Remember that a number to itself is the same as multiplying that number by 2. So, we could also write the perimeter formula this way:    The formula for the area ( ) of the rectangle is:    If a rectangle has a length of 4 feet and a width of 3 feet, find its perimeter and area. Include appropriate units in your answer.  Solution: The rectangle’s perimeter is: And its area is     Perimeter and Area of a Triangle   Use the variables , and to represent the lengths of the three sides of your triangle. (Note: We are using subscripts on our variables to tell the lengths of the different sides apart.)  Then the perimeter of the triangle can be found by adding together the lengths of all three sides:    Perimeter of a triangle        s_1    s_2    s_3         If a triangle has sides of lengths 2 centimeters, 3 centimeters, and 4 centimeters, find its perimeter. Include units in your answer.  The triangle’s perimeter is:    To find the area of the triangle, we need to start by making sure one side of the triangle is lying horizontal, as if we had set the triangle on a table. The length of the side that’s on the table is called the base, represented by the variable . Then we measure the height of the triangle from the base to the top corner; we represent the height by the variable .   Area of a triangle       Base  Height           Then the area of the triangle can be found using the formula:    If the triangle has a base of length 4 centimeters and a height of 1.5 centimeters, find its area. Include units in your answer.  Solution: The triangle’s area is:    The letter The letter π (“pi”, read aloud as “pie” as in “apple pie”) represents the area of a circle with a radius of 1. Its value is around 3.14. Representations of with more decimals like 3.14159 might be needed if you are doing a calculation that requires a lot of precision. The decimals of can be seen by using the button that appears on most calculators.   Area and Circumference for a Circle   Suppose a circle has a radius of length .  Then the circumference is given by the formula: And the area is given by the formula:    Notice Something Neat!  What if you’re given the diameter of the circle instead of the radius? In that case, you can just cut the diameter in half to find the circle’s radius.    Suppose that a circle has a diameter of 1.2 feet. Find the circle’s circumference and area. Include units in your area.  Solution: We can cut the diameter in half to get the radius: Now, we can use the formula for the area of a circle, following PEMDAS, and using \\pi\\approx 3.14: And we can use the formula for the circumference,     Episode 4 Practice Problems  Find the perimeter and area of the rectangle with each of the following length and width measurements. Include units in your answer.   Length: 12 cm, Width: 7 cm    Length: cm, Width: cm    Length: 0.25 cm, Width: 0.1 cm    Length: 2.2 m, Width: 0.9 m    Length: 180 mm, Width: 50 mm    Length: 400 mm, Width: 150 mm    Length: in, Width: in    A rectangle has a width of 3 feet and a length of 28 inches. Find the perimeter and area. (Suggestion: Start by converting all measurements to the same units.)   Find the perimeter of the triangle with each of the following side length measurements. Include units in your answer.   Triangle 1: 5 cm, 7 cm, 8 cm    Triangle 2: 120 mm, 150 mm, 180 mm    Triangle 3: 0.6 m, 0.8 m, 1.0 m    Triangle 4: in, in, in,   Find the area of a triangle with each of the following base and height measurements. Include units in your answer.   Triangle 1: Base = 8 cm, Height = 5 cm    Triangle 2: Base = 150 mm, Height = 120 mm    Triangle 3: Base = 0.9 m, Height = 0.6 m    Triangle 4: Base = in, Height = in   Find the area and circumference of a circle with each of the following measurements. Include units in your answer.   Circle 1: radius = 5 cm    Circle 2: diameter = 14 cm    Circle 1: radius = 0.3 m    Circle 2: diameter = 3 m    Circle 1: radius = 120 mm    Circle 2: diameter = 160 mm    Circle 1: radius = 4 in    Circle 2: diameter = 4 in    "
+},
+{
+  "id": "sec-s05e04-6",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-6",
+  "type": "Figure",
+  "number": "5.4.1",
+  "title": "",
+  "body": " A rectangle with its width and length labeled       Length  Length  Width  Width      "
+},
+{
+  "id": "sec-s05e04-10",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-10",
+  "type": "Example",
+  "number": "5.4.2",
+  "title": "",
+  "body": " If a rectangle has a length of 4 feet and a width of 3 feet, find its perimeter and area. Include appropriate units in your answer.  Solution: The rectangle’s perimeter is: And its area is   "
+},
+{
+  "id": "sec-s05e04-14",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-14",
+  "type": "Figure",
+  "number": "5.4.3",
+  "title": "",
+  "body": " Perimeter of a triangle        s_1    s_2    s_3       "
+},
+{
+  "id": "sec-s05e04-15",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-15",
+  "type": "Example",
+  "number": "5.4.4",
+  "title": "",
+  "body": " If a triangle has sides of lengths 2 centimeters, 3 centimeters, and 4 centimeters, find its perimeter. Include units in your answer.  The triangle’s perimeter is:   "
+},
+{
+  "id": "sec-s05e04-17",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-17",
+  "type": "Figure",
+  "number": "5.4.5",
+  "title": "",
+  "body": " Area of a triangle       Base  Height          "
+},
+{
+  "id": "sec-s05e04-19",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-19",
+  "type": "Example",
+  "number": "5.4.6",
+  "title": "",
+  "body": " If the triangle has a base of length 4 centimeters and a height of 1.5 centimeters, find its area. Include units in your answer.  Solution: The triangle’s area is:   "
+},
+{
+  "id": "sec-s05e04-25",
+  "level": "2",
+  "url": "sec-s05e04.html#sec-s05e04-25",
+  "type": "Example",
+  "number": "5.4.7",
+  "title": "",
+  "body": " Suppose that a circle has a diameter of 1.2 feet. Find the circle’s circumference and area. Include units in your area.  Solution: We can cut the diameter in half to get the radius: Now, we can use the formula for the area of a circle, following PEMDAS, and using \\pi\\approx 3.14: And we can use the formula for the circumference,   "
+},
+{
+  "id": "ws-s05e04-3",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-3",
+  "type": "Worksheet Exercise",
+  "number": "5.4.1",
+  "title": "",
+  "body": " Length: 12 cm, Width: 7 cm  "
+},
+{
+  "id": "ws-s05e04-4",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-4",
+  "type": "Worksheet Exercise",
+  "number": "5.4.2",
+  "title": "",
+  "body": " Length: cm, Width: cm  "
+},
+{
+  "id": "ws-s05e04-5",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-5",
+  "type": "Worksheet Exercise",
+  "number": "5.4.3",
+  "title": "",
+  "body": " Length: 0.25 cm, Width: 0.1 cm  "
+},
+{
+  "id": "ws-s05e04-6",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-6",
+  "type": "Worksheet Exercise",
+  "number": "5.4.4",
+  "title": "",
+  "body": " Length: 2.2 m, Width: 0.9 m  "
+},
+{
+  "id": "ws-s05e04-7",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-7",
+  "type": "Worksheet Exercise",
+  "number": "5.4.5",
+  "title": "",
+  "body": " Length: 180 mm, Width: 50 mm  "
+},
+{
+  "id": "ws-s05e04-8",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-8",
+  "type": "Worksheet Exercise",
+  "number": "5.4.6",
+  "title": "",
+  "body": " Length: 400 mm, Width: 150 mm  "
+},
+{
+  "id": "ws-s05e04-9",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-9",
+  "type": "Worksheet Exercise",
+  "number": "5.4.7",
+  "title": "",
+  "body": " Length: in, Width: in  "
+},
+{
+  "id": "ws-s05e04-10",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-10",
+  "type": "Worksheet Exercise",
+  "number": "5.4.8",
+  "title": "",
+  "body": " A rectangle has a width of 3 feet and a length of 28 inches. Find the perimeter and area. (Suggestion: Start by converting all measurements to the same units.)  "
+},
+{
+  "id": "ws-s05e04-12",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-12",
+  "type": "Worksheet Exercise",
+  "number": "5.4.9",
+  "title": "",
+  "body": " Triangle 1: 5 cm, 7 cm, 8 cm  "
+},
+{
+  "id": "ws-s05e04-13",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-13",
+  "type": "Worksheet Exercise",
+  "number": "5.4.10",
+  "title": "",
+  "body": " Triangle 2: 120 mm, 150 mm, 180 mm  "
+},
+{
+  "id": "ws-s05e04-14",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-14",
+  "type": "Worksheet Exercise",
+  "number": "5.4.11",
+  "title": "",
+  "body": " Triangle 3: 0.6 m, 0.8 m, 1.0 m  "
+},
+{
+  "id": "ws-s05e04-15",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-15",
+  "type": "Worksheet Exercise",
+  "number": "5.4.12",
+  "title": "",
+  "body": " Triangle 4: in, in, in,  "
+},
+{
+  "id": "ws-s05e04-17",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-17",
+  "type": "Worksheet Exercise",
+  "number": "5.4.13",
+  "title": "",
+  "body": " Triangle 1: Base = 8 cm, Height = 5 cm  "
+},
+{
+  "id": "ws-s05e04-18",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-18",
+  "type": "Worksheet Exercise",
+  "number": "5.4.14",
+  "title": "",
+  "body": " Triangle 2: Base = 150 mm, Height = 120 mm  "
+},
+{
+  "id": "ws-s05e04-19",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-19",
+  "type": "Worksheet Exercise",
+  "number": "5.4.15",
+  "title": "",
+  "body": " Triangle 3: Base = 0.9 m, Height = 0.6 m  "
+},
+{
+  "id": "ws-s05e04-20",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-20",
+  "type": "Worksheet Exercise",
+  "number": "5.4.16",
+  "title": "",
+  "body": " Triangle 4: Base = in, Height = in  "
+},
+{
+  "id": "ws-s05e04-22",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-22",
+  "type": "Worksheet Exercise",
+  "number": "5.4.17",
+  "title": "",
+  "body": " Circle 1: radius = 5 cm  "
+},
+{
+  "id": "ws-s05e04-23",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-23",
+  "type": "Worksheet Exercise",
+  "number": "5.4.18",
+  "title": "",
+  "body": " Circle 2: diameter = 14 cm  "
+},
+{
+  "id": "ws-s05e04-24",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-24",
+  "type": "Worksheet Exercise",
+  "number": "5.4.19",
+  "title": "",
+  "body": " Circle 1: radius = 0.3 m  "
+},
+{
+  "id": "ws-s05e04-25",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-25",
+  "type": "Worksheet Exercise",
+  "number": "5.4.20",
+  "title": "",
+  "body": " Circle 2: diameter = 3 m  "
+},
+{
+  "id": "ws-s05e04-26",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-26",
+  "type": "Worksheet Exercise",
+  "number": "5.4.21",
+  "title": "",
+  "body": " Circle 1: radius = 120 mm  "
+},
+{
+  "id": "ws-s05e04-27",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-27",
+  "type": "Worksheet Exercise",
+  "number": "5.4.22",
+  "title": "",
+  "body": " Circle 2: diameter = 160 mm  "
+},
+{
+  "id": "ws-s05e04-28",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-28",
+  "type": "Worksheet Exercise",
+  "number": "5.4.23",
+  "title": "",
+  "body": " Circle 1: radius = 4 in  "
+},
+{
+  "id": "ws-s05e04-29",
+  "level": "2",
+  "url": "sec-s05e04.html#ws-s05e04-29",
+  "type": "Worksheet Exercise",
+  "number": "5.4.24",
+  "title": "",
+  "body": " Circle 2: diameter = 4 in  "
+},
+{
+  "id": "sec-s05e05",
+  "level": "1",
+  "url": "sec-s05e05.html",
+  "type": "Section",
+  "number": "5.5",
+  "title": "Episode 5: Square Roots",
+  "body": " Episode 5: Square Roots   Episode 5 Learning Goals     Interpret square roots    Calculate very simple square roots by hand.    Calculate more complicated square roots on a calculator.       Episode 5 Key Terminology     Square root       Episode 5 Key Symbols       Remember that squaring a number means raising it to a power of 2.     The square root is meant to undo or reverse the square. The symbol for the square root is     If we want to write something that means, “calculate the square root of 36,” we would write the 36 underneath the root symbol:    Calculate the square root .  Solution: Because , we know:     Calculate the square root .  Solution: Because , we know:    Not all square roots work out to be whole numbers and should be calculated on a calculator:   Calculate the square root below. Round to 2 decimal places if necessary.   There's no nice whole number that becomes 7 after it's squared. So, we calculate this square root on a calculator:     Notice Something Neat!  The number 7 is between 4 and 9. So is between and .   The geometric object called a square is a special kind of rectangle whose length and width are equal:   A picture of a square with four equal sides      Side  Side  Side  Side      Use the variable to represent the length and the width of the square.  Because of the rectangle area formula, the area of the square is the length, , multiplied by the width, also :   So, squaring the side length gives us the square’s area. That means taking the square root of the area gives us the square’s side length:    A square has an area of 10 square feet. Find the square’s side length. Round to 2 decimal places, if necessary.  Solution: We can find the side length by taking the square root of the area:     Season 5, Episode 5 Practice Problems  Problem 1: Calculate the following square roots by hand:                          Calculate the following square roots using a calculator. Round to 3 decimal places, if necessary.                              "
+},
+{
+  "id": "def-square-root",
+  "level": "2",
+  "url": "sec-s05e05.html#def-square-root",
+  "type": "Definition",
+  "number": "5.5.1",
+  "title": "",
+  "body": "  The square root is meant to undo or reverse the square. The symbol for the square root is    "
+},
+{
+  "id": "sec-s05e05-8",
+  "level": "2",
+  "url": "sec-s05e05.html#sec-s05e05-8",
+  "type": "Example",
+  "number": "5.5.2",
+  "title": "",
+  "body": " Calculate the square root .  Solution: Because , we know:   "
+},
+{
+  "id": "sec-s05e05-9",
+  "level": "2",
+  "url": "sec-s05e05.html#sec-s05e05-9",
+  "type": "Example",
+  "number": "5.5.3",
+  "title": "",
+  "body": " Calculate the square root .  Solution: Because , we know:   "
+},
+{
+  "id": "sec-s05e05-11",
+  "level": "2",
+  "url": "sec-s05e05.html#sec-s05e05-11",
+  "type": "Example",
+  "number": "5.5.4",
+  "title": "",
+  "body": " Calculate the square root below. Round to 2 decimal places if necessary.   There's no nice whole number that becomes 7 after it's squared. So, we calculate this square root on a calculator:   "
+},
+{
+  "id": "sec-s05e05-18",
+  "level": "2",
+  "url": "sec-s05e05.html#sec-s05e05-18",
+  "type": "Example",
+  "number": "5.5.5",
+  "title": "",
+  "body": " A square has an area of 10 square feet. Find the square’s side length. Round to 2 decimal places, if necessary.  Solution: We can find the side length by taking the square root of the area:   "
+},
+{
+  "id": "ws-s05e05-3",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-3",
+  "type": "Worksheet Exercise",
+  "number": "5.5.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-4",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-4",
+  "type": "Worksheet Exercise",
+  "number": "5.5.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-5",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-5",
+  "type": "Worksheet Exercise",
+  "number": "5.5.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-6",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-6",
+  "type": "Worksheet Exercise",
+  "number": "5.5.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-7",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-7",
+  "type": "Worksheet Exercise",
+  "number": "5.5.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-8",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-8",
+  "type": "Worksheet Exercise",
+  "number": "5.5.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-9",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-9",
+  "type": "Worksheet Exercise",
+  "number": "5.5.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-10",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-10",
+  "type": "Worksheet Exercise",
+  "number": "5.5.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-12",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-12",
+  "type": "Worksheet Exercise",
+  "number": "5.5.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-13",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-13",
+  "type": "Worksheet Exercise",
+  "number": "5.5.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-14",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-14",
+  "type": "Worksheet Exercise",
+  "number": "5.5.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-15",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-15",
+  "type": "Worksheet Exercise",
+  "number": "5.5.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-16",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-16",
+  "type": "Worksheet Exercise",
+  "number": "5.5.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-17",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-17",
+  "type": "Worksheet Exercise",
+  "number": "5.5.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-18",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-18",
+  "type": "Worksheet Exercise",
+  "number": "5.5.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-19",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-19",
+  "type": "Worksheet Exercise",
+  "number": "5.5.16",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s05e05-20",
+  "level": "2",
+  "url": "sec-s05e05.html#ws-s05e05-20",
+  "type": "Worksheet Exercise",
+  "number": "5.5.17",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-s05e06",
+  "level": "1",
+  "url": "sec-s05e06.html",
+  "type": "Section",
+  "number": "5.6",
+  "title": "Episode 6: Pythagorean Theorem",
+  "body": " Episode 6: Pythagorean Theorem   Episode 6 Learning Goals     Recognize right angles and right triangles.    For a right triangle, identify the hypotenuse and the legs.    Given two sides on a right triangle, use Pythagorean theorem to find the length of the remaining side.       Episode 6 Key Terminology     Right angle    Right triangle    Hypotenuse    Leg of a triangle        A right angle is a 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.    They are typically emphasized by drawing a small square.   An image of a 90 degree angle, marked by a small square.      points=((3,-2),(-3,-2),(-3,4))   Right Angle           A right triangle is a triangle that contains a right angle. For example, the triangle pictured below is a right triangle, because it has a right angle in the bottom left corner.     A right triangle with the right angle in the bottom left corner..       Right Triangle  Leg  Leg  Hypotenuse       For a right triangle:   The side across from the right angle is called the hypotenuse .    The other two sides are called the legs .     The Pythagorean Theorem is a famous formula used to find the side lengths of a right triangle.  Call the length of the hypotenuse and call the lengths of the legs and . If you know the lengths of the legs, and you want to find the length of the hypotenuse, use the formula:    A right triangle has legs of lengths 3 inches and 4 inches. Find the length of the hypotenuse of that right triangle.  Solution: Plug and into the Pythagorean theorem formula to find the length of the hypotenuse, . To calculate this value, we use PEMDAS. We start by calculating the exponents: Then we add the numbers under the root: Then we calculate the square root: The length of the hypotenuse is 5 inches.   If you know the length of the hypotenuse and the length of one of the legs, use the following formula to find the length of the other leg:    A right triangle has a hypotenuse of length 9 cm and one leg of length 5 cm. Find the length of the other leg.  Solution: Plug and into the Pythagorean theorem formula to find the length of the other leg, . So the length of the other leg is approximately 7.48 cm.    Season 5, Episode 6 Practice Problems  Use the Pythagorean theorem to answer the following questions. Include units in your answer, and round your answer to 2 decimal places if necessary.   A right triangle has legs measuring 6 meters and 8 meters. Find the length of the hypotenuse.    A ladder leans against a wall. The bottom of the ladder is 2.5 feet from the wall, and the ladder reaches 6 feet up the wall. Find the length of the ladder.    A television screen has a width of 16 inches and a height of 9 inches. Find the diagonal length of the screen.    A right triangle has a hypotenuse of 13 centimeters and one leg of 5 centimeters. Find the length of the other leg in centimeters.    A triangular sail has two perpendicular sides measuring 1.2 meters and 1.6 meters. Find the length of the longest side in meters.    A right triangle has legs measuring miles and 6 miles. Find the length of the hypotenuse in miles.    A drone travels 7 kilometers east and then 24 kilometers north. How far is the drone from its starting point in kilometers?    A ramp rises meters vertically over a horizontal distance of meters. Find the length of the ramp in meters.    A right triangle has a hypotenuse of length 2 feet and one leg of length 10 inches. Find the length of the other leg. (Suggestion! Start by converting all the lengths to the same units.)    A right triangle has legs of centimeters and centimeters. Find the length of the hypotenuse in centimeters.    "
+},
+{
+  "id": "def-right-angle",
+  "level": "2",
+  "url": "sec-s05e06.html#def-right-angle",
+  "type": "Definition",
+  "number": "5.6.1",
+  "title": "",
+  "body": "  A right angle is a 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.   "
+},
+{
+  "id": "sec-s05e06-6",
+  "level": "2",
+  "url": "sec-s05e06.html#sec-s05e06-6",
+  "type": "Figure",
+  "number": "5.6.2",
+  "title": "",
+  "body": " An image of a 90 degree angle, marked by a small square.      points=((3,-2),(-3,-2),(-3,4))   Right Angle        "
+},
+{
+  "id": "def-right-triangle",
+  "level": "2",
+  "url": "sec-s05e06.html#def-right-triangle",
+  "type": "Definition",
+  "number": "5.6.3",
+  "title": "",
+  "body": "  A right triangle is a triangle that contains a right angle. For example, the triangle pictured below is a right triangle, because it has a right angle in the bottom left corner.   "
+},
+{
+  "id": "sec-s05e06-8",
+  "level": "2",
+  "url": "sec-s05e06.html#sec-s05e06-8",
+  "type": "Figure",
+  "number": "5.6.4",
+  "title": "",
+  "body": " A right triangle with the right angle in the bottom left corner..       Right Triangle  Leg  Leg  Hypotenuse      "
+},
+{
+  "id": "sec-s05e06-9",
+  "level": "2",
+  "url": "sec-s05e06.html#sec-s05e06-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "hypotenuse legs "
+},
+{
+  "id": "sec-s05e06-12",
+  "level": "2",
+  "url": "sec-s05e06.html#sec-s05e06-12",
+  "type": "Example",
+  "number": "5.6.5",
+  "title": "",
+  "body": " A right triangle has legs of lengths 3 inches and 4 inches. Find the length of the hypotenuse of that right triangle.  Solution: Plug and into the Pythagorean theorem formula to find the length of the hypotenuse, . To calculate this value, we use PEMDAS. We start by calculating the exponents: Then we add the numbers under the root: Then we calculate the square root: The length of the hypotenuse is 5 inches.  "
+},
+{
+  "id": "sec-s05e06-14",
+  "level": "2",
+  "url": "sec-s05e06.html#sec-s05e06-14",
+  "type": "Example",
+  "number": "5.6.6",
+  "title": "",
+  "body": " A right triangle has a hypotenuse of length 9 cm and one leg of length 5 cm. Find the length of the other leg.  Solution: Plug and into the Pythagorean theorem formula to find the length of the other leg, . So the length of the other leg is approximately 7.48 cm.  "
+},
+{
+  "id": "ws-s05e06-3",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-3",
+  "type": "Worksheet Exercise",
+  "number": "5.6.1",
+  "title": "",
+  "body": " A right triangle has legs measuring 6 meters and 8 meters. Find the length of the hypotenuse.  "
+},
+{
+  "id": "ws-s05e06-4",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-4",
+  "type": "Worksheet Exercise",
+  "number": "5.6.2",
+  "title": "",
+  "body": " A ladder leans against a wall. The bottom of the ladder is 2.5 feet from the wall, and the ladder reaches 6 feet up the wall. Find the length of the ladder.  "
+},
+{
+  "id": "ws-s05e06-5",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-5",
+  "type": "Worksheet Exercise",
+  "number": "5.6.3",
+  "title": "",
+  "body": " A television screen has a width of 16 inches and a height of 9 inches. Find the diagonal length of the screen.  "
+},
+{
+  "id": "ws-s05e06-6",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-6",
+  "type": "Worksheet Exercise",
+  "number": "5.6.4",
+  "title": "",
+  "body": " A right triangle has a hypotenuse of 13 centimeters and one leg of 5 centimeters. Find the length of the other leg in centimeters.  "
+},
+{
+  "id": "ws-s05e06-7",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-7",
+  "type": "Worksheet Exercise",
+  "number": "5.6.5",
+  "title": "",
+  "body": " A triangular sail has two perpendicular sides measuring 1.2 meters and 1.6 meters. Find the length of the longest side in meters.  "
+},
+{
+  "id": "ws-s05e06-8",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-8",
+  "type": "Worksheet Exercise",
+  "number": "5.6.6",
+  "title": "",
+  "body": " A right triangle has legs measuring miles and 6 miles. Find the length of the hypotenuse in miles.  "
+},
+{
+  "id": "ws-s05e06-9",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-9",
+  "type": "Worksheet Exercise",
+  "number": "5.6.7",
+  "title": "",
+  "body": " A drone travels 7 kilometers east and then 24 kilometers north. How far is the drone from its starting point in kilometers?  "
+},
+{
+  "id": "ws-s05e06-10",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-10",
+  "type": "Worksheet Exercise",
+  "number": "5.6.8",
+  "title": "",
+  "body": " A ramp rises meters vertically over a horizontal distance of meters. Find the length of the ramp in meters.  "
+},
+{
+  "id": "ws-s05e06-11",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-11",
+  "type": "Worksheet Exercise",
+  "number": "5.6.9",
+  "title": "",
+  "body": " A right triangle has a hypotenuse of length 2 feet and one leg of length 10 inches. Find the length of the other leg. (Suggestion! Start by converting all the lengths to the same units.)  "
+},
+{
+  "id": "ws-s05e06-12",
+  "level": "2",
+  "url": "sec-s05e06.html#ws-s05e06-12",
+  "type": "Worksheet Exercise",
+  "number": "5.6.10",
+  "title": "",
+  "body": " A right triangle has legs of centimeters and centimeters. Find the length of the hypotenuse in centimeters.  "
+},
+{
+  "id": "sec-s06e01",
+  "level": "1",
+  "url": "sec-s06e01.html",
+  "type": "Section",
+  "number": "6.1",
+  "title": "Episode 1: What Equations Represent",
+  "body": " Episode 1: What Equations Represent   Episode 1 Learning Goals     Interpret equations as a statement of a desired result or known fact.    Interpret equations as a statement of equality \/ balance.    Determine whether a given value is a “solution” to an equation.       Episode 1 Key Terminology     Equation    Solution        An equation is a line of mathematics containing an = sign. Equations communicate that the quantity on the left side of the = sign is equal to the quantity on the right side of the = sign.    For example, we have written lines like: This communicates that, although the two fractions look different, the fraction 2\/4 represents the same physical amount as the fraction 1\/2.  We have also written lines like:  Again, equations like these communicate that the quantity on the left is the same as the quantity on the right, although the two quantities look different.  Equations containing variables can be used to express known facts.   Represent Amanda’s age by the letter A. If you know that Amanda’s age is 35, write down the equation that expresses this fact.  Solution: If Amanda’s age is 35, that corresponds to the equation     Notice Something Neat!  The keyword “is” usually corresponds to an = sign, the same way the keyword “of” usually corresponds multiplication.    Represent the cost of a dozen eggs by a variable, C. If you know that the total cost of buying 3 dozen eggs is $7, write down an equation that expresses this fact.  Solution: The expression that represents the cost of buying 3 dozen eggs is If I know that this cost is $7, that becomes the equation     Be Careful!  An expression does NOT contain an = sign. It represents a quantity that can’t be fully calculated yet because it involves a variable.  An equation contains an = sign. It represents a known fact or a desired result.    Represent the length of a rectangle by a variable L and the width of the rectangle by a variable W. If you know that the rectangle’s area is 30 square inches, write down an equation that expresses that fact.  Solution: We remember that a rectangle’s area is equal to the product of its length and its width: If we know that this area is 30, that becomes the equation    Equations containing variables can also be used to express desired results or targets.   Represent the number of cakes by a variable, . Making a single cake requires 2 eggs. You have 6 eggs that are about to go bad, and you want to make enough cakes to use up all of them. Write down an equation that expresses this desire.  Solution: If you make cakes, and each cake requires 2 eggs, then the total number of eggs used is given by the expression If we want to use 6 eggs, that becomes the equation     Represent the cost of a house by a variable, B. You plan to make 25% of the house cost as a down payment. If you only want to put $80,000 down, write down an equation that expresses this desire.  Solution: The expression representing the down payment is 25% of B: If we want to put $80,000 down, that becomes the equation      A solution to an equation is a value that can replace the variable in the equation and make the equation true. Solutions tell you how to achieve the desired result that the equation represents.     Show that is NOT a solution to the equation .  To show that is NOT solution, we just need to plug into the equation and see if it makes the equation true or false. Because 2 is definitely NOT the same as 6, this is proof that is NOT a solution. In other words, if we want to use up 6 eggs, making just 1 cake is not going to work.    Show that is a solution to the equation .  To show that is a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 6 is the same as 6, this is proof that is a solution. In other words, if we want to use up 6 eggs, we can accomplish that by making 3 cakes.    Show that is NOT a solution to the equation .  To show that is NOT a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 162,500 is not the same as 80,000, this is proof that is not a solution. In other words, if we want to put only $80,000 down, then we cannot buy a house costing $650,000.    Show that is NOT a solution to the equation .  To show that is NOT a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 80,000 is not the same as 80,000, this is proof that is not a solution. In other words, if we want to put only $80,000 down, then we cannot buy a house costing $320,000.    Season 6, Episode 1 Practice Problems    Represent the base of a triangle by the variable b and represent the height of a triangle by the variable .     Write down the expression that represents the triangle’s area.      Suppose you know that the triangle’s area is 14 square centimeters. Write down the equation that represents this known fact.       A student takes two quizzes. The student earns a score of 72% on the first quiz. The student hasn’t taken the second quiz yet, so represent the second quiz score by a variable .     Write down an expression that represents the average of the two quiz scores.      Suppose the student wants their quiz average to be 80%. Write down an equation that represents this desired result.       Let represent the amount of money you put in savings each week.     Write down an expression that represents the total money you’ve saved after one year (52 weeks).      Suppose you want to have $350 in savings at the end of the year. Write down an equation that represents this desired result.       Check whether the given values are solutions to the given equations.     Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?      "
+},
+{
+  "id": "def-equation",
+  "level": "2",
+  "url": "sec-s06e01.html#def-equation",
+  "type": "Definition",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  An equation is a line of mathematics containing an = sign. Equations communicate that the quantity on the left side of the = sign is equal to the quantity on the right side of the = sign.   "
+},
+{
+  "id": "sec-s06e01-8",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-8",
+  "type": "Example",
+  "number": "6.1.2",
+  "title": "",
+  "body": " Represent Amanda’s age by the letter A. If you know that Amanda’s age is 35, write down the equation that expresses this fact.  Solution: If Amanda’s age is 35, that corresponds to the equation   "
+},
+{
+  "id": "sec-s06e01-10",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-10",
+  "type": "Example",
+  "number": "6.1.3",
+  "title": "",
+  "body": " Represent the cost of a dozen eggs by a variable, C. If you know that the total cost of buying 3 dozen eggs is $7, write down an equation that expresses this fact.  Solution: The expression that represents the cost of buying 3 dozen eggs is If I know that this cost is $7, that becomes the equation   "
+},
+{
+  "id": "sec-s06e01-11-2",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-11-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "expression "
+},
+{
+  "id": "sec-s06e01-11-3",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-11-3",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "equation "
+},
+{
+  "id": "sec-s06e01-12",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-12",
+  "type": "Example",
+  "number": "6.1.4",
+  "title": "",
+  "body": " Represent the length of a rectangle by a variable L and the width of the rectangle by a variable W. If you know that the rectangle’s area is 30 square inches, write down an equation that expresses that fact.  Solution: We remember that a rectangle’s area is equal to the product of its length and its width: If we know that this area is 30, that becomes the equation   "
+},
+{
+  "id": "sec-s06e01-14",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-14",
+  "type": "Example",
+  "number": "6.1.5",
+  "title": "",
+  "body": " Represent the number of cakes by a variable, . Making a single cake requires 2 eggs. You have 6 eggs that are about to go bad, and you want to make enough cakes to use up all of them. Write down an equation that expresses this desire.  Solution: If you make cakes, and each cake requires 2 eggs, then the total number of eggs used is given by the expression If we want to use 6 eggs, that becomes the equation   "
+},
+{
+  "id": "sec-s06e01-15",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-15",
+  "type": "Example",
+  "number": "6.1.6",
+  "title": "",
+  "body": " Represent the cost of a house by a variable, B. You plan to make 25% of the house cost as a down payment. If you only want to put $80,000 down, write down an equation that expresses this desire.  Solution: The expression representing the down payment is 25% of B: If we want to put $80,000 down, that becomes the equation   "
+},
+{
+  "id": "def-solution",
+  "level": "2",
+  "url": "sec-s06e01.html#def-solution",
+  "type": "Definition",
+  "number": "6.1.7",
+  "title": "",
+  "body": "  A solution to an equation is a value that can replace the variable in the equation and make the equation true. Solutions tell you how to achieve the desired result that the equation represents.   "
+},
+{
+  "id": "sec-s06e01-17",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-17",
+  "type": "Example",
+  "number": "6.1.8",
+  "title": "",
+  "body": " Show that is NOT a solution to the equation .  To show that is NOT solution, we just need to plug into the equation and see if it makes the equation true or false. Because 2 is definitely NOT the same as 6, this is proof that is NOT a solution. In other words, if we want to use up 6 eggs, making just 1 cake is not going to work.  "
+},
+{
+  "id": "sec-s06e01-18",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-18",
+  "type": "Example",
+  "number": "6.1.9",
+  "title": "",
+  "body": " Show that is a solution to the equation .  To show that is a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 6 is the same as 6, this is proof that is a solution. In other words, if we want to use up 6 eggs, we can accomplish that by making 3 cakes.  "
+},
+{
+  "id": "sec-s06e01-19",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-19",
+  "type": "Example",
+  "number": "6.1.10",
+  "title": "",
+  "body": " Show that is NOT a solution to the equation .  To show that is NOT a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 162,500 is not the same as 80,000, this is proof that is not a solution. In other words, if we want to put only $80,000 down, then we cannot buy a house costing $650,000.  "
+},
+{
+  "id": "sec-s06e01-20",
+  "level": "2",
+  "url": "sec-s06e01.html#sec-s06e01-20",
+  "type": "Example",
+  "number": "6.1.11",
+  "title": "",
+  "body": " Show that is NOT a solution to the equation .  To show that is NOT a solution, we just need to plug into the equation and see if it makes the equation true or false. Because 80,000 is not the same as 80,000, this is proof that is not a solution. In other words, if we want to put only $80,000 down, then we cannot buy a house costing $320,000.  "
+},
+{
+  "id": "ws-s06e01-2",
+  "level": "2",
+  "url": "sec-s06e01.html#ws-s06e01-2",
+  "type": "Worksheet Exercise",
+  "number": "6.1.1",
+  "title": "",
+  "body": "  Represent the base of a triangle by the variable b and represent the height of a triangle by the variable .     Write down the expression that represents the triangle’s area.      Suppose you know that the triangle’s area is 14 square centimeters. Write down the equation that represents this known fact.    "
+},
+{
+  "id": "ws-s06e01-3",
+  "level": "2",
+  "url": "sec-s06e01.html#ws-s06e01-3",
+  "type": "Worksheet Exercise",
+  "number": "6.1.2",
+  "title": "",
+  "body": "  A student takes two quizzes. The student earns a score of 72% on the first quiz. The student hasn’t taken the second quiz yet, so represent the second quiz score by a variable .     Write down an expression that represents the average of the two quiz scores.      Suppose the student wants their quiz average to be 80%. Write down an equation that represents this desired result.    "
+},
+{
+  "id": "ws-s06e01-4",
+  "level": "2",
+  "url": "sec-s06e01.html#ws-s06e01-4",
+  "type": "Worksheet Exercise",
+  "number": "6.1.3",
+  "title": "",
+  "body": "  Let represent the amount of money you put in savings each week.     Write down an expression that represents the total money you’ve saved after one year (52 weeks).      Suppose you want to have $350 in savings at the end of the year. Write down an equation that represents this desired result.    "
+},
+{
+  "id": "ws-s06e01-5",
+  "level": "2",
+  "url": "sec-s06e01.html#ws-s06e01-5",
+  "type": "Worksheet Exercise",
+  "number": "6.1.4",
+  "title": "",
+  "body": "  Check whether the given values are solutions to the given equations.     Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?      Is a solution to ?    "
+},
+{
+  "id": "sec-s06e02",
+  "level": "1",
+  "url": "sec-s06e02.html",
+  "type": "Section",
+  "number": "6.2",
+  "title": "Episode 2: Solving Equations Using Addition and Subtraction",
+  "body": " Episode 2: Solving Equations Using Addition and Subtraction   Episode 2 Learning Goals     Solve equations that look like or using addition and subtraction.       Episode 2 Key Terminology     Solve      In the previous episode, we learned how to check whether a given number is a solution to an equation.  In this episode, we will find the solutions ourselves from scratch. Finding the solutions from scratch is called solving the equation.  When we solve the equation, we think of the equation like a balance. For example, the image below is a visual representation of the equation because the left side holds 6 units of weight, the right side holds 2+n units of weight, and the two sides are equally balanced.   The equation represented on a balance.      To Keep the Balance When Working with an Equation  Whatever action you perform on the left side of the equation, perform exactly the same action on the right side of the equation.   For example, in the equation We can subtract 2 on the right side, as long as we also subtract 2 on the left side, and the balance will be preserved:     becomes 4     becomes because the subtracted 2 “cancels” (gets rid off) the added 2.   So in the end, we get the following statement about : This means that is a solution to the equation .  In the picture, this is like taking 2 blocks off the left and right side of the balance:   The equation represented on a balance.      To Solve Equations of the Form [Variable] + [A Number] = [Another Number]:    Subtract [A Number] from both sides of the equation.      Solve the equation   Solution: We subtract 5 from both sides of the equation: On the left, the added 5 and the subtracted 5 cancel each other out. On the right side, the becomes 8. So we get the solution:     Solve the equation   Solution: We subtract from both sides of the equation:       Solve the equation   Solution: We subtract 3 from both sides of the equation:      To Solve Equations of the Form [Variable] - [A Number] = [Another Number]:    Add [A Number] to both sides of the equation.      Solve the equation   Solution: We add 2 to both sides of the equation: On the left side, the added 2 and the subtracted 2 cancel out. On the right side, the 7+2 becomes 9.     Solve the equation   Solution: We add 1\/4 to both sides of the equation: On the left side, the added 1\/4 and the subtracted 1\/4 cancel out. On the right side, we add the fractions by making them have common denominators:       Notice Something Neat!  Addition and subtraction are opposite actions. If your variable is being affected by addition, use subtraction. If your variable is being affected by subtraction, use addition.   Equations give us a way to take tricky or complicated problems and break them down into simple steps.   You don’t know the balance in your bank account yesterday, so represent it by a variable, B. This morning, you deposited $50.23, and now your bank account balance is $18.16. Figure out how much money was in your account yesterday.  Solution:   The amount of money in our account yesterday is being represented by B. Let’s create an expression for the amount of money in our account today. Since we added 50.23 to our account, the amount of money in our account today can be represented by the expression     We know that the amount of money in our account today is 18.16. Let’s write an equation to represent this known fact.     Now, we have an equation we can solve for B. We subtract 50.23 from both sides:     In other words, yesterday, our account was overdrawn, and the balance was negative $32.07.    Season 6, Episode 2 Practice Problems    Solve the following equations:                                                                                                                                                  You don’t know the amount of money you had in your bank account yesterday, so you represent it by a variable, . You spent $41 this morning.     Write down an expression that represents the amount of money you have in your bank account now.      You check your bank account and find that your current balance is $210. Write down an equation that expresses this known fact.      Solve the equation from (b) to figure out how much money you had in your account yesterday.       Interlude: Equality Explorer  Play around with this interactive tool for the University of Colorado's PhET simulations   Equality Explorer     "
+},
+{
+  "id": "sec-s06e02-7",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-7",
+  "type": "Figure",
+  "number": "6.2.1",
+  "title": "",
+  "body": " The equation represented on a balance.    "
+},
+{
+  "id": "sec-s06e02-11",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-11",
+  "type": "Figure",
+  "number": "6.2.2",
+  "title": "",
+  "body": " The equation represented on a balance.    "
+},
+{
+  "id": "sec-s06e02-13",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-13",
+  "type": "Example",
+  "number": "6.2.3",
+  "title": "",
+  "body": " Solve the equation   Solution: We subtract 5 from both sides of the equation: On the left, the added 5 and the subtracted 5 cancel each other out. On the right side, the becomes 8. So we get the solution:   "
+},
+{
+  "id": "sec-s06e02-14",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-14",
+  "type": "Example",
+  "number": "6.2.4",
+  "title": "",
+  "body": " Solve the equation   Solution: We subtract from both sides of the equation:     "
+},
+{
+  "id": "sec-s06e02-15",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-15",
+  "type": "Example",
+  "number": "6.2.5",
+  "title": "",
+  "body": " Solve the equation   Solution: We subtract 3 from both sides of the equation:    "
+},
+{
+  "id": "sec-s06e02-17",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-17",
+  "type": "Example",
+  "number": "6.2.6",
+  "title": "",
+  "body": " Solve the equation   Solution: We add 2 to both sides of the equation: On the left side, the added 2 and the subtracted 2 cancel out. On the right side, the 7+2 becomes 9.   "
+},
+{
+  "id": "sec-s06e02-18",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-18",
+  "type": "Example",
+  "number": "6.2.7",
+  "title": "",
+  "body": " Solve the equation   Solution: We add 1\/4 to both sides of the equation: On the left side, the added 1\/4 and the subtracted 1\/4 cancel out. On the right side, we add the fractions by making them have common denominators:     "
+},
+{
+  "id": "sec-s06e02-21",
+  "level": "2",
+  "url": "sec-s06e02.html#sec-s06e02-21",
+  "type": "Example",
+  "number": "6.2.8",
+  "title": "",
+  "body": " You don’t know the balance in your bank account yesterday, so represent it by a variable, B. This morning, you deposited $50.23, and now your bank account balance is $18.16. Figure out how much money was in your account yesterday.  Solution:   The amount of money in our account yesterday is being represented by B. Let’s create an expression for the amount of money in our account today. Since we added 50.23 to our account, the amount of money in our account today can be represented by the expression     We know that the amount of money in our account today is 18.16. Let’s write an equation to represent this known fact.     Now, we have an equation we can solve for B. We subtract 50.23 from both sides:     In other words, yesterday, our account was overdrawn, and the balance was negative $32.07.  "
+},
+{
+  "id": "ws-s06e02-2",
+  "level": "2",
+  "url": "sec-s06e02.html#ws-s06e02-2",
+  "type": "Worksheet Exercise",
+  "number": "6.2.1",
+  "title": "",
+  "body": "  Solve the following equations:                                                                                                                                               "
+},
+{
+  "id": "ws-s06e02-3",
+  "level": "2",
+  "url": "sec-s06e02.html#ws-s06e02-3",
+  "type": "Worksheet Exercise",
+  "number": "6.2.2",
+  "title": "",
+  "body": "  You don’t know the amount of money you had in your bank account yesterday, so you represent it by a variable, . You spent $41 this morning.     Write down an expression that represents the amount of money you have in your bank account now.      You check your bank account and find that your current balance is $210. Write down an equation that expresses this known fact.      Solve the equation from (b) to figure out how much money you had in your account yesterday.    "
+},
+{
+  "id": "figure-phet-equality-explorer",
+  "level": "2",
+  "url": "sec-s06e02.html#figure-phet-equality-explorer",
+  "type": "Figure",
+  "number": "6.2.9",
+  "title": "",
+  "body": " Equality Explorer   "
+},
+{
+  "id": "sec-s06e03",
+  "level": "1",
+  "url": "sec-s06e03.html",
+  "type": "Section",
+  "number": "6.3",
+  "title": "Episode 3: Solving Equations Using Multiplication and Division",
+  "body": " Episode 3: Solving Equations Using Multiplication and Division   Episode 3 Learning Goals     Solve equations that look like or using multiplication and division.      In the previous episode, we saw that addition and subtraction were opposite actions.   If we wanted to get rid of addition, we used subtraction.    If we wanted to get rid of subtraction, we used addition.     Similarly, multiplication and division are opposite actions.   If we want to get rid of multiplication, we use division.    If we want to get rid of division, we use multiplication.      To Solve Equations of the Form [A Number] [Variable] = [Another Number]    Divide both sides of the equation by [A Number].      Solve:   Solution: Divide both sides of the equation by 4: On the left, the multiplied 4 cancels out the divided 4. On the right, the 20 \/ 4 becomes 5. So the solution is     Solve:   Solution: Divide both sides of the equation by 6: On the left side, the multiplied 6 and the divided 6 cancel out. On the right side, 15 \/ 6 can be simplified:       Solve:   Solution: Divide both sides of the equation by -2: On the left side, the multiplied -2 cancels the divided -2. On the right side, the becomes -4.    Solve:   Solution: Divide both sides of the equation by 1\/3: On the left side, the multiplied 1\/3 and the divided 1\/3 cancel out. On the right side, we perform fraction division:        To Solve Equations of the Form [Variable]\/[A Number] = [Another Number]    Multiply both sides of the equation by [A Number].      Solve:   Solution: Multiply both sides of the equation by 3: On the left side, the divided 3 and the multiplied 3 cancel out. On the right side, the becomes 24.     Solve:   Solution: Multiply both sides of the equation by 7: On the left side, the divided and the multiplied 7 cancel out. On the right side, we use fraction multiplication:       Consider an expression Remember from Season 2 that the - sign next to the in this expression means “make it negative” or “calculate the opposite.” The expression is the same as Because multiplying by -1 also has the effect of “opposite”: We use this fact when solving equations that contain .   Solve the equation:   Solution: Instead of , write  Now we see we should divide both sides by -1: On the left side, the multiplied -1 cancels out the divided -1, so we get    Again, equations can give us a way to take a tricky or complicated and break it down into simpler steps.   Represent the price of a house by a variable, B. You plan to make 25% of the house price as a down payment. If you only want to put $120,000 down, what house price can you afford?  Solution:   The house price is being represented by the variable B. Let’s make an expression that represents the down payment, which is 25% of B:     We want the down payment to be 120000. Let’s make an equation that represents this desire:     Now let’s solve this equation for B. On the left side, the multiplied 0.25 and the divided 0.25 cancel, and we’re left with    So we’re looking for a house that costs around $480,000.    Season 6, Episode 3 Practice Problems    Solve the following equations:                                                                                                                                           Represent the price of a house by a variable, B. You plan to make 20% of the house price as a down payment.     Write down an expression that represents the down payment.      Suppose you want to put $100,000 down. Write down an equation that represents this desire.      Solve the equation to determine the house price you can afford.      "
+},
+{
+  "id": "sec-s06e03-6",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-6",
+  "type": "Example",
+  "number": "6.3.1",
+  "title": "",
+  "body": " Solve:   Solution: Divide both sides of the equation by 4: On the left, the multiplied 4 cancels out the divided 4. On the right, the 20 \/ 4 becomes 5. So the solution is   "
+},
+{
+  "id": "sec-s06e03-7",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-7",
+  "type": "Example",
+  "number": "6.3.2",
+  "title": "",
+  "body": " Solve:   Solution: Divide both sides of the equation by 6: On the left side, the multiplied 6 and the divided 6 cancel out. On the right side, 15 \/ 6 can be simplified:     "
+},
+{
+  "id": "sec-s06e03-8",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-8",
+  "type": "Example",
+  "number": "6.3.3",
+  "title": "",
+  "body": " Solve:   Solution: Divide both sides of the equation by -2: On the left side, the multiplied -2 cancels the divided -2. On the right side, the becomes -4.  "
+},
+{
+  "id": "sec-s06e03-9",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-9",
+  "type": "Example",
+  "number": "6.3.4",
+  "title": "",
+  "body": " Solve:   Solution: Divide both sides of the equation by 1\/3: On the left side, the multiplied 1\/3 and the divided 1\/3 cancel out. On the right side, we perform fraction division:      "
+},
+{
+  "id": "sec-s06e03-11",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-11",
+  "type": "Example",
+  "number": "6.3.5",
+  "title": "",
+  "body": " Solve:   Solution: Multiply both sides of the equation by 3: On the left side, the divided 3 and the multiplied 3 cancel out. On the right side, the becomes 24.   "
+},
+{
+  "id": "sec-s06e03-12",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-12",
+  "type": "Example",
+  "number": "6.3.6",
+  "title": "",
+  "body": " Solve:   Solution: Multiply both sides of the equation by 7: On the left side, the divided and the multiplied 7 cancel out. On the right side, we use fraction multiplication:      "
+},
+{
+  "id": "sec-s06e03-14",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-14",
+  "type": "Example",
+  "number": "6.3.7",
+  "title": "",
+  "body": " Solve the equation:   Solution: Instead of , write  Now we see we should divide both sides by -1: On the left side, the multiplied -1 cancels out the divided -1, so we get   "
+},
+{
+  "id": "sec-s06e03-16",
+  "level": "2",
+  "url": "sec-s06e03.html#sec-s06e03-16",
+  "type": "Example",
+  "number": "6.3.8",
+  "title": "",
+  "body": " Represent the price of a house by a variable, B. You plan to make 25% of the house price as a down payment. If you only want to put $120,000 down, what house price can you afford?  Solution:   The house price is being represented by the variable B. Let’s make an expression that represents the down payment, which is 25% of B:     We want the down payment to be 120000. Let’s make an equation that represents this desire:     Now let’s solve this equation for B. On the left side, the multiplied 0.25 and the divided 0.25 cancel, and we’re left with    So we’re looking for a house that costs around $480,000.  "
+},
+{
+  "id": "ws-s06e03-2",
+  "level": "2",
+  "url": "sec-s06e03.html#ws-s06e03-2",
+  "type": "Worksheet Exercise",
+  "number": "6.3.1",
+  "title": "",
+  "body": "  Solve the following equations:                                                                                                                                        "
+},
+{
+  "id": "ws-s06e03-3",
+  "level": "2",
+  "url": "sec-s06e03.html#ws-s06e03-3",
+  "type": "Worksheet Exercise",
+  "number": "6.3.2",
+  "title": "",
+  "body": "  Represent the price of a house by a variable, B. You plan to make 20% of the house price as a down payment.     Write down an expression that represents the down payment.      Suppose you want to put $100,000 down. Write down an equation that represents this desire.      Solve the equation to determine the house price you can afford.    "
+},
+{
+  "id": "sec-s06e04",
+  "level": "1",
+  "url": "sec-s06e04.html",
+  "type": "Section",
+  "number": "6.4",
+  "title": "Episode 4: Proportions",
+  "body": " Episode 4: Proportions   Episode 4 Learning Goals  Set up and solve proportions    Episode 4 Key Terminology  Proportion   Suppose you have a cookie recipe. The recipe requires 2 cups of flour, and makes 24 cookies. How many cups of flour would you need if you wanted to make 36 cookies?  Because the amount of flour we need is unknown, represent it by a variable, .     Old  New    Flour  2     Cookies  24  36    This recipe has a certain ratio (see Season 3) of flour to cookies.  From the recipe’s directions, the ratio is: But we want to make 36 cookies, so the ratio that matters to us is: But since it’s the same recipe, it’s the same ratio: Now we have an equation that we can solve for . Multiply both sides by 36 to get rid of the divided 36:    In other words, to make 36 cookies with this recipe, we would need 3 cups of flour.    A proportion is an equation that you get by setting two different-looking ratios equal to each other.    Proportions arise in situations where you’re working with two related quantities, and doubling Quantity A means doubling Quantity B.   When you’re cooking, if you want to double the amount of food you make, you need to double the amount of each ingredient.    When you’re walking at a certain speed, if you want to double the distance you walk, you need to double the time you spend walking.    When you’re being paid at a certain hourly rate, if you want to double the money you earn, you need to double the hours you work.    When you’re buying a certain product, if you want to buy double the number of items, you need to double the amount of money you spend.    When you’re making a photo bigger, if you want to make the double the width of a photo, you also need to double the height of the photo.      You get paid $350 for 6 hours of work. How much would you get paid for 8 hours of work?  Solution: The pay for 8 hours of work is unknown, so represent it by a variable, .  We can organize this problem in a table:     Old  New    Pay  $35     Hours  6  8    The columns can be turned into ratios, and we can put an = sign between them: Now, we can solve this equation by multiplying both sides by 8:  Since is money, it makes sense to write our answer as a decimal: So, if we work 8 hours, we will earn about $466.67.    Be Careful!  When we set up our table and proportion, we always put the quantity we want in the top row. This makes the equation much easier to solve.    Season 6, Episode 4 Practice Problems   A worker earns $18 per hour. How much will they earn if they work for 7 hours?    If 4 kilograms of rice cost $12, how much will 10 kilograms cost at the same rate?    A car travels 120 km in 2 hours at a constant speed. How far will it travel in 5 hours?    A recipe requires 300 g of flour to make 6 muffins. How much flour is needed to make 15 muffins?    A truck uses 8 liters of fuel to travel 100 km. How many liters will it use to travel 350 km?    A printer produces 45 pages in 3 minutes. How many pages will it print in 12 minutes?    If 6 movie tickets cost $54, what is the cost of 9 tickets?    A steady electric current transfers 20 coulombs of charge in 4 seconds. How much charge is transferred in 15 seconds?    A factory packs 240 bottles into 8 boxes. How many bottles will be packed into 15 boxes at the same rate?    A liquid has a weight of 1.5 kg for every 1.2 liters. What will be the weight of 5 liters of the liquid?    A painter covers 18 square meters in 3 hours. How much area will the painter cover in 10 hours?    If $250 is equal to 200 euros, how many euros will $475 be worth at the same exchange rate?    A download uses 600 MB of data in 5 minutes at a constant speed. How much data is used in 18 minutes?    A bakery uses 1.5 kg of sugar to bake 120 cookies. How much sugar is needed to bake 350 cookies?    "
+},
+{
+  "id": "def-proportion",
+  "level": "2",
+  "url": "sec-s06e04.html#def-proportion",
+  "type": "Definition",
+  "number": "6.4.1",
+  "title": "",
+  "body": "  A proportion is an equation that you get by setting two different-looking ratios equal to each other.   "
+},
+{
+  "id": "sec-s06e04-11",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-11",
+  "type": "Example",
+  "number": "6.4.2",
+  "title": "",
+  "body": " You get paid $350 for 6 hours of work. How much would you get paid for 8 hours of work?  Solution: The pay for 8 hours of work is unknown, so represent it by a variable, .  We can organize this problem in a table:     Old  New    Pay  $35     Hours  6  8    The columns can be turned into ratios, and we can put an = sign between them: Now, we can solve this equation by multiplying both sides by 8:  Since is money, it makes sense to write our answer as a decimal: So, if we work 8 hours, we will earn about $466.67.  "
+},
+{
+  "id": "sec-s06e04-13-2",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-2",
+  "type": "Worksheet Exercise",
+  "number": "6.4.1",
+  "title": "",
+  "body": " A worker earns $18 per hour. How much will they earn if they work for 7 hours?  "
+},
+{
+  "id": "sec-s06e04-13-3",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-3",
+  "type": "Worksheet Exercise",
+  "number": "6.4.2",
+  "title": "",
+  "body": " If 4 kilograms of rice cost $12, how much will 10 kilograms cost at the same rate?  "
+},
+{
+  "id": "sec-s06e04-13-4",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-4",
+  "type": "Worksheet Exercise",
+  "number": "6.4.3",
+  "title": "",
+  "body": " A car travels 120 km in 2 hours at a constant speed. How far will it travel in 5 hours?  "
+},
+{
+  "id": "sec-s06e04-13-5",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-5",
+  "type": "Worksheet Exercise",
+  "number": "6.4.4",
+  "title": "",
+  "body": " A recipe requires 300 g of flour to make 6 muffins. How much flour is needed to make 15 muffins?  "
+},
+{
+  "id": "sec-s06e04-13-6",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-6",
+  "type": "Worksheet Exercise",
+  "number": "6.4.5",
+  "title": "",
+  "body": " A truck uses 8 liters of fuel to travel 100 km. How many liters will it use to travel 350 km?  "
+},
+{
+  "id": "sec-s06e04-13-7",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-7",
+  "type": "Worksheet Exercise",
+  "number": "6.4.6",
+  "title": "",
+  "body": " A printer produces 45 pages in 3 minutes. How many pages will it print in 12 minutes?  "
+},
+{
+  "id": "sec-s06e04-13-8",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-8",
+  "type": "Worksheet Exercise",
+  "number": "6.4.7",
+  "title": "",
+  "body": " If 6 movie tickets cost $54, what is the cost of 9 tickets?  "
+},
+{
+  "id": "sec-s06e04-13-9",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-9",
+  "type": "Worksheet Exercise",
+  "number": "6.4.8",
+  "title": "",
+  "body": " A steady electric current transfers 20 coulombs of charge in 4 seconds. How much charge is transferred in 15 seconds?  "
+},
+{
+  "id": "sec-s06e04-13-10",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-10",
+  "type": "Worksheet Exercise",
+  "number": "6.4.9",
+  "title": "",
+  "body": " A factory packs 240 bottles into 8 boxes. How many bottles will be packed into 15 boxes at the same rate?  "
+},
+{
+  "id": "sec-s06e04-13-11",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-11",
+  "type": "Worksheet Exercise",
+  "number": "6.4.10",
+  "title": "",
+  "body": " A liquid has a weight of 1.5 kg for every 1.2 liters. What will be the weight of 5 liters of the liquid?  "
+},
+{
+  "id": "sec-s06e04-13-12",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-12",
+  "type": "Worksheet Exercise",
+  "number": "6.4.11",
+  "title": "",
+  "body": " A painter covers 18 square meters in 3 hours. How much area will the painter cover in 10 hours?  "
+},
+{
+  "id": "sec-s06e04-13-13",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-13",
+  "type": "Worksheet Exercise",
+  "number": "6.4.12",
+  "title": "",
+  "body": " If $250 is equal to 200 euros, how many euros will $475 be worth at the same exchange rate?  "
+},
+{
+  "id": "sec-s06e04-13-14",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-14",
+  "type": "Worksheet Exercise",
+  "number": "6.4.13",
+  "title": "",
+  "body": " A download uses 600 MB of data in 5 minutes at a constant speed. How much data is used in 18 minutes?  "
+},
+{
+  "id": "sec-s06e04-13-15",
+  "level": "2",
+  "url": "sec-s06e04.html#sec-s06e04-13-15",
+  "type": "Worksheet Exercise",
+  "number": "6.4.14",
+  "title": "",
+  "body": " A bakery uses 1.5 kg of sugar to bake 120 cookies. How much sugar is needed to bake 350 cookies?  "
+},
+{
+  "id": "sec-s06e05",
+  "level": "1",
+  "url": "sec-s06e05.html",
+  "type": "Section",
+  "number": "6.5",
+  "title": "Episode 5: More Percent Problems",
+  "body": " Episode 5: More Percent Problems   Episode 5 Learning Goals     Solve percent problems of the form: [Number] is what percent of [Another Number]?    Solve percent problems of the form [Number] is [Given Percent] of what?      In Season 04, we answered percent problems like the following.   Review Example: What is 41% of 29?   Review Solution: We translate the word “of” into multiplication: Then we convert the percent to a decimal so we can complete the calculation: In this episode, we will solve more complicated percent problems by setting up and solving equations.   Solving General Percent Problems    Translate the problem into an equation:   Translate the quantity you’re looking for (common keyword: “what”) into a variable, such as or .    Translate the “is” into an equals sign.    Translate the “of” into multiplication.       If necessary, solve the equation.    If necessary, turn the percent into a decimal to complete the calculations.    If necessary, reformat your final answer to match the problem instructions.      What is 41% of 29?  Solution (Using the General Step-by-Step Process):   Translate the problem into an equation using the keywords.     It is NOT necessary, in this problem, to solve this equation for x, because here, the x is already isolated on one side of the = sign. We move on to Step 2.    It IS necessary, in this problem, to turn the percent into a decimal to complete the calculations:      It is NOT necessary, in this problem, to reformat our final answer, because the problem has not given us any specific instructions about how our answer should be formatted.   So, the final answer is The same answer we got before. In other words, 41% of 29 is 11.89.    4 is 30% of what number? Write your answer as a decimal rounded to 2 decimal places.  Solution:   Translate the problem into an equation using the keywords. Because it is messy to put right next to , I will use the letter in this problem for the variable.     It IS necessary, in this problem, to solve for , because here, is being affected by a multiplied 30%. We can get rid of the multiplied 30% using a divided 30%:      It IS necessary, in this problem, to convert the percent to a decimal to complete the calculation:      It IS necessary, in this problem, to reformat our final answer, because this question asked us to round our answer to 2 decimal places:    In other words, 4 is 30% of 13.33.    5 is what percent of 20?  Solution:   Translate the problem into an equation:     It IS necessary, in this problem, to solve for .      It is NOT necessary, in this problem, to rewrite percents as decimals to complete calculations.    It IS necessary, in this problem, to rewrite our final answer. The question asked us, “what percent?” So we should format our final answer as a percent. Begin by dividing 5 by 20 in the calculator: Then move the decimal point 2 places to the right and attach the % sign:    In other words, 5 is 25% of 20.    Season 6, Episode 5 Practice Problems     What is 0.5% of 320?      What is 150% of 48?      What is 12% of 75?      What is 225% of 64?      What is 87.5% of 160?      What is 0.25% of 2400?        24 is 12% of what?      3 is 0.5% of what?      180 is 225% of what?      90 is 150% of what?      4 is 0.25% of what?      What is 0.25% of 2400?        18 is what percent of 72?      150 is what percent of 100?      45 is what percent of 30?      7.5 is what percent of 25?      12 is what percent of 80?      96 is what percent of 64?      Because of inflation, the current price of eggs is 180% of the price last year. If the current price of eggs is $3.18 (per dozen), what was the price of eggs last year? [In other words, 3.18 is 180% of what?]    A jacket originally cost $40. Then it was marked down to 60% of its original price. What is the new price? [In other words, what is 60% of 40?]    An exam is worth 42 points. A student earns 37 points. What is their score as a percent? [In other words, 27 is what percent of 42?]    "
+},
+{
+  "id": "sec-s06e05-7",
+  "level": "2",
+  "url": "sec-s06e05.html#sec-s06e05-7",
+  "type": "Example",
+  "number": "6.5.1",
+  "title": "",
+  "body": " What is 41% of 29?  Solution (Using the General Step-by-Step Process):   Translate the problem into an equation using the keywords.     It is NOT necessary, in this problem, to solve this equation for x, because here, the x is already isolated on one side of the = sign. We move on to Step 2.    It IS necessary, in this problem, to turn the percent into a decimal to complete the calculations:      It is NOT necessary, in this problem, to reformat our final answer, because the problem has not given us any specific instructions about how our answer should be formatted.   So, the final answer is The same answer we got before. In other words, 41% of 29 is 11.89.  "
+},
+{
+  "id": "sec-s06e05-8",
+  "level": "2",
+  "url": "sec-s06e05.html#sec-s06e05-8",
+  "type": "Example",
+  "number": "6.5.2",
+  "title": "",
+  "body": " 4 is 30% of what number? Write your answer as a decimal rounded to 2 decimal places.  Solution:   Translate the problem into an equation using the keywords. Because it is messy to put right next to , I will use the letter in this problem for the variable.     It IS necessary, in this problem, to solve for , because here, is being affected by a multiplied 30%. We can get rid of the multiplied 30% using a divided 30%:      It IS necessary, in this problem, to convert the percent to a decimal to complete the calculation:      It IS necessary, in this problem, to reformat our final answer, because this question asked us to round our answer to 2 decimal places:    In other words, 4 is 30% of 13.33.  "
+},
+{
+  "id": "sec-s06e05-9",
+  "level": "2",
+  "url": "sec-s06e05.html#sec-s06e05-9",
+  "type": "Example",
+  "number": "6.5.3",
+  "title": "",
+  "body": " 5 is what percent of 20?  Solution:   Translate the problem into an equation:     It IS necessary, in this problem, to solve for .      It is NOT necessary, in this problem, to rewrite percents as decimals to complete calculations.    It IS necessary, in this problem, to rewrite our final answer. The question asked us, “what percent?” So we should format our final answer as a percent. Begin by dividing 5 by 20 in the calculator: Then move the decimal point 2 places to the right and attach the % sign:    In other words, 5 is 25% of 20.  "
+},
+{
+  "id": "ws-s06e05-2",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-2",
+  "type": "Worksheet Exercise",
+  "number": "6.5.1",
+  "title": "",
+  "body": "   What is 0.5% of 320?      What is 150% of 48?      What is 12% of 75?      What is 225% of 64?      What is 87.5% of 160?      What is 0.25% of 2400?    "
+},
+{
+  "id": "ws-s06e05-3",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-3",
+  "type": "Worksheet Exercise",
+  "number": "6.5.2",
+  "title": "",
+  "body": "   24 is 12% of what?      3 is 0.5% of what?      180 is 225% of what?      90 is 150% of what?      4 is 0.25% of what?      What is 0.25% of 2400?    "
+},
+{
+  "id": "ws-s06e05-4",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-4",
+  "type": "Worksheet Exercise",
+  "number": "6.5.3",
+  "title": "",
+  "body": "   18 is what percent of 72?      150 is what percent of 100?      45 is what percent of 30?      7.5 is what percent of 25?      12 is what percent of 80?      96 is what percent of 64?    "
+},
+{
+  "id": "ws-s06e05-5",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-5",
+  "type": "Worksheet Exercise",
+  "number": "6.5.4",
+  "title": "",
+  "body": " Because of inflation, the current price of eggs is 180% of the price last year. If the current price of eggs is $3.18 (per dozen), what was the price of eggs last year? [In other words, 3.18 is 180% of what?]  "
+},
+{
+  "id": "ws-s06e05-6",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-6",
+  "type": "Worksheet Exercise",
+  "number": "6.5.5",
+  "title": "",
+  "body": " A jacket originally cost $40. Then it was marked down to 60% of its original price. What is the new price? [In other words, what is 60% of 40?]  "
+},
+{
+  "id": "ws-s06e05-7",
+  "level": "2",
+  "url": "sec-s06e05.html#ws-s06e05-7",
+  "type": "Worksheet Exercise",
+  "number": "6.5.6",
+  "title": "",
+  "body": " An exam is worth 42 points. A student earns 37 points. What is their score as a percent? [In other words, 27 is what percent of 42?]  "
+},
+{
+  "id": "sec-s07e01",
+  "level": "1",
+  "url": "sec-s07e01.html",
+  "type": "Section",
+  "number": "7.1",
+  "title": "Episode 1: Adding and Subtracting with Variables",
+  "body": " Episode 1: Adding and Subtracting with Variables   Episode 1 Learning Goals     Identify when two terms are like    Add\/subtract with variables by combining like terms       Episode 1 Key Terminology     Term    Coefficient    Like term    Polynomial        A term is a product of variables and numbers. In other words, a term is created by multiplying together numbers and variables.      The coefficient of a term is the term’s number.    For example: is one term, because it’s a product of the number 3 and the variable . The coefficient of the term is the number 3.  For another example: is one term, because it’s a product of the number 5 and two copies of the variable . The coefficient of the term is the number 5.  For a third example: is one term, because you can think about it as a product of the number 1 and the variables and . The coefficient of the term is the number 1.  For a fourth example: is one term, because you can think about it as a product of the number -1 and the variable . The coefficient of the term is the number -1.  For a final example: is one term, even though it’s just a number and doesn’t contain any variables. The coefficient of the term is the number 9.  By contrast, an expression like contains TWO terms, and .  An expression like contains THREE terms, and and 3.    An expression containing multiple terms is called a polynomial .      Two terms are called like terms if they are exactly the same or the only difference between them is the coefficient.    For example:    and are like terms because the only difference between them is the coefficient.     and are NOT like terms because there’s a difference in the variable portion of the term.     and are like terms because the only difference between them is the coefficient.     and are like terms because they are exactly the same.     If like terms are added or subtracted, they can be combined into a single term. This has the effect of simplifying the expression.   How to Add\/Subtract with Variables    Look for all the like terms in the expression.    Add \/ subtract the like terms by adding \/ subtracting their coefficients.      Simplify the expression:   Solution: This expression asks us to add two like terms, and . So, we can add their coefficients, , and this gives us the answer:     Simplify the expression:   Solution: This expression asks us to subtract two like terms, and . So, we can subtract their coefficients, , and this gives us the answer     Simplify the expression:   Solution: This expression asks us to subtract two like terms, and . So, we can subtract their coefficients, , and this gives us the answer:     Simplify the expression:   Solution: This expression asks us to add two like terms, so we can add their coefficients:    This gives us the final answer:     Simplify the expression:   Solution: Look for like terms in the expression. The terms and are like, and the terms 2 and 7 are like.  Combine the first two terms by adding their coefficients: Combine the second two terms by adding their coefficients: This makes our final answer:     Simplify the expression:   Solution: Look for like terms in the expression that can be combined:  This makes our final answer:     x^2+4x-1-2x^2-4x+3  Solution: Look for like terms in the expression. (This is because, when we look at the coefficients, 1-2=-1.) (This is because a positive cancels out a negative .) This makes our final answer:     Simplify the expression:   Solution: This notation is asking us to subtract the entire quantity . Instead of subtracting the entire quantity, we can separately subtract and separately subtract : Now, we remember that subtracting an integer like is the same as adding its opposite: 3x+2-5x+3 Now we can combine like terms:  This gives us a final answer:     Makes Sense, Right?  Imagine you have $100 in your bank account you want to buy a book costing B dollars and a coat costing C dollars.  On the one hand, you could put both the book and the jacket in your shopping cart and pay for both of them at once. That would be like On the other hand, you could pay for the book first and separately pay for the jacket. That would be like This is why, when we’re subtracting a quantity in parentheses, we can separately subtract each term in the parentheses.    Seaon 7, Episode 1 Practice Problems    Simplify the following expressions.                                                                                                                                                 Simplify     Simplify     "
+},
+{
+  "id": "def-term",
+  "level": "2",
+  "url": "sec-s07e01.html#def-term",
+  "type": "Definition",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  A term is a product of variables and numbers. In other words, a term is created by multiplying together numbers and variables.   "
+},
+{
+  "id": "def-coefficient",
+  "level": "2",
+  "url": "sec-s07e01.html#def-coefficient",
+  "type": "Definition",
+  "number": "7.1.2",
+  "title": "",
+  "body": "  The coefficient of a term is the term’s number.   "
+},
+{
+  "id": "def-polynomial",
+  "level": "2",
+  "url": "sec-s07e01.html#def-polynomial",
+  "type": "Definition",
+  "number": "7.1.3",
+  "title": "",
+  "body": "  An expression containing multiple terms is called a polynomial .   "
+},
+{
+  "id": "def-like-terms",
+  "level": "2",
+  "url": "sec-s07e01.html#def-like-terms",
+  "type": "Definition",
+  "number": "7.1.4",
+  "title": "",
+  "body": "  Two terms are called like terms if they are exactly the same or the only difference between them is the coefficient.   "
+},
+{
+  "id": "sec-s07e01-18",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-18",
+  "type": "Example",
+  "number": "7.1.5",
+  "title": "",
+  "body": " Simplify the expression:   Solution: This expression asks us to add two like terms, and . So, we can add their coefficients, , and this gives us the answer:   "
+},
+{
+  "id": "sec-s07e01-19",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-19",
+  "type": "Example",
+  "number": "7.1.6",
+  "title": "",
+  "body": " Simplify the expression:   Solution: This expression asks us to subtract two like terms, and . So, we can subtract their coefficients, , and this gives us the answer   "
+},
+{
+  "id": "sec-s07e01-20",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-20",
+  "type": "Example",
+  "number": "7.1.7",
+  "title": "",
+  "body": " Simplify the expression:   Solution: This expression asks us to subtract two like terms, and . So, we can subtract their coefficients, , and this gives us the answer:   "
+},
+{
+  "id": "sec-s07e01-21",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-21",
+  "type": "Example",
+  "number": "7.1.8",
+  "title": "",
+  "body": " Simplify the expression:   Solution: This expression asks us to add two like terms, so we can add their coefficients:    This gives us the final answer:   "
+},
+{
+  "id": "sec-s07e01-22",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-22",
+  "type": "Example",
+  "number": "7.1.9",
+  "title": "",
+  "body": " Simplify the expression:   Solution: Look for like terms in the expression. The terms and are like, and the terms 2 and 7 are like.  Combine the first two terms by adding their coefficients: Combine the second two terms by adding their coefficients: This makes our final answer:   "
+},
+{
+  "id": "sec-s07e01-23",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-23",
+  "type": "Example",
+  "number": "7.1.10",
+  "title": "",
+  "body": " Simplify the expression:   Solution: Look for like terms in the expression that can be combined:  This makes our final answer:   "
+},
+{
+  "id": "sec-s07e01-24",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-24",
+  "type": "Example",
+  "number": "7.1.11",
+  "title": "",
+  "body": " x^2+4x-1-2x^2-4x+3  Solution: Look for like terms in the expression. (This is because, when we look at the coefficients, 1-2=-1.) (This is because a positive cancels out a negative .) This makes our final answer:   "
+},
+{
+  "id": "sec-s07e01-25",
+  "level": "2",
+  "url": "sec-s07e01.html#sec-s07e01-25",
+  "type": "Example",
+  "number": "7.1.12",
+  "title": "",
+  "body": " Simplify the expression:   Solution: This notation is asking us to subtract the entire quantity . Instead of subtracting the entire quantity, we can separately subtract and separately subtract : Now, we remember that subtracting an integer like is the same as adding its opposite: 3x+2-5x+3 Now we can combine like terms:  This gives us a final answer:   "
+},
+{
+  "id": "ws-s07e01-2",
+  "level": "2",
+  "url": "sec-s07e01.html#ws-s07e01-2",
+  "type": "Worksheet Exercise",
+  "number": "7.1.1",
+  "title": "",
+  "body": "  Simplify the following expressions.                                                                                                                                               "
+},
+{
+  "id": "ws-s07e01-3",
+  "level": "2",
+  "url": "sec-s07e01.html#ws-s07e01-3",
+  "type": "Worksheet Exercise",
+  "number": "7.1.2",
+  "title": "",
+  "body": " Simplify   "
+},
+{
+  "id": "ws-s07e01-4",
+  "level": "2",
+  "url": "sec-s07e01.html#ws-s07e01-4",
+  "type": "Worksheet Exercise",
+  "number": "7.1.3",
+  "title": "",
+  "body": " Simplify   "
+},
+{
+  "id": "sec-s07e02",
+  "level": "1",
+  "url": "sec-s07e02.html",
+  "type": "Section",
+  "number": "7.2",
+  "title": "Episode 2: Solving Multi-step Equations",
+  "body": " Episode 2: Solving Multi-step Equations   Episode 2 Learning Goals     Solve equations that have variables on both sides of the = sign.      When we’re solving an equation that has variables on both sides of the = sign, we start by “moving” all the terms that contain a variable to one side of the = sign. Then, we move all the terms that don’t contain a variable to the other side of the = sign.   To Solve Equations that Have Variables on Both Sides    Add or subtract terms to cancel out all the variables on one side of the equation.    Clean up the equation by combining like terms.    Add or subtract terms to cancel out all the numbers on the other side of the equation.    Clean up the equation by combining like terms.    If necessary, finish isolating the variable using multiplication or division.      Solve the equation:    Solution 1: Let’s try moving all the x terms to the left side of the =.  To get rid of the on the right side, we can subtract . Since we’re subtracting on the right side, we must also subtract on the left to keep the equation balanced: Now let’s clean this up by combining like terms: Now let’s move all the numbers to the right side of the =. To get rid of the 1 on the left, we can subtract 1 from both sides:     Solution 2: Let’s try moving all the x terms to the right side of the =.  To get rid of the on the left, we can subtract from both sides: Now we combine like terms: Now let’s move all the numbers to the left side. To get rid of the 4 on the right, we subtract 4 from both sides.  Now, to get rid of the multiplied (-1) on the , we divide by (-1):      Notice Something Neat!  It doesn’t matter whether we move the variables to the left side or to the right side of the equation. You get the same answer in the end either way.    Solve:   Solution: Let’s try moving all the terms to the right side of the equation.  Tp get rid of the on the left, we can subtract from both sides:  Now we need to combine the like terms, which means we need to combine the coefficients:    This means our equation becomes: Finally, we divide both sides by 1\/12 to get rid of the multiplied 1\/12:        Season 7, Episode 2 Practice Problems  Solve the following equations:                                                               "
+},
+{
+  "id": "sec-s07e02-5",
+  "level": "2",
+  "url": "sec-s07e02.html#sec-s07e02-5",
+  "type": "Example",
+  "number": "7.2.1",
+  "title": "",
+  "body": " Solve the equation:    Solution 1: Let’s try moving all the x terms to the left side of the =.  To get rid of the on the right side, we can subtract . Since we’re subtracting on the right side, we must also subtract on the left to keep the equation balanced: Now let’s clean this up by combining like terms: Now let’s move all the numbers to the right side of the =. To get rid of the 1 on the left, we can subtract 1 from both sides:     Solution 2: Let’s try moving all the x terms to the right side of the =.  To get rid of the on the left, we can subtract from both sides: Now we combine like terms: Now let’s move all the numbers to the left side. To get rid of the 4 on the right, we subtract 4 from both sides.  Now, to get rid of the multiplied (-1) on the , we divide by (-1):    "
+},
+{
+  "id": "sec-s07e02-7",
+  "level": "2",
+  "url": "sec-s07e02.html#sec-s07e02-7",
+  "type": "Example",
+  "number": "7.2.2",
+  "title": "",
+  "body": " Solve:   Solution: Let’s try moving all the terms to the right side of the equation.  Tp get rid of the on the left, we can subtract from both sides:  Now we need to combine the like terms, which means we need to combine the coefficients:    This means our equation becomes: Finally, we divide both sides by 1\/12 to get rid of the multiplied 1\/12:      "
+},
+{
+  "id": "ws-s07e02-3",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-3",
+  "type": "Worksheet Exercise",
+  "number": "7.2.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-4",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-4",
+  "type": "Worksheet Exercise",
+  "number": "7.2.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-5",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-5",
+  "type": "Worksheet Exercise",
+  "number": "7.2.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-6",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-6",
+  "type": "Worksheet Exercise",
+  "number": "7.2.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-7",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-7",
+  "type": "Worksheet Exercise",
+  "number": "7.2.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-8",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-8",
+  "type": "Worksheet Exercise",
+  "number": "7.2.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-9",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-9",
+  "type": "Worksheet Exercise",
+  "number": "7.2.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-10",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-10",
+  "type": "Worksheet Exercise",
+  "number": "7.2.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-11",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-11",
+  "type": "Worksheet Exercise",
+  "number": "7.2.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-12",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-12",
+  "type": "Worksheet Exercise",
+  "number": "7.2.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-13",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-13",
+  "type": "Worksheet Exercise",
+  "number": "7.2.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-14",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-14",
+  "type": "Worksheet Exercise",
+  "number": "7.2.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-15",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-15",
+  "type": "Worksheet Exercise",
+  "number": "7.2.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-16",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-16",
+  "type": "Worksheet Exercise",
+  "number": "7.2.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-17",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-17",
+  "type": "Worksheet Exercise",
+  "number": "7.2.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-18",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-18",
+  "type": "Worksheet Exercise",
+  "number": "7.2.16",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-19",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-19",
+  "type": "Worksheet Exercise",
+  "number": "7.2.17",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-20",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-20",
+  "type": "Worksheet Exercise",
+  "number": "7.2.18",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-21",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-21",
+  "type": "Worksheet Exercise",
+  "number": "7.2.19",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e02-22",
+  "level": "2",
+  "url": "sec-s07e02.html#ws-s07e02-22",
+  "type": "Worksheet Exercise",
+  "number": "7.2.20",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-s07e03",
+  "level": "1",
+  "url": "sec-s07e03.html",
+  "type": "Section",
+  "number": "7.3",
+  "title": "Episode 3: Multiplying with Variables, Part 1",
+  "body": " Episode 3: Multiplying with Variables, Part 1   Episode 3 Learning Goals     Multiply one term by another term.    Use distribution to multiply a term by a polynomial.       Episode 3 Key Terminology     Distribution      Remember from Season 1 that an exponent means repeated multiplication: Remembering the meaning of exponents allows us to multiply expressions that contain variables.   Simplify:   Solution: The term consists of 3 multiplied x’s, and the term consists of 4 multiplied x’s: In total, we see we have 7 multiplied x’s, so the final answer is:     Simplify:   Solution: Unpack the exponents: All together, we have a coefficient of , and we have 4 multiplied x’s, so the final answer is:     Simplify:   Solution: Unpack the exponents: We have a coefficient of , and we have 6 multiplied x’s, so the final answer is:     Be Careful!  Notice the difference between and ?  In the first expression, the - sign next to 7 means negative or opposite. That’s because there is a ( symbol to the left of that - sign (see Season 02).  In the second expression, the - sign next to 7 means subtract. There’s because there is value to the left of the -.  The first expression can be simplified: But notice that the second expression cannot, because the terms are not like:      For problems that contain a mixture of addition, subtraction, and multiplication, distribution tells us how multiplication interacts with addition and subtraction.     Simplify:   Solution: Here, we are asked to take the quantity and multiply that quantity by 2. Instead, we will separately multiply by 2 and 5 by 2.  In other words, we distribute a copy of 2 to each term inside the parentheses.      Makes Sense, Right?  Imagine you get a snack pack containing 4 carrots and cookies: If you get two snack packs: then you’ll end up with double the number of carrots and double the number of cookies: This is why we can distribute to each term inside the parentheses.    Simplify:   Solution: We distribute a copy of to each term inside the parentheses: Now, let’s simplify each term:   So our final answer is:     Season 7, Episode 3 Practice Problems  Simplify:                                      Simplify:                                       "
+},
+{
+  "id": "sec-s07e03-5",
+  "level": "2",
+  "url": "sec-s07e03.html#sec-s07e03-5",
+  "type": "Example",
+  "number": "7.3.1",
+  "title": "",
+  "body": " Simplify:   Solution: The term consists of 3 multiplied x’s, and the term consists of 4 multiplied x’s: In total, we see we have 7 multiplied x’s, so the final answer is:   "
+},
+{
+  "id": "sec-s07e03-6",
+  "level": "2",
+  "url": "sec-s07e03.html#sec-s07e03-6",
+  "type": "Example",
+  "number": "7.3.2",
+  "title": "",
+  "body": " Simplify:   Solution: Unpack the exponents: All together, we have a coefficient of , and we have 4 multiplied x’s, so the final answer is:   "
+},
+{
+  "id": "sec-s07e03-7",
+  "level": "2",
+  "url": "sec-s07e03.html#sec-s07e03-7",
+  "type": "Example",
+  "number": "7.3.3",
+  "title": "",
+  "body": " Simplify:   Solution: Unpack the exponents: We have a coefficient of , and we have 6 multiplied x’s, so the final answer is:   "
+},
+{
+  "id": "def-distribution",
+  "level": "2",
+  "url": "sec-s07e03.html#def-distribution",
+  "type": "Definition",
+  "number": "7.3.4",
+  "title": "",
+  "body": "  For problems that contain a mixture of addition, subtraction, and multiplication, distribution tells us how multiplication interacts with addition and subtraction.   "
+},
+{
+  "id": "sec-s07e03-10",
+  "level": "2",
+  "url": "sec-s07e03.html#sec-s07e03-10",
+  "type": "Example",
+  "number": "7.3.5",
+  "title": "",
+  "body": " Simplify:   Solution: Here, we are asked to take the quantity and multiply that quantity by 2. Instead, we will separately multiply by 2 and 5 by 2.  In other words, we distribute a copy of 2 to each term inside the parentheses.    "
+},
+{
+  "id": "sec-s07e03-12",
+  "level": "2",
+  "url": "sec-s07e03.html#sec-s07e03-12",
+  "type": "Example",
+  "number": "7.3.6",
+  "title": "",
+  "body": " Simplify:   Solution: We distribute a copy of to each term inside the parentheses: Now, let’s simplify each term:   So our final answer is:   "
+},
+{
+  "id": "ws-s07e03-3",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-3",
+  "type": "Worksheet Exercise",
+  "number": "7.3.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-4",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-4",
+  "type": "Worksheet Exercise",
+  "number": "7.3.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-5",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-5",
+  "type": "Worksheet Exercise",
+  "number": "7.3.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-6",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-6",
+  "type": "Worksheet Exercise",
+  "number": "7.3.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-7",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-7",
+  "type": "Worksheet Exercise",
+  "number": "7.3.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-8",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-8",
+  "type": "Worksheet Exercise",
+  "number": "7.3.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-9",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-9",
+  "type": "Worksheet Exercise",
+  "number": "7.3.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-10",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-10",
+  "type": "Worksheet Exercise",
+  "number": "7.3.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-11",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-11",
+  "type": "Worksheet Exercise",
+  "number": "7.3.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-12",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-12",
+  "type": "Worksheet Exercise",
+  "number": "7.3.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-13",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-13",
+  "type": "Worksheet Exercise",
+  "number": "7.3.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-14",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-14",
+  "type": "Worksheet Exercise",
+  "number": "7.3.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-16",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-16",
+  "type": "Worksheet Exercise",
+  "number": "7.3.13",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-17",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-17",
+  "type": "Worksheet Exercise",
+  "number": "7.3.14",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-18",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-18",
+  "type": "Worksheet Exercise",
+  "number": "7.3.15",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-19",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-19",
+  "type": "Worksheet Exercise",
+  "number": "7.3.16",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-20",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-20",
+  "type": "Worksheet Exercise",
+  "number": "7.3.17",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-21",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-21",
+  "type": "Worksheet Exercise",
+  "number": "7.3.18",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-22",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-22",
+  "type": "Worksheet Exercise",
+  "number": "7.3.19",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-23",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-23",
+  "type": "Worksheet Exercise",
+  "number": "7.3.20",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-24",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-24",
+  "type": "Worksheet Exercise",
+  "number": "7.3.21",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-25",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-25",
+  "type": "Worksheet Exercise",
+  "number": "7.3.22",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-26",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-26",
+  "type": "Worksheet Exercise",
+  "number": "7.3.23",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e03-27",
+  "level": "2",
+  "url": "sec-s07e03.html#ws-s07e03-27",
+  "type": "Worksheet Exercise",
+  "number": "7.3.24",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-s07e04",
+  "level": "1",
+  "url": "sec-s07e04.html",
+  "type": "Section",
+  "number": "7.4",
+  "title": "Episode 4: Solving Equations Requiring Distribution",
+  "body": " Episode 4: Solving Equations Requiring Distribution   Episode 4 Learning Goals  Solve equations that require distribution   You may need to use distribution to solve certain equations.   Solve:   Solution: Start by distributing the 2 on the left side of the equation: Now we can solve the equation using the technique we learned in Episode 2. We can subtract 2x from both sides:  And then we can subtract 4 from both sides:      General Process for Solving Equations    If necessary, distribute.    Add or subtract terms to cancel out all the variables on one side of the equation.    Clean up the equation by combining like terms.    Add or subtract terms to cancel out all the numbers on the other side of the equation.    Clean up the equation by combining like terms.    If necessary, finish isolating the variable using multiplication \/ division.      Solve the equation:   Solution: Start by distributing: Finish the multiplications and  Subtract from both sides to cancel the variables on the right:  Combine like terms by subtracting the fractions : Add 2 to both sides to cancel the number on the left:  Combine like terms by adding the fractions : Finally, isolate by dividing by 1\/6:  Finish the problem by multiplying the fractions :     Solve the equation: Solution: Start by distributing:  We can clean up the equation by combining like terms: Subtract from both sides to cancel the variables on the right, then combine like terms again:  Subtract 22 from both sides to cancel the numbers on the left, then combine like terms again:  Finish isolating by dividing both sides by 3:      Season 7, Episode 4 Practice Problems  Solve the following equations:                                       "
+},
+{
+  "id": "sec-s07e04-4",
+  "level": "2",
+  "url": "sec-s07e04.html#sec-s07e04-4",
+  "type": "Example",
+  "number": "7.4.1",
+  "title": "",
+  "body": " Solve:   Solution: Start by distributing the 2 on the left side of the equation: Now we can solve the equation using the technique we learned in Episode 2. We can subtract 2x from both sides:  And then we can subtract 4 from both sides:    "
+},
+{
+  "id": "sec-s07e04-6",
+  "level": "2",
+  "url": "sec-s07e04.html#sec-s07e04-6",
+  "type": "Example",
+  "number": "7.4.2",
+  "title": "",
+  "body": " Solve the equation:   Solution: Start by distributing: Finish the multiplications and  Subtract from both sides to cancel the variables on the right:  Combine like terms by subtracting the fractions : Add 2 to both sides to cancel the number on the left:  Combine like terms by adding the fractions : Finally, isolate by dividing by 1\/6:  Finish the problem by multiplying the fractions :   "
+},
+{
+  "id": "sec-s07e04-7",
+  "level": "2",
+  "url": "sec-s07e04.html#sec-s07e04-7",
+  "type": "Example",
+  "number": "7.4.3",
+  "title": "",
+  "body": " Solve the equation: Solution: Start by distributing:  We can clean up the equation by combining like terms: Subtract from both sides to cancel the variables on the right, then combine like terms again:  Subtract 22 from both sides to cancel the numbers on the left, then combine like terms again:  Finish isolating by dividing both sides by 3:    "
+},
+{
+  "id": "ws-s07e04-3",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-3",
+  "type": "Worksheet Exercise",
+  "number": "7.4.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-4",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-4",
+  "type": "Worksheet Exercise",
+  "number": "7.4.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-5",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-5",
+  "type": "Worksheet Exercise",
+  "number": "7.4.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-6",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-6",
+  "type": "Worksheet Exercise",
+  "number": "7.4.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-7",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-7",
+  "type": "Worksheet Exercise",
+  "number": "7.4.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-8",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-8",
+  "type": "Worksheet Exercise",
+  "number": "7.4.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-9",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-9",
+  "type": "Worksheet Exercise",
+  "number": "7.4.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-10",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-10",
+  "type": "Worksheet Exercise",
+  "number": "7.4.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-11",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-11",
+  "type": "Worksheet Exercise",
+  "number": "7.4.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-12",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-12",
+  "type": "Worksheet Exercise",
+  "number": "7.4.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-13",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-13",
+  "type": "Worksheet Exercise",
+  "number": "7.4.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e04-14",
+  "level": "2",
+  "url": "sec-s07e04.html#ws-s07e04-14",
+  "type": "Worksheet Exercise",
+  "number": "7.4.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "sec-s07e05",
+  "level": "1",
+  "url": "sec-s07e05.html",
+  "type": "Section",
+  "number": "7.5",
+  "title": "Episode 5: Multiplying with Variables, Part 2",
+  "body": " Episode 5: Multiplying with Variables, Part 2   Episode 5 Learning Goals  Use distribution to multiply a polynomial by a polynomial.    How to Multiply a Polynomial by Another Polynomial:    Distribute every term in the first polynomial to every term in the second polynomial.    Complete all the multiplication.    Combine like terms.      Simplify:   Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. To help organize this, we can make a small table.  We can put the terms of the first polynomial in the first column, the terms of the second polynomial in the first row. Then, we can fill up the rest of the table with the products:              3      Now, we add together all the terms in the table: Finally, combine like terms:     Makes Sense, Right?  Imagine a rectangle with a width of units and a length of units.   a rectanlge with areas that add up to the desired result of distribution   On the one hand, the area of the rectangle is going to be its length times its width, At the same time, the area of the rectangle is going to be the areas of all the little rectangles, added together: This is the reason why distribution works.    Simplify:   Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. We can organize this in a table, being careful to include the - signs.              x      -4      Now add together all the terms in the table: Finally, combine like terms:     Simplify:   Solution: Remember that exponents mean repeated multiplication: Now, we distribute:              4      Now, we add together all the terms in the table: Finally, combine like terms:     Season 7, Episode 5 Practice Problems  Simplify the following expressions using distribution.                                        Interlude: Polynomials Practice  Play around with this interactive tool for the University of Colorado's PhET simulations   Area Model Algebra     "
+},
+{
+  "id": "sec-s07e05-4",
+  "level": "2",
+  "url": "sec-s07e05.html#sec-s07e05-4",
+  "type": "Example",
+  "number": "7.5.1",
+  "title": "",
+  "body": " Simplify:   Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. To help organize this, we can make a small table.  We can put the terms of the first polynomial in the first column, the terms of the second polynomial in the first row. Then, we can fill up the rest of the table with the products:              3      Now, we add together all the terms in the table: Finally, combine like terms:   "
+},
+{
+  "id": "sec-s07e05-6",
+  "level": "2",
+  "url": "sec-s07e05.html#sec-s07e05-6",
+  "type": "Example",
+  "number": "7.5.2",
+  "title": "",
+  "body": " Simplify:   Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. We can organize this in a table, being careful to include the - signs.              x      -4      Now add together all the terms in the table: Finally, combine like terms:   "
+},
+{
+  "id": "sec-s07e05-7",
+  "level": "2",
+  "url": "sec-s07e05.html#sec-s07e05-7",
+  "type": "Example",
+  "number": "7.5.3",
+  "title": "",
+  "body": " Simplify:   Solution: Remember that exponents mean repeated multiplication: Now, we distribute:              4      Now, we add together all the terms in the table: Finally, combine like terms:   "
+},
+{
+  "id": "ws-s07e05-3",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-3",
+  "type": "Worksheet Exercise",
+  "number": "7.5.1",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-4",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-4",
+  "type": "Worksheet Exercise",
+  "number": "7.5.2",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-5",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-5",
+  "type": "Worksheet Exercise",
+  "number": "7.5.3",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-6",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-6",
+  "type": "Worksheet Exercise",
+  "number": "7.5.4",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-7",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-7",
+  "type": "Worksheet Exercise",
+  "number": "7.5.5",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-8",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-8",
+  "type": "Worksheet Exercise",
+  "number": "7.5.6",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-9",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-9",
+  "type": "Worksheet Exercise",
+  "number": "7.5.7",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-10",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-10",
+  "type": "Worksheet Exercise",
+  "number": "7.5.8",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-11",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-11",
+  "type": "Worksheet Exercise",
+  "number": "7.5.9",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-12",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-12",
+  "type": "Worksheet Exercise",
+  "number": "7.5.10",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-13",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-13",
+  "type": "Worksheet Exercise",
+  "number": "7.5.11",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "ws-s07e05-14",
+  "level": "2",
+  "url": "sec-s07e05.html#ws-s07e05-14",
+  "type": "Worksheet Exercise",
+  "number": "7.5.12",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "figure-phet-area-model",
+  "level": "2",
+  "url": "sec-s07e05.html#figure-phet-area-model",
+  "type": "Figure",
+  "number": "7.5.4",
+  "title": "",
+  "body": " Area Model Algebra   "
+},
+{
+  "id": "sec-s07e06",
+  "level": "1",
+  "url": "sec-s07e06.html",
+  "type": "Section",
+  "number": "7.6",
+  "title": "Episode 6: Integer Exponents and Exponent Properties",
+  "body": " Episode 6: Integer Exponents and Exponent Properties   Episode 6 Learning Goals     Use exponent properties to simplify expressions      Remember that when we simplified a product like we remembered that exponents indicated repeated multiplication: We observed that we had a total of 7 multiplied x’s, giving us an answer: Notice that we ended up adding the exponents together.    Exponent Property One  Let and stand for two numbers (that may be different from problem to problem).  If you have the base raised to a power, and then you multiply that by the same base raised to a different power, you should add the two exponents together.     Simplify:   It would be tedious to write out 100 x’s and 214 x’s, so instead, we’ll use our exponent property. It tells us we should add the exponents together:    Now let’s think about what happens when we raise something to a power, and then raise that result to another power, like: Remember that an exponent of 4 means multiplying 4 copies of the base together: And each is the same as 3 copies of : In total, we see we have 12 copies of x multiplied together: Notice that we ended up multiplying together the exponents.    Exponent Property Two  Let and stand for two numbers (that may be different from problem to problem).  If you have the base raised to a power, and then you raise that result to another power, you should multiply the two exponents together.     Simplify:   Solution: It would be tedious to write out 20 copies of x, so let’s use our exponent property. It says we should multiply the exponents:    Now let's think about what happens when we multiply two things together, and then raise that result to a power, like: This means we should multiply 3 copies of the base together: All together, we have 3 copies of x and 3 copies of y: Notice that we ended up raising x to the power 3 and separately raising y to the power 3.   Exponent Property Three  Let stand for a number (that may be different from problem to problem).  If you have a product in your base, and you raise that product to a power, you can apply that power to each piece of the product separately:     Simplify:   Solution: It would be tedious to write out 5 copies of , so we use our exponent properties.     Be Careful!  When you apply an exponent to a product, you can apply the exponent to each part of the product: This is the most common mistake that I (Michael) make, forgetting to square the number!  When you apply an exponent to a sum or different, you CANNOT apply the exponent to each part of the sum. Instead, you should distribute:     Season 7, Episode 6 Practice Problems    Use the exponent properties to simplify the following.                                                Use the exponent properties to simplify the following.                                               "
+},
+{
+  "id": "sec-s07e06-5",
+  "level": "2",
+  "url": "sec-s07e06.html#sec-s07e06-5",
+  "type": "Example",
+  "number": "7.6.1",
+  "title": "",
+  "body": " Simplify:   It would be tedious to write out 100 x’s and 214 x’s, so instead, we’ll use our exponent property. It tells us we should add the exponents together:   "
+},
+{
+  "id": "sec-s07e06-8",
+  "level": "2",
+  "url": "sec-s07e06.html#sec-s07e06-8",
+  "type": "Example",
+  "number": "7.6.2",
+  "title": "",
+  "body": " Simplify:   Solution: It would be tedious to write out 20 copies of x, so let’s use our exponent property. It says we should multiply the exponents:   "
+},
+{
+  "id": "sec-s07e06-11",
+  "level": "2",
+  "url": "sec-s07e06.html#sec-s07e06-11",
+  "type": "Example",
+  "number": "7.6.3",
+  "title": "",
+  "body": " Simplify:   Solution: It would be tedious to write out 5 copies of , so we use our exponent properties.   "
+},
+{
+  "id": "ws-s07e06-2",
+  "level": "2",
+  "url": "sec-s07e06.html#ws-s07e06-2",
+  "type": "Worksheet Exercise",
+  "number": "7.6.1",
+  "title": "",
+  "body": "  Use the exponent properties to simplify the following.                                             "
+},
+{
+  "id": "ws-s07e06-3",
+  "level": "2",
+  "url": "sec-s07e06.html#ws-s07e06-3",
+  "type": "Worksheet Exercise",
+  "number": "7.6.2",
+  "title": "",
+  "body": "  Use the exponent properties to simplify the following.                                             "
+},
+{
+  "id": "sec-s07e07",
+  "level": "1",
+  "url": "sec-s07e07.html",
+  "type": "Section",
+  "number": "7.7",
+  "title": "Episode 7: Dividing with Variables",
+  "body": " Episode 7: Dividing with Variables   Episode 7 Learning Goals     Interpret and perform calculations involving negative exponents    Interpret and perform calculations involving zero exponent    Divide a polynomial by a term.      Let's think about what happens in this situation: Let’s unpack the exponents: Each divided x cancels out one of the multiplied x’s: Notice that we ended up subtracting the exponents:    Exponent Property Four  Let and stand for two numbers (that may be different from problem to problem).  If you have the base raised to a power, and then you divide by that same based raised to a different power, you should subtract the two exponents.     Simplify   Solution: It would be tedious to write out 70 and 42 x’s, so we use an exponent property.     Exponent Property Five  If you see something (besides zero) raised to the power 0, the result of that is 1:     Makes Sense, Right?  If we simplified using the exponent property, we would get But at the same time, when you divide something by itself, the result is always 1: That’s why it makes sense to have .    Exponent Property Six  If you see something raised to a negative power, that’s asking you to take the reciprocal:     Makes Sense, Right?  If we calculated using the exponent property, we would get But at the same time, if we unpack the exponents: Three of the multiplied x’s are cancelled by three of the divided x’s, leaving: That’s why it makes sense to have    When we are dividing a polynomial by a term you can divide each part of the polynomial separately:     Makes Sense, Right?  When we learned about fractions, we learned that when we were adding or subtracting two fractions with the same denominator, we just need to add the numerators: When we divide a polynomial, we’re just following this process backward.     Divide   Solution: Divide each term of the numerator separately: Then we can use the exponent properties to simplify each piece:      Divide   Solution: Divide each term of the numerator separately: In the first fraction, the becomes 3, and the becomes . In the second fraction, the becomes 4, and the cancels out to 1.     Exponent Properties  Here is a list of the exponent properties from Episodes 6 and 7                                    Season 7, Episode 7 Practice Problems    Use the exponent properties to simplify                                                Use the exponent properties to simplify                                                Use the exponent properties to simplify                                                Divide:                   "
+},
+{
+  "id": "sec-s07e07-5",
+  "level": "2",
+  "url": "sec-s07e07.html#sec-s07e07-5",
+  "type": "Example",
+  "number": "7.7.1",
+  "title": "",
+  "body": " Simplify   Solution: It would be tedious to write out 70 and 42 x’s, so we use an exponent property.   "
+},
+{
+  "id": "sec-s07e07-12",
+  "level": "2",
+  "url": "sec-s07e07.html#sec-s07e07-12",
+  "type": "Example",
+  "number": "7.7.2",
+  "title": "",
+  "body": " Divide   Solution: Divide each term of the numerator separately: Then we can use the exponent properties to simplify each piece:    "
+},
+{
+  "id": "sec-s07e07-13",
+  "level": "2",
+  "url": "sec-s07e07.html#sec-s07e07-13",
+  "type": "Example",
+  "number": "7.7.3",
+  "title": "",
+  "body": " Divide   Solution: Divide each term of the numerator separately: In the first fraction, the becomes 3, and the becomes . In the second fraction, the becomes 4, and the cancels out to 1.   "
+},
+{
+  "id": "ws-s07e07-2",
+  "level": "2",
+  "url": "sec-s07e07.html#ws-s07e07-2",
+  "type": "Worksheet Exercise",
+  "number": "7.7.1",
+  "title": "",
+  "body": "  Use the exponent properties to simplify                                             "
+},
+{
+  "id": "ws-s07e07-3",
+  "level": "2",
+  "url": "sec-s07e07.html#ws-s07e07-3",
+  "type": "Worksheet Exercise",
+  "number": "7.7.2",
+  "title": "",
+  "body": "  Use the exponent properties to simplify                                             "
+},
+{
+  "id": "ws-s07e07-4",
+  "level": "2",
+  "url": "sec-s07e07.html#ws-s07e07-4",
+  "type": "Worksheet Exercise",
+  "number": "7.7.3",
+  "title": "",
+  "body": "  Use the exponent properties to simplify                                             "
+},
+{
+  "id": "ws-s07e07-5",
+  "level": "2",
+  "url": "sec-s07e07.html#ws-s07e07-5",
+  "type": "Worksheet Exercise",
+  "number": "7.7.4",
+  "title": "",
+  "body": "  Divide:                 "
+},
+{
+  "id": "sec-s07e08",
+  "level": "1",
+  "url": "sec-s07e08.html",
+  "type": "Section",
+  "number": "7.8",
+  "title": "Episode 8: Scientific Notation",
+  "body": " Episode 8: Scientific Notation   Episode 8 Learning Goals     Interpret numbers given in scientific notation.    Express very large or small numbers using scientific notation.       Episode 8 Key Terminology     Scientific notation         Scientific notation is a convenient way to express numbers that are very large or very small using powers of 10.    Notice that every time you multiply a number by 10, it corresponds to a movement of the decimal point: If we rewrite these equations using exponents, we see a pattern:   We’re going to use this pattern to help us write very large numbers like 3,250,000,000.   How to Write a Large Number in Scientific Notation    Move the decimal point to the left until the value of your number is between 1 and 10.    Count the number of steps the decimal point moved in Step 1. Call this number     Take the number from Step 1 and write it multiplied it by       Write the number 3,250,000,000 in scientific notation.  Solution: We move the decimal point to the left until we have a value that’s between 1 and 10: To reach this position, we had to move the decimal point 9 steps. So, we can express 3,250,000,000 in scientific notation as     Write the number 10,082,000,000,000 in scientific notation.  Solution: We move the decimal point to the left until we have a value that’s between 1 and 10: To reach this position, we had to move the decimal point 13 steps. So, we can express 10,082,000,000,000 in scientific notation as    Notice that every time you multiply by 1\/10, it moves the decimal point one step to the right. If we rewrite these equations using negative exponents, we see a pattern:   We’re going to use this pattern to help us write very small numbers like 0.00000325.   How to Write a Small Number in Scientific Notation    Move the decimal point to the right until the value of your number is between 1 and 10.    Count the number of steps the decimal point moved in Step 1. Call this number     Take the number from Step 1 and write it multiplied it by       Write the number 0.00000325 in scientific notation:  Solution: Move the decimal point to the right until we get a value between 1 and 10: To reach this position, we had to move the point 6 steps to the right. So, we can express 0.00000325 in scientific notation as     Write the number 0.0000006845 in scientific notation:  Solution: Move the decimal point to the right until we get a value between 1 and 10: To reach this position, we had to move the point 7 steps to the right. So, we can express 0.0000006845 in scientific notation as    To take a number in scientific notation and turn it back into a number in standard notation, just complete the calculation in the scientific notation.  Write   Solution: We complete the calculation in the scientific notation, following PEMDAS:     Season 7, Episode 8 Practice Problems    Write the following large numbers in scientific notation.     45,000,000      91,000,000,000,000      3,200,000,000      8.070,000,000      789,000,000,000      5,600,000,000,000,000      6,540,000      999,000,000,000       Write the following small numbers in scientific notation.     0.00045      0.00091      0.0032      0.00000654      0.000000078      0.0000000027      0.004      0.000000056       Interlude: Scientific Notation on a Calculator  Some calculators and computers have their own way to display scientific notation. Try entering the numbers from the practice problems with the most zeros and see what happens. Your calculator likely converted it it scientific notation. Some calculators will display like we write it or you may have a small E in place of the . Spreadsheets usually use a lower case e for scientific notation. If you do a lot of number crunching, you will likely run into scientific notation on your calculator at some point, so it is good to familiarize yourself on what your calculator does.  Here a couple of videos on how to use scientific notation on different Texas Instrument calculators   Scientific Notation on a TI-30XIIS     Scientific Notation on a TI-84+       "
+},
+{
+  "id": "def-scientific-notation",
+  "level": "2",
+  "url": "sec-s07e08.html#def-scientific-notation",
+  "type": "Definition",
+  "number": "7.8.1",
+  "title": "",
+  "body": "   Scientific notation is a convenient way to express numbers that are very large or very small using powers of 10.   "
+},
+{
+  "id": "sec-s07e08-8",
+  "level": "2",
+  "url": "sec-s07e08.html#sec-s07e08-8",
+  "type": "Example",
+  "number": "7.8.2",
+  "title": "",
+  "body": " Write the number 3,250,000,000 in scientific notation.  Solution: We move the decimal point to the left until we have a value that’s between 1 and 10: To reach this position, we had to move the decimal point 9 steps. So, we can express 3,250,000,000 in scientific notation as   "
+},
+{
+  "id": "sec-s07e08-9",
+  "level": "2",
+  "url": "sec-s07e08.html#sec-s07e08-9",
+  "type": "Example",
+  "number": "7.8.3",
+  "title": "",
+  "body": " Write the number 10,082,000,000,000 in scientific notation.  Solution: We move the decimal point to the left until we have a value that’s between 1 and 10: To reach this position, we had to move the decimal point 13 steps. So, we can express 10,082,000,000,000 in scientific notation as   "
+},
+{
+  "id": "sec-s07e08-13",
+  "level": "2",
+  "url": "sec-s07e08.html#sec-s07e08-13",
+  "type": "Example",
+  "number": "7.8.4",
+  "title": "",
+  "body": " Write the number 0.00000325 in scientific notation:  Solution: Move the decimal point to the right until we get a value between 1 and 10: To reach this position, we had to move the point 6 steps to the right. So, we can express 0.00000325 in scientific notation as   "
+},
+{
+  "id": "sec-s07e08-14",
+  "level": "2",
+  "url": "sec-s07e08.html#sec-s07e08-14",
+  "type": "Example",
+  "number": "7.8.5",
+  "title": "",
+  "body": " Write the number 0.0000006845 in scientific notation:  Solution: Move the decimal point to the right until we get a value between 1 and 10: To reach this position, we had to move the point 7 steps to the right. So, we can express 0.0000006845 in scientific notation as   "
+},
+{
+  "id": "ws-s07e08-2",
+  "level": "2",
+  "url": "sec-s07e08.html#ws-s07e08-2",
+  "type": "Worksheet Exercise",
+  "number": "7.8.1",
+  "title": "",
+  "body": "  Write the following large numbers in scientific notation.     45,000,000      91,000,000,000,000      3,200,000,000      8.070,000,000      789,000,000,000      5,600,000,000,000,000      6,540,000      999,000,000,000    "
+},
+{
+  "id": "ws-s07e08-3",
+  "level": "2",
+  "url": "sec-s07e08.html#ws-s07e08-3",
+  "type": "Worksheet Exercise",
+  "number": "7.8.2",
+  "title": "",
+  "body": "  Write the following small numbers in scientific notation.     0.00045      0.00091      0.0032      0.00000654      0.000000078      0.0000000027      0.004      0.000000056    "
+},
+{
+  "id": "TI-sn-1",
+  "level": "2",
+  "url": "sec-s07e08.html#TI-sn-1",
+  "type": "Figure",
+  "number": "7.8.6",
+  "title": "",
+  "body": " Scientific Notation on a TI-30XIIS   "
+},
+{
+  "id": "TI-sn-2",
+  "level": "2",
+  "url": "sec-s07e08.html#TI-sn-2",
+  "type": "Figure",
+  "number": "7.8.7",
+  "title": "",
+  "body": " Scientific Notation on a TI-84+   "
+},
+{
+  "id": "sec-s07e09",
+  "level": "1",
+  "url": "sec-s07e09.html",
+  "type": "Section",
+  "number": "7.9",
+  "title": "Episode 9: Rearranging Formulas",
+  "body": " Episode 9: Rearranging Formulas   Episode 9 Learning Goals     In an equation containing multiple variables, rewrite the equation to isolate one of the variables.       Episode 9 Key Terminology     Literal equation      Sometimes equations and formulas contain more than one variable. Such an equation is sometimes called a literal equation .  For example, the formula for the perimeter (P) of a rectangle contains three variables: If we know the length and width of the rectangle, we can easily find the perimeter by plugging into this formula. For example, if and , we get the perimeter: In this case, we did not have to solve an equation to find P, because P was already isolated on one side of the formula.  However, what if we’re given the perimeter and the width of the rectangle, and we want to find the length? For example, what if we’re given and and we want to find W? In this case, we do have to solve an equation to find W, because W is not already isolated on one side of the formula.     If we need to find the widths of lots of different rectangles, it would be tedious to go through this solving process over and over again.  Instead, we could rearrange the original to isolate the variable W instead of the variable P. This is called “solving the equation for W.”   Solve the equation for :  We’re going to pretend that all the variables except for W are numbers. Then we’re going to solve for W using the same steps that we used earlier when we were solving .  Start by using subtraction to move all the terms that do not contain W to the left side of the equation. The added and the subtracted on the right side of the equation cancel out: Now, we divide by 2 to cancel the multiplied “2” on the W. Be careful to divide everything on the left by 2.  Now we have a new version of the perimeter formula, with W isolated instead of P. We can use this modified formula to find W more easily.    A rectangle has a perimeter of 16 and a length of 3. Find the width.  Solution: If we plug and into the modified formula, we can find the width without having to solve any additional equations:        Take the formula for the area of a triangle and solve the formula for .   Solution: Pretend that all the variables besides are numbers, and solve the equation for using our normal process.    Divide both sides by to get rid of the multiplied on the :      Suppose you have a triangle with an area of 30 and a base of 4. Find the triangle’s height.  Solution: If we use our modified formula, we can find the height without having to solve any additional equations:      Season 7, Episode 9 Practice Problems   Solve for :     Solve for :     Solve for :     Solve for :     Solve for :     "
+},
+{
+  "id": "sec-s07e09-4",
+  "level": "2",
+  "url": "sec-s07e09.html#sec-s07e09-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "literal equation "
+},
+{
+  "id": "sec-s07e09-8",
+  "level": "2",
+  "url": "sec-s07e09.html#sec-s07e09-8",
+  "type": "Example",
+  "number": "7.9.1",
+  "title": "",
+  "body": " Solve the equation for :  We’re going to pretend that all the variables except for W are numbers. Then we’re going to solve for W using the same steps that we used earlier when we were solving .  Start by using subtraction to move all the terms that do not contain W to the left side of the equation. The added and the subtracted on the right side of the equation cancel out: Now, we divide by 2 to cancel the multiplied “2” on the W. Be careful to divide everything on the left by 2.  Now we have a new version of the perimeter formula, with W isolated instead of P. We can use this modified formula to find W more easily.  "
+},
+{
+  "id": "sec-s07e09-9",
+  "level": "2",
+  "url": "sec-s07e09.html#sec-s07e09-9",
+  "type": "Example",
+  "number": "7.9.2",
+  "title": "",
+  "body": " A rectangle has a perimeter of 16 and a length of 3. Find the width.  Solution: If we plug and into the modified formula, we can find the width without having to solve any additional equations:      "
+},
+{
+  "id": "sec-s07e09-10",
+  "level": "2",
+  "url": "sec-s07e09.html#sec-s07e09-10",
+  "type": "Example",
+  "number": "7.9.3",
+  "title": "",
+  "body": " Take the formula for the area of a triangle and solve the formula for .   Solution: Pretend that all the variables besides are numbers, and solve the equation for using our normal process.    Divide both sides by to get rid of the multiplied on the :    "
+},
+{
+  "id": "sec-s07e09-11",
+  "level": "2",
+  "url": "sec-s07e09.html#sec-s07e09-11",
+  "type": "Example",
+  "number": "7.9.4",
+  "title": "",
+  "body": " Suppose you have a triangle with an area of 30 and a base of 4. Find the triangle’s height.  Solution: If we use our modified formula, we can find the height without having to solve any additional equations:    "
+},
+{
+  "id": "ws-s07e09-2",
+  "level": "2",
+  "url": "sec-s07e09.html#ws-s07e09-2",
+  "type": "Worksheet Exercise",
+  "number": "7.9.1",
+  "title": "",
+  "body": " Solve for :   "
+},
+{
+  "id": "ws-s07e09-3",
+  "level": "2",
+  "url": "sec-s07e09.html#ws-s07e09-3",
+  "type": "Worksheet Exercise",
+  "number": "7.9.2",
+  "title": "",
+  "body": " Solve for :   "
+},
+{
+  "id": "ws-s07e09-4",
+  "level": "2",
+  "url": "sec-s07e09.html#ws-s07e09-4",
+  "type": "Worksheet Exercise",
+  "number": "7.9.3",
+  "title": "",
+  "body": " Solve for :   "
+},
+{
+  "id": "ws-s07e09-5",
+  "level": "2",
+  "url": "sec-s07e09.html#ws-s07e09-5",
+  "type": "Worksheet Exercise",
+  "number": "7.9.4",
+  "title": "",
+  "body": " Solve for :   "
+},
+{
+  "id": "ws-s07e09-6",
+  "level": "2",
+  "url": "sec-s07e09.html#ws-s07e09-6",
+  "type": "Worksheet Exercise",
+  "number": "7.9.5",
+  "title": "",
+  "body": " Solve for :   "
+},
+{
+  "id": "sec-s08e01",
+  "level": "1",
+  "url": "sec-s08e01.html",
+  "type": "Section",
+  "number": "8.1",
+  "title": "Episode 1: Solving Inequalities, Part 1",
+  "body": " Episode 1: Solving Inequalities, Part 1  "
+},
+{
+  "id": "sec-s08e02",
+  "level": "1",
+  "url": "sec-s08e02.html",
+  "type": "Section",
+  "number": "8.2",
+  "title": "Episode 2: Interval Notation",
+  "body": " Episode 2: Interval Notation  "
+},
+{
+  "id": "sec-s08e03",
+  "level": "1",
+  "url": "sec-s08e03.html",
+  "type": "Section",
+  "number": "8.3",
+  "title": "Episode 3: Solving Inequalities, Part 2",
+  "body": " Episode 3: Solving Inequalities, Part 2  "
+},
+{
+  "id": "sec-s09e01",
+  "level": "1",
+  "url": "sec-s09e01.html",
+  "type": "Section",
+  "number": "9.1",
+  "title": "Episode 1: The xy-Plane",
+  "body": " Episode 1: The xy-Plane  "
+},
+{
+  "id": "sec-s09e02",
+  "level": "1",
+  "url": "sec-s09e02.html",
+  "type": "Section",
+  "number": "9.2",
+  "title": "Episode 2: Plotting Points",
+  "body": " Episode 2: Plotting Points  "
+},
+{
+  "id": "sec-s09e03",
+  "level": "1",
+  "url": "sec-s09e03.html",
+  "type": "Section",
+  "number": "9.3",
+  "title": "Episode 3: Interpreting Graphs",
+  "body": " Episode 3: Interpreting Graphs  "
+},
+{
+  "id": "sec-s09e04",
+  "level": "1",
+  "url": "sec-s09e04.html",
+  "type": "Section",
+  "number": "9.4",
+  "title": "Episode 4: Intercepts",
+  "body": " Episode 4: Intercepts  "
+},
+{
+  "id": "sec-s09e05",
+  "level": "1",
+  "url": "sec-s09e05.html",
+  "type": "Section",
+  "number": "9.5",
+  "title": "Episode 5: Slope of a Line",
+  "body": " Episode 5: Slope of a Line  "
+},
+{
+  "id": "sec-s09e06",
+  "level": "1",
+  "url": "sec-s09e06.html",
+  "type": "Section",
+  "number": "9.6",
+  "title": "Episode 6: Slope-Intercept Form, Part 1",
+  "body": " Episode 6: Slope-Intercept Form, Part 1  "
+},
+{
+  "id": "sec-s09e07",
+  "level": "1",
+  "url": "sec-s09e07.html",
+  "type": "Section",
+  "number": "9.7",
+  "title": "Episode 7: Slope-Intercept Form, Part 7",
+  "body": " Episode 7: Slope-Intercept Form, Part 7  "
+},
+{
+  "id": "sec-s10e01",
+  "level": "1",
+  "url": "sec-s10e01.html",
+  "type": "Section",
+  "number": "10.1",
+  "title": "Episode 1: Solve Systems of Equations by Graphing",
+  "body": " Episode 1: Solve Systems of Equations by Graphing  "
+},
+{
+  "id": "sec-s10e02",
+  "level": "1",
+  "url": "sec-s10e02.html",
+  "type": "Section",
+  "number": "10.2",
+  "title": "Episode 2: Solve Systems of Equations by Substitution",
+  "body": " Episode 2: Solve Systems of Equations by Substitution  "
 },
 {
   "id": "resources",
@@ -2231,6 +7703,33 @@ var ptx_lunr_docs = [
   "number": "1",
   "title": "Additional Resources",
   "body": " Additional Resources  Under Construction  Notes: MLC, measurement help sheet, unit conversion site  "
+},
+{
+  "id": "glossary",
+  "level": "1",
+  "url": "glossary.html",
+  "type": "Glossary",
+  "number": "",
+  "title": "Glossary",
+  "body": " glossary   addition  The operation that corresponds to combining piles of similar objects. Addition is represented using the symbol (“plus”).    area  A measure of the size on the inside of a 2D shape.    circle  A band of made up of all the points that are a certain distance from a center.    circumference  The name for the perimeter of a circle.    coefficient  The coefficient of a term is the term’s number.    cross-cancel  When multiplying fractions, you can simplify your answer before multiplying the numerator and denominator by canceling out common factors.    decimal number  A way of representing a portion of a whole. Decimal numbers are written using a decimal point , which is a period in the middle of the number. The value of a decimal number depends on the digits in the number and the position of each digit relative to the decimal point.    denominator  The number on the bottom of the fraction. In 1\/4, the denominator is 4. The denominator tells you how many pieces you need to cut the whole object into.    diameter  The distance from edge to opposite edge in a circle.    digit  The numbers zero to nine (0 1 2 3 4 5 6 7 8 9).    distribution  For equations that contain a mixture of addition, subtraction, and multiplication, distribution tells us how multiplication interacts with addition and subtraction.    division  The operation that corresponds to splitting a pile into smaller piles.    equation  A line of mathematics containing an = sign.    equivalent  Equal fractions are sometimes also called equivalent fractions    even number  A whole number that can be evenly divided by 2.    expression  An incomplete calculation involving a variable.    formula  An expression involving real-world variables.    fraction  A fraction represents a portion of a whole.    hypotenuse  The longest side in a right triangle. The side across from the right angle.    integer  A whole number that might be positive or negative or zero.    least common denominator (LCD)  The smallest possible common denominator in an addition \/ subtraction problem    leg  The two shorter sides in a right triangle.    like terms  Two terms are called like terms if they are exactly the same or the only difference between them is the coefficient.    literal equation  An equation or formula containing more than one variable.    mean  Also called the average, is a number that we can calculate that will tell us a “typical” or “normal” value for a data set. Specifically, the sum of all of the data values divided by the number of data points.    median  Another number that tells us what’s “normal” or “typical.” Specifically, the middle number in an ordered data set.    multiplication  The operation that corresponds to adding a number to itself repeatedly.    negative number  numbers used to represent quantities below 0.    number line  Like a measuring tape or ruler. But unlike a measuring tape, a number line displays both positive and negative numbers (it displays integers).    numerator  The number on the bottom of the fraction. In 1\/4, the numerator is 1. The numerator tells you how many pieces are in each portion.    odd number  A whole number that cannot be evenly divided by 2.    opposite  The opposite of a positive number is the negative version of that number. The opposite of a negative number is the positive version of that number. The opposite of zero is zero.    percent  An amount out of 100 or a fraction with a denominator of 100. (per = fraction, cent = 100)    perimeter  A measure of the size on the outside of a 2D shape.    polynomial  An expression containing multiple terms.    proportion  An equation that you get by setting two different-looking ratios equal to each other.    radius  The distance from the center of the circle to the edge.    rectangle  A shape with four straight sides and four right angles. Most rooms have a rectangular shape.    right angle  A 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.    right triangle  A triangle that contains a right angle.    rounding  The process of shortening a decimal number to make it easier to work with.    scientific notation  A convenient way to express numbers that are very large or very small using powers of 10.    sign  The sign of an integer tells us whether it's positive, negative, or zero.    simplify (fractions)  Simplify a fraction by dividing the numerator and denominator by the same number. If no whole numbers divide both the numerator and denominator, then the fraction is said to be simplified to lowest terms .    solution  A value that can replace the variable in the equation and make the equation true. Solutions tell you how to achieve the desired result that the equation represents.    square  A special rectangle that has the property that all four sides are the same length    subtraction  The operation that corresponds to removing objects from a pile. Subtraction is represented using the symbol (“minus” or “take away”).    term  A product of variables and numbers.    triangle  A shape with three straight lines.    variable  A number that is changing or that is unknown.   "
+},
+{
+  "id": "glossary-8-2",
+  "level": "2",
+  "url": "glossary.html#glossary-8-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "decimal point "
+},
+{
+  "id": "glossary-45-2",
+  "level": "2",
+  "url": "glossary.html#glossary-45-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "simplified lowest terms "
 }
 ]
 

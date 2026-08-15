@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-def-rectangle-and-square-figure" width="510" height="310" viewBox="0 0 510 310">
+  <defs>
+    <clipPath id="pf-def-rectangle-and-square-__clipPath-0">
+      <rect x="5.0" y="5.0" width="500.0" height="300.0"/>
+    </clipPath>
+    <clipPath id="pf-def-rectangle-and-square-__clipPath-1">
+      <rect x="5.0" y="5.0" width="500.0" height="300.0"/>
+    </clipPath>
+  </defs>
+  <path id="pf-def-rectangle-and-square-__path-0" d="M 30.0 230.0 L 280.0 230.0 L 280.0 80.0 L 30.0 80.0 Z" stroke="red" stroke-width="8" fill="none"/>
+  <path id="pf-def-rectangle-and-square-__path-1" d="M 330.0 230.0 L 480.0 230.0 L 480.0 80.0 L 330.0 80.0 Z" stroke="green" stroke-width="8" fill="none"/>
+  <g id="pf-def-rectangle-and-square-__label-0" transform="translate(155.0,255.0) translate(-42.2,-6.8)">
+    <g id="pf-def-rectangle-and-square-__g-0">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.6">A Rectangle</text>
+    </g>
+  </g>
+  <g id="pf-def-rectangle-and-square-__label-1" transform="translate(405.0,255.0) translate(-31.8,-6.7)">
+    <g id="pf-def-rectangle-and-square-__g-1">
+      <text font-family="sans-serif" font-size="14" x="0.0" y="10.4">A Square</text>
+    </g>
+  </g>
+</svg>

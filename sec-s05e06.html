@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: default-modern                 *-->
+<!--*  Palette: greens                       *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Episode 6: Pythagorean Theorem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Math 22 Guide">
+<meta property="og:title" content="Math 22 Guide">
+<meta property="book:title" content="Math 22 Guide">
+<meta name="twitter:description" content="Guide for Math 22, a support course for Math 72.">
+<meta property="og:description" content="Guide for Math 22, a support course for Math 72.">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.42"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.5';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.18d8728f6d56e11d.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.b388362b5f43738a.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8086b62682b271d1.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body id="math22guide" class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="math-22-guide.html"><span class="title">Math 22 Guide</span></a></h1>
+<p class="byline">Sam Smith, Michael Pahlow (Editor)</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search book" commandfor="ptx-search-dialog" command="show-modal"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog" closedby="closerequest"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close search" id="ptx-search-close" class="ptx-search-close" commandfor="ptx-search-dialog" command="close"><span class="material-symbols-outlined">close</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="calculator-toggle" class="calculator-toggle button" title="Show calculator" aria-expanded="false" aria-controls="calculator-container"><span class="icon material-symbols-outlined" aria-hidden="true">&#xea5f;</span><span class="name">Calc</span></button><div id="calculator-container" class="calculator-container" style="display: none; z-index:100;"><div id="geogebra-calculator"></div></div>
+<script>
+var ggbApp = new GGBApplet({"appName": "graphing",
+    "width": 330,
+    "height": 600,
+    "showToolBar": true,
+    "showAlgebraInput": true,
+    "perspective": "G/A",
+    "algebraInputPosition": "bottom",
+    "scaleContainerClass": "calculator-container",
+    "allowUpscale": true,
+    "autoHeight": true,
+    "disableAutoScale": false},
+true);
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-s05e05.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="ch-season5.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="ch-season6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season1.html" class="internal"><span class="codenumber">1</span> <span class="title">Season 1: Mathematical Operations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e01.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1: Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e01.html#ws-s01e01" class="internal"><span class="codenumber">1.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e02.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2: Multiplication and Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e02.html#ws-s01e02" class="internal"><span class="codenumber">1.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e03.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Episode 3: Exponents</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e03.html#ws-s01e03" class="internal"><span class="codenumber">1.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e04.html" class="internal"><span class="codenumber">1.4</span> <span class="title">Episode 4: Order of Operations (PEMDAS)</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e04.html#ws-s01e04" class="internal"><span class="codenumber">1.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s01e05.html" class="internal"><span class="codenumber">1.5</span> <span class="title">Episode 1: Median and Mean</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s01e05.html#ws-s01e05" class="internal"><span class="codenumber">1.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season2.html" class="internal"><span class="codenumber">2</span> <span class="title">Season 2: Negative Numbers</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e01.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Episode 1: What Negative Numbers Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e01.html#ws-s02e01" class="internal"><span class="codenumber">2.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e02.html" class="internal"><span class="codenumber">2.2</span> <span class="title">Episode 2: Adding Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e02.html#ws-s02e02" class="internal"><span class="codenumber">2.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e03.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Episode 3: Subtracting Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e03.html#ws-s02e03" class="internal"><span class="codenumber">2.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e04.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Episode 4: Multiplying and Dividing Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e04.html#ws-s02e04" class="internal"><span class="codenumber">2.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s02e05.html" class="internal"><span class="codenumber">2.5</span> <span class="title">Episode 5: PEMDAS with Integers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s02e05.html#ws-s02e05" class="internal"><span class="codenumber">2.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season3.html" class="internal"><span class="codenumber">3</span> <span class="title">Season 3: Fractions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e01.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Episode 1: What Fractions Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e01.html#ws-03e01" class="internal"><span class="codenumber">3.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e02.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Episode 2: Simplifying Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e02.html#ws-s03e02" class="internal"><span class="codenumber">3.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e03.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Episode 3: Multiplying Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e03.html#ws-s03e03" class="internal"><span class="codenumber">3.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s03e04.html" class="internal"><span class="codenumber">3.4</span> <span class="title">Episode 4: Units</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e05.html" class="internal"><span class="codenumber">3.5</span> <span class="title">Episode 5: Unit Conversion</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e05.html#ws-s03e05" class="internal"><span class="codenumber">3.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e06.html" class="internal"><span class="codenumber">3.6</span> <span class="title">Episode 6: Ratios</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e06.html#ws-s03e06" class="internal"><span class="codenumber">3.6</span> <span class="title">Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e07.html" class="internal"><span class="codenumber">3.7</span> <span class="title">Episode 7: Dividing Fractions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e07.html#ws-s03e07" class="internal"><span class="codenumber">3.7</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e08.html" class="internal"><span class="codenumber">3.8</span> <span class="title">Episode 8: Adding/Subtracting Fractions, Part 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e08.html#ws-s03e08" class="internal"><span class="codenumber">3.8</span> <span class="title">Episode 8 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e09.html" class="internal"><span class="codenumber">3.9</span> <span class="title">Episode 9: Adding/Subtracting Fractions, Part 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e09.html#ws-s03e09" class="internal"><span class="codenumber">3.9</span> <span class="title">Worksheet</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e10.html" class="internal"><span class="codenumber">3.10</span> <span class="title">Episode 10: Mixed Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e10.html#ws-s03e10" class="internal"><span class="codenumber">3.10</span> <span class="title">Episode 10 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s03e11.html" class="internal"><span class="codenumber">3.11</span> <span class="title">Episode 11: Calculations with Mixed Numbers</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s03e11.html#ws-s03e11" class="internal"><span class="codenumber">3.11</span> <span class="title">Episode 11 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season4.html" class="internal"><span class="codenumber">4</span> <span class="title">Season 4: Decimal Numbers and Introductory Percents</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e01.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Episode 1: What Decimal Numbers Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e01.html#ws-s04e01" class="internal"><span class="codenumber">4.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e02.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Episode 2: Rounding</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e02.html#ws-s04e02" class="internal"><span class="codenumber">4.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e03.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Episode 3: Decimal Arithmetic</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e03.html#ws-s04e03" class="internal"><span class="codenumber">4.3</span> <span class="title">Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e04.html" class="internal"><span class="codenumber">4.4</span> <span class="title">Episode 4: What Percents Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e04.html#ws-s04e04" class="internal"><span class="codenumber">4.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s04e05.html" class="internal"><span class="codenumber">4.5</span> <span class="title">Episode 5: Percent of a Number</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s04e05.html#ws-s0405" class="internal"><span class="codenumber">4.5</span> <span class="title">Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="ch-season5.html" class="internal"><span class="codenumber">5</span> <span class="title">Season 5: Variables and Formulas</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e01.html" class="internal"><span class="codenumber">5.1</span> <span class="title">Episode 1: What Variables and Formulas Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e01.html#ws-s05e01" class="internal"><span class="codenumber">5.1</span> <span class="title">Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e02.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Episode 2: Evaluating Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e02.html#ws-s05e02" class="internal"><span class="codenumber">5.2</span> <span class="title">Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s05e03.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Episode 3: Common 2D Shapes</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e04.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Episode 4: Calculating Area and Perimeter</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e04.html#ws-s05e04" class="internal"><span class="codenumber">5.4</span> <span class="title">Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s05e05.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Episode 5: Square Roots</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e05.html#ws-s05e05" class="internal"><span class="codenumber">5.5</span> <span class="title">Season 5, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="sec-s05e06.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Episode 6: Pythagorean Theorem</span></a></div>
+<ul class="structural toc-item-list active"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s05e06.html#ws-s05e06" class="internal"><span class="codenumber">5.6</span> <span class="title">Season 5, Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season6.html" class="internal"><span class="codenumber">6</span> <span class="title">Season 6: Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e01.html" class="internal"><span class="codenumber">6.1</span> <span class="title">Episode 1: What Equations Represent</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e01.html#ws-s06e01" class="internal"><span class="codenumber">6.1</span> <span class="title">Season 6, Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e02.html" class="internal"><span class="codenumber">6.2</span> <span class="title">Episode 2: Solving Equations Using Addition and Subtraction</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e02.html#ws-s06e02" class="internal"><span class="codenumber">6.2</span> <span class="title">Season 6, Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e03.html" class="internal"><span class="codenumber">6.3</span> <span class="title">Episode 3: Solving Equations Using Multiplication and Division</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e03.html#ws-s06e03" class="internal"><span class="codenumber">6.3</span> <span class="title">Season 6, Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e04.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Episode 4: Proportions</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e04.html#sec-s06e04-13" class="internal"><span class="codenumber">6.4</span> <span class="title">Season 6, Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s06e05.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Episode 5: More Percent Problems</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s06e05.html#ws-s06e05" class="internal"><span class="codenumber">6.5</span> <span class="title">Season 6, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season7.html" class="internal"><span class="codenumber">7</span> <span class="title">Season 7: Operations with Variables</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e01.html" class="internal"><span class="codenumber">7.1</span> <span class="title">Episode 1: Adding and Subtracting with Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e01.html#ws-s07e01" class="internal"><span class="codenumber">7.1</span> <span class="title">Seaon 7, Episode 1 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e02.html" class="internal"><span class="codenumber">7.2</span> <span class="title">Episode 2: Solving Multi-step Equations</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e02.html#ws-s07e02" class="internal"><span class="codenumber">7.2</span> <span class="title">Season 7, Episode 2 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e03.html" class="internal"><span class="codenumber">7.3</span> <span class="title">Episode 3: Multiplying with Variables, Part 1</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e03.html#ws-s07e03" class="internal"><span class="codenumber">7.3</span> <span class="title">Season 7, Episode 3 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e04.html" class="internal"><span class="codenumber">7.4</span> <span class="title">Episode 4: Solving Equations Requiring Distribution</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e04.html#ws-s07e04" class="internal"><span class="codenumber">7.4</span> <span class="title">Season 7, Episode 4 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e05.html" class="internal"><span class="codenumber">7.5</span> <span class="title">Episode 5: Multiplying with Variables, Part 2</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e05.html#ws-s07e05" class="internal"><span class="codenumber">7.5</span> <span class="title">Season 7, Episode 5 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e06.html" class="internal"><span class="codenumber">7.6</span> <span class="title">Episode 6: Integer Exponents and Exponent Properties</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e06.html#ws-s07e06" class="internal"><span class="codenumber">7.6</span> <span class="title">Season 7, Episode 6 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e07.html" class="internal"><span class="codenumber">7.7</span> <span class="title">Episode 7: Dividing with Variables</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e07.html#ws-s07e07" class="internal"><span class="codenumber">7.7</span> <span class="title">Season 7, Episode 7 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e08.html" class="internal"><span class="codenumber">7.8</span> <span class="title">Episode 8: Scientific Notation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e08.html#ws-s07e08" class="internal"><span class="codenumber">7.8</span> <span class="title">Season 7, Episode 8 Practice Problems</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-s07e09.html" class="internal"><span class="codenumber">7.9</span> <span class="title">Episode 9: Rearranging Formulas</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="sec-s07e09.html#ws-s07e09" class="internal"><span class="codenumber">7.9</span> <span class="title">Season 7, Episode 9 Practice Problems</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season8.html" class="internal"><span class="codenumber">8</span> <span class="title">Season 8: Inequalities</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e01.html" class="internal"><span class="codenumber">8.1</span> <span class="title">Episode 1: Solving Inequalities, Part 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e02.html" class="internal"><span class="codenumber">8.2</span> <span class="title">Episode 2: Interval Notation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s08e03.html" class="internal"><span class="codenumber">8.3</span> <span class="title">Episode 3: Solving Inequalities, Part 2</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season9.html" class="internal"><span class="codenumber">9</span> <span class="title">Season 9: Graphing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e01.html" class="internal"><span class="codenumber">9.1</span> <span class="title">Episode 1: The xy-Plane</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e02.html" class="internal"><span class="codenumber">9.2</span> <span class="title">Episode 2: Plotting Points</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e03.html" class="internal"><span class="codenumber">9.3</span> <span class="title">Episode 3: Interpreting Graphs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e04.html" class="internal"><span class="codenumber">9.4</span> <span class="title">Episode 4: Intercepts</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e05.html" class="internal"><span class="codenumber">9.5</span> <span class="title">Episode 5: Slope of a Line</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e06.html" class="internal"><span class="codenumber">9.6</span> <span class="title">Episode 6: Slope-Intercept Form, Part 1</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s09e07.html" class="internal"><span class="codenumber">9.7</span> <span class="title">Episode 7: Slope-Intercept Form, Part 7</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-season10.html" class="internal"><span class="codenumber">10</span> <span class="title">Season 10: Systems of Equations</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s10e01.html" class="internal"><span class="codenumber">10.1</span> <span class="title">Episode 1: Solve Systems of Equations by Graphing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-s10e02.html" class="internal"><span class="codenumber">10.2</span> <span class="title">Episode 2: Solve Systems of Equations by Substitution</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="resources.html" class="internal"><span class="codenumber">1</span> <span class="title">Additional Resources</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a href="glossary.html" class="internal"><span class="title">Glossary</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<div class="print-preview-header">
+<h2 class="print-preview">Print preview</h2>
+<div class="print-controls">
+<div class="print-controls-toggles">
+<form class="papersize-select" id="papersize-select">
+<span class="name">Paper size</span><label><input type="radio" name="papersize" value="a4">A4
+        </label><label><input type="radio" name="papersize" value="letter">Letter
+        </label>
+</form>
+<details class="print-options"><summary>Additional printing options</summary><div class="header-footer-options">
+<div class="header-option">
+<span class="title">Print headers</span><label>First page<input type="checkbox" id="print-first-page-header-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-header-checkbox" checked></label>
+</div>
+<div class="footer-option">
+<span class="title">Print footers</span><label>First page<input type="checkbox" id="print-first-page-footer-checkbox" checked></label><label>Running<input type="checkbox" id="print-running-footer-checkbox" checked></label>
+</div>
+</div>
+<div class="highlight-workspace-option">
+<label for="highlight-workspace-checkbox">Highlight workspace</label><input type="checkbox" id="highlight-workspace-checkbox">
+</div></details>
+</div>
+<button class="print-button" title="Print" onClick="window.print()"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span><span class="name">Print</span></button>
+</div>
+</div>
+<section class="section" id="sec-s05e06">
+<h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Episode 6: Pythagorean Theorem</span>
+</h2>
+<article class="assemblage assemblage-like" id="sec-s05e06-2"><h3 class="heading"><span class="title">Episode 6 Learning Goals.</span></h3>
+<div class="para logical" id="sec-s05e06-2-2">
+<ul class="disc" id="sec-s05e06-2-2-1">
+<li id="sec-s05e06-2-2-1-1">
+<div class="para" id="sec-s05e06-2-2-1-1-1">Recognize right angles and right triangles.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-2-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-2-2-1-2">
+<div class="para" id="sec-s05e06-2-2-1-2-1">For a right triangle, identify the hypotenuse and the legs.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-2-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-2-2-1-3">
+<div class="para" id="sec-s05e06-2-2-1-3-1">Given two sides on a right triangle, use Pythagorean theorem to find the length of the remaining side.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-2-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 6 Learning Goals"><a href="#sec-s05e06-2" title="Copy heading and permalink for Assemblage: Episode 6 Learning Goals" aria-label="Copy heading and permalink for Assemblage: Episode 6 Learning Goals">🔗</a></div>
+</article>
+<article class="assemblage assemblage-like" id="sec-s05e06-3"><h3 class="heading"><span class="title">Episode 6 Key Terminology.</span></h3>
+<div class="para logical" id="sec-s05e06-3-2">
+<ul class="disc" id="sec-s05e06-3-2-1">
+<li id="sec-s05e06-3-2-1-1">
+<div class="para" id="sec-s05e06-3-2-1-1-1">Right angle<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-3-2-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-3-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-3-2-1-2">
+<div class="para" id="sec-s05e06-3-2-1-2-1">Right triangle<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-3-2-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-3-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-3-2-1-3">
+<div class="para" id="sec-s05e06-3-2-1-3-1">Hypotenuse<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-3-2-1-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-3-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-3-2-1-4">
+<div class="para" id="sec-s05e06-3-2-1-4-1">Leg of a triangle<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-3-2-1-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-3-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Assemblage: Episode 6 Key Terminology"><a href="#sec-s05e06-3" title="Copy heading and permalink for Assemblage: Episode 6 Key Terminology" aria-label="Copy heading and permalink for Assemblage: Episode 6 Key Terminology">🔗</a></div>
+</article>
+<article class="definition definition-like" id="def-right-angle"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-right-angle-1-1">A <dfn class="terminology">right angle</dfn> is a 90-degree angle. It’s the kind of angle you find in the corner of a rectangular room.<div class="autopermalink" data-description="Paragraph"><a href="#def-right-angle-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.6.1"><a href="#def-right-angle" title="Copy heading and permalink for Definition 5.6.1" aria-label="Copy heading and permalink for Definition 5.6.1">🔗</a></div>
+</article>
+<div class="para" id="sec-s05e06-5">They are typically emphasized by drawing a small square.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="figure figure-like" id="sec-s05e06-6"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/prefigure/pf-right-angle.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>An image of a 90 degree angle, marked by a small square.<div class="autopermalink" data-description="Figure 5.6.2"><a href="#sec-s05e06-6" title="Copy heading and permalink for Figure 5.6.2" aria-label="Copy heading and permalink for Figure 5.6.2">🔗</a></div></figcaption>
+</figure>
+<article class="definition definition-like" id="def-right-triangle"><h3 class="heading">
+<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="def-right-triangle-1-1">A <dfn class="terminology">right triangle</dfn> is a triangle that contains a right angle. For example, the triangle pictured below is a right triangle, because it has a right angle in the bottom left corner.<div class="autopermalink" data-description="Paragraph"><a href="#def-right-triangle-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Definition 5.6.3"><a href="#def-right-triangle" title="Copy heading and permalink for Definition 5.6.3" aria-label="Copy heading and permalink for Definition 5.6.3">🔗</a></div>
+</article>
+<figure class="figure figure-like" id="sec-s05e06-8"><div class="image-box" style="width: 60%; margin-left: 20%; margin-right: 20%;"><img src="generated/prefigure/pf-right-triangle.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>A right triangle with the right angle in the bottom left corner..<div class="autopermalink" data-description="Figure 5.6.4"><a href="#sec-s05e06-8" title="Copy heading and permalink for Figure 5.6.4" aria-label="Copy heading and permalink for Figure 5.6.4">🔗</a></div></figcaption>
+</figure>
+<div class="para logical" id="sec-s05e06-9">
+<div class="para">For a right triangle:</div>
+<ul class="disc" id="sec-s05e06-9-1">
+<li id="sec-s05e06-9-1-1">
+<div class="para" id="sec-s05e06-9-1-1-1">The side across from the right angle is called the <dfn class="terminology">hypotenuse</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-9-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-9-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-s05e06-9-1-2">
+<div class="para" id="sec-s05e06-9-1-2-1">The other two sides are called the <dfn class="terminology">legs</dfn>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-9-1-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Item"><a href="#sec-s05e06-9-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-9" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-s05e06-10">The Pythagorean Theorem is a famous formula used to find the side lengths of a right triangle.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-10" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s05e06-11">
+<div class="para">Call the length of the hypotenuse <span class="process-math">\(c\)</span> and call the lengths of the legs <span class="process-math">\(a\)</span> and <span class="process-math">\(b\text{.}\)</span> If you know the lengths of the legs, and you want to find the length of the hypotenuse, use the formula:</div>
+<div class="displaymath process-math" id="sec-s05e06-11-4">
+\begin{equation*}
+c=\sqrt{a^2+b^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-11" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s05e06-12"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s05e06-12-1">A right triangle has legs of lengths 3 inches and 4 inches. Find the length of the hypotenuse of that right triangle.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s05e06-12-2">
+<div class="para">Solution: Plug <span class="process-math">\(a=3\)</span> and <span class="process-math">\(b=4\)</span> into the Pythagorean theorem formula to find the length of the hypotenuse, <span class="process-math">\(c\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="sec-s05e06-12-2-4">
+\begin{equation*}
+c=\sqrt{3^2+4^2}
+\end{equation*}
+</div>
+<div class="para">To calculate this value, we use PEMDAS. We start by calculating the exponents:</div>
+<div class="displaymath process-math" id="sec-s05e06-12-2-5">
+\begin{equation*}
+c=\sqrt{9+16}
+\end{equation*}
+</div>
+<div class="para">Then we add the numbers under the root:</div>
+<div class="displaymath process-math" id="sec-s05e06-12-2-6">
+\begin{equation*}
+c=\sqrt{25}
+\end{equation*}
+</div>
+<div class="para">Then we calculate the square root:</div>
+<div class="displaymath process-math" id="sec-s05e06-12-2-7">
+\begin{equation*}
+c=5
+\end{equation*}
+</div>
+<div class="para">The length of the hypotenuse is 5 inches.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-12-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 5.6.5"><a href="#sec-s05e06-12" title="Copy heading and permalink for Example 5.6.5" aria-label="Copy heading and permalink for Example 5.6.5">🔗</a></div>
+</article>
+<div class="para logical" id="sec-s05e06-13">
+<div class="para">If you know the length of the hypotenuse and the length of one of the legs, use the following formula to find the length of the other leg:</div>
+<div class="displaymath process-math" id="sec-s05e06-13-1">
+\begin{equation*}
+b=\sqrt{c^2-a^2}
+\end{equation*}
+</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-13" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="example example-like" id="sec-s05e06-14"><h3 class="heading">
+<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">5.6.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+</h3>
+<div class="para" id="sec-s05e06-14-1">A right triangle has a hypotenuse of length 9 cm and one leg of length 5 cm. Find the length of the other leg.<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-14-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-s05e06-14-2">
+<div class="para">Solution: Plug <span class="process-math">\(c=9\)</span> and <span class="process-math">\(a=5\)</span> into the Pythagorean theorem formula to find the length of the other leg, <span class="process-math">\(b\text{.}\)</span>
+</div>
+<div class="displaymath process-math" id="sec-s05e06-14-2-4">
+\begin{align*}
+b \amp = \sqrt{9^2-5^2} \\
+\amp = \sqrt{81-25} \\
+\amp = \sqrt{56} \\
+\amp = 7.4833147735… \\
+\amp \approx 7.48 
+\end{align*}
+</div>
+<div class="para">So the length of the other leg is approximately 7.48 cm.</div>
+<div class="autopermalink" data-description="Paragraph"><a href="#sec-s05e06-14-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Example 5.6.6"><a href="#sec-s05e06-14" title="Copy heading and permalink for Example 5.6.6" aria-label="Copy heading and permalink for Example 5.6.6">🔗</a></div>
+</article>
+<section class="worksheet" id="ws-s05e06" data-margins="0.75in 0.75in 0.75in 0.75in" data-header-first-left="Name:" data-header-first-right="Math 22" data-header-running-right="Math 22">
+<h3 class="heading hide-type">
+<span class="type">Worksheet</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Season 5, Episode 6 Practice Problems</span><div class="print-links"><a href="?printpreview=ws-s05e06" class="print-link" title="Print preview"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8ad;</span></a></div>
+</h3>
+<div class="para" id="ws-s05e06-2">Use the Pythagorean theorem to answer the following questions. Include units in your answer, and round your answer to 2 decimal places if necessary.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<article class="exercise exercise-like" id="ws-s05e06-3"><h4 class="heading"><span class="codenumber">1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-3-1">A right triangle has legs measuring 6 meters and 8 meters. Find the length of the hypotenuse.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.1"><a href="#ws-s05e06-3" title="Copy heading and permalink for Worksheet Exercise 5.6.1" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.1">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-4"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-4-1">A ladder leans against a wall. The bottom of the ladder is 2.5 feet from the wall, and the ladder reaches 6 feet up the wall. Find the length of the ladder.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.2"><a href="#ws-s05e06-4" title="Copy heading and permalink for Worksheet Exercise 5.6.2" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.2">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-5"><h4 class="heading"><span class="codenumber">3<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-5-1">A television screen has a width of 16 inches and a height of 9 inches. Find the diagonal length of the screen.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.3"><a href="#ws-s05e06-5" title="Copy heading and permalink for Worksheet Exercise 5.6.3" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.3">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-6"><h4 class="heading"><span class="codenumber">4<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-6-1">A right triangle has a hypotenuse of 13 centimeters and one leg of 5 centimeters. Find the length of the other leg in centimeters.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.4"><a href="#ws-s05e06-6" title="Copy heading and permalink for Worksheet Exercise 5.6.4" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.4">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-7"><h4 class="heading"><span class="codenumber">5<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-7-1">A triangular sail has two perpendicular sides measuring 1.2 meters and 1.6 meters. Find the length of the longest side in meters.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-7-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.5"><a href="#ws-s05e06-7" title="Copy heading and permalink for Worksheet Exercise 5.6.5" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.5">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-8"><h4 class="heading"><span class="codenumber">6<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-8-1">A right triangle has legs measuring <span class="process-math">\(2\frac{1}{2}\)</span> miles and 6 miles. Find the length of the hypotenuse in miles.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-8-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.0in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.6"><a href="#ws-s05e06-8" title="Copy heading and permalink for Worksheet Exercise 5.6.6" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.6">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-9"><h4 class="heading"><span class="codenumber">7<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-9-1">A drone travels 7 kilometers east and then 24 kilometers north. How far is the drone from its starting point in kilometers?<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-9-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.7"><a href="#ws-s05e06-9" title="Copy heading and permalink for Worksheet Exercise 5.6.7" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.7">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-10"><h4 class="heading"><span class="codenumber">8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-10-1">A ramp rises <span class="process-math">\(\frac{5}{6}\)</span> meters vertically over a horizontal distance of <span class="process-math">\(\frac{7}{6}\)</span> meters. Find the length of the ramp in meters.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-10-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.8"><a href="#ws-s05e06-10" title="Copy heading and permalink for Worksheet Exercise 5.6.8" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.8">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-11"><h4 class="heading"><span class="codenumber">9<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-11-1">A right triangle has a hypotenuse of length 2 feet and one leg of length 10 inches. Find the length of the other leg. (Suggestion! Start by converting all the lengths to the same units.)<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-11-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.9"><a href="#ws-s05e06-11" title="Copy heading and permalink for Worksheet Exercise 5.6.9" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.9">🔗</a></div>
+</article>
+<article class="exercise exercise-like" id="ws-s05e06-12"><h4 class="heading"><span class="codenumber">10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
+<div class="para" id="ws-s05e06-12-1">A right triangle has legs of <span class="process-math">\(4\frac{1}{2}\)</span> centimeters and <span class="process-math">\(2\frac{1}{2}\)</span> centimeters. Find the length of the hypotenuse in centimeters.<div class="autopermalink" data-description="Paragraph"><a href="#ws-s05e06-12-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="workspace" data-space="2.5in"></div>
+<div class="autopermalink" data-description="Worksheet Exercise 5.6.10"><a href="#ws-s05e06-12" title="Copy heading and permalink for Worksheet Exercise 5.6.10" aria-label="Copy heading and permalink for Worksheet Exercise 5.6.10">🔗</a></div>
+</article><div class="autopermalink" data-description="Worksheet 5.6: Season 5, Episode 6 Practice Problems"><a href="#ws-s05e06" title="Copy heading and permalink for Worksheet 5.6: Season 5, Episode 6 Practice Problems" aria-label="Copy heading and permalink for Worksheet 5.6: Season 5, Episode 6 Practice Problems">🔗</a></div>
+</section><div class="autopermalink" data-description="Section 5.6: Episode 6: Pythagorean Theorem"><a href="#sec-s05e06" title="Copy heading and permalink for Section 5.6: Episode 6: Pythagorean Theorem" aria-label="Copy heading and permalink for Section 5.6: Episode 6: Pythagorean Theorem">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="sec-s05e05.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="ch-season6.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>

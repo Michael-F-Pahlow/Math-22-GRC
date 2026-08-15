@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="pf-various-triangles-figure" width="510" height="510" viewBox="0 0 510 510">
+  <defs>
+    <clipPath id="pf-various-triangles-__clipPath-0">
+      <rect x="5.0" y="5.0" width="500.0" height="500.0"/>
+    </clipPath>
+    <clipPath id="pf-various-triangles-__clipPath-1">
+      <rect x="5.0" y="5.0" width="500.0" height="500.0"/>
+    </clipPath>
+  </defs>
+  <path id="pf-various-triangles-__path-0" d="M 30.0 230.0 L 230.0 230.0 L 155.0 130.0 Z" stroke="black" stroke-width="2" fill="purple" clip-path="url(#pf-various-triangles-__clipPath-1)"/>
+  <path id="pf-various-triangles-__path-1" d="M 305.0 230.0 L 455.0 230.0 L 380.0 100.1 Z" stroke="black" stroke-width="2" fill="pink" clip-path="url(#pf-various-triangles-__clipPath-1)"/>
+  <path id="pf-various-triangles-__path-2" d="M 30.0 480.0 L 130.0 480.0 L 80.0 305.0 Z" stroke="black" stroke-width="2" fill="pink" clip-path="url(#pf-various-triangles-__clipPath-1)"/>
+  <path id="pf-various-triangles-__path-3" d="M 205.0 480.0 L 455.0 480.0 L 205.0 330.0 Z" stroke="black" stroke-width="2" fill="purple" clip-path="url(#pf-various-triangles-__clipPath-1)"/>
+</svg>
