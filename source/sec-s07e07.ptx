@@ -2,10 +2,197 @@
 
 <section xml:id="sec-s07e07" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 7: Dividing with Variables</title>
+<assemblage>
+  <title>Episode 7 Learning Goals</title>
+  <p>
+    <ul>
+      <li>
+        <p>
+          Interpret and perform calculations involving negative exponents
+        </p>
+      </li>
+      <li>
+        <p>
+          Interpret and perform calculations involving zero exponent
+        </p>
+      </li>
+      <li>
+        <p>
+          Divide a polynomial by a term.
+        </p>
+      </li>
+    </ul>
+  </p>
+</assemblage>
+<p>
+  Let's think about what happens in this situation:
+  <md>
+    \frac{x^5}{x^2}
+  </md>
+  Let’s unpack the exponents:
+  <md>
+    \frac{x\cdot x\cdot x\cdot x\cdot x}{x \cdot x}
+  </md>
+  Each divided x cancels out one of the multiplied x’s:
+  <md>
+    x \cdot x \cdot x = x^3
+  </md>
+  Notice that we ended up subtracting the exponents:
+  <md>\frac{x^5}{x^2 = x^{5-2}</md>
+</p>
+<assemblage>
+  <title>Exponent Property Four</title>
+  <p>
+    Let <m>m</m> and<m>n</m> stand for two numbers (that may be different from problem to problem). 
+  </p>
+  <p>
+    If you have the base <m>x</m> raised to a power, and then you divide by that same based raised to a different power, you should subtract the two exponents.
+    <md>\frac{x^m}{x^n}=x^{m-n}</md>
+  </p>
+</assemblage>
+<example>
+  <p>
+    Simplify
+    <md>
+      \frac{x^{70}}{x^{42}}
+    </md>
+  </p>
+  <p>
+    Solution: It would be tedious to write out 70 and 42 x’s, so we use an exponent property.
+    <md>
+      \frac{x^{70}}{x^{42}}= x^{70-42}=x^{28}
+    </md>
+  </p>
+</example>
+<assemblage>
+  <title>Exponent Property Five </title>
+  <p>
+    If you see something (besides zero) raised to the power 0, the result of that is 1:
+    <md>
+      x^0=1
+    </md>
+  </p>
+</assemblage>
+<assemblage>
+  <title>Makes Sense, Right?</title>
+  <p>
+    If we simplified
+    <md>
+      \frac{x^3}{x^3}
+    </md>
+    using the exponent property, we would get
+    <md>
+      \frac{x^3}{x^3} = x^{3-3} = x^0
+    </md>
+    But at the same time, when you divide something by itself, the result is always 1:
+    <md>
+      \frac{x^3}{x^3} = 1
+    </md>
+    That’s why it makes sense to have <m>x^{0}=1</m>.
+  </p>
+</assemblage>
+<assemblage>
+  <title>Exponent Property Six</title>
+  <p>
+    If you see something raised to a negative power, that’s asking you to take the reciprocal:
+    <md>
+      x^{-4} = \frac{1}{x^4}
+    </md>
+  </p>
+</assemblage>
+<assemblage>
+  <title>Makes Sense, Right?</title>
+  <p>
+    If we calculated
+    <md>
+      \frac{x^3}{x^5}
+    </md>
+   using the exponent property, we would get
+   <md>
+    \frac{x^3}{x^5} = x^{3-5}=x^{-2}
+   </md>
+   But at the same time, if we unpack the exponents:
+   <md>
+    \frac{x^3}{x^5} = \frac{x\cdot x\cdot x}{x\cdot x \cdot x\cdot x \cdot x}
+   </md>
+   Three of the multiplied x’s are cancelled by three of the divided x’s, leaving:
+   <md>
+    \frac{1}{x\cdot x} = \frac{1}{x^2}
+   </md>
+   That’s why it makes sense to have <m>x^{-2}=\frac{1}{x^2}</m>
+  </p>
+</assemblage>
+<p>
+  When we are dividing a polynomial by a term
+  <md>
+    \frac{2x+6}{3}
+  </md>
+  you can divide each part of the polynomial separately:
+  <md>
+    \frac{2x}{3}+\frac{6}{3}
+  </md>
+<md>
+\frac{2x}{3}+2
+</md>
+</p>
+<assemblage>
+  <title>Makes Sense, Right?</title>
+  <p>
+    When we learned about fractions, we learned that when we were adding or subtracting two fractions with the same denominator, we just need to add the numerators:
+    <md>
+      \frac{2}{7}+\frac{4}{7} = \frac{2+4}{7}
+    </md>
+    When we divide a polynomial, we’re just following this process backward.
+    <md>
+      \frac{2+4}{7}=\frac{2}{7}+\frac{4}{7} 
+    </md>
+  </p>
+</assemblage>
+<example>
+  <p>
+    Divide
+    <md>
+      \frac{9x^5-x^4+x^3}{x^2}
+    </md>
+  </p>
+  <p>
+    Solution: Divide each term of the numerator separately:
+    <md>
+      \frac{9x^5}{x^2}-\frac{x^4}{x^4}+\frac{x^3}{x^2}
+    </md>
+    Then we can use the exponent properties to simplify each piece:
+    <md>
+      9x^{5-2}-x^{4-2}+x^{3-2}
+    </md>
+    <md>
+      9x^3-x^2+x
+    </md>
+  </p>
+</example>
+<example>
+  <p>
+    Divide
+    <md>
+      \frac{6x^2+8x}{2x}
+    </md>
+  </p>
+  <p>
+    Solution: Divide each term of the numerator separately:
+    <md>
+      \frac{6x^2}{2x} + \frac{8x}{2x}
+    </md>
+    In the first fraction, the <m>6\div 2</m> becomes 3, and the <m>x^{2}\div x</m> becomes <m>x</m>.
+    In the second fraction, the <m>8\div 2</m> becomes 4, and the <m>x\div x</m> cancels out to 1.
+    <md>
+      3x+4
+    </md>
+  </p>
+</example>
+
   <assemblage>
-    <title>Exponent Rules</title>
+    <title>Exponent Properties</title>
     <p>
-      Here is a list of the three exponent rules in this episode
+      Here is a list of the exponent properties from Episodes 6 and 7
       <ol>
         <li>
           <p>
@@ -14,15 +201,209 @@
         </li>
         <li>
           <p>
-            (x^a)^b = x^{a\cdot b}
+            <m>(x^a)^b = x^{a\cdot b}</m>
           </p>
         </li>
         <li>
           <p>
-            (xy)^p = x^p y^p
+            <m>(xy)^p = x^p y^p</m>
+          </p>
+        </li>
+        <li>
+          <p>
+              <m>\frac{x^m}{x^n}=x^{m-n}</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x^0=1</m>
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x^{-p} = \frac{1}{x^p}</m>
           </p>
         </li>
       </ol>
     </p>
   </assemblage>
+  <worksheet xml:id="ws-s07e07">
+    <title>Season 7, Episode 7 Practice Problems</title>
+    <exercise>
+      <introduction>
+      <p>
+        Use the exponent properties to simplify
+      </p>
+      </introduction>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>x^{120}/x^{35}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>z^{56}/z^{19}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>b^{250}/b^{150}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>y^{200}/y^{78}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>a^{399}/a^{12}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>m^{87}/m^{42}</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+    <exercise>
+      <introduction>
+      <p>
+        Use the exponent properties to simplify
+      </p>
+      </introduction>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>x^{-5}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>y^{-12}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>a^{0}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>7^{0}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>3^{-4}</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            <m>9^{-2}</m>
+          </p>
+        </statement>
+      </task>
+      </exercise>
+
+      <exercise>
+      <introduction>
+      <p>
+        Use the exponent properties to simplify
+      </p>
+      </introduction>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(xy)^3</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(4n)^4</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(-2p)^6</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(3z)^5</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(7a)^2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <m>(5r)^7</m>
+          </p>
+        </statement>
+      </task>
+      </exercise>
+
+      <exercise>
+        <introduction>
+          <p>
+            Divide:
+          </p>
+        </introduction>
+        <task workspace="2.5in">
+          <statement>
+            <p>
+              <md>
+                \frac{12x^3+8x^2-4x}{4x}
+              </md>
+            </p>
+          </statement>
+        </task>
+        <task workspace="2.5in">
+          <statement>
+            <p>
+              <md>
+                \frac{20y^5-10y^3+5y}{5y}
+              </md>
+            </p>
+          </statement>
+        </task>
+      </exercise>
+  </worksheet>
+
 </section> 

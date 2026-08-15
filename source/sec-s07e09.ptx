@@ -2,4 +2,203 @@
 
 <section xml:id="sec-s07e09" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 9: Rearranging Formulas</title>
-</section> 
+  <assemblage>
+    <title>Episode 9 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            In an equation containing multiple variables, rewrite the equation to isolate one of the variables.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 9 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Literal equation
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    Sometimes equations and formulas contain more than one variable. Such an equation is sometimes called a <term>literal equation</term>.
+  </p>
+  <p>
+    For example, the formula for the perimeter (P) of a rectangle contains three variables:
+    <md>
+      P = 2L + 2W
+    </md>
+    If we know the length and width of the rectangle, we can easily find the perimeter by plugging into this formula. For example, if <m>L=3</m>
+     and <m>W=4</m>, we get the perimeter:
+     <md>
+     <mrow>P  \amp = 2(3) + 2(4) </mrow>
+      <mrow>P  \amp = 6+8 </mrow>
+    <mrow>P  \amp = 14 </mrow>
+     </md>
+     In this case, we did not have to solve an equation to find P, because P was already isolated on one side of the formula.
+  </p>
+  <p>
+    However, what if we’re given the perimeter and the width of the rectangle, 
+    and we want to find the length? For example, what if we’re given <m>P=20</m> and <m>L=7</m> and we want to find W?
+    <md>
+      20=2(7)+2W
+    </md>
+    In this case, we do have to solve an equation to find W, because W is not already isolated on one side of the formula.
+    <md>20=14+2W</md>
+    <md>
+      20-14 = 14 + 2W -14
+    </md>
+    <md>
+      6 = 2W
+    </md>
+    <md>
+      \frac{6}{2} = {2W}{2}
+    </md>
+    <md>
+      3=W
+    </md>
+    If we need to find the widths of lots of different rectangles, it would be tedious to go through this solving process over and over again. 
+  </p>
+  <p>
+    Instead, we could rearrange the original <m>P=2L+2W</m> to isolate the variable W instead of the variable P. This is called “solving the equation for W.”
+  </p>
+  <example>
+    <p>
+      Solve the equation <m>P=2L+2W</m>for <m>W</m>:
+    </p>
+    <p>
+      We’re going to pretend that all the variables except for W are numbers. 
+      Then we’re going to solve for W using the same steps that we used earlier when we were solving <m>20 = 2(7)+2W</m>.
+    </p>
+    <p>
+      Start by using subtraction to move all the terms that do not contain W to the left side of the equation.
+      <md>
+        P-2L = 2L + 2W - 2L
+      </md>
+      The added <m>2L</m> and the subtracted <m>2L</m> on the right side of the equation cancel out:
+      <md>
+        P -2L = 2W
+      </md>
+      Now, we divide by 2 to cancel the multiplied “2” on the W. Be careful to divide everything on the left by 2.
+      <md>
+        \frac{P-2L}{2} = \frac{2W}{2}
+      </md>
+      <md>
+        \frac{P-2L}{2} = W
+      </md>
+      Now we have a new version of the perimeter formula, with W isolated instead of P. We can use this modified formula to find W more easily.
+    </p>
+  </example>
+  <example>
+    <p>
+      A rectangle has a perimeter of 16 and a length of 3. Find the width.
+    </p>
+    <p>
+      Solution: If we plug  <m>P=16</m> and <m>L=3</m> into the modified formula, we can find the width without having to solve any additional equations:
+      <md>
+        \frac{16-2(3)}{2}=W
+      </md>
+      <md>
+        \frac{16-6}{2}=W
+      </md>
+      <md>
+        \frac{10}{2}=W
+      </md>
+      <md>5=W</md>
+    </p>
+  </example>
+<example>
+  <p>
+    Take the formula for the area of a triangle and solve the formula for <m>h</m>.
+    <md>
+      A = \frac{1}{2}bh
+    </md>
+  </p>
+  <p>
+    Solution: Pretend that all the variables besides <m>h</m> are numbers, and solve the equation for <m>h</m> using our normal process. 
+    <md>
+      A\div \frac{1}{2} = \frac{1}{2}bh \div\frac{1}{2}
+    </md>
+    <md>
+      A\div \frac{1}{2} =bh
+    </md>
+  <md>
+    A\times\frac{2}{1} = bh
+  </md>
+  <md>
+  2A = bh
+  </md>
+  Divide both sides by <m>b</m> to get rid of the multiplied <m>b</m> on the <m>h</m>:
+  <md>
+    2A\div b = bh \div b
+  </md>
+  <md>
+    \frac{2A}{b} = h
+  </md>
+  </p>
+</example>
+<example>
+  <p>
+    Suppose you have a triangle with an area of 30 and a base of 4. Find the triangle’s height.
+  </p>
+  <p>
+    Solution: If we use our modified formula, we can find the height without having to solve any additional equations:
+    <md>
+      \frac{2(30)}{4} = h
+    </md>
+    <md>
+    15=h
+    </md>
+  </p>
+</example>
+
+<worksheet xml:id="ws-s07e09">
+  <title>Season 7, Episode 9 Practice Problems</title>
+  <exercise workspace="1.5in">
+    <p>
+      Solve for <m>x</m>:
+      <md>
+        y=3x+7
+      </md>
+      </p>
+  </exercise>
+  <exercise workspace="1.5in">
+    <p>
+      Solve for <m>b</m>:
+      <md>
+        A=\frac{1}{2}bh
+      </md>
+      </p>
+  </exercise>
+  <exercise workspace="1.5in">
+    <p>
+      Solve for <m>r</m>:
+      <md>
+        C=2\pi r
+      </md>
+      </p>
+  </exercise>
+  <exercise workspace="1.5in">
+    <p>
+      Solve for <m>t</m>:
+      <md>
+        d=rt
+      </md>
+      </p>
+  </exercise>
+  <exercise workspace="1.5in">
+    <p>
+      Solve for <m>m</m>:
+      <md>
+        F=ma
+      </md>
+      </p>
+  </exercise>
+</worksheet>
+</section>

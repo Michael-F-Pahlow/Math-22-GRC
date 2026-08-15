@@ -2,4 +2,343 @@
 
 <section xml:id="sec-s07e08" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 8: Scientific Notation</title>
+  <assemblage>
+    <title>Episode 8 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret numbers given in scientific notation. 
+          </p>
+        </li>
+        <li>
+          <p>
+            Express very large or small numbers using scientific notation. 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 8 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Scientific notation
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <definition xml:id="def-scientific-notation">
+    <statement>
+      <p>
+        <term>Scientific notation</term> is a convenient way to express numbers that are very large or very small using powers of 10. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    Notice that every time you multiply a number by 10, it corresponds to a movement of the decimal point:
+    <md>
+      <mrow>3.251\times 10 \amp = 32.51</mrow>
+      <mrow>3.251\times 10\times 10 \amp = 325.1</mrow>
+      <mrow>3.251\times 10 \times 10 \times 10\amp = 3251</mrow>
+    </md>
+    If we rewrite these equations using exponents, we see a pattern:
+    <md>
+      <mrow>3.251 \times 10^1\amp = 32.51\,\,\text{(decimal point moved 1 step)} </mrow>
+      <mrow>3.251 \times 10^2\amp = 325.1\,\,\text{(decimal point moved 2 steps)} </mrow>
+      <mrow>3.251 \times 10^3\amp = 3251\,\,\text{(decimal point moved 3 steps)} </mrow>
+    </md>
+  </p>
+  <p>
+    We’re going to use this pattern to help us write very large numbers like 3,250,000,000. 
+  </p>
+  <p>
+    <alert>How to Write a Large Number in Scientific Notation </alert>
+    <ol>
+      <li>
+        <p>
+          Move the decimal point to the left until the value of your number is between 1 and 10.
+        </p>
+      </li>
+      <li>
+        <p>
+          	Count the number of steps the decimal point moved in Step 1. Call this number <m>n</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          	Take the number from Step 1 and write it multiplied it by <m>{10}^{n}</m>
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Write the number 3,250,000,000 in scientific notation.
+    </p>
+    <p>
+      Solution: We move the decimal point to the left until we have a value that’s between 1 and 10:
+      <md>
+        3.25
+      </md>
+      To reach this position, we had to move the decimal point 9 steps. So, we can express 3,250,000,000 in scientific notation as
+      <md>
+        3.25\times 10^9
+      </md>
+  
+    </p>
+  </example>
+   <example>
+    <p>
+      Write the number 10,082,000,000,000 in scientific notation.
+    </p>
+    <p>
+      Solution: We move the decimal point to the left until we have a value that’s between 1 and 10:
+      <md>
+        1.0082
+      </md>
+      To reach this position, we had to move the decimal point 13 steps. So, we can express 10,082,000,000,000 in scientific notation as
+      <md>
+        1.0082\times 10^{13}
+      </md>
+    </p>
+  </example>
+  <p>
+    Notice that every time you multiply by 1/10, it moves the decimal point one step to the right.
+    <md>
+      <mrow>3.251\times\frac{1}{10} \amp = 0.3251</mrow>
+      <mrow>3.251\times\frac{1}{10}\times\frac{1}{10}\amp = 0.03251</mrow>
+      <mrow>3.251\times\frac{1}{10}\times\frac{1}{10}\times\frac{1}{10} \amp = 0.003251</mrow>
+    </md>
+    If we rewrite these equations using negative exponents, we see a pattern:
+    <md>
+      <mrow>3.251 \times 10^{-1}\amp = 0.3251\,\,\text{(decimal point moved 1 step)} </mrow>
+      <mrow>3.251 \times 10^{-2}\amp = 0.03251\,\,\text{(decimal point moved 2 steps)} </mrow>
+      <mrow>3.251 \times 10^{-3}\amp = 0.003251\,\,\text{(decimal point moved 3 steps)} </mrow>
+    </md>
+    </p>
+    <p>
+    We’re going to use this pattern to help us write very small numbers like 0.00000325.
+  </p>
+  <p>
+    <alert>How to Write a Small Number in Scientific Notation </alert>
+    <ol>
+      <li>
+        <p>
+          Move the decimal point to the right until the value of your number is between 1 and 10.
+        </p>
+      </li>
+      <li>
+        <p>
+          	Count the number of steps the decimal point moved in Step 1. Call this number <m>n</m>
+        </p>
+      </li>
+      <li>
+        <p>
+          	Take the number from Step 1 and write it multiplied it by <m>{10}^{-n}</m>
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Write the number 0.00000325 in scientific notation:
+    </p>
+    <p>
+      Solution: Move the decimal point to the right until we get a value between 1 and 10:
+      <md>
+        3.25
+      </md>
+      To reach this position, we had to move the point 6 steps to the right. So, we can express 0.00000325 in scientific notation as
+      <md>
+        3.25\times 10^{-6}
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Write the number 0.0000006845 in scientific notation:
+    </p>
+    <p>
+      Solution: Move the decimal point to the right until we get a value between 1 and 10:
+      <md>
+        6.845
+      </md>
+      To reach this position, we had to move the point 7 steps to the right. So, we can express 0.0000006845 in scientific notation as
+      <md>
+        6.845\times 10^{-7}
+      </md>
+    </p>
+  </example>
+  <p>
+    To take a number in scientific notation and turn it back into a number in standard notation, just complete the calculation in the scientific notation.
+  </p>
+  <p>
+    Write <m>5.1\times 10^8</m>
+  </p>
+  <p>
+    Solution: We complete the calculation in the scientific notation, following PEMDAS:
+    <md>5.1\times 100,000,000</md>
+    <md>
+     510,000,000
+    </md>
+  </p>
+
+  <worksheet xml:id="ws-s07e08">
+    <title>Season 7, Episode 8 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Write the following large numbers in scientific notation.
+        </p>
+      </introduction>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            45,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            91,000,000,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            3,200,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            8.070,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            789,000,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            5,600,000,000,000,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            6,540,000
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            999,000,000,000
+          </p>
+        </statement>
+      </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Write the following small numbers in scientific notation.
+        </p>
+      </introduction>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.00045
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.00091
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.0032
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.00000654
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.000000078
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.0000000027
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.004
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.4in">
+        <statement>
+          <p>
+            0.000000056
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </worksheet>
+
+  <paragraphs>
+    <title>Interlude: Scientific Notation on a Calculator</title>
+    <p>
+      Some calculators and computers have their own way to display scientific notation. Try entering the numbers from the practice problems with the most zeros and see
+      what happens. Your calculator likely converted it it scientific notation. Some calculators will display <m>\times 10^n</m> like we write it or you may have
+      a small E in place of the <m>\times 10</m>. Spreadsheets usually use a lower case e for scientific notation. If you do a lot of number crunching, you will likely run 
+      into scientific notation on your calculator at some point, so it is good to familiarize yourself on what your calculator does.
+    </p>
+    <p>
+      Here a couple of videos on how to use scientific notation on different Texas Instrument calculators
+      <sidebyside>
+        <figure xml:id="TI-sn-1">
+          <caption>Scientific Notation on a TI-30XIIS</caption>
+          <video youtube="FyZBLnp4_SI"/>
+        </figure>
+        <figure xml:id="TI-sn-2">
+          <caption>Scientific Notation on a TI-84+</caption>
+          <video youtube="ZKzx2Vw3sAU"/>
+        </figure>
+      </sidebyside>
+    </p>
+  </paragraphs>
 </section> 
