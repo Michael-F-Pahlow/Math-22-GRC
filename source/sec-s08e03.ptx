@@ -2,4 +2,182 @@
 
 <section xml:id="sec-s08e03" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 3: Solving Inequalities, Part 2</title>
+  <assemblage>
+    <title>Episode 3 Overview</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Solve compound inequalities
+          </p>
+        </li>
+        <li>
+          <p>
+            Write solutions to linear inequalities in interval notation.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    We solve regular equalities and inequalities by performing the same action on both sides:
+  </p>
+  <p>
+    For example, in
+    <md>
+      2x=6
+    </md>
+    we divide both sides by 2:
+    <md>
+      \frac{2x}{2} = \frac{6}{2}
+    </md>
+    <md>
+      x=3
+    </md>
+  </p>
+  <p>
+    For example, in 
+    <md>
+      x + 3 \ge 7
+    </md>
+    We subtract 3 from both sides:
+    <md>
+      x+3-3 \ge 7 - 3
+    </md>
+    <md>
+      x \ge 4
+    </md>
+  </p>
+  <p>
+    When we have a compound inequality, like
+    <md>
+      3 \le x + 5 \le 7
+    </md>
+    We can solve the inequality by performing the same action in all three parts of the inequality. 
+    To get rid of the added 5 next to <m>x</m>, we can subtract 5 from all three parts.
+    <md>
+      3-5 \le x + 5 - 5 \le 7 - 5
+    </md>
+    <md>
+      2 \le x \le 7
+    </md>
+  </p>
+  <example>
+    <p>
+      Solve the inequality and write your answer in interval notation.
+      <md>
+        -7 \le 2x+1 \le 9
+      </md>
+    </p>
+    <p>
+      Solution: We start by subtracting 1 from all three parts, so that only variable terms are left in the center:
+      <md>
+        -7-1 \le 2x+1-1 \le 9-1
+      </md>
+      <md>
+        -8 \le 2x \le 8
+      </md>
+      Then we divide all three parts by 2, to get rid of the multiplied 2 on the <m>x</m>:
+      <md>
+        \frac{-8}{2} \le \frac{2x}{2} \le \frac{8}{2}
+      </md>
+      <md>
+        -4 \le x \le 4
+      </md>
+      This says that <m>x</m> can be between -4 and 4, including -4, but not including 4. In interval notation, that would be
+      <md>
+        [-4, 4]
+      </md>
+    </p>
+  </example>
+  <worksheet xml:id="ws-s08e03">
+    <title>Season 8, Episode 3 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Solve the inequalities and write the answer in interval notation:
+        </p>
+      </introduction>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -15 \lt 3x \le 9</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -2 \lt \frac{x}{3}+1 \le 4</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> 5 \lt 3x-4 \le 20</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> 7 \ge 2x-1 \gt -5</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -10 \le 4-x \le 6</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -8 \le 5x+2 \lt 12</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -2 \lt \frac{x}{3}+1 \le 4</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> 1 \le 2x+3 \le 13</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+           <m> -6 \gt 2x-4 \ge -20</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        	Mona is planning her son’s birthday party and has a budget of $285. 
+          The Fun Zone charges $19 per child. How many children can she have at the party and stay within her budget?
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        	A water taxi has a maximum load of 1,800 pounds. If the average weight of one person is 150 pounds, how many people can safely ride in the water taxi?
+      </p>
+    </exercise>
+    <exercise workspace="2.5in">
+      <p>
+        	Adele and Walter found the perfect venue for their wedding reception. The cost is $9,850 for up to 100 guests, plus $38 for each additional guest. 
+          How many guests can attend if Adele and Walter want the total cost to be no more than $12,500?
+      </p>
+    </exercise>
+  </worksheet>
 </section> 

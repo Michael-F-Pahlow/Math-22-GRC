@@ -329,16 +329,7 @@
     </p>
     <p>
       Here a couple of videos on how to use scientific notation on different Texas Instrument calculators
-      <sidebyside>
-        <figure xml:id="TI-sn-1">
-          <caption>Scientific Notation on a TI-30XIIS</caption>
-          <video youtube="FyZBLnp4_SI"/>
-        </figure>
-        <figure xml:id="TI-sn-2">
-          <caption>Scientific Notation on a TI-84+</caption>
-          <video youtube="ZKzx2Vw3sAU"/>
-        </figure>
-      </sidebyside>
+      
     </p>
   </paragraphs>
 </section> 

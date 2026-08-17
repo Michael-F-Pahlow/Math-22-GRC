@@ -2,4 +2,443 @@
 
 <section xml:id="sec-s08e02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 2: Interval Notation</title>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret interval notation.
+          </p>
+        </li>
+        <li>
+          <p>
+            Convert between inequalities and intervals. 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interval
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Key Symbols</title>
+    <p>
+      <md>
+        \infty \quad \quad \text{as in}\,\, (5,\infty)
+      </md>
+    </p>
+  </assemblage>
+  <definition xml:id="def-interval-notation">
+    <statement>
+      <p>
+        <term>Interval notation</term> gives us a different way to represent solutions to inequalities. 
+      </p>
+    </statement>
+  </definition>
+  <p>
+    The interval
+    <md>
+      [3, 5]
+    </md>
+    refers to all the numbers between 3 and 5, including 3 and including 5. The square brackets communicate that 3 and 5 are included. 
+  </p>
+  <p>
+    The interval [3,5] has the same meaning as the inequality:
+    <md>
+      3 \le x \le 5
+    </md>
+  We can represent this interval on a number line by shading in the region between 3 and 5, drawing a solid dot at 3, 
+  and drawing a solid dot at 5. The solid dot communicates that 3 and 5 are included.
+  </p>
+  <figure>
+    <caption>The interval [3,5] on a number line.</caption>
+    <image width="90%">
+      <prefigure label="pf-number-line-1" xmlns="https://prefigure.org">
+        <diagram dimensions="(550,100)" margins="5">
+      <coordinates bbox="(-5.5,-2,5.5,2)">
+      <axes axes="horizontal" hticks="(-5,1,5)" arrows="2" hlabels="(-5,1,5)" tick-size="5"/>
+      <line endpoints="(3,0),(5,0)" thickness="8" stroke = "red"/>
+        <point p="(3,0)" stroke = "red" fill = "red" size="8"/>
+          <point p="(5,0)" stroke = "red" fill = "red" size="8"/>
+            </coordinates>
+        </diagram>
+        </prefigure>
+    </image>
+  </figure>
+  <p>
+    By contrast, the interval
+    <md>
+      (3, 5)
+    </md>
+    refers to all the numbers between 3, not including 3, and not including 5. The parentheses communicate that the 3 and 5 are not included.
+  </p>
+  <p>
+    The interval (3,5) has the same meaning as the inequality
+    <md>
+      3 \lt x \lt 5
+    </md>
+    We can represent this interval on a number line by shading in the region between 3 and 5, drawing a hollow dot at 3 and a hollow dot at 5. 
+  </p>
+  <figure>
+    <caption>The interval (3,5) on a number line.</caption>
+    <image width="90%">
+      <prefigure label="pf-number-line-2" xmlns="https://prefigure.org">
+        <diagram dimensions="(550,100)" margins="5">
+      <coordinates bbox="(-5.5,-2,5.5,2)">
+      <axes axes="horizontal" hticks="(-5,1,5)" arrows="2" hlabels="(-5,1,5)" tick-size="5"/>
+      <line endpoints="(3,0),(5,0)" thickness="8" stroke = "red"/>
+        <point p="(3,0)" stroke = "red" fill = "white" size="8"/>
+          <point p="(5,0)" stroke = "red" fill = "white" size="8"/>
+            </coordinates>
+        </diagram>
+        </prefigure>
+    </image>
+  </figure>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      When doing PEMDAS calculations, brackets mean the same thing as parentheses:
+      <md>
+        3[4-1] \quad \text{ is the same as}\quad 3(4-1)
+      </md>
+      But when writing intervals, brackets do not mean the same thing as parentheses.
+      <md>
+        [1,4]\quad \text{ is NOT the same as} \quad (1,4)
+      </md>
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Convert the interval (-2,1] to inequality notation and then draw the interval on a number line.
+    </p>
+    <p>
+      Solution: This interval means all the numbers between -2 and 1. The number -2 is not included because there is a parenthesis next to it. 
+      The number 1 is included, because there is a bracket next to it. So, this would correspond to the inequality
+      <md>
+        -2 \lt x \le 1
+      </md>
+      On a number line, we shade the region between -2 and 1, with a hollow dot at -2, and a solid dot at 1.
+    </p>
+    <figure>
+    <caption>The interval (-2,1] on a number line.</caption>
+    <image width="90%">
+      <prefigure label="pf-number-line-3" xmlns="https://prefigure.org">
+        <diagram dimensions="(550,100)" margins="5">
+      <coordinates bbox="(-5.5,-2,5.5,2)">
+      <axes axes="horizontal" hticks="(-5,1,5)" arrows="2" hlabels="(-5,1,5)" tick-size="5"/>
+      <line endpoints="(-2,0),(1,0)" thickness="8" stroke = "red"/>
+        <point p="(-2,0)" stroke = "red" fill = "white" size="8"/>
+          <point p="(1,0)" stroke = "red" fill = "red" size="8"/>
+            </coordinates>
+        </diagram>
+        </prefigure>
+    </image>
+  </figure>
+  </example>
+  <example>
+    <p>
+      Translate the inequality
+      <md>
+        1 \le x \lt 7
+      </md>
+      into interval notation
+    </p>
+    <p>
+      Solution: The inequality tells us that x is between 1 and 7, including 1, but not including 7. So, this becomes the interval
+      <md>
+        [1, 7)
+      </md>
+      with a bracket next to 1 and a parenthesis next to 7.
+    </p>
+  </example>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      Notice that the variable itself, <m>x</m>, does not appear anywhere in the interval. The interval just shows the smallest and largest values of <m>x</m>.
+    </p>
+  </assemblage>
+  <p>
+    Intervals are always written with the smaller value on the left side, to make the order of the numbers on the number line.
+  </p>
+  <example>
+    <p>
+      Write the inequality in interval notation:
+      <md>
+        4 \ge x \gt 2
+      </md>
+    </p>
+    <p>
+      Solution: This inequality says that <m>x</m> is between 2 and 4, including 4, not including 2. So, we write the interval
+      <md>
+        (2,4]
+      </md>
+      
+(2,4]
+We put the smaller number, 2, on the left side of the interval. We put a parenthesis next to 2 because it is not included. 
+We put a bracket next to 4 because it is included.
+    </p>
+  </example>
+  <p>
+    The inequality
+    <md>
+      x \gt 5
+    </md>
+    means that <m>x</m> can be anything greater than 5. The interval containing all numbers greater than 5 is written:
+    <md>
+      (5,\infty)
+    </md>
+    with the infinity symbol, <m>\infty</m>, on the right side. We use the infinity symbol to communicate that can be <m>x</m> as big as you want.
+  </p>
+  <p>
+    The inequality 
+    <md>
+      x \lt 7
+    </md>
+    means that <m>x</m> can be anything less than or equal to 7. The interval containing all numbers less than or equal to 7 is written:
+    <md>
+      (-7, \infty]
+    </md>
+    with the negative infinity symbol, <m>-\infty</m>, on the left side. We use the negative infinity symbol to communicate that <m>x</m> can be as small as you want.
+  </p>
+  <example>
+    <p>
+      Write the inequality <m>x\ge 2</m> in interval notation.
+    </p>
+    <p>
+      Solution: Here, <m>x</m> can be anything greater than or equal to 2. So, we would write:
+      <md>
+        [2, \infty)
+      </md>
+      We put a bracket next to the 2 to communicate that 2 is included. We use the infinity symbol to communicate that can be <m>x</m> as big as you want.
+    </p>
+  </example>
+  <example>
+    <p>
+      Write the inequality <m>x \lt 6</m> in interval notation.
+    </p>
+    <p>
+      Solution: Here, <m>x</m> can be anything less than 6. So, we would write:
+      <md>
+        (-\infty, 6)
+      </md>
+      We put a parenthesis next to the 6 to communicate that 6 is not included. 
+      We use the negative infinity symbol to communicate that <m>x</m> can be as small as you want.
+    </p>
+  </example>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      Positive <m>\infty</m> will always appear on the right side of the interval because it is bigger than everything.
+    </p>
+    <p>
+      Negative <m>\infty</m> will always appear on the left side of the interval because it is more negative than everything.
+    </p>
+    <p>
+      There will ALWAYS be a parenthesis next to positive or negative <m>\infty</m>, because <m>x</m> can never actually equal infinity.
+    </p>
+  </assemblage>
+  <worksheet xml:id="ws-s08e02">
+    <title>Season 8, Episode 2 Practice Problems</title>
+    <exercise>
+    <introduction>
+      <p>
+        Convert the following inequalities to interval notation. Then draw the interval on the number line.
+      </p>
+    </introduction>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> -4 \leq x \lt 3</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> 0 \lt x \lt 8</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> 2 \lt x \leq 9</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> -6 \lt x \leq 4</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> -7 \lt x \lt 1</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> 3 \leq x</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> x \geq 5</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> x \lt -1</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> 3 \leq x</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> x \leq -2</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> -12 \leq x \lt -5</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> -10 \leq x \leq -3</m>
+        </p>
+      </statement>
+    </task>
+    <task workspace="0.75in">
+      <statement>
+        <p>
+          <m> 7 \lt x \leq 15</m>
+        </p>
+      </statement>
+    </task>
+    </exercise>
+
+    <exercise>
+      <introduction>
+        <p>
+          Convert the following inequalities to interval notation. 
+        </p>
+      </introduction>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \gt 4</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \lt 12</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \le 7</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \ge -5</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \lt -3</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \gt 2</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \ge 0</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \le 15</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \gt -8</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \lt 6</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \le -1</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.25in">
+        <statement>
+          <p>
+            <m>x \ge 9</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
 </section> 

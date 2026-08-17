@@ -1,5 +1,3 @@
-season 7
-season 8
 season 9
 season 10
 resources
@@ -14,3 +12,14 @@ season names to worksheet titles
 definition
 </p>
 </gi>
+
+<sidebyside>
+        <figure xml:id="TI-sn-1">
+          <caption>Scientific Notation on a TI-30XIIS</caption>
+          <video youtube="FyZBLnp4_SI"/>
+        </figure>
+        <figure xml:id="TI-sn-2">
+          <caption>Scientific Notation on a TI-84+</caption>
+          <video youtube="ZKzx2Vw3sAU"/>
+        </figure>
+      </sidebyside>

@@ -382,16 +382,16 @@
     <p>
         Use the symbols <m>\gt</m> and <m>\lt</m> to compare the following pairs of numbers.  (Suggestion: Convert the fractions to decimals.)
     </p>
-    <exercise workspace="0.25">
+    <exercise workspace="0.25in">
         <p><md>\frac{1}{3} \quad\quad\quad\quad \frac{1}{4}</md></p>
     </exercise>
-    <exercise workspace="0.25">
+    <exercise workspace="0.25in">
         <p><md>0.7 \quad\quad\quad\quad \frac{3}{4}</md></p>
     </exercise>
-    <exercise workspace="0.25">
+    <exercise workspace="0.25in">
         <p><md>\frac{2}{5} \quad\quad\quad\quad \frac{3}{8}</md></p>
     </exercise>
-    <exercise workspace="0.25">
+    <exercise workspace="0.25in">
         <p><md>3.58 \quad\quad\quad\quad \frac{11}{4}</md></p>
     </exercise>
     </worksheet>

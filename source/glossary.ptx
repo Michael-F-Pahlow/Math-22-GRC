@@ -38,6 +38,13 @@ The operation that corresponds to combining piles of similar objects. Addition i
 </gi>
 
 <gi>
+<title>compound inequality</title>
+<p>
+    A line of math containing multiple inequality signs. 
+</p>
+</gi>
+
+<gi>
 <title> cross-cancel</title>
 <p>
 When multiplying fractions, you can simplify your answer before multiplying the numerator and denominator by canceling out common factors.
@@ -139,6 +146,13 @@ A fraction represents a portion of a whole.
 </gi>
 
 <gi>
+<title>inequality</title>
+<p>
+    A line of math containing <m>\gt</m> ,<m>\ge</m>, <m>\lt</m> or <m>\le</m>.
+</p>
+</gi>
+
+<gi>
 <title>integer</title>
 <p>
     A whole number that might be positive or negative or zero. 
@@ -223,6 +237,14 @@ The number on the bottom of the fraction. In 1/4, the numerator is 1. The numera
 A whole number that cannot be evenly divided by 2.
 </p>
 </gi>
+
+<gi>
+<title>ordered pair</title>
+<p>
+    Pairs of <m>x</m> and <m>y</m> represented by dots on the xy-plane. Ordered pairs can also be called <term>coordinates</term> or points.
+</p>
+</gi>
+
 
 <gi>
 <title>opposite</title>
@@ -359,5 +381,26 @@ A product of variables and numbers.
     A number that is changing or that is unknown. 
 </p>
 </gi>
+<gi>
+<title>xy-plane</title>
+<p>
+    A plane consisting of two crossed number lines, one horizontal and one vertical. 
+</p>
+</gi>
+
+<gi>
+<title>x-axis</title>
+<p>
+    The horizontal number line on the xy-plane.
+</p>
+</gi>
+
+<gi>
+<title>y-axis</title>
+<p>
+    The vertical number line on the xy-plane.
+</p>
+</gi>
+
 
 </glossary>

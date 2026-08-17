@@ -2,4 +2,308 @@
 
 <section xml:id="sec-s08e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: Solving Inequalities, Part 1</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret inequality notation.
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve simple inequalities.  
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Inequality
+          </p>
+        </li>
+        <li>
+          <p>
+            Compound Inequality 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Symbols</title>
+    <p>
+      <md>
+        \ge \quad\quad \text{as in}\,\, A\ge 2000
+      </md>
+      <md>
+        \le \quad\quad \text{as in}\,\, T\le 32
+      </md>
+    </p>
+  </assemblage>
+  <p>
+    The symbol <m>\ge</m> “greater than or equal to.” Think of it as a fusion of the <m>\gt</m> symbol and the <m>=</m> symbol.
+  </p>
+  <p>
+    For example, suppose the variable A represents our income, and we have $2000 worth of bills to pay. 
+    Then our income needs to be greater than or equal to $2000, enough money to pay our bills and hopefully a little more:
+    <md>
+      A\ge 2000
+    </md>
+  </p>
+  <p>
+    The symbol <m>\le</m> “greater than or equal to.” Think of it as a fusion of the <m>\lt</m> symbol and the <m>=</m> symbol.
+  </p>
+  <p>
+    For example, suppose the variable T represents the temperature of ice (in degrees Fahrenheit). 
+    As long as the temperature of the ice is 32 degrees or colder, the ice won’t melt:
+    <md>
+      T\le 32
+    </md>
+  </p>
+  <p>
+    A line of math containing <m>\gt</m> ,<m>\ge</m>, <m>\lt</m> or <m>\le</m> is called an <term>inequality</term>.
+  </p>
+  <assemblage>
+    <title>Notice Something Neat!</title>
+    <p>
+      Any statement containing an inequality can be “reversed” as long as you make sure that the “mouth” of the symbol points toward the greater or warmer value.
+      <md>
+        A \ge 2000 \,\,\text{is the same as}\,\, 2000 \le A
+      </md>
+      <md>
+        T \le 32 \,\,\text{is the same as}\,\, 32 \ge T
+      </md>
+    </p>
+  </assemblage>
+  <p>
+    It’s also possible to have a line containing multiple inequality signs. These are called <term>compound inequalities</term>.
+  </p>
+  <p>
+    For example, if <m>H</m> represents the temperature in your house (in degrees Fahrenheit), a comfortable temperature might be between 68 and 74. Then we could write:
+    <md>
+      68 \le H \le 74
+    </md>
+  </p>
+  <assemblage>
+    <title>Be Careful!</title>
+    <p>
+      The symbol <m>\lt</m> means “less than”. When we write something like <m>x\lt 5</m> that means that <m>x</m> cannot be equal to 5. 
+      It has to be strictly less than 5.
+    </p>
+    <p>
+      By contrast, the symbol <m>\le</m> means “less than OR equal to”. When we write something like <m>x \le 5</m>, 
+      that means <m>x</m> could be less than 5 or it could also be equal to 5.
+    </p>
+  </assemblage>
+  <p>
+    Inequalities containing a variable <m>x</m> can be solved using almost exactly the way we solved equations.
+  </p>
+  <p>
+    <alert>How to Solve Inequalities</alert>
+    <ol>
+      <li>
+        <p>
+          If necessary, distribute. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Add or subtract terms to cancel out all the variables on one side of the equation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Clean up the equation by combining like terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          Add or subtract terms to cancel out all the numbers on the other side of the equation.
+        </p>
+      </li>
+      <li>
+        <p>
+          Clean up the equation by combining like terms.
+        </p>
+      </li>
+      <li>
+        <p>
+          If necessary, finish isolating the variable using multiplication or division
+          <ol>
+            <li>
+              <p>
+                If you multiply or divide by a negative number, flip the inequality symbol
+              </p>
+            </li>
+          </ol>
+         </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Solve the inequality
+      <md>
+        5x+12 \le 2x
+      </md>
+    </p>
+    <p>
+      Solution 1: Subtract <m>2x</m> from both sides to move all the variables to the left:
+      <md>
+        5x+12 - 2x \le 2x -2x
+      </md>
+      <md>
+        3x+12 \le 0
+      </md>
+      Subtract 12 from both sides to move all the numbers to the right:
+      <md>
+        3x+12-12\le 0 -12
+      </md>
+      <md>
+        3x \le -12
+      </md>
+    Divide both sides by 3:
+    <md>
+      \frac{3x}{3} \le \frac{-12}{3}
+    </md>
+    <md>
+      x \le -4
+    </md>
+    In other words, any x-value less than or equal to -4 will make the inequality true.
+    </p>
+    <p>
+      Solution 2: Subtract <m>5x</m> from both sides to move all the variables to the right:
+      <md>
+        5x+12 - 5x \le 2x-5x
+      </md>
+      <md>
+        12 \le -3x
+      </md>
+      Divide both sides by -3. Since we’re dividing by a negative number, we need to flip the <m>\le</m> sign.
+      <md>
+        \frac{12}{-3} \ge \frac{-3x}{-3}
+      </md>
+      <md>
+        - 4 \ge x
+      </md>
+      Notice that we get exactly the same answer as we got before: Any x-value less than or equal to -4 will make the inequality true.
+    </p>
+  </example>
+  <worksheet xml:id="ws-s08e01">
+    <title>Season 8, Episode 1 Practice Problems</title>
+    <p>
+      Solve the following inequalities:
+    </p>
+    <exercise workspace="0.6in">
+      <p>
+        <m>3x+5 \gt 17</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>-0.8n+6 \le 2</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>-4y + 2 \le 10</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>-3p - 9 \lt 0</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>\frac{1}{2}a - 7 \lt 9</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>\frac{5}{3} q + 2 \ge 11</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>6b + \frac{3}{4} \ge 5</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>7 - 1.2 r \gt 3.6</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>2.5m - 1.5 \gt 4</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>\frac{4}{5} s + \le 12</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>3x+4 \gt 2x -7</m>
+      </p>
+    </exercise>
+    <exercise workspace="0.6in">
+      <p>
+        <m>2.5m-4 \ge 1.5m + 2</m>
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        <m>5y-9 \le 2y + 6</m>
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        <m>3(x+4) \gt 2x + 5</m>
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        <m>\frac{1}{2}a + 3 \lt \frac{3}{4}a+1</m>
+      </p>
+    </exercise>
+    <exercise workspace="2.0in">
+      <p>
+        <m>-2(2y-3) \le y + 7</m>
+      </p>
+    </exercise>
+    <p>
+      Write an inequality for each of the following situations:
+    </p>
+    
+    <exercise workspace="1.0in">
+      <p>
+        A child’s height, <m>h</m>, must be at least 57 inches for the child to safely ride in the front seat of a car. 
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        The maximum height, <m>h</m>, of a fighter pilot is 77 inches.
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        The total weight, <m>w</m>, of an elevator’s passengers can be no more than 1,200 pounds.
+      </p>
+    </exercise>
+    <exercise workspace="1.0in">
+      <p>
+        The number of items, <m>n</m>, a shopper can have in the express check-out lane is at most 8. Write this as an inequality.
+      </p>
+    </exercise>
+  </worksheet>
 </section>  

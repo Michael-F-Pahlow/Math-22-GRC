@@ -2,4 +2,526 @@
 
 <section xml:id="sec-s09e02" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 2: Plotting Points</title>
+  <assemblage>
+    <title>Episode 2 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Graph an equation by plotting points
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 2 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Graph
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    In Episode 01, we used the <m>xy</m>-plane to visually display values of <m>x</m> that are paired with specific values of <m>y</m>.
+  </p>
+  <p>
+    Given an equation relating <m>x</m> and <m>y</m>, the <term>graph</term> of the equation is the visual display of ALL its paired <m>x</m> and <m>y</m> values. 
+  </p>
+  <p>
+    <alert>To Plot the Graph of an Equation</alert>
+    <ol>
+      <li>
+        <p>
+          Create a table with two columns.
+          <ol>
+            <li>
+              <p>
+                In the left column, fill up the table with several x-values. 
+                (It’s common to use integers like -2,-1,0,1,2, but for some equations, other x-values might be easier to work with.)
+              </p>
+            </li>
+            <li>
+              <p>
+                Plug each of those x-values into your equation to find the associated y-values, and put those y-values into the right column of the table.
+              </p>
+            </li>
+          </ol>
+        </p>
+      </li>
+      <li>
+        <p>
+          	Turn each of the pairs in the table into an ordered pair (<m>x</m>,<m>y</m>) and draw all those points on the same <m>xy</m>-plane.
+        </p>
+      </li>
+      <li>
+        <p>
+          Draw a line or curve through the dots to create the graph. 
+        </p>
+      </li>
+    </ol>
+  </p>
+<example>
+  <p>
+    Graph the equation
+    <md>
+      y=2x-1
+    </md>
+  </p>
+  <p>
+    Solution: We begin by constructing a table of values. 
+    We fill up the left column with the standard x-values, -2,-1,0,1,2. 
+    Then we plug each of those x-values into the formula <m>y=2x-1</m> to find the corresponding y-value.
+  </p>
+  <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+    <row>
+      <cell><m>x</m></cell>
+      <cell><m>y</m></cell>
+    </row>
+    <row>
+      <cell>-2</cell>
+      <cell><m>2(-2)-1=-5</m></cell>
+    </row>
+    <row>
+      <cell>-1</cell>
+      <cell><m>2(-1)-1=-3</m></cell>
+    </row>
+    <row>
+      <cell>0</cell>
+      <cell><m>2(0)-1=-1</m></cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell><m>2(1)-1=1</m></cell>
+    </row>
+    <row>
+      <cell>2</cell>
+      <cell><m>2(2)-1=3</m></cell>
+    </row>
+  </tabular>
+  <p>
+    Now we plot the points (-2,-5), (-1,-3), (0, -1), (1, 1), (2,3) all on the same <m>xy</m>-plane.
+  </p>
+  <image width="60%">
+  <shortdescription>A plot of the points (-2,-5), (-1,-3), (0, -1), (1, 1), (2,3) on the same xy-plane </shortdescription>
+        <prefigure label="pf-92ex1a" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-1,-3)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(0,-1)" stroke="blue" fill="blue" size="6"/>
+              <point p="(2,3)" stroke="blue" fill="blue" size="6"/>
+                <point p="(-2,-5)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Notice that all the dots are lie on a straight line. We draw a straight line through all the points. The line is the graph of <m>y=2x+1</m>.
+        </p>
+        <image width="60%">
+  <shortdescription>A plot of the points with the line y = 2x-1 on the same xy-plane </shortdescription>
+        <prefigure label="pf-92ex1b" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-1,-3)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(0,-1)" stroke="blue" fill="blue" size="6"/>
+              <point p="(2,3)" stroke="blue" fill="blue" size="6"/>
+                <point p="(-2,-5)" stroke="blue" fill="blue" size="6"/>
+                  <line endpoints="((0,-1),(1,1))" stroke="blue" infinite="yes"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+</example>
+
+<example>
+  <p>
+    Graph the equation
+    <md>
+      y=x^2
+    </md>
+  </p>
+  <p>
+    Solution: We begin by constructing a table of values. 
+    We fill up the left column with the standard x-values, -2,-1,0,1,2. 
+    Then we plug each of those x-values into the formula <m>y=x^2</m> to find the corresponding y-value.
+  </p>
+  <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+    <row>
+      <cell><m>x</m></cell>
+      <cell><m>y</m></cell>
+    </row>
+    <row>
+      <cell>-2</cell>
+      <cell><m>(-2)^2=4</m></cell>
+    </row>
+    <row>
+      <cell>-1</cell>
+      <cell><m>(-1)^2=1</m></cell>
+    </row>
+    <row>
+      <cell>0</cell>
+      <cell><m>(0)^2=0</m></cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell><m>(1)^2=1</m></cell>
+    </row>
+    <row>
+      <cell>2</cell>
+      <cell><m>(2)^2=4</m></cell>
+    </row>
+  </tabular>
+  <p>
+    Now we plot the points (-2,4), (-1,1), (0, 0), (1, 1), (2,4) all on the same <m>xy</m>-plane.
+  </p>
+  <image width="60%">
+  <shortdescription>A plot of the points (-2, 4), (-1,1), (0, 0), (1, 1), (2,4) on the same xy-plane </shortdescription>
+        <prefigure label="pf-92ex2a" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-2,4)" stroke="blue" fill="blue" size="6"/>
+          <point p="(-1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(0,0)" stroke="blue" fill="blue" size="6"/>
+              <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+                <point p="(2,4)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Now, we draw a curve that goes through all the points. The curve is the graph of <m>y=x^{2}</m>. 
+        </p>
+        <image width="60%">
+  <shortdescription>A plot of y = x^2 on the same xy-plane </shortdescription>
+        <prefigure label="pf-92ex2b" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=x^2  </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-1,1)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(0,0)" stroke="blue" fill="blue" size="6"/>
+              <point p="(2,4)" stroke="blue" fill="blue" size="6"/>
+                <point p="(-2,4)" stroke="blue" fill="blue" size="6"/>
+                  <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+</example>
+<example>
+  <p>
+    Challenge: Graph the equation
+    <md>
+      y=\sqrt{x}
+    </md>
+  </p>
+  <p>
+    Solution: We begin by constructing a table of values. 
+    In this cast, it's not a good idea to use the standard x-values, -2,-1,0,1,2. 
+  </p>
+  <p>
+    That’s because you cannot calculate the square root of a negative number like -2 or -1. 
+    Instead, let’s make sure we’re using non-negative x-values, like 0, 1, 2, 3, 4.
+  </p>
+  <p>
+    Then we plug each of those x-values into the formula <m>y=\sqrt{x}</m> to find the corresponding y-value.
+  </p>
+  <tabular top="minor" bottom="minor" left="minor" right="minor" halign="center">
+    <row>
+      <cell><m>x</m></cell>
+      <cell><m>y</m></cell>
+    </row>
+    <row>
+      <cell>0</cell>
+      <cell><m>\sqrt{0}=0</m></cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell><m>\sqrt{1}=1</m></cell>
+    </row>
+    <row>
+      <cell>2</cell>
+      <cell><m>\sqrt{2}\approx 1.4</m></cell>
+    </row>
+    <row>
+      <cell>3</cell>
+      <cell><m>\sqrt{3}\approx 1.7</m></cell>
+    </row>
+    <row>
+      <cell>4</cell>
+      <cell><m>\sqrt{4}=2</m></cell>
+    </row>
+  </tabular>
+  <p>
+    Now we plot the points (0,0), (1,1), (2, 1.4), (3, 1.7), (4,2) all on the same <m>xy</m>-plane.
+  </p>
+  <image width="60%">
+  <shortdescription>A plot of the points (0,0), (1,1), (2, 1.4), (3, 1.7), (4,2) on the same xy-plane </shortdescription>
+        <prefigure label="pf-92ex3a" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,0)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(2,1.4)" stroke="blue" fill="blue" size="6"/>
+              <point p="(3,1.7)" stroke="blue" fill="blue" size="6"/>
+                <point p="(4,2)" stroke="blue" fill="blue" size="6"/>
+
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Now we draw a curve through the dots. This time, we are not going to draw anything on the left half of the <m>xy</m>-plane, 
+          because the left half of the <m>xy</m>-plane has negative <m>x</m>-values, and we can’t plug negative <m>x</m>-values into <m>\sqrt{x}</m>.
+        </p>
+        <p>
+          This curve is the graph of <m>y=\sqrt{x}</m>.
+        </p>
+        <image width="60%">
+  <shortdescription>A plot of y = square root of x on the xy-plane </shortdescription>
+        <prefigure label="pf-92ex3b" xmlns="https://prefigure.org">
+                  <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=sqrt(x) </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,0)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,1)" stroke="blue" fill="blue" size="6"/>
+            <point p="(2,1.4)" stroke="blue" fill="blue" size="6"/>
+              <point p="(3,1.7)" stroke="blue" fill="blue" size="6"/>
+                <point p="(4,2)" stroke="blue" fill="blue" size="6"/>
+                  <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+</example>
+<worksheet xml:id="ws-s09e02">
+  <title>Season 9, Episode 2 Practice Problems</title>
+  <p>
+    Graph the following linear equations (they are called linear because their graphs are straight lines).
+  </p>
+  <sidebyside>
+    <exercise>
+      <p>
+        <m>y=3x+2</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane1" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise>
+      <p>
+        <m>y=\frac{1}{2}x-3</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane2" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+  </sidebyside>
+  <sidebyside>
+    <exercise>
+      <p>
+        <m>y=-4x+1</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane3" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise>
+      <p>
+        <m>y=-\frac{3}{4}x+5</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane4" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+  </sidebyside>
+  <sidebyside>
+    <exercise>
+      <p>
+        <m>y=2.5x-1</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane5" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise>
+      <p>
+        <m>y=x-5</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane6" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+  </sidebyside>
+  <sidebyside>
+    <exercise>
+      <p>
+        <m>y=-1.2x+4</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane7" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise>
+      <p>
+        <m>y=-5x+frac{2}{3}</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane8" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+  </sidebyside>
+  <sidebyside>
+    <exercise workspace="2.5in">
+      <p>
+        <m>y=\frac{4}{5}x</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane9" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise workspace="3.0in">
+      <p>
+        <m>y=-0.8x-2</m>
+      </p>
+      <image width="70%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane10" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+  </sidebyside>
+  <p>
+    Graph the following non-linear equations.
+  </p>
+  <exercise>
+    <p>
+      <m>y=\frac{1}{2}x^2</m>
+    </p>
+    <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane11" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+  </exercise>
+  <exercise>
+    <p>
+      <m>y=(x-1)^2</m>
+    </p>
+    <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane12" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+  </exercise>
+</worksheet>
 </section>  

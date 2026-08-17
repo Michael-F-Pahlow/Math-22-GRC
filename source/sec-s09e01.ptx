@@ -2,4 +2,459 @@
 
 <section xml:id="sec-s09e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: The xy-Plane</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret the xy-plane as two crossed number lines used to simultaneously represent the behavior of two different, but related, quantities 
+          </p>
+        </li>
+        <li>
+          <p>
+            Plot ordered pairs on the xy-plane 
+          </p>
+        </li>
+        <li>
+          <p>
+            Express points on the xy-plane as ordered pairs 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <m>xy</m>-plane
+          </p>
+        </li>
+        <li>
+          <p>
+            Ordered pairs
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>x</m>-axis
+          </p>
+        </li>
+        <li>
+          <p>
+            <m>y</m>-axis
+          </p>
+        </li>
+        <li>
+          <p>
+            Coordinate
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    Suppose that you have two related quantities, one called <m>x</m> and one called <m>y</m>. For example, maybe you are buying apples, and each pound of apples costs $2. 
+    If <m>x</m> represents the pounds of apples you buy, and <m>y</m> is the total amount you spend, then <m>x</m> and <m>y</m> are related by the formula:
+    <md>
+      y = 2x
+    </md>
+    Each value of <m>x</m> is “paired” with an associated value of <m>y</m>. For example, when <m>x=1</m>, the formula forces 
+    <md>
+      y = 2(1) = 2
+    </md>
+    These pairings can be recorded in a table.
+  </p>
+  <tabular left="minor" right="minor" top="minor" bottom="minor" halign="center">
+    <row>
+      <cell>Pounds of Apples (<m>x</m>)</cell>
+      <cell>Total Cost (<m>y</m>)</cell>
+    </row>
+    <row>
+      <cell>0</cell>
+      <cell>2(0)=0</cell>
+    </row>
+    <row>
+      <cell>1</cell>
+      <cell>2(1)=2</cell>
+    </row>
+    <row>
+      <cell>2</cell>
+      <cell>2(2)=4</cell>
+    </row>
+    <row>
+      <cell>3</cell>
+      <cell>2(3)=6</cell>
+    </row>
+  </tabular>
+  <p>
+    We can also represent this relationship visually on what’s called the <term>xy-plane</term>. 
+    The xy-plane consists of two crossed number lines, one horizontal and one vertical. 
+  </p>
+  <p>
+    The horizontal line tracks the values of <m>x</m>, and it’s called the <term>x-axis</term>. 
+  </p>
+  <p>
+    The vertical line tracks the values of <m>y</m>, and it’s called the <term>y-axis</term>. 
+  </p>
+  <figure>
+        <caption>The xy-plane</caption>
+        <image width="90%">
+        <prefigure label="pf-xy-plane" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    <p>
+      To reflect the fact that <m>x=1</m> is paired with <m>y=2</m>, we draw a dot on the xy-plane. 
+      The value <m>x=1</m> tells us the dot’s horizontal position, and the value <m>y=2</m> tells us the dot’s vertical position. 
+    </p>
+    <p>
+      The numbers <m>x=1</m> and <m>y=2</m> are called the dot’s <term>coordinates</term> because they tell you where the dot is located.
+    </p>
+    <figure>
+        <caption>The pairing of x = 1 and y = 2 represented on the plane by a dot.</caption>
+        <image width="90%">
+        <prefigure label="pf-1-2-example" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(1,2)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    <p>
+      If we drew a dot for every pairing in the table, it would look like this:
+    </p>
+    <figure>
+        <caption>The four pairings in the table, represented on the plane by dots</caption>
+        <image width="90%">
+        <prefigure label="pf-2x-example" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,0)" stroke="blue" fill="blue" size="6"/>
+          <point p="(1,2)" stroke="blue" fill="blue" size="6"/>
+            <point p="(2,4)" stroke="blue" fill="blue" size="6"/>
+              <point p="(3,6)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    <p>
+      When working with related quantities, we write the pairings using this <term>ordered pair</term> notation:
+      <md>
+        (x,y)
+      </md>
+      For example, the pairings in the table would be written
+      <md>
+        (0,0)
+      </md>
+      <md>
+        (1,2)
+      </md>
+      <md>
+        (2,4)
+      </md>
+      <md>
+        (3,6)
+      </md>
+    </p>
+    <assemblage>
+      <title>Be Careful!</title>
+      <p>
+        The notation used for ordered pairs is identical to the notation used for intervals in Season 8. 
+        You need to use context to tell the difference between an ordered pair and an interval.
+      </p>
+      <p>
+        Ordered pairs show up when you are dealing with equations like <m>y=2x</m> that have two related variables.
+      </p>
+      <p>
+        Intervals show up when you are dealing with inequalities like <m>1 \lt x \lt 2</m> that have only one variable.
+      </p>
+    </assemblage>
+    <example>
+      <p>
+        Draw the point (-1,4) on the xy-plane
+      </p>
+      <p>
+        Solution: The horizontal position of the point is given by the first number, <m>x=-1</m>. 
+        The vertical position of the point is given by the second number, <m>y=4</m>.
+      </p>
+      <figure>
+        <caption>A plot of the point (-1,4) on the xy-plane</caption>
+        <image width="90%">
+        <prefigure label="pf-point-example1" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-1,4)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    </example>
+     <example>
+      <p>
+        Draw the point (-3,0) on the xy-plane
+      </p>
+      <p>
+        Solution: The horizontal position of the point is given by the first number, <m>x=-3</m>. 
+        The vertical position of the point is given by the second number, <m>y=0</m>.
+      </p>
+      <figure>
+        <caption>A plot of the point (-3,0) on the xy-plane</caption>
+        <image width="90%">
+        <prefigure label="pf-point-example2" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-3,0)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    </example>
+     <example>
+      <p>
+        Draw the point (0,2) on the xy-plane
+      </p>
+      <p>
+        Solution: The horizontal position of the point is given by the first number, <m>x=0</m>. 
+        The vertical position of the point is given by the second number, <m>y=2</m>.
+      </p>
+      <figure>
+        <caption>A plot of the point (0,2) on the xy-plane</caption>
+        <image width="90%">
+        <prefigure label="pf-point-example3" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,2)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+    </example>
+    <worksheet xml:id="ws-s09e01">
+      <title>Season 9, Episode 1 Practice Problems</title>
+      <exercise>
+       <introduction>
+        <p>
+          For the relationship <m>y = x^2</m>
+        </p>
+       </introduction>
+       <task>
+        <statement>
+          <p>
+            Fill out the following table
+          </p>
+          <tabular left="minor" right="minor" top="minor" bottom = "minor" halign="center">
+            <row>
+              <cell><m>x</m></cell>
+              <cell><m>y</m></cell>
+            </row>
+            <row>
+              <cell>-2</cell>
+              <cell><m>\hspace{0.5in}</m></cell>
+            </row>
+            <row>
+              <cell>-1</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>0</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>1</cell>
+              <cell></cell>
+            </row>
+            <row>
+              <cell>2</cell>
+              <cell></cell>
+            </row>
+          </tabular>
+        </statement>
+       </task>
+       <task>
+        <statement>
+          <p>
+            Draw all the pairs in the table together on a single xy-plane.
+          </p>
+          <image width="70%">
+            <shortdescription>A blank xy-plane</shortdescription>
+            <prefigure label="pf-xy-plane-ex2" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+          </image>
+        </statement>
+       </task>
+      </exercise>
+      <p>
+        Write the points in each of the following drawings as an ordered pair <m>(x,y)</m>.
+      </p>
+
+      <sidebyside widths="35% 35%">
+          <exercise>
+          <image>
+        <prefigure label="pf-913a" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(4,1)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+            
+          </exercise>
+          <exercise>
+           
+              <image>
+        <prefigure label="pf-913b" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(-1,-2)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+            
+          </exercise>
+        </sidebyside>
+         <sidebyside widths="35% 35%">
+          <exercise>
+            
+              <image>
+        <prefigure label="pf-913c" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,3)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+            
+          </exercise>
+          <exercise>
+           
+              <image>
+        <prefigure label="pf-913d" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(3,-4)" stroke="blue" fill="blue" size="6"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+            
+          </exercise>
+        </sidebyside>
+      
+          <p>
+            Plot each of the following points on a different copy of the xy-plane.
+          </p>
+
+        <sidebyside>
+          <exercise workspace="1.75in">
+               <p>
+                (-4,4)
+              </p>
+            </exercise>
+         <exercise workspace="1.75in">
+               <p>
+                (3,-3)
+              </p>
+            </exercise>
+            <exercise workspace="1.75in">
+               <p>
+                (-2,-4)
+              </p>
+            </exercise>
+        </sidebyside>
+    <sidebyside>
+          <exercise workspace="1.75in">
+               <p>
+                (2,-1)
+              </p>
+            </exercise>
+         <exercise workspace="1.75in">
+               <p>
+                (2,0)
+              </p>
+            </exercise>
+            <exercise workspace="1.75in">
+               <p>
+                (5,3)
+              </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+          <exercise workspace="1.75in">
+               <p>
+                (-4,-3)
+              </p>
+            </exercise>
+         <exercise workspace="1.75in">
+               <p>
+                (4,-4)
+              </p>
+            </exercise>
+            <exercise workspace="1.75in">
+               <p>
+                (-4,5)
+              </p>
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+          <exercise workspace="1.75in">
+               <p>
+                (5,-2)
+              </p>
+            </exercise>
+         <exercise workspace="1.75in">
+               <p>
+                (4,5)
+              </p>
+            </exercise>
+            <exercise workspace="1.75in">
+               <p>
+                (0,-5)
+              </p>
+            </exercise>
+        </sidebyside>
+      
+    </worksheet>
 </section>  

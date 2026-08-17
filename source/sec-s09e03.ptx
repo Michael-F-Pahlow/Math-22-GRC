@@ -2,4 +2,108 @@
 
 <section xml:id="sec-s09e03" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 3: Interpreting Graphs</title>
+  <assemblage>
+    <title>Episode 3 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Given a graph representing a real-world relationship, answer questions and make conclusions using the graph.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    Remember that a graph is a visual representation of the relationship between two quantities. 
+    If you have a graph, you can answer lots of different questions about the two quantities.
+  </p>
+  <example>
+    <p>
+      The following graph shows the relationship between the year (on the horizontal axis) and the population of a certain town (on the vertical axis).
+    </p>
+    <figure>
+      <caption>Graph showing population in a town over time</caption>
+      <image source="93a.png" width = "60%">
+        <shortdescription>The lower left of the graph shows a population of about 10 thousand in 1801 
+        in the lower left corner and the population grows in roughly a strait line to a population of almost 160 thousand in 2011 in the upper right
+        of the graph.</shortdescription>
+      </image>
+      </figure>
+      <p>
+        Part 1-A:	What was the town’s population during the year 1891?
+      </p>
+      <p>
+        Solution 1-A:	Start with the given information: Look for <m>y=1</m> on the vertical axis. 
+        Then, navigate to the point on the graph that has a vertical coordinate of 1. Then, look to the horizontal axis to see the <m>x</m>-value.
+      </p>
+      <figure>
+        <caption>Graph showing population over time, with a highlight at time 1891</caption>
+      <image source="93b.png" width = "60%">
+        <shortdescription>The same as the previous graph with the point (1891, 60 thousand) circled.</shortdescription>
+      </image>
+    </figure>
+      
+    <p>
+      Part 1-B:	When did the population reach 100 thousand people?
+    </p>
+    <p>
+      Solution 1-B:	Start with the given information: Look for 100 (thousand) on the vertical axis. 
+      Find the point on the graph with that vertical coordinate. Then look down to the horizontal axis for the year.
+    </p>
+    <figure>
+      <caption>Graph showing population over time, with a highlight at population 100 thousand</caption>
+        <image source="93c.png" width = "60%">
+        <shortdescription>The same as the previous graph with the point (1940, 100 thousand) circled.</shortdescription>
+      </image>
+    </figure>
+    <p>
+     The year on the vertical axis is between 1921 and 1951, slightly closer to 1951. 
+      So, a reasonable answer is that the population reached 100 thousand in approximately the year 1940. 
+    </p>
+  </example>
+  <example>
+    <p>
+      Below is a graph of some equation relating two quantities <m>x</m> and <m>y</m>.
+    </p>
+    <figure>
+      <caption>A graph of a linear equation</caption>
+        <image source="93d.png" width = "60%">
+        <shortdescription>the line y = -two thirds x plus two graphed</shortdescription>
+      </image>
+    </figure>
+    <p>
+      Part 1-A: Find the value of <m>x</m> that is paired with <m>y=1</m>.
+    </p>
+    <p>
+      Solution 1-A:	Start with the given information: Look for <m>y=1</m> on the vertical axis. 
+      Then, navigate to the point on the graph that has a vertical coordinate of 1. Then, look to the horizontal axis to see the <m>x</m>-value.
+    </p>
+    <figure>
+      <caption>A graph of a linear equation with y = 1 highlighted</caption>
+        <image source="93e.png" width = "60%">
+        <shortdescription>the line y = -two thirds x plus two graphed with the point (1.5, 1) highlighted</shortdescription>
+      </image>
+    </figure>
+    <p>
+      The value on the horizontal axis is between 1 and 2. So a reasonable answer would be that <m>x=1.5</m> is the <m>x</m>-value that is paired with <m>y=1</m>.
+    </p>
+    <p>
+      Part 1-B: Find the value of <m>y</m> that is paired with <m>x=</m>.
+    </p>
+    <p>
+      Solution 1-B:	Start with the given information: Find <m>x=0</m> on the horizontal axis. 
+      Then, navigate to the point on the graph that has a horizontal coordinate of 0. Then, look to the vertical axis to find the <m>y</m>-value.
+    </p>
+<figure>
+      <caption>A graph of a linear equation with x=0 highlighted</caption>
+        <image source="93f.png" width = "60%">
+        <shortdescription>the line y = -two thirds x plus two graphed with the point (0, 2) highlighted</shortdescription>
+      </image>
+    </figure>
+    <p>
+      The point has a vertical coordinate of 2. So <m>x=0</m> is paired with a <m>y</m>-value of 2.
+    </p>
+  </example>
+
 </section>  
