@@ -104,6 +104,167 @@
     <p>
       The point has a vertical coordinate of 2. So <m>x=0</m> is paired with a <m>y</m>-value of 2.
     </p>
+    <p>
+      Part 1-C:	Find the value of <m>x</m> that is paired with <m>y=0</m>.
+      </p>
+      <p>
+        Solution 1-C:	Start with the given information: Find <m>y=0</m> on the vertical axis. 
+        Then, navigate to the point on the graph that has a vertical coordinate of 0. Then, look to the horizontal axis to find the <m>x</m>-value.
+      </p>
+      <figure>
+      <caption>A graph of a linear equation with y=0 highlighted</caption>
+        <image source="93g.png" width = "60%">
+        <shortdescription>the line y = -two thirds x plus two graphed with the point (3, 0) highlighted</shortdescription>
+      </image>
+    </figure>
+    <p>
+      The point has a horizontal coordinate of 3. So <m>x=3</m> is paired with <m>y=0</m>.
+    </p>
   </example>
-
+  <assemblage>
+    <title>Notice Something Neat!</title>
+    <p>
+      If the x-coordinate is <m>x=0</m>, the point lies on the y-axis.
+    </p>
+    <p>
+      If the y-coordinate is <m>y=0</m>, the point lies on the x-axis.
+    </p>
+  </assemblage>
+  <example>
+    <p>
+      Below is a graph of some equation relating two quantities <m>x</m> and <m>y</m>.
+    </p>
+    <figure>
+      <caption>A graph of the parabola <m>y=x^2</m></caption>
+        <image source="93h.png" width = "60%">
+        <shortdescription>the parabola x squared</shortdescription>
+      </image>
+    </figure>
+    <p>
+      Part 1-A:	Find the value of <m>y</m> paired with <m>x=1</m>.
+    </p>
+    <p>
+      Solution 1-A:	Start with the given information: look for <m>x=1</m> on the horizontal axis. 
+      Navigate to the point on the graph with that horizontal coordinate. Then look over to the y-axis for the vertical coordinate. 
+    </p>
+    <figure>
+      <caption>A graph of the parabola with x = 1 highlighted<m>y=x^2</m></caption>
+        <image source="93i.png" width = "60%">
+        <shortdescription>the parabola x squared with the point (1,1) circled</shortdescription>
+      </image>
+    </figure>
+    <p>
+      The value <m>x=1</m> is paired with the value <m>y=1</m>.
+    </p>
+    <p>
+      Find the value(s) of <m>x</m> paired with <m>y=4</m>.
+    </p>
+    <p>
+      Solution 1-B:	Start with the given information and look for <m>y=4</m> on the vertical axis. 
+      There are two points on the graph with that vertical coordinate. We look down to the x-axis for their horizontal coordinates.
+    </p>
+    <figure>
+      <caption>A graph of the parabola with y = 4 highlighted<m>y=x^2</m></caption>
+        <image source="93j.png" width = "60%">
+        <shortdescription>the parabola x squared with the points (2,4) and (-2,4) circled</shortdescription>
+      </image>
+    </figure>
+    <p>
+      The x-values <m>x=-2</m> and <m>x=2</m> are paired with <m>y=4</m>.
+    </p>
+  </example>
+  <worksheet xml:id="ws-s09e03">
+    <title>Season 9, Episode 3 Practice Problems</title>
+    <exercise workspace="0.5in">
+      <p>
+        For the following graph find the the y-value when <m>x=4</m> AND find the x-value when <m>y=-1</m>
+      </p>
+      <image width="60%">
+  <shortdescription>A plot of the line y = x over 2 minus 1 </shortdescription>
+        <prefigure label="pf-93ex1" xmlns="https://prefigure.org">
+                  <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=x/2-1 </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+          <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise workspace="0.5in">
+      <p>
+        For the following graph find the the y-value when <m>x=3</m> AND find the x-value(s) when <m>y=3</m>
+      </p>
+      <image width="60%">
+  <shortdescription>A plot of the line y = -2x+3</shortdescription>
+        <prefigure label="pf-93ex2" xmlns="https://prefigure.org">
+                  <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=-2*x+3</definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+          <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise workspace="0.5in">
+      <p>
+        For the following graph find the the y-value when <m>x=-1</m> AND find the x-value(s) when <m>y=2</m>
+      </p>
+      <image width="60%">
+  <shortdescription>A plot of y = x squared minus two </shortdescription>
+        <prefigure label="pf-93ex3" xmlns="https://prefigure.org">
+                  <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=x^2-2 </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+          <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise workspace="0.5in">
+      <p>
+        For the following graph find the the y-value when <m>x=0</m> AND find the x-value when <m>y=1</m>
+      </p>
+      <image width="60%">
+  <shortdescription>A plot of y = x cubed </shortdescription>
+        <prefigure label="pf-93ex4" xmlns="https://prefigure.org">
+                  <diagram dimensions="(500,500)" margins="5">
+        <definition>f(x)=x^3/8 </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+          <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </exercise>
+    <exercise workspace="0.5in">
+        <image source="93k.PNG" width = "80%">
+        <shortdescription>a line graph depicting juan's bike ride with points at (0,0), (30,6),(90,12),(135,0) where x represents time in minutes and y 
+        represents distance in miles</shortdescription>
+      </image>
+    <p>
+      How far from home is Juan after 75 minutes? At what times was Juan 3 miles from home?
+    </p>
+    </exercise>
+    <exercise workspace="0.5in">
+        <image source="93l.PNG" width = "80%">
+        <shortdescription>a line graph depicting the number of teachers at jones high with points at
+         (1990,20), (1995,30),(2000,50),(2005,50),(2010,40),(2015,60),(2020,80) where x represents the year and y 
+        represents number of teachers</shortdescription>
+      </image>
+    <p>
+      How many teachers were there in 1995? How many teachers were there in 2015? In what years were there 40 teachers at Jones High?
+    </p>
+    </exercise>
+  </worksheet>
 </section>  

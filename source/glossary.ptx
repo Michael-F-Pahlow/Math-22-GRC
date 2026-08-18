@@ -396,9 +396,23 @@ A product of variables and numbers.
 </gi>
 
 <gi>
+<title>x-intercept</title>
+<p>
+    A point where a graph crosses the x-axis. 
+</p>
+</gi>
+
+<gi>
 <title>y-axis</title>
 <p>
     The vertical number line on the xy-plane.
+</p>
+</gi>
+
+<gi>
+<title>y-intercept</title>
+<p>
+    A point where a graph crosses the y-axis. 
 </p>
 </gi>
 

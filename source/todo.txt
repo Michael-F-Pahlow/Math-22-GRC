@@ -1,10 +1,12 @@
-season 9
 season 10
 resources
 
 Review Worksheets
 fiddle with worksheet spacing
 season names to worksheet titles
+
+xy tags
+points as math
 
 <gi>
 <title>term</title>

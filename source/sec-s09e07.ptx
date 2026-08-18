@@ -2,4 +2,222 @@
 
 <section xml:id="sec-s09e07" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 7: Slope-Intercept Form, Part 7</title>
+  <assemblage>
+    <title>Episode 7 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Given a slope and a point on a line, find the line’s equation.
+          </p>
+        </li>
+        <li>
+          <p>
+            Given two points on a line, find the line’s equation.
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <p>
+    If you know the slope of a line and one point the line passes through, you can find the line’s equation.
+  </p>
+  <p>
+    <alert>How to Find the Equation of a Line:</alert>
+    <ol>
+      <li>
+        <p>
+          	Set up the slope-intercept form template <m>y=mx+b</m>. 
+        </p>
+      </li>
+      <li>
+        <p>	
+	In the template, the letter <m>m</m> stands for the slope. Find the slope <m>m</m> using one of the techniques or formulas from Episode 5.
+        </p>
+      </li>
+      <li>
+        <p>
+          Let <m>(x_0,y_0)</m> stand for a point the line passes through. Plug <m>(x_0,y_0)</m> into the template and the number for the slope <m>m</m> into the template
+          and solve for <m>b</m>.
+        </p>
+      </li>
+      <li>
+        <p>
+          	Plug your values of <m>m</m> and <m>b</m> back into the slope-intercept form template. 
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      A line has a slope of <m>\frac{1}{4}</m> and it passes through the point <m>(3,1)</m>. Find the graph’s equation.
+    </p>
+    <p>
+      Solution: Set up the slope-intercept form template:
+      <md>
+        y=mx+b
+      </md>
+      In this problem the slope, <m>m=\frac{1}{4}</m> , is given to us directly, so we don’t have to calculate it.
+    </p>
+    <p>
+      The point that the line passes through is <m>(3,1)</m>. Plug the given value of m and the point <m>(x_0,y_0)=(3,1)</m> into the slope-intercept template:
+      <md>
+        1 = \left(\frac{1}{4}\right)(3)+b
+      </md>
+      Now let’s solve this equation for <m>b</m>:
+      <md>
+        <mrow>2  \amp = \frac{3}{4} + b </mrow>
+        <mrow>2-\frac{3}{4} \amp = b </mrow>
+        <mrow>\frac{8}{4} - \frac{3}{4} \amp = b </mrow>
+        <mrow> \frac{5}{4} \amp = b </mrow>
+      </md>
+      Now, plug <m>m</m> and <m>b</m> back into the slope-intercept template:
+      <md>
+        y = \frac{1}{4}x + \frac{5}{4}
+      </md>
+    </p>
+  </example>
+  <example>
+  <p>
+    A line passes through the two points <m>(2,5)</m> and <m>(4,1).</m> Find the equation of the line.
+    </p>
+      <p>
+      Solution 1: Start by using the two points to find the line’s slope:
+      <md>
+        m = \frac{y_2-y_1}{x_2-x_1}
+      </md>
+      <md>
+        m = \frac{1-5}{4-2}
+      </md>
+      <md>
+        m = -\frac{4}{2}
+      </md>
+      <md>
+        m = -2
+      </md>
+      Now plug this value of m and the point <m>(x,y)=(2,5)</m> into the slope-intercept template to find <m>b</m>:
+      <md>
+        <mrow>y \amp = mx+b </mrow>
+        <mrow>5 \amp = -2(2) + b </mrow>
+        <mrow>5 \amp = -4 + b </mrow>
+        <mrow>5 +4 \amp = b </mrow>
+        <mrow>9 \amp =  b </mrow>
+      </md>
+      Finally, put our values of <m>m</m> and <m>b</m> back into the template:
+      <md>
+        y = -2x+9
+      </md>
+      
+    </p>
+    <p>
+      Solution 2: Start by using the two points to find the line’s slope:
+      <md>
+        m = \frac{y_2-y_1}{x_2-x_1}
+      </md>
+      <md>
+        m = \frac{1-5}{4-2}
+      </md>
+      <md>
+        m = -\frac{4}{2}
+      </md>
+      <md>
+        m = -2
+      </md>
+      Now plug this value of m and the point <m>(x,y)=(4,1)</m> into the slope-intercept template to find <m>b</m>:
+      <md>
+        <mrow>y \amp = mx+b </mrow>
+        <mrow>1 \amp = -2(4) + b </mrow>
+        <mrow>1 \amp = -8 + b </mrow>
+        <mrow>1+8 \amp = b </mrow>
+        <mrow>9 \amp =  b </mrow>
+      </md>
+      Finally, put our values of <m>m</m> and <m>b</m> back into the template:
+      <md>
+        y = -2x+9
+      </md>
+      
+    </p>
+  </example>
+  <worksheet xml:id="ws-s09e07">
+    <title>Season 9, Episode 7 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Find the equation of the line given a slope and a points
+        </p>
+      </introduction>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            slope = 4, point = <m>(-2,1)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            slope = -5, point = <m>(7,3)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            slope = 1, point = <m>(0,19)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            slope = <m>\frac{1}{3}</m>, point = <m>(3,-8)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.8in">
+        <statement>
+          <p>
+            slope = 0.25, point = <m>(3,4.5)</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          Find an equation of the line given a pair of points.
+        </p>
+      </introduction>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+            <m>(1,4), (3,9)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+            <m>(3,6), (8,0)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+            <m>(-2,4), (3,-1)</m>
+          </p>
+        </statement>
+      </task>
+      <task workspace="1.0in">
+        <statement>
+          <p>
+            <m>(4,-5), (1,-2)</m>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    
+  </worksheet>
+
 </section>  

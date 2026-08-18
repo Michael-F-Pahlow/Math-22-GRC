@@ -2,4 +2,419 @@
 
 <section xml:id="sec-s09e06" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 6: Slope-Intercept Form, Part 1</title>
+  <assemblage>
+    <title>Episode 6 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Given a line’s equation in slope-intercept form, quickly construct the graph
+          </p>
+        </li>
+        <li>
+          <p>
+            Given a line’s slope and y-intercept, construct the equation in slope-intercept form
+          </p>
+        </li>
+        <li>
+          <p>
+            Given the graph of a line, construct the equation in slope-intercept form
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 6 Key Terminology</title>
+    <p>
+      Slope-intercept form of a line
+    </p>
+  </assemblage>
+  <p>
+    An equation whose graph is a straight line can be written in the form:
+    <md>
+      y = mx  +b
+    </md>
+    The letters <m>m</m> and <m>b</m> stand for numbers that tell you the shape and position of the line:
+    <ul>
+      <li>
+        <p>
+          The number <m>m</m> is the line's slope
+        </p>
+      </li>
+      <li>
+        <p>
+          The number <m>b</m> comes from the line's y-intercept <m>(0,b)</m>
+        </p>
+      </li>
+    </ul>
+    This “template” for the equation of a line is called “slope-intercept” form. 
+  </p>
+  <example>
+    <p>
+      A line has the equation <m>y=3x+2</m>. Find the line’s slope and the line’s y-intercept. Then draw the line’s graph. 
+    </p>
+    <p>
+      Solution: The slope “m” is the coefficient of <m>x</m> in the equation. Here, the coefficient of <m>x</m> is 3, so the slope is 3.
+    </p>
+    <p>
+      The “b,” related to the line’s y-intercept, is the number added in the back of the equation. 
+      Here, the number added in the back is 2. So, the y-intercept is the point (0,2).
+    </p>
+    <p>
+      Now let’s draw the line. 
+      </p>
+      <image width="60%">
+      <shortdescription>a graph of the intercept (0,2)</shortdescription>
+        <prefigure label="pf-96ex1a" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 3*x +2       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,2)" stroke="blue" fill="blue"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    <p>
+      Then, use the fact that the slope is 3=<m>\frac{1}{3}</m> = rise/run . From the point (0,2), 
+      go over 1 unit and then go up 3 units, and mark another point at this new location. 
+    </p>
+    <image width="60%">
+      <shortdescription>a graph of the intercept (0,2) and point (1,5)</shortdescription>
+        <prefigure label="pf-96ex1b" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 3*x +2       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,2)" stroke="blue" fill="blue"/>
+          <point p="(1,5)" stroke="blue" fill="blue"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Now draw a straight line through the two points you marked:
+        </p>
+        <image width="60%">
+      <shortdescription>a graph of the intercept (0,2) and point (1,5)</shortdescription>
+        <prefigure label="pf-96ex1c" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 3*x +2       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             <point p="(0,2)" stroke="blue" fill="blue"/>
+          <point p="(1,5)" stroke="blue" fill="blue"/>
+        <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+  </example>
+  <example>
+    <p>
+      A line has the equation <m>2y+4x=6</m>. Find the line’s slope and y-intercept. 
+    </p>
+    <p>
+      Solution: The line is not currently written in slope-intercept form. 
+      It can be converted to slope-intercept form by solving for y (see Season 07, Episode 10: Rearranging Formulas). 
+      <md>
+        <mrow> 2y+4x\amp =6</mrow>
+        <mrow> 2y+4x-4x\amp =6-4x</mrow>
+        <mrow> 2y\amp =6-4x</mrow>
+        <mrow> \frac{2y}{2}\amp = \frac{6-4x}{2}</mrow>
+        <mrow> y\amp = \frac{6}{2}-\frac{4x}{2}</mrow>
+        <mrow> y\amp =3-2x</mrow>
+        <mrow> y\amp =-2x+3</mrow>
+      </md>
+       Now we can see that the line’s slope is <m>m=-2</m> and its y-intercept is (0,3).
+    </p>
+  </example>
+  <example>
+    <p>
+      Find the equation of the line graphed below
+    </p>
+     <image width="60%">
+      <shortdescription>a graph of a line sloping down</shortdescription>
+        <prefigure label="pf-96ex2a" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x/2+1      
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+                    <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Solution: Start by identifying the graph’s y-intercept. This is the point where the graph crosses the vertical axis. 
+        </p>
+         <image width="60%">
+      <shortdescription>a graph of a line sloping down with the y-intercept marked at (0,1)</shortdescription>
+        <prefigure label="pf-96ex2b" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x/2+1      
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             <point p="(0,1)" stroke="blue" fill="blue"/>
+                  <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          The y-intercept is (0,1), which tells you the “b” in the slope-intercept template is <m>b=1</m>.
+        </p>
+        <p>
+          Now determine the slope of the line. Mark two easy-to-read points on the line and measure the rise and the run between them. 
+        </p>
+         <image width="60%">
+      <shortdescription>a graph of a line sloping down</shortdescription>
+        <prefigure label="pf-96ex2c" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x/2+1      
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             <point p="(0,1)" stroke="blue" fill="blue"/>
+          <point p="(2,0)" stroke="blue" fill="blue"/>
+            <line endpoints="(0,1),(2,1)" stroke="green"/>
+            <line endpoints="(2,1),(2,0)" stroke="green"/>
+        <graph function="f"/>
+        <label anchor="(1,1)" alignment="north">
+        run
+        </label>
+        <label anchor ="(2,0.5)" alignment="east">
+        rise
+        </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          The run is 2 units and the rise is -1 units. Notice that the rise is negative because the graph goes down as we follow it from left to right. So the slope is
+          <md>
+            m = \frac{\text{rise}}{\text{run}} = \frac{2}{-1} = -2
+          </md>
+          Now we put our values of <m>m</m> and <m>b</m> into the slope-intercept form template:
+          <md>
+            <mrow>y= \amp mx+b </mrow>
+            <mrow>y= \amp -2x+1 </mrow>
+          </md>
+        </p>
+  </example>
+  <worksheet xml:id="ws-s09e06">
+    <title>Season 9, Episode 6 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Write a linear equation in slope-intercept form given the following information
+        </p>
+        </introduction>
+        <task workspace="0.5in">
+          <statement>
+            <p>
+              <m>m = 3</m>, <m>b = -4</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="0.5in">
+          <statement>
+            <p>
+              <m>m = -\frac{1}{5}</m>, <m>b = 2.75</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="0.5in">
+          <statement>
+            <p>
+              slope = -1, y-intercept: <m>(0, 4)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="0.5in">
+          <statement>
+            <p>
+              slope = 3.3, y-intercept: <m>(0, -9.7)</m>
+            </p>
+          </statement>
+        </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          Write the equation of the following graphed lines.
+        </p>
+        </introduction>
+        <task>
+          <statement>
+            <image width="45%">
+              <prefigure label="pf-96pp1" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 4*x-3     
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             
+                  <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+          </statement>
+          </task>
+          <task>
+          <statement>
+            <image width="45%">
+              <prefigure label="pf-96pp2" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x/3+1    
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+           
+                  <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <image width="45%">
+              <prefigure label="pf-96pp3" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 5 - 3*x   
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+         
+                  <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+          </statement>
+          </task>
+          <task>
+          <statement>
+            <image width="45%">
+              <prefigure label="pf-96pp4" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 2*x/5-2    
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             
+                  <graph function = "f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+          </statement>
+          </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          For the followin equations, identify the slope and y-intercept and use it to help you draw a graph of the line.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>y = 5x-2</m>
+          </p>
+          <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane13" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>y = -\frac{2}{3}+4</m>
+          </p>
+          <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane14" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          For the followin equations, find the slope and y-intercept and use it to help you draw a graph of the line.
+        </p>
+      </introduction>
+      <task>
+        <statement>
+          <p>
+            <m>3x + 4y = 12</m>
+          </p>
+          <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane15" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <m>y = 2(x+4)-7</m>
+          </p>
+          <image width="45%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-xy-plane16" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
 </section>  

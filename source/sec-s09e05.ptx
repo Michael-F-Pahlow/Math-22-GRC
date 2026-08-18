@@ -2,4 +2,415 @@
 
 <section xml:id="sec-s09e05" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 5: Slope of a Line</title>
+  <assemblage>
+    <title>Episode 5 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret the slope of a line
+          </p>
+        </li>
+        <li>
+          <p>
+            Identify the slope of a line from its graph
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculate the slope of a line from two given points on the line
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 5 Key Terminology</title>
+    <p>
+      Slope
+    </p>
+  </assemblage>
+  <p>
+    In this episode, we will focus on graphs which are straight line. Straight lines have a slope which tell you how they are slanted. 
+    <ul>
+      <li>
+        <p>
+          Positive slope: Line goes up as you move from left to right
+        </p>
+        <figure>
+        <caption>A line with a positive slope</caption>
+        <image width="50%">
+        <prefigure label="pf-positive-slope" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = x/2+1         
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+      </li>
+      <li>
+        <p>
+          Negative slope: Line goes down as you move from left to right
+        </p>
+        <figure>
+        <caption>A line with a negative slope</caption>
+        <image width="50%">
+        <prefigure label="pf-negative-slope" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x/2+1         
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+      </li>
+      <li>
+        <p>
+          Big slope: Line is very steep!
+        </p>
+        
+        <figure>
+        <caption>A line with a steep slope</caption>
+        <image width="50%">
+        <prefigure label="pf-big-slope" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 5*x-1         
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+      </li>
+      <li>
+        <p>
+          Small slope: Line is not very steep
+        </p>
+        <figure>
+        <caption>A line with a small slope</caption>
+        <image width="50%">
+        <prefigure label="pf-small-slope" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = x/10+1         
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </figure>
+      </li>
+    </ul>
+  </p>
+  <definition xml:id="def-slope">
+    <statement>
+      <p>
+        The <term>slope</term> of a line tells you how they are slanted. The formula for slope is “rise over run”.
+        <md>
+          \text{slope}\,\, = \,\,\frac{\text{rise}}{\text{run}}
+        </md>
+      </p>
+    </statement>
+  </definition>
+  <image source="slope.png">
+    <shortdescription>the graph of a line showing run as the horizontal change and rise as the vertical change for a line.</shortdescription>
+  </image>
+  <example>
+    <p>
+      A roof has a rise of 4 feet and a run of 12 feet. Find the slope of the roof. 
+    </p>
+    <p>
+      The slope is the fraction
+      <md>
+        \frac{\text{rise}}{\text{run}} = \frac{4\,\,\text{feet}}{12\,\,\text{feet}} = \frac{1}{3}
+      </md>
+      $0
+    </p>
+  </example>
+  <example>
+    <p>
+      A wheelchair ramp has a rise of 4 inches and a run of 4 feet. Find the ramp’s slope.
+    </p>
+    <p>
+      Solution: First, we need all the measurements to have the same units. Let’s convert the run from feet to inches. 
+      First, let’s look up the relationship between feet and inches, and convert that relationship to an equation in the form (desired)/(have).
+      <md>
+        1\,\,\text{foot} = 12\,\,\text{inches}
+      </md>
+      <md>
+        \frac{\text{desired}}{\text{have}} = \frac{12\,\,\text{inches}}{1\,\,\text{foot}} 
+      </md>
+      Now let’s use this fraction to convert our run from feet to inches:
+      <md>
+        4\,\,\text{feet}\times\frac{12\,\,\text{inches}}{1\,\,\text{foot}} = 48\,\,\text{inches}
+      </md>
+      Now, the slope is the fraction:
+      <md>
+        \frac{\text{rise}}{\text{run}} = \frac{4\,\,\text{inches}}{48\,\,\text{inches}} = \frac{1}{12}
+      </md>
+    </p>
+  </example>
+  <example>
+    <p>
+      Find the slope of the line pictured below:
+    </p>
+    <image width="60%">
+    <shortdescription>A graph of the line y = 2x</shortdescription>
+        <prefigure label="pf-95ex1a" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 2*x        
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Solution: Mark any two easy-to-read points on the graph and measure the rise and the run between them.
+        </p>
+        <image width="60%">
+        <shortdescription>A graph of the line y = 2x with the points (0,0) and (1,2) marked</shortdescription>
+        <prefigure label="pf-95ex1b" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 2*x        
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <point p="(0,0)" stroke="blue" fill="blue"/>
+          <point p="(1,2)" stroke="blue" fill="blue"/>
+          <line endpoints="(0,0),(1,0)" stroke="green"/>
+            <line endpoints="(1,0),(1,2)" stroke="green"/>
+        <graph function="f"/>
+        <label anchor="(0.5,0)" alignment="south">
+        run
+        </label>
+        <label anchor ="(1,1)" alignment="south" rotate="90">
+        rise
+        </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          The run is the horizontal distance between the two points. In the picture, the run is 1 unit. 
+        </p>
+        <p>
+          The rise is the vertical distance between the two points. In the picture, the rise is 2 units. 
+        </p>
+        <p>
+          So, the slope is
+          <md>
+            \frac{\text{rise}}{\text{run}} = \frac{2}{1} = 2
+          </md>
+          
+        </p>
+  </example>
+  <p>
+    If <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m> are two different points on the graph of a line, the slope can be found using the formula:
+    <md>
+      \text{slope}\,\, = \frac{y_2-y_1}{x_2-x_1}
+    </md>
+    The difference between the y-coordinates is the rise and the difference between the x-coordinates is the run.
+  </p>
+  <example>
+    <p>
+      A line passes through the points (0,1) and (1,-3). Find the slope of the line.
+    </p>
+    <p>
+      Solution 1: Plug the points <m>(x_1,y_1)=(0,1)</m> and <m>(x_2,y_2)=(1,-3)</m> into the formula for the slope of a line:
+      <md>
+        \text{slope}\,\,=\frac{(-3)-1}{1-0}
+      </md>
+      <md>
+        =\frac{-4}{1} = -4
+      </md>
+    </p>
+     <p>
+      Solution 1: Plug the points <m>(x_1,y_1)=(1,-3)</m> and <m>(x_2,y_2)=(0,1)</m> into the formula for the slope of a line:
+      <md>
+        \text{slope}\,\,=\frac{1-(-3)}{0-1}
+      </md>
+      <md>
+        =\frac{4}{-1} = -4
+      </md>
+      Notice that the slope is big and negative. This is because the line is steep, and it goes down as we follow it from left to right:
+      <image width="60%">
+      <shortdescription>a graph of the line y = -4x + 1</shortdescription>
+        <prefigure label="pf-95ex2" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 1-4*x        
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+    </p>
+  </example>
+  <worksheet xml:id="ws-s09e05">
+    <title>Season 9, Episode 5 Practice Problems</title>
+    <exercise workspace="1.5in">
+      <p>
+        The ‘pitch’ of a building’s roof is the slope of the roof. Knowing the pitch is important in climates where there is heavy snowfall. 
+        If the roof is too flat, the weight of the snow may cause it to collapse. What is the ‘pitch’ of a roof with a rise of 9 feet and a run of 18 feet?
+      </p>
+    </exercise>
+    <exercise workspace="1.5in">
+      <p>
+        Have you ever thought about the sewage pipes going from your house to the street? They must slope down <m>\frac{1}{4}</m> 
+        inch per foot in order to drain properly. What is the required slope?
+      </p>
+    </exercise>
+    <exercise workspace="1.75in">
+      <p>
+        A local road has a grade of 6%. The grade of a road is its slope expressed as a percent. 
+        Find the slope of the road as a fraction and then simplify. What rise and run would reflect this slope or grade?
+      </p>
+    </exercise>
+    <p>
+      Find the slope from the following graphs:
+          </p>
+          <sidebyside widths="35% 35%">
+        <exercise workspace="0.5in">
+          <image>
+      <shortdescription>a graph of the line y = 5/4x-1</shortdescription>
+        <prefigure label="pf-95ex3" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 5/4*x-1        
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </exercise>
+        <exercise workspace="0.5in">
+          <image>
+      <shortdescription>a graph of the line y = 5/4x-1</shortdescription>
+        <prefigure label="pf-95ex4" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -1/3*x+2       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </exercise>
+      </sidebyside>
+       <sidebyside widths="35% 35%">
+       <exercise workspace="0.5in">
+          <image>
+      <shortdescription>a graph of the line y = 3/4x+2.5</shortdescription>
+        <prefigure label="pf-95ex5" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = 3/4*(x+2)+1       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </exercise>
+        <exercise workspace="0.5in">
+          <image>
+      <shortdescription>a graph of the line y = 5/4x-1</shortdescription>
+        <prefigure label="pf-95ex6" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -2/3*(x-7)       
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        <graph function="f"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </exercise>
+      </sidebyside>
+      <exercise>
+        <introduction>
+          <p>
+            Use the slope formula to find the slope between following pairs of points.
+          </p>
+        </introduction>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>(1,4), (3,9)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>(-3,3), (4,-5)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>(-1,-2), (2,5)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>(3,4-6), (2,-2)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>(0.5,4.1), (2.5,1.9)</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1.0in">
+          <statement>
+            <p>
+              <m>\left(\frac{1}{3},\frac{3}{4}\right), -\left(\frac{5}{3},\frac{7}{4}\right)</m>
+            </p>
+          </statement>
+        </task>
+      </exercise>
+  </worksheet>
 </section>  
