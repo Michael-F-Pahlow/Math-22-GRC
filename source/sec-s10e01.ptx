@@ -2,4 +2,419 @@
 
 <section xml:id="sec-s10e01" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Episode 1: Solve Systems of Equations by Graphing</title>
+  <assemblage>
+    <title>Episode 1 Learning Goals</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            Interpret a system of linear equations, and interpret a solution to a system 
+          </p>
+        </li>
+        <li>
+          <p>
+            Solve a system of linear equations by graphing both equations and looking for the point of intersection 
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Terminology</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            System of equations
+          </p>
+        </li>
+        <li>
+          <p>
+            Solution to a system of equations
+          </p>
+        </li>
+      </ul>
+    </p>
+  </assemblage>
+  <assemblage>
+    <title>Episode 1 Key Symbols</title>
+    <p>
+      <md>
+        \left\{ \right. \quad\quad \text{as in} \,\, \begin{cases} x+ y \amp = 1\\ 2x-y \amp = 2 \end{cases}
+      </md>
+    </p>
+  </assemblage>
+  <definition xml:id="def-system">
+    <statement>
+      <p>
+        A <term>system of equations</term> consists of two or more equations that need to be true simultaneously.
+      </p>
+    </statement>
+  </definition>
+  <p>
+    Equations can be collected into a system by enclosing them with a left curly bracket, for example:
+    
+       <md> \begin{cases} x+ y \amp = 1\\ 2x-y \amp = 2 \end{cases}</md>
+      
+      Remember that a single equation can be used to express a desired result or a known fact. 
+      So a system of equations can be used to represent multiple desired results, or multiple known facts. 
+  </p>
+  <example>
+    <p>
+      A rectangle has an unknown length L and a width W. 
+      You want to make a rectangle with a perimeter of 20 inches and an area of 25 square inches. Express this situation using a system of equations.
+    </p>
+    <p>
+      Solution: First, you want the perimeter to be 20 inches. Using the perimeter formula for a rectangle, this becomes the equation:
+      <md>
+        2L+2W=20
+      </md>
+      Second, you want the area to be 25 square inches. Using the area formula for a rectangle, this becomes the equation:
+      <md>
+        LW = 25
+      </md>
+      Because I want both of these things to be true at the same time, I write both equations in a system:
+      <md>
+        \begin{cases} 2L + 2W \amp = 20\\ LW \amp = 25 \end{cases}
+      </md>
+      A solution to a single equation is something that makes the equation true. It tells you how to achieve the result that the equation represents.
+    </p>
+    <p>
+      A solution to a system of equations is something that makes ALL the equations true at the same time. 
+      It tells you how to simultaneously achieve all the results that the equations represent. 
+    </p>
+  </example>
+  <example>
+    <p>
+      Verify that <m>L=5, W =5</m> represents a solution to the system
+      <md>
+        \begin{cases} 2L + 2W \amp = 20\\ LW \amp = 25 \end{cases}
+      </md>
+    </p>
+    <p>
+      I need to be able to plug <m>L=5</m> and <m>W=5</m> into BOTH equations and make BOTH equations true. Plugging the values into the first equation:
+      <md>
+        <mrow>2(5) + 2(5) \amp = 20 ? </mrow>
+        <mrow>10+10 \amp = 20 ? </mrow>
+        <mrow>20 \amp = 20 ? </mrow>
+      </md>
+      This is true, so <m>L=5</m> and <m>W=5</m> is a solution to the first equation.
+    </p>
+    <p>
+      Let’s plug the values into the equation:
+      <md>
+        <mrow>(5)(5) \amp = 25?</mrow>
+        <mrow>25 \amp = 25?</mrow>
+      </md>
+      This is true, so <m>L=5</m> and <m>W=5</m> is also a solution to the second equation.
+    </p>
+    <p>
+      Because <m>L=5</m>, <m>W=5</m> was a solution to both equations, it is a solution to the system of equations.
+    </p>
+    <p>
+      In other words, to make a rectangle that has a perimeter of 20 inches and an area of 25 inches, 
+      you should make a rectangle that has a length of 5 inches and a width of 5 inches.
+    </p>
+  </example>
+  <p>
+    Remember that the points on the graph of an equation correspond to the solutions to that equation. 
+    So, if a point is on the graph of two equations, it must be a solution to both equations.
+  </p>
+  <p>
+    <alert>How to Solve a System of Equations by Graphing:</alert>
+    <ol>
+      <li>
+        <p>
+          Graph the equations on the system. Make sure to draw both graphs on the same xy-plane.
+        </p>
+      </li>
+      <li>
+        <p>
+          Look for points where the graphs intersect (points on the graph of both equations). 
+        </p>
+      </li>
+      <li>
+        <p>
+          The point of intersection is the solution to the system.
+        </p>
+      </li>
+    </ol>
+  </p>
+  <example>
+    <p>
+      Solve the system of equations:
+      <md>
+        \begin{cases} y \amp = -2x+1\\ y \amp = x-2 \end{cases}
+      </md>
+    </p>
+    <p>
+      Solution: We start by graphing both equations. 
+    </p>
+    <p>
+      The first equation, <m>y=-2x+1</m>, has a slope of <m>-2</m> and a y-intercept of <m>(0,1)</m>. We use the techniques of Season 09 to quickly graph this equation.
+    </p>
+    <image width="60%">
+      <shortdescription>a graph of a y = -2x + 1</shortdescription>
+        <prefigure label="pf-101ex1a" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -2*x+1     
+        </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             
+                  <graph function = "f" stroke = "red"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          The second equation, <m>y=x-2</m>, has a slope of <m>-2</m> and a y-intercept of <m>(0,-2)</m>. 
+          We use the techniques of Season 09 to quickly graph this equation too.
+        </p>
+        <image width="60%">
+      <shortdescription>a graph of a y = -2x + 1 and y = x-2</shortdescription>
+        <prefigure label="pf-101ex1b" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -2*x+1 </definition>
+        <definition>g(x) = x-2 </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             <graph function = "g" stroke = "blue"/>
+              <graph function = "f" stroke = "red"/>
+              <point p="(1,-1)" stroke="black" fill="black"/>
+                <label anchor="(1,-1)" alignment="se">
+                <m>(1, -1)</m>
+                </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Notice that the point <m>(x,y)=(1,-1)</m> lies on both lines; it is the point where the two lines intersect. So, <m>x= 1, y=-1</m> is the solution to the system.
+        </p>
+  </example>
+  <example>
+    <p>
+      Solve the system of equations:
+      <md>
+        \begin{cases} x+y \amp = 2\\ x-2y \amp =4 \end{cases}
+      </md>
+    </p>
+    <p>
+      Solution: We start by graphing both equations. 
+    </p>
+    <p>
+      The first equation is not currently written in slope-intercept form, so we start by solving for <m>y</m>.
+      <md>
+        <mrow>x+y \amp = 2 </mrow>
+        <mrow>x+y-x \amp = 2-x </mrow>
+         <mrow>y \amp = 2-x </mrow>
+         <mrow>y \amp = -x+2 </mrow>
+      </md>
+      Now we can see the first equation has a slope of <m>m=-1</m> and a y-intercept of <m>(0,2)</m>, which we can use to graph the equation quickly.
+    </p>
+     <image width="60%">
+      <shortdescription>a graph of a y = -x+2</shortdescription>
+        <prefigure label="pf-101ex2a" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x+2 </definition>
+                <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+                           <graph function = "f" stroke = "red"/>
+                      </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+<p>
+  The second equation is also not written in slope-intercept form, so we start by solving for  <m>y</m>:
+  <md>
+    <mrow>x-2y \amp =4</mrow>
+    <mrow>x-2y -x\amp =4-x</mrow>
+    <mrow>2y \amp =4-x</mrow>
+    <mrow>\frac{-2y}{-2}\amp =\frac{4-x}{2}</mrow>
+    <mrow>y \amp \frac{4}{-2} - \frac{x}{-2}</mrow>
+    <mrow>y \amp =-2+x</mrow>
+    <mrow>y \amp =x-2</mrow>
+  </md>
+  Now we can see that the second equation has a slope of <m>m=1</m> and a y-intercept of <m>(0,-1)</m>, which we can use to graph the equation quickly:
+</p>
+        <image width="60%">
+      <shortdescription>a graph of a y = -x+2 and y = x-2</shortdescription>
+        <prefigure label="pf-101ex2b" xmlns="https://prefigure.org">
+        <diagram dimensions="(300,300)" margins="5">
+        <definition>f(x) = -x+2 </definition>
+        <definition>g(x) = x-2 </definition>
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+             <graph function = "g" stroke = "blue"/>
+              <graph function = "f" stroke = "red"/>
+              <point p="(2,0)" stroke="black" fill="black"/>
+                <label anchor="(2,-1)" alignment="south">
+                <m>(2, 0)</m>
+                </label>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        <p>
+          Notice that the point <m>(x,y)=(2,0)</m> lies on both lines; it is the point where the two lines intersect. So, <m>x=2,y=0</m> is the solution to the system.
+        </p>
+  </example>
+  <worksheet xml:id="ws-s10e01">
+    <title>Season 10, Episode 1 Practice Problems</title>
+    <exercise>
+      <introduction>
+        <p>
+          Check to see if the given point is a solution to the following systems of equations
+        </p>
+      </introduction>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} x+3y \amp = -9\\ 2x-4y \amp = 12 \end{cases}, \quad (-3,-2)
+            </md>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} x+3y \amp = -9\\ 2x-4y \amp = 12 \end{cases}, \quad (0,-3)
+            </md>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} x+y \amp = 8\\ y \amp = x-4 \end{cases}, \quad (6,-2)
+            </md>
+          </p>
+        </statement>
+      </task>
+      <task workspace="0.75in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} x+y \amp = 8\\ y \amp = x-4 \end{cases}, \quad (9,-1)
+            </md>
+          </p>
+        </statement>
+      </task>
+    </exercise>
+    <exercise>
+      <introduction>
+        <p>
+          Solve the following systems by graphing.
+        </p>
+      </introduction>
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} 3x+y \amp = 6\\ x+3y \amp = -6 \end{cases}
+            </md>
+          </p>
+          <image width="80%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-101x1a" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} y \amp = x-2\\ y \amp = -2x-2 \end{cases}
+            </md>
+          </p>
+          <image width="80%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-101x1b" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} 2x-y \amp = 6\\ y \amp = 4 \end{cases}
+            </md>
+          </p>
+          <image width="80%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-101x1c" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task workspace="2.5in">
+        <statement>
+          <p>
+            <md>
+        \begin{cases} x+4y \amp = -1\\ x \amp = 3 \end{cases}
+            </md>
+          </p>
+          <image width="80%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-101x1d" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+      <task>
+        <statement>
+          <p>
+            <md>
+        \begin{cases} -x+2y \amp = 4\\ y \amp = \frac{1}{2}x-3 \end{cases}
+            </md>
+          </p>
+          <image width="80%">
+      <shortdescription>blank xy-plane</shortdescription>
+        <prefigure label="pf-101x1e" xmlns="https://prefigure.org">
+        <diagram dimensions="(500,500)" margins="5">
+        <coordinates bbox="(-6,-6,6,6)">
+        <grid-axes arrows="2" xlabel="x" ylabel="y"
+        hticks="(-5,1,5)" vticks="(-5,1,5)" hlabels="(-5,1,5)" vlabels="(-5,1,5)"/>
+        </coordinates>
+        </diagram>
+        </prefigure>
+        </image>
+        </statement>
+      </task>
+    </exercise>
+  </worksheet>
 </section>  

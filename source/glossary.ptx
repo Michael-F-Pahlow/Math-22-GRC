@@ -355,9 +355,23 @@ then the fraction is said to be <term>simplified</term> to <term>lowest terms</t
 </gi>
 
 <gi>
+<title>substitution</title>
+<p>
+    Replacing a variable with an equal expression.
+</p>
+</gi>
+
+<gi>
 <title>subtraction</title>
 <p>
 The operation that corresponds to removing objects from a pile. Subtraction is represented using the symbol <m>-</m> (“minus” or “take away”). 
+</p>
+</gi>
+
+<gi>
+<title>system of equations</title>
+<p>
+    Consisting of two or more equations that need to be true simultaneously. 
 </p>
 </gi>
 

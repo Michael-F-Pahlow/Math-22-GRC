@@ -2,9 +2,72 @@
 <section xml:id="resources">
     <title>Additional Resources</title>
     <p>
-        Under Construction
+        Your first resource is your instructor's help hours! Here are a few more resources for when your instructor is not around.
     </p>
-    <p>
-        Notes: MLC, measurement help sheet, unit conversion site
-    </p>
+    <paragraphs>
+        <title>Tutoring</title>
+        <p>
+            Green River College students can get free tutoring at the Math Learning Center on campus in Cedar Hall 313. Information about the hours of operation can be found
+            at the <url href="https://www.greenriver.edu/students/academics/tutoring-resources/math-learning-center/index.html" visual="Math Learning Center's webpage"/>.
+        </p>
+    </paragraphs>
+    <paragraphs>
+        <title>Textbooks</title>
+        <p>
+            <ul>
+                <li>
+                    <p>
+                        <url href="https://openstax.org/details/books/prealgebra-2e" visual="Openstax Prealgebra 2e"/> (Seasons 1-6)
+                    </p>
+                    </li>
+                    <li>
+                    <p>
+                        <url href="https://openstax.org/details/books/prealgebra-2e" visual="Openstax Elementary Algebra 2e"/> (Seasons 7-10)
+                    </p>
+                
+                </li>
+            </ul>
+            Both available for free online.
+        </p>
+         </paragraphs>
+        <paragraphs>
+            <title>Calculators</title>
+            <p>
+                <ul>
+                    <li>
+                        <p>
+                            This guide utilizes the free GeoGebra calculator, which you can access using the calculator icon at the top of the page.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Another excellent, free online calculator is the <url href="https://www.desmos.com/" visual="Desmos Calculator"/>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Another free online calculator and the best free calculator app for your phone is the <url href="https://www.numworks.com/" visual="Numworks Calculator"/>
+                        </p>
+                    </li>
+                </ul>
+            </p>
+        </paragraphs>
+    <paragraphs>
+        <title>YouTube Channels</title>
+        <p>
+            A couple of good YouTube channels for math review are:
+            <ul>
+                <li>
+                    <p>
+                        <url href="https://www.youtube.com/@TheOrganicChemistryTutor/playlists" visual="The Organic Chemistry Tutor"/>
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        <url href="https://www.youtube.com/@ProfessorLeonard/courses" visual="Professor Leonard"/>
+                    </p>
+                </li>
+            </ul>
+        </p>
+    </paragraphs>
 </section>
