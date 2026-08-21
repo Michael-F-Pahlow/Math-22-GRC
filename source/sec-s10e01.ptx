@@ -40,7 +40,7 @@
     <title>Episode 1 Key Symbols</title>
     <p>
       <md>
-        \left\{ \right. \quad\quad \text{as in} \,\, \begin{cases} x+ y \amp = 1\\ 2x-y \amp = 2 \end{cases}
+        \left\{ \right. \quad\quad \text{as in} \,\, \left\{ \begin{array}{l} x+ y  = 1\\ 2x-y = 2 \end{array}\right.
       </md>
     </p>
   </assemblage>
@@ -54,7 +54,7 @@
   <p>
     Equations can be collected into a system by enclosing them with a left curly bracket, for example:
     
-       <md> \begin{cases} x+ y \amp = 1\\ 2x-y \amp = 2 \end{cases}</md>
+       <md> \left\{ \begin{array}{l} x+ y  = 1\\ 2x-y  = 2 \end{array}\right.</md>
       
       Remember that a single equation can be used to express a desired result or a known fact. 
       So a system of equations can be used to represent multiple desired results, or multiple known facts. 
@@ -75,7 +75,7 @@
       </md>
       Because I want both of these things to be true at the same time, I write both equations in a system:
       <md>
-        \begin{cases} 2L + 2W \amp = 20\\ LW \amp = 25 \end{cases}
+        \left\{ \begin{array}{l} 2L + 2W  = 20\\ LW  = 25 \end{array}\right.
       </md>
       A solution to a single equation is something that makes the equation true. It tells you how to achieve the result that the equation represents.
     </p>
@@ -88,7 +88,7 @@
     <p>
       Verify that <m>L=5, W =5</m> represents a solution to the system
       <md>
-        \begin{cases} 2L + 2W \amp = 20\\ LW \amp = 25 \end{cases}
+        \left\{ \begin{array}{l} 2L + 2W  = 20\\ LW  = 25 \end{array}\right.
       </md>
     </p>
     <p>
@@ -144,7 +144,7 @@
     <p>
       Solve the system of equations:
       <md>
-        \begin{cases} y \amp = -2x+1\\ y \amp = x-2 \end{cases}
+        \left\{ \begin{array}{l} y = -2x+1\\ y  = x-2 \end{array}\right.
       </md>
     </p>
     <p>
@@ -199,7 +199,7 @@
     <p>
       Solve the system of equations:
       <md>
-        \begin{cases} x+y \amp = 2\\ x-2y \amp =4 \end{cases}
+        \left\{ \begin{array}{l} x+y  = 2\\ x-2y  =4 \end{array}\right.
       </md>
     </p>
     <p>
@@ -276,7 +276,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} x+3y \amp = -9\\ 2x-4y \amp = 12 \end{cases}, \quad (-3,-2)
+        \left\{ \begin{array}{l}x+3y = -9\\ 2x-4y = 12 \end{array}\right., \quad (-3,-2)
             </md>
           </p>
         </statement>
@@ -285,7 +285,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} x+3y \amp = -9\\ 2x-4y \amp = 12 \end{cases}, \quad (0,-3)
+        \left\{ \begin{array}{l} x+3y  = -9\\ 2x-4y  = 12 \end{array}\right., \quad (0,-3)
             </md>
           </p>
         </statement>
@@ -294,7 +294,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} x+y \amp = 8\\ y \amp = x-4 \end{cases}, \quad (6,-2)
+        \left\{ \begin{array}{l} x+y  = 8\\ y  = x-4 \end{array}\right., \quad (6,-2)
             </md>
           </p>
         </statement>
@@ -303,7 +303,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} x+y \amp = 8\\ y \amp = x-4 \end{cases}, \quad (9,-1)
+        \left\{ \begin{array}{l} x+y  = 8\\ y  = x-4 \end{array}\right., \quad (9,-1)
             </md>
           </p>
         </statement>
@@ -319,8 +319,8 @@
         <statement>
           <p>
             <md>
-        \begin{cases} 3x+y \amp = 6\\ x+3y \amp = -6 \end{cases}
-            </md>
+        \left\{ \begin{array}{l} 3x+y  = 6\\ x+3y  = -6 \end{array}\right.
+        </md>
           </p>
           <image width="80%">
       <shortdescription>blank xy-plane</shortdescription>
@@ -339,7 +339,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} y \amp = x-2\\ y \amp = -2x-2 \end{cases}
+        \left\{ \begin{array}{l} y  = x-2\\ y  = -2x-2 \end{array}\right.
             </md>
           </p>
           <image width="80%">
@@ -359,7 +359,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} 2x-y \amp = 6\\ y \amp = 4 \end{cases}
+        \left\{ \begin{array}{l} 2x-y = 6\\ y  = 4 \end{array}\right.
             </md>
           </p>
           <image width="80%">
@@ -379,7 +379,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} x+4y \amp = -1\\ x \amp = 3 \end{cases}
+        \left\{ \begin{array}{l} x+4y  = -1\\ x  = 3 \end{array}\right.
             </md>
           </p>
           <image width="80%">
@@ -399,7 +399,7 @@
         <statement>
           <p>
             <md>
-        \begin{cases} -x+2y \amp = 4\\ y \amp = \frac{1}{2}x-3 \end{cases}
+        \left\{ \begin{array}{l} -x+2y  = 4\\ y = \frac{1}{2}x-3 \end{array}\right.
             </md>
           </p>
           <image width="80%">

@@ -27,7 +27,7 @@
     </p>
   </assemblage>
   <p>
-    In Episode 01, we used the <m>xy</m>-plane to visually display values of <m>x</m> that are paired with specific values of <m>y</m>.
+    In Episode 01, we used the xy-plane to visually display values of <m>x</m> that are paired with specific values of <m>y</m>.
   </p>
   <p>
     Given an equation relating <m>x</m> and <m>y</m>, the <term>graph</term> of the equation is the visual display of ALL its paired <m>x</m> and <m>y</m> values. 
@@ -55,7 +55,7 @@
       </li>
       <li>
         <p>
-          	Turn each of the pairs in the table into an ordered pair (<m>x</m>,<m>y</m>) and draw all those points on the same <m>xy</m>-plane.
+          	Turn each of the pairs in the table into an ordered pair (<m>x</m>,<m>y</m>) and draw all those points on the same xy-plane.
         </p>
       </li>
       <li>
@@ -104,7 +104,7 @@
     </row>
   </tabular>
   <p>
-    Now we plot the points (-2,-5), (-1,-3), (0, -1), (1, 1), (2,3) all on the same <m>xy</m>-plane.
+    Now we plot the points (-2,-5), (-1,-3), (0, -1), (1, 1), (2,3) all on the same xy-plane.
   </p>
   <image width="60%">
   <shortdescription>A plot of the points (-2,-5), (-1,-3), (0, -1), (1, 1), (2,3) on the same xy-plane </shortdescription>
@@ -183,7 +183,7 @@
     </row>
   </tabular>
   <p>
-    Now we plot the points (-2,4), (-1,1), (0, 0), (1, 1), (2,4) all on the same <m>xy</m>-plane.
+    Now we plot the points (-2,4), (-1,1), (0, 0), (1, 1), (2,4) all on the same xy-plane.
   </p>
   <image width="60%">
   <shortdescription>A plot of the points (-2, 4), (-1,1), (0, 0), (1, 1), (2,4) on the same xy-plane </shortdescription>
@@ -268,7 +268,7 @@
     </row>
   </tabular>
   <p>
-    Now we plot the points (0,0), (1,1), (2, 1.4), (3, 1.7), (4,2) all on the same <m>xy</m>-plane.
+    Now we plot the points (0,0), (1,1), (2, 1.4), (3, 1.7), (4,2) all on the same xy-plane.
   </p>
   <image width="60%">
   <shortdescription>A plot of the points (0,0), (1,1), (2, 1.4), (3, 1.7), (4,2) on the same xy-plane </shortdescription>
@@ -289,7 +289,7 @@
         </image>
         <p>
           Now we draw a curve through the dots. This time, we are not going to draw anything on the left half of the <m>xy</m>-plane, 
-          because the left half of the <m>xy</m>-plane has negative <m>x</m>-values, and we can’t plug negative <m>x</m>-values into <m>\sqrt{x}</m>.
+          because the left half of the xy-plane has negative <m>x</m>-values, and we can’t plug negative <m>x</m>-values into <m>\sqrt{x}</m>.
         </p>
         <p>
           This curve is the graph of <m>y=\sqrt{x}</m>.

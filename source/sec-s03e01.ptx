@@ -217,7 +217,7 @@
         
     </p>
     <worksheet xml:id="ws-03e01">
-    <title>Episode 1 Practice Problems</title>
+    <title>Season 3, Episode 1 Practice Problems</title>
         <introduction>
         <p>
             Draw representation of each of the following fractions:
@@ -225,34 +225,34 @@
         </introduction>
         <sidebyside>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{1}{4} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{1}{4}  </m> </p>          
             </exercise>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{3}{4} \hspace{3.5in} </md> </p>          
-            </exercise>
-        </sidebyside>
-        <sidebyside>
-            <exercise workspace="0.8in">
-                <p>  <md>  \frac{1}{2} \hspace{3.5in} </md> </p>          
-            </exercise>
-            <exercise workspace="0.8in">
-                <p>  <md>  \frac{2}{4} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{3}{4}  </m> </p>          
             </exercise>
         </sidebyside>
         <sidebyside>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{1}{3} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{1}{2}  </m> </p>          
             </exercise>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{4}{4} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{2}{4} </m> </p>          
             </exercise>
         </sidebyside>
         <sidebyside>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{2}{3} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{1}{3}  </m> </p>          
             </exercise>
             <exercise workspace="0.8in">
-                <p>  <md>  \frac{7}{4} \hspace{3.5in} </md> </p>          
+                <p>  <m>  \frac{4}{4}  </m> </p>          
+            </exercise>
+        </sidebyside>
+        <sidebyside>
+            <exercise workspace="0.8in">
+                <p>  <m>  \frac{2}{3}  </m> </p>          
+            </exercise>
+            <exercise workspace="0.8in">
+                <p>  <m>  \frac{7}{4}  </m> </p>          
             </exercise>
         </sidebyside>
         <exercise>

@@ -1,32 +1,68 @@
 <worksheet xml:id="ws-s01e02">
-  <title>Episode 2 Practice Problems</title>
+  <title>Season 1, Episode 2 Practice Problems</title>
 <exercise>
     <introduction>
     <p>
        Calculate the following by hand: 
     </p>
     </introduction>
-    <task workspace="0.25in">
+    <task workspace="0.1in">
         <statement>
             <p>
-                <md> 7\times 3= \hspace{2.0in} 6(10)= \hspace{2.0in} \frac{40}{5} = \hspace{2.0in} </md>
+                <m> 7\times 3= </m>
             </p>
         </statement>
     </task>
-    <task workspace="0.25in">
+    <task workspace="0.1in">
         <statement>
             <p>
-                <md> 9 \cdot 5= \hspace{2.0in} 24\div 6= \hspace{2.0in} 8 \div 3 = \hspace{2.0in} </md>
+                <m> 6(10)= </m>
             </p>
         </statement>
     </task>
-    <task workspace="0.25in">
+    <task workspace="0.1in">
         <statement>
             <p>
-                <md> 8*2 = \hspace{2.0in} 21/7= \hspace{2.0in} (12)(4) = \hspace{2.0in} </md>
+                <m> \frac{40}{5}= </m>
             </p>
         </statement>
     </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <m> 9\cdot 5= </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <m> 24\div 6= </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <m> 18\div 3= </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <m> 8*2= </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.1in">
+        <statement>
+            <p>
+                <m> 21/7= </m>
+            </p>
+        </statement>
+    </task>
+      
 </exercise>
 <exercise>
     <introduction>
@@ -34,17 +70,31 @@
           Calculate the following using a calculator:  
         </p>
     </introduction>
-    <task workspace="0.5in">
+    <task workspace="0.25in">
         <statement>
             <p>
-                <md> 47\times 18 = \hspace{3.0in} 93\times 24 = \hspace{3.0in} </md>
+                <m> 47\times 18 = </m>
             </p>
         </statement>
     </task>
-    <task workspace="0.5in">
+    <task workspace="0.25in">
         <statement>
             <p>
-                <md> 256\div 8 = \hspace{3.0in} 1008\times 12 = \hspace{3.0in} </md>
+                <m> 93\times 24 = </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                <m> 256\div 8 = </m>
+            </p>
+        </statement>
+    </task>
+    <task workspace="0.25in">
+        <statement>
+            <p>
+                <m> 1008\div 12 = </m>
             </p>
         </statement>
     </task>

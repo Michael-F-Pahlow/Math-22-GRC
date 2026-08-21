@@ -1,18 +1,12 @@
-Review Worksheets
-fiddle with worksheet spacing
-season names to worksheet titles
-
-xy tags
-points as math
-
-systems
-
 <gi>
 <title>term</title>
 <p>
 definition
 </p>
 </gi>
+
+\left\{ \begin{array}{l}
+\end{array}\right.
 
 <sidebyside>
         <figure xml:id="TI-sn-1">

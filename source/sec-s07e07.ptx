@@ -58,7 +58,7 @@
     </md>
   </p>
   <p>
-    Solution: It would be tedious to write out 70 and 42 x’s, so we use an exponent property.
+    Solution: It would be tedious to write out 70 and 42 <m>x</m>’s, so we use an exponent property.
     <md>
       \frac{x^{70}}{x^{42}}= x^{70-42}=x^{28}
     </md>
@@ -115,7 +115,7 @@
    <md>
     \frac{x^3}{x^5} = \frac{x\cdot x\cdot x}{x\cdot x \cdot x\cdot x \cdot x}
    </md>
-   Three of the multiplied x’s are cancelled by three of the divided x’s, leaving:
+   Three of the multiplied <m>x</m>’s are cancelled by three of the divided <m>x</m>’s, leaving:
    <md>
     \frac{1}{x\cdot x} = \frac{1}{x^2}
    </md>

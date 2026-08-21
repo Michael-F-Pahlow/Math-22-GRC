@@ -23,7 +23,7 @@
     <md>
       x\cdot x\cdot x\cdot x\cdot x\cdot x\cdot x
     </md>
-    We observed that we had a total of 7 multiplied x’s, giving us an answer:
+    We observed that we had a total of 7 multiplied <m>x</m>’s, giving us an answer:
     <md>
       x^7
     </md>
@@ -53,7 +53,7 @@
       </md>
     </p>
     <p>
-      It would be tedious to write out 100 x’s and 214 x’s, so instead, we’ll use our exponent property. It tells us we should add the exponents together:
+      It would be tedious to write out 100 <m>x</m>’s and 214 <m>x</m>’s, so instead, we’ll use our exponent property. It tells us we should add the exponents together:
       <md>
         x^{100} \cdot x^{214} = x^{100+214} = x^{214}
       </md>
@@ -73,7 +73,7 @@
     <md>
       x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x \cdot x
     </md>
-    In total, we see we have 12 copies of x multiplied together:
+    In total, we see we have 12 copies of <m>x</m> multiplied together:
     <md>
       x^{12}
     </md>
@@ -103,7 +103,7 @@
       </md>
     </p>
     <p>
-      Solution: It would be tedious to write out 20 copies of x, so let’s use our exponent property. It says we should multiply the exponents:
+      Solution: It would be tedious to write out 20 copies of <m>x</m>, so let’s use our exponent property. It says we should multiply the exponents:
       <md>
         (x^{20})^4 = x^{20\cdot 4} = x^{80}
       </md>
@@ -122,7 +122,7 @@
     <md>
       x^3 y^3
     </md>
-    Notice that we ended up raising x to the power 3 and separately raising y to the power 3.
+    Notice that we ended up raising <m>x</m> to the power 3 and separately raising <m>y</m> to the power 3.
   </p>
   <assemblage>
     <title>Exponent Property Three</title>

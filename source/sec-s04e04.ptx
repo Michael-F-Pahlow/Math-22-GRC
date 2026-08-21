@@ -53,7 +53,7 @@
     </definition>
     <figure xml:id="percent-chart">
         <caption>Visual Representations of 50%, 25% and 75%</caption>
-        <image source="sharedpercent.png" width="80%">
+        <image source="shadepercent.png" width="80%">
         </image>
     </figure>
     <p>
@@ -270,7 +270,7 @@
         </p>
     </example>
     <worksheet xml:id="ws-s04e04">
-        <title>Episode 4 Practice Problems</title>
+        <title>Season 4, Episode 4 Practice Problems</title>
         <p>
             Convert each of the following decimals to percents:
         </p>

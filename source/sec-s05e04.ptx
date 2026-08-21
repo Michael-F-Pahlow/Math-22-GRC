@@ -37,7 +37,7 @@
       <caption>A rectangle with its width and length labeled</caption>
       <image width="60%">
       <prefigure label="pf-WL-rectangle" xmlns="https://prefigure.org">
-        <diagram dimensions="(300,200)" margins="(75,20,75,10)">
+        <diagram dimensions="(300,200)" margins="(75,20,75,30)">
         <coordinates bbox="(-3,-2,3,2)">
         <rectangle lower-left="(-3,-2)" dimensions="(6,4)" stroke = "black" thickness="2"/>
         <label anchor="(0,2)" alignment="north">
@@ -154,7 +154,7 @@
         <label anchor="(0, -9.5)">
         Base
         </label>
-        <label anchor="(0, 0)" rotate="90" alignment="north">
+        <label anchor="(2, -1)" rotate="90" alignment="north">
         Height
         </label>
         <rectangle lower-left="(2,-9)" dimensions="(0.75,0.75)"/>
@@ -237,7 +237,7 @@
     </example>
 
     <worksheet xml:id="ws-s05e04">
-      <title>Episode 4 Practice Problems</title>
+      <title>Season 5, Episode 4 Practice Problems</title>
       <p>
         Find the perimeter and area of the rectangle with each of the following length and width measurements. Include units in your answer.
       </p>

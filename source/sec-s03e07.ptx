@@ -211,7 +211,7 @@
         </p>
     </example>
     <worksheet xml:id="ws-s03e07">
-    <title>Episode 5 Practice Problems</title>
+    <title>Season 3, Episode 7 Practice Problems</title>
     
     
     <p>
@@ -219,57 +219,57 @@
     </p>
         <sidebyside>
             <exercise workspace="1.0in">
-                <p><md>\frac{3}{4}\div\frac{2}{5}\hspace{2.0in}</md></p>
+                <p><md>\frac{3}{4}\div\frac{2}{5}\hspace{1.75in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{5}{6}\div\frac{3}{10}\hspace{2.0in}</md></p>
+                <p><md>\frac{5}{6}\div\frac{3}{10}\hspace{1.65in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{4}{9}\div\frac{2}{3}\hspace{2.0in}</md></p>
-            </exercise>
-        </sidebyside>
-         <sidebyside>
-            <exercise workspace="1.0in">
-                <p><md>\frac{7}{8}\div\frac{1}{4}\hspace{2.0in}</md></p>
-            </exercise>
-            <exercise workspace="1.0in">
-                <p><md>\frac{9}{11}\div\frac{6}{7}\hspace{2.0in}</md></p>
-            </exercise>
-            <exercise workspace="1.0in">
-                <p><md>\frac{10}{13}\div\frac{5}{6}\hspace{2.0in}</md></p>
+                <p><md>\frac{4}{9}\div\frac{2}{3}\hspace{1.65in}</md></p>
             </exercise>
         </sidebyside>
          <sidebyside>
             <exercise workspace="1.0in">
-                <p><md>\frac{8}{15}\div\frac{4}{5}\hspace{2.0in}</md></p>
+                <p><md>\frac{7}{8}\div\frac{1}{4}\hspace{1.75in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{9}{4}\div\frac{3}{2}\hspace{2.0in}</md></p>
+                <p><md>\frac{9}{11}\div\frac{6}{7}\hspace{1.65in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{18}{5}\div\frac{6}{25}\hspace{2.0in}</md></p>
+                <p><md>\frac{10}{13}\div\frac{5}{6}\hspace{1.65in}</md></p>
             </exercise>
         </sidebyside>
          <sidebyside>
             <exercise workspace="1.0in">
-                <p><md>\frac{11}{12}\div\frac{3}{8}\hspace{2.0in}</md></p>
+                <p><md>\frac{8}{15}\div\frac{4}{5}\hspace{1.65in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{25}{6}\div\frac{5}{12}\hspace{2.0in}</md></p>
+                <p><md>\frac{9}{4}\div\frac{3}{2}\hspace{1.75in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{7}{10}\div\frac{14}{15}\hspace{2.0in}</md></p>
+                <p><md>\frac{18}{5}\div\frac{6}{25}\hspace{1.65in}</md></p>
+            </exercise>
+        </sidebyside>
+         <sidebyside>
+            <exercise workspace="1.0in">
+                <p><md>\frac{11}{12}\div\frac{3}{8}\hspace{1.65in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{25}{6}\div\frac{5}{12}\hspace{1.65in}</md></p>
+            </exercise>
+            <exercise workspace="1.0in">
+                <p><md>\frac{7}{10}\div\frac{14}{15}\hspace{1.65in}</md></p>
                     </exercise>
         </sidebyside>
          <sidebyside>
             <exercise workspace="1.0in">
-                <p><md>\frac{14}{9}\div\frac{7}{3}\hspace{2.0in}</md></p>
+                <p><md>\frac{14}{9}\div\frac{7}{3}\hspace{1.65in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{6}{7}\div\frac{9}{14}\hspace{2.0in}</md></p>
+                <p><md>\frac{6}{7}\div\frac{9}{14}\hspace{1.65in}</md></p>
             </exercise>
             <exercise workspace="1.0in">
-                <p><md>\frac{16}{5}\div\frac{8}{15}\hspace{2.0in}</md></p>
+                <p><md>\frac{16}{5}\div\frac{8}{15}\hspace{1.65in}</md></p>
                     </exercise>
         </sidebyside>
         <exercise workspace="1.5in">

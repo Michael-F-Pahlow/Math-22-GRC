@@ -99,7 +99,7 @@
     </p>
     <p>
       Solution: We need to distribute every term in the first polynomial to every term in the second polynomial. 
-      We can organize this in a table, being careful to include the - signs. 
+      We can organize this in a table, being careful to include the <m>-</m> signs. 
     </p>
     <tabular bottom="minor" top = "minor" left="minor" right="minor" halign="center">
       <row>
@@ -113,12 +113,12 @@
         <cell><m>x^2\cdot (-3) = -3x^2</m></cell>
       </row>
       <row>
-        <cell>x</cell>
+        <cell><m>x</m></cell>
         <cell><m>x\cdot x = x^2</m></cell>
         <cell><m>x\cdot (-3) = -3x</m></cell>
       </row>
       <row>
-        <cell>-4</cell>
+        <cell><m>-4</m></cell>
         <cell><m>(-4)\cdot x = -4x</m></cell>
         <cell><m>(-4)\cdot (-3) = 12</m></cell>
       </row>
@@ -160,7 +160,7 @@
         <cell><m>x\cdot 4 = 4x</m></cell>
       </row>
       <row>
-        <cell>4</cell>
+        <cell><m>4</m></cell>
         <cell><m>4\cdot x = 4x</m></cell>
         <cell><m>4\cdot 4 = 16</m></cell>
       </row>

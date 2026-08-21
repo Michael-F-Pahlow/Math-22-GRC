@@ -62,7 +62,7 @@
       The student takes their third exam and earns a score of 72%. Use this info to complete the calculation in the expression.
     </p>
     <p>
-      Replace the <m>x</m> in the formula with 72\%:
+      Replace the <m>x</m> in the formula with 72%:
       <md>
         \frac{80\%+90\%+72\%}{3} = 80.666666666...\% \approx 80.67\%
       </md>
@@ -83,7 +83,7 @@
         The expression is asking us to square <m>x</m>. Since the value of <m>x</m> is -3, we need to square -3. 
       </p>
       <p>
-        <alert>It would not be correct to write <m>-3^2</m>, </alert>, because this notation only squares the 3, note the minus sign. 
+        <alert>It would not be correct to write <m>-3^2</m> </alert> because this notation only squares the 3, note the minus sign. 
       </p>
       <p>
         Instead, we should wrap the -3 in parentheses: 
@@ -171,7 +171,7 @@
       </p>
     </example>
     <worksheet xml:id="ws-s05e02">
-      <title>Episode 2 Practice Problems</title>
+      <title>Season 5, Episode 2 Practice Problems</title>
       <p>
         Evaluate the following expressions at the given values:
       </p>

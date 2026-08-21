@@ -138,7 +138,7 @@
         </p>
     </example>
     <worksheet xml:id="ws-s03e08">
-    <title>Episode 8 Practice Problems</title>
+    <title>Season 3, Episode 8 Practice Problems</title>
     
     
         <sidebyside>
@@ -223,7 +223,10 @@
             </p>
         </exercise>
         <exercise workspace="1.0in">
+        <p>
             Emma had 9/12 of a chocolate bar. She gave 5/12 of it to her friend. What fraction of the chocolate bar does Emma have now?
+        </p>
+            
         </exercise>
     </worksheet>
 </section>
